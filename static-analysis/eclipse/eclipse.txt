@@ -1,0 +1,9 @@
+1 warning (false positive), 5 errors (3 false positives, 2 recommendations)
+
+Description																						Resource	Path				Location	Type
+Program "-E" not found in PATH	libp																		Project Properties				C/C++ Scanner Discovery Problem
+No break at the end of case	evp-sign.c																		/libp/tests			line 74		Code Analysis Problem
+No break at the end of case	evp-sign.c																		/libp/tests			line 96		Code Analysis Problem
+No break at the end of case	evp-sign.c																		/libp/tests			line 231	Code Analysis Problem
+Suggested parenthesis around expression 'UI_get_input_flags(uis) & UI_INPUT_FLAG_DEFAULT_PWD'	evp-sign.c	/libp/tests			line 60		Code Analysis Problem
+Suggested parenthesis around expression 'UI_get_input_flags(uis) & UI_INPUT_FLAG_DEFAULT_PWD'	evp-sign.c	/libp/tests			line 84		Code Analysis Problem
