@@ -1,0 +1,74 @@
+libp11-int.h:21: Name _LIBP11_INT_H is in the implementation name space (any
+                    identifier beginning with underscore)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+libp11.h:25: Name _LIB11_H is in the implementation name space (any identifier
+                beginning with underscore)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+/usr/include/openssl/e_os2.h:56:33: Cannot find include file
+    openssl/opensslconf.h on search path: /usr/include;/usr/include
+  Preprocessing error. (Use -preproc to inhibit warning)
+   In file included from /usr/include/openssl/bio.h:62,
+                 from libp11.h:28,
+                 from libp11-int.h:27,
+                 from libpkcs11.c:26
+/usr/include/openssl/evp.h:66:35: Cannot find include file openssl/opensslconf.h
+                                      on search path: /usr/include;/usr/include
+   In file included from /usr/include/openssl/x509.h:73,
+                 from libp11.h:32,
+                 from libp11-int.h:27,
+                 from libpkcs11.c:26
+/usr/include/openssl/ec.h:79:34: Cannot find include file openssl/opensslconf.h
+                                    on search path: /usr/include;/usr/include
+   In file included from /usr/include/openssl/x509.h:83,
+                 from libp11.h:32,
+                 from libp11-int.h:27,
+                 from libpkcs11.c:26
+/usr/include/openssl/ecdsa.h:62:34: Cannot find include file
+    openssl/opensslconf.h on search path: /usr/include;/usr/include
+   In file included from /usr/include/openssl/x509.h:87,
+                 from libp11.h:32,
+                 from libp11-int.h:27,
+                 from libpkcs11.c:26
+/usr/include/openssl/ecdh.h:72:34: Cannot find include file
+    openssl/opensslconf.h on search path: /usr/include;/usr/include
+   In file included from /usr/include/openssl/x509.h:91,
+                 from libp11.h:32,
+                 from libp11-int.h:27,
+                 from libpkcs11.c:26
+/usr/include/openssl/x509_vfy.h:70:34:
+    Cannot find include file openssl/opensslconf.h on search path:
+    /usr/include;/usr/include
+   In file included from /usr/include/openssl/x509.h:581,
+                 from libp11.h:32,
+                 from libp11-int.h:27,
+                 from libpkcs11.c:26
+libp11.h:577: Name ERR_LIB_PKCS11 is reserved for future library extensions.
+    Macros beginning with E and a digit or uppercase letter may be added to
+    <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+pkcs11.h:127: Name total_public_memory is reserved for future library
+    extensions.  Functions beginning with "is" or "to" and a lowercase letter
+    may be added to <ctype.h>. (ISO99:7.26.2)
+  Internal name is reserved for system in ISO C99 standard (this should not be
+  necessary unless you are worried about C library implementations that violate
+  the standard and use macros). (Use either -isoreservedinternal or -namechecks
+  to inhibit warning)
+pkcs11.h:129: Name total_private_memory is reserved for future library
+    extensions.  Functions beginning with "is" or "to" and a lowercase letter
+    may be added to <ctype.h>. (ISO99:7.26.2)
+  Internal name is reserved for system in ISO C99 standard (this should not be
+  necessary unless you are worried about C library implementations that violate
+  the standard and use macros). (Use either -isoreservedinternal or -namechecks
+  to inhibit warning)
+pkcs11.h:799: Name _CK_DECLARE_FUNCTION is in the implementation name space
+                 (any identifier beginning with underscore)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+libp11-int.h:156: Name EVP_PKEY_get0_RSA is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)

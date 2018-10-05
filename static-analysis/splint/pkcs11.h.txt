@@ -1,0 +1,1574 @@
+pkcs11.h:127: Name total_public_memory is reserved for future library
+    extensions.  Functions beginning with "is" or "to" and a lowercase letter
+    may be added to <ctype.h>. (ISO99:7.26.2)
+  Internal name is reserved for system in ISO C99 standard (this should not be
+  necessary unless you are worried about C library implementations that violate
+  the standard and use macros). (Use either -isoreservedinternal or -namechecks
+  to inhibit warning)
+pkcs11.h:129: Name total_private_memory is reserved for future library
+    extensions.  Functions beginning with "is" or "to" and a lowercase letter
+    may be added to <ctype.h>. (ISO99:7.26.2)
+  Internal name is reserved for system in ISO C99 standard (this should not be
+  necessary unless you are worried about C library implementations that violate
+  the standard and use macros). (Use either -isoreservedinternal or -namechecks
+  to inhibit warning)
+pkcs11.h:799: Name _CK_DECLARE_FUNCTION is in the implementation name space
+                 (any identifier beginning with underscore)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+pkcs11.h:192:2: Name _CK_VERSION is in the implementation name space (any
+                   identifier beginning with underscore)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+pkcs11.h:202:2: Name _CK_INFO is in the implementation name space (any
+                   identifier beginning with underscore)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+pkcs11.h:220:2: Name _CK_SLOT_INFO is in the implementation name space (any
+                   identifier beginning with underscore)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+pkcs11.h:249:2: Name _CK_TOKEN_INFO is in the implementation name space (any
+                   identifier beginning with underscore)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+pkcs11.h:302:2: Name _CK_SESSION_INFO is in the implementation name space (any
+                   identifier beginning with underscore)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+pkcs11.h:471:2: Name _CK_ATTRIBUTE is in the implementation name space (any
+                   identifier beginning with underscore)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+pkcs11.h:479:2: Name _CK_DATE is in the implementation name space (any
+                   identifier beginning with underscore)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+pkcs11.h:722:2: Name _CK_MECHANISM is in the implementation name space (any
+                   identifier beginning with underscore)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+pkcs11.h:730:2: Name _CK_MECHANISM_INFO is in the implementation name space
+                   (any identifier beginning with underscore)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+pkcs11.h:803:84: Declaration parameter has name: init_args
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:804:80: Declaration parameter has name: pReserved
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:805:95: Declaration parameter has name: info
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:808:37: Declaration parameter has name: function_list
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:812:24: Declaration parameter has name: token_present
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:812:51: Declaration parameter has name: slot_list
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:813:25: Declaration parameter has name: count
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:814:21: Declaration parameter has name: slotID
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:814:51: Declaration parameter has name: info
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:816:21: Declaration parameter has name: slotID
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:816:52: Declaration parameter has name: info
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:818:19: Declaration parameter has name: flags
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:818:38: Declaration parameter has name: slot
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:818:50: Declaration parameter has name: pReserved
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:822:21: Declaration parameter has name: slotID
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:823:29: Declaration parameter has name: mechanism_list
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:824:25: Declaration parameter has name: count
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:825:21: Declaration parameter has name: slotID
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:825:47: Declaration parameter has name: type
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:826:37: Declaration parameter has name: info
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:828:21: Declaration parameter has name: slotID
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:828:44: Declaration parameter has name: pin
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:829:24: Declaration parameter has name: pin_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:829:48: Declaration parameter has name: label
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:831:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:831:52: Declaration parameter has name: pin
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:832:24: Declaration parameter has name: pin_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:835:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:835:52: Declaration parameter has name: old_pin
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:836:24: Declaration parameter has name: old_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:836:48: Declaration parameter has name: new_pin
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:837:24: Declaration parameter has name: new_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:840:21: Declaration parameter has name: slotID
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:840:38: Declaration parameter has name: flags
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:841:16: Declaration parameter has name: application
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:841:39: Declaration parameter has name: notify
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:842:29: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:840:110: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:841:103: Declaration parameter has name: slotID
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:845:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:846:35: Declaration parameter has name: info
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:849:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:850:25: Declaration parameter has name: operation_state
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:851:25: Declaration parameter has name: operation_state_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:855:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:856:25: Declaration parameter has name: operation_state
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:857:24: Declaration parameter has name: operation_state_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:858:27: Declaration parameter has name: encryption_key
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:859:27: Declaration parameter has name: authentiation_key
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:858:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:858:50: Declaration parameter has name: user_type
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:859:25: Declaration parameter has name: pin
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:859:44: Declaration parameter has name: pin_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:858:98: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:864:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:865:32: Declaration parameter has name: templ
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:866:24: Declaration parameter has name: count
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:866:49: Declaration parameter has name: object
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:868:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:868:54: Declaration parameter has name: object
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:869:32: Declaration parameter has name: templ
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:869:53: Declaration parameter has name: count
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:870:28: Declaration parameter has name: new_object
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:871:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:872:27: Declaration parameter has name: object
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:875:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:876:27: Declaration parameter has name: object
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:877:25: Declaration parameter has name: size
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:880:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:881:27: Declaration parameter has name: object
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:882:32: Declaration parameter has name: templ
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:883:24: Declaration parameter has name: count
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:885:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:886:27: Declaration parameter has name: object
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:887:32: Declaration parameter has name: templ
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:888:24: Declaration parameter has name: count
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:889:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:890:32: Declaration parameter has name: templ
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:891:24: Declaration parameter has name: count
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:894:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:895:28: Declaration parameter has name: object
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:896:24: Declaration parameter has name: max_object_count
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:897:25: Declaration parameter has name: object_count
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:896:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:901:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:902:32: Declaration parameter has name: mechanism
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:903:27: Declaration parameter has name: key
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:906:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:907:25: Declaration parameter has name: data
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:907:45: Declaration parameter has name: data_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:908:25: Declaration parameter has name: encrypted_data
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:909:25: Declaration parameter has name: encrypted_data_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:911:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:912:25: Declaration parameter has name: part
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:912:45: Declaration parameter has name: part_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:913:25: Declaration parameter has name: encrypted_part
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:914:25: Declaration parameter has name: encrypted_part_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:915:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:916:25: Declaration parameter has name: last_encrypted_part
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:917:25: Declaration parameter has name: last_encrypted_part_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:920:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:921:32: Declaration parameter has name: mechanism
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:922:27: Declaration parameter has name: key
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:925:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:926:25: Declaration parameter has name: encrypted_data
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:927:24: Declaration parameter has name: encrypted_data_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:928:25: Declaration parameter has name: data
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:928:46: Declaration parameter has name: data_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:930:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:931:25: Declaration parameter has name: encrypted_part
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:932:24: Declaration parameter has name: encrypted_part_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:933:25: Declaration parameter has name: part
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:933:46: Declaration parameter has name: part_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:934:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:935:25: Declaration parameter has name: last_part
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:936:25: Declaration parameter has name: last_part_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:938:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:939:32: Declaration parameter has name: mechanism
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:943:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:944:25: Declaration parameter has name: data
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:944:45: Declaration parameter has name: data_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:945:25: Declaration parameter has name: digest
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:946:25: Declaration parameter has name: digest_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:946:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:947:25: Declaration parameter has name: part
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:947:45: Declaration parameter has name: part_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:948:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:948:54: Declaration parameter has name: key
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:952:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:953:25: Declaration parameter has name: digest
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:954:25: Declaration parameter has name: digest_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:957:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:958:32: Declaration parameter has name: mechanism
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:959:27: Declaration parameter has name: key
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:962:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:963:25: Declaration parameter has name: data
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:963:45: Declaration parameter has name: data_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:964:25: Declaration parameter has name: signature
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:965:25: Declaration parameter has name: signature_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:965:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:966:25: Declaration parameter has name: part
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:966:45: Declaration parameter has name: part_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:969:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:970:25: Declaration parameter has name: signature
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:971:25: Declaration parameter has name: signature_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:973:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:974:32: Declaration parameter has name: mechanism
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:975:27: Declaration parameter has name: key
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:978:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:979:25: Declaration parameter has name: data
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:979:45: Declaration parameter has name: data_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:980:25: Declaration parameter has name: signature
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:981:25: Declaration parameter has name: signature_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:983:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:984:32: Declaration parameter has name: mechanism
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:985:27: Declaration parameter has name: key
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:988:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:989:25: Declaration parameter has name: data
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:989:45: Declaration parameter has name: data_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:990:25: Declaration parameter has name: signature
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:991:24: Declaration parameter has name: signature_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:991:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:992:25: Declaration parameter has name: part
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:992:45: Declaration parameter has name: part_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:995:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:996:25: Declaration parameter has name: signature
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:997:24: Declaration parameter has name: signature_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:999:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1000:32: Declaration parameter has name: mechanism
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1001:27: Declaration parameter has name: key
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1005:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1006:25: Declaration parameter has name: signature
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1007:24: Declaration parameter has name: signature_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1008:25: Declaration parameter has name: data
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1009:25: Declaration parameter has name: data_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1011:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1012:25: Declaration parameter has name: part
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1012:45: Declaration parameter has name: part_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1013:25: Declaration parameter has name: encrypted_part
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1014:25: Declaration parameter has name: encrypted_part_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1017:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1018:25: Declaration parameter has name: encrypted_part
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1019:24: Declaration parameter has name: encrypted_part_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1020:25: Declaration parameter has name: part
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1021:25: Declaration parameter has name: part_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1022:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1023:25: Declaration parameter has name: part
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1023:45: Declaration parameter has name: part_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1024:25: Declaration parameter has name: encrypted_part
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1025:25: Declaration parameter has name: encrypted_part_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1028:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1029:25: Declaration parameter has name: encrypted_part
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1030:24: Declaration parameter has name: encrypted_part_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1031:25: Declaration parameter has name: part
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1032:25: Declaration parameter has name: part_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1035:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1036:32: Declaration parameter has name: mechanism
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1037:32: Declaration parameter has name: templ
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1038:24: Declaration parameter has name: count
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1039:28: Declaration parameter has name: key
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1044:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1045:32: Declaration parameter has name: mechanism
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1046:32: Declaration parameter has name: public_key_template
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1047:24: Declaration parameter has name: public_key_attribute_count
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1048:32: Declaration parameter has name: private_key_template
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1049:24: Declaration parameter has name: private_key_attribute_count
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1050:28: Declaration parameter has name: public_key
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1051:28: Declaration parameter has name: private_key
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1051:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1052:32: Declaration parameter has name: mechanism
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1053:27: Declaration parameter has name: wrapping_key
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1054:27: Declaration parameter has name: key
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1055:25: Declaration parameter has name: wrapped_key
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1056:25: Declaration parameter has name: wrapped_key_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1060:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1061:32: Declaration parameter has name: mechanism
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1062:27: Declaration parameter has name: unwrapping_key
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1063:25: Declaration parameter has name: wrapped_key
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1064:24: Declaration parameter has name: wrapped_key_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1065:32: Declaration parameter has name: templ
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1066:24: Declaration parameter has name: attribute_count
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1067:28: Declaration parameter has name: key
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1067:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1068:32: Declaration parameter has name: mechanism
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1069:27: Declaration parameter has name: base_key
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1070:32: Declaration parameter has name: templ
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1071:24: Declaration parameter has name: attribute_count
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1072:28: Declaration parameter has name: key
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1071:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1071:52: Declaration parameter has name: seed
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1072:24: Declaration parameter has name: seed_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1075:28: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1076:25: Declaration parameter has name: random_data
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1077:24: Declaration parameter has name: random_len
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1076:120: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1077:114: Declaration parameter has name: session
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+pkcs11.h:1151:2: Name _CK_FUNCTION_LIST is in the implementation name space
+                    (any identifier beginning with underscore)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+pkcs11.h:1168:2: Name _CK_C_INITIALIZE_ARGS is in the implementation name space
+                    (any identifier beginning with underscore)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+pkcs11.h:803:63: Function C_Initialize declared but not defined
+  A function or variable is declared, but not defined in any source code file.
+  (Use -declundef to inhibit warning)
+pkcs11.h:804:61: Function C_Finalize declared but not defined
+pkcs11.h:805:66: Function C_GetInfo declared but not defined
+pkcs11.h:807:62: Function C_GetFunctionList declared but not defined
+pkcs11.h:811:42: Function C_GetSlotList declared but not defined
+pkcs11.h:813:67: Function C_GetSlotInfo declared but not defined
+pkcs11.h:815:68: Function C_GetTokenInfo declared but not defined
+pkcs11.h:817:71: Function C_WaitForSlotEvent declared but not defined
+pkcs11.h:821:42: Function C_GetMechanismList declared but not defined
+pkcs11.h:824:53: Function C_GetMechanismInfo declared but not defined
+pkcs11.h:827:65: Function C_InitToken declared but not defined
+pkcs11.h:830:43: Function C_InitPIN declared but not defined
+pkcs11.h:834:43: Function C_SetPIN declared but not defined
+pkcs11.h:839:48: Function C_OpenSession declared but not defined
+pkcs11.h:840:75: Function C_CloseSession declared but not defined
+pkcs11.h:841:71: Function C_CloseAllSessions declared but not defined
+pkcs11.h:844:51: Function C_GetSessionInfo declared but not defined
+pkcs11.h:848:56: Function C_GetOperationState declared but not defined
+pkcs11.h:854:56: Function C_SetOperationState declared but not defined
+pkcs11.h:857:63: Function C_Login declared but not defined
+pkcs11.h:858:69: Function C_Logout declared but not defined
+pkcs11.h:863:67: Function C_CreateObject declared but not defined
+pkcs11.h:867:50: Function C_CopyObject declared but not defined
+pkcs11.h:870:45: Function C_DestroyObject declared but not defined
+pkcs11.h:874:41: Function C_GetObjectSize declared but not defined
+pkcs11.h:879:41: Function C_GetAttributeValue declared but not defined
+pkcs11.h:884:41: Function C_SetAttributeValue declared but not defined
+pkcs11.h:888:41: Function C_FindObjectsInit declared but not defined
+pkcs11.h:893:49: Function C_FindObjects declared but not defined
+pkcs11.h:895:47: Function C_FindObjectsFinal declared but not defined
+pkcs11.h:900:42: Function C_EncryptInit declared but not defined
+pkcs11.h:905:55: Function C_Encrypt declared but not defined
+pkcs11.h:910:55: Function C_EncryptUpdate declared but not defined
+pkcs11.h:914:60: Function C_EncryptFinal declared but not defined
+pkcs11.h:919:42: Function C_DecryptInit declared but not defined
+pkcs11.h:924:66: Function C_Decrypt declared but not defined
+pkcs11.h:929:66: Function C_DecryptUpdate declared but not defined
+pkcs11.h:933:50: Function C_DecryptFinal declared but not defined
+pkcs11.h:937:53: Function C_DigestInit declared but not defined
+pkcs11.h:942:47: Function C_Digest declared but not defined
+pkcs11.h:945:65: Function C_DigestUpdate declared but not defined
+pkcs11.h:947:69: Function C_DigestKey declared but not defined
+pkcs11.h:951:47: Function C_DigestFinal declared but not defined
+pkcs11.h:956:42: Function C_SignInit declared but not defined
+pkcs11.h:961:50: Function C_Sign declared but not defined
+pkcs11.h:964:65: Function C_SignUpdate declared but not defined
+pkcs11.h:968:50: Function C_SignFinal declared but not defined
+pkcs11.h:972:42: Function C_SignRecoverInit declared but not defined
+pkcs11.h:977:50: Function C_SignRecover declared but not defined
+pkcs11.h:982:42: Function C_VerifyInit declared but not defined
+pkcs11.h:987:49: Function C_Verify declared but not defined
+pkcs11.h:990:65: Function C_VerifyUpdate declared but not defined
+pkcs11.h:994:49: Function C_VerifyFinal declared but not defined
+pkcs11.h:998:42: Function C_VerifyRecoverInit declared but not defined
+pkcs11.h:1004:45: Function C_VerifyRecover declared but not defined
+pkcs11.h:1010:55: Function C_DigestEncryptUpdate declared but not defined
+pkcs11.h:1016:45: Function C_DecryptDigestUpdate declared but not defined
+pkcs11.h:1021:55: Function C_SignEncryptUpdate declared but not defined
+pkcs11.h:1027:45: Function C_DecryptVerifyUpdate declared but not defined
+pkcs11.h:1034:43: Function C_GenerateKey declared but not defined
+pkcs11.h:1043:51: Function C_GenerateKeyPair declared but not defined
+pkcs11.h:1050:52: Function C_WrapKey declared but not defined
+pkcs11.h:1059:43: Function C_UnwrapKey declared but not defined
+pkcs11.h:1066:43: Function C_DeriveKey declared but not defined
+pkcs11.h:1070:44: Function C_SeedRandom declared but not defined
+pkcs11.h:1074:46: Function C_GenerateRandom declared but not defined
+pkcs11.h:1076:80: Function C_GetFunctionStatus declared but not defined
+pkcs11.h:1077:77: Function C_CancelFunction declared but not defined
+pkcs11.h:190:17: Field major of structure struct _CK_VERSION declared but not
+                    used
+  A field is present in a structure type but never used. Use /*@unused@*/ in
+  front of field declaration to suppress message. (Use -fielduse to inhibit
+  warning)
+pkcs11.h:191:17: Field minor of structure struct _CK_VERSION declared but not
+                    used
+pkcs11.h:197:22: Field cryptokiVersion of structure struct _CK_INFO declared
+                    but not used
+pkcs11.h:198:17: Field manufacturerID of structure struct _CK_INFO declared but
+                    not used
+pkcs11.h:199:12: Field flags of structure struct _CK_INFO declared but not used
+pkcs11.h:200:17: Field libraryDescription of structure struct _CK_INFO declared
+                    but not used
+pkcs11.h:201:22: Field libraryVersion of structure struct _CK_INFO declared but
+                    not used
+pkcs11.h:215:17: Field slotDescription of structure struct _CK_SLOT_INFO
+                    declared but not used
+pkcs11.h:216:17: Field manufacturerID of structure struct _CK_SLOT_INFO
+                    declared but not used
+pkcs11.h:217:12: Field flags of structure struct _CK_SLOT_INFO declared but not
+                    used
+pkcs11.h:218:22: Field hardwareVersion of structure struct _CK_SLOT_INFO
+                    declared but not used
+pkcs11.h:219:22: Field firmwareVersion of structure struct _CK_SLOT_INFO
+                    declared but not used
+pkcs11.h:231:17: Field label of structure struct _CK_TOKEN_INFO declared but
+                    not used
+pkcs11.h:232:17: Field manufacturerID of structure struct _CK_TOKEN_INFO
+                    declared but not used
+pkcs11.h:233:17: Field model of structure struct _CK_TOKEN_INFO declared but
+                    not used
+pkcs11.h:234:17: Field serialNumber of structure struct _CK_TOKEN_INFO declared
+                    but not used
+pkcs11.h:235:12: Field flags of structure struct _CK_TOKEN_INFO declared but
+                    not used
+pkcs11.h:236:17: Field ulMaxSessionCount of structure struct _CK_TOKEN_INFO
+                    declared but not used
+pkcs11.h:237:17: Field ulSessionCount of structure struct _CK_TOKEN_INFO
+                    declared but not used
+pkcs11.h:238:17: Field ulMaxRwSessionCount of structure struct _CK_TOKEN_INFO
+                    declared but not used
+pkcs11.h:239:17: Field ulRwSessionCount of structure struct _CK_TOKEN_INFO
+                    declared but not used
+pkcs11.h:240:17: Field ulMaxPinLen of structure struct _CK_TOKEN_INFO declared
+                    but not used
+pkcs11.h:241:17: Field ulMinPinLen of structure struct _CK_TOKEN_INFO declared
+                    but not used
+pkcs11.h:242:17: Field ulTotalPublicMemory of structure struct _CK_TOKEN_INFO
+                    declared but not used
+pkcs11.h:243:17: Field ulFreePublicMemory of structure struct _CK_TOKEN_INFO
+                    declared but not used
+pkcs11.h:244:17: Field ulTotalPrivateMemory of structure struct _CK_TOKEN_INFO
+                    declared but not used
+pkcs11.h:245:17: Field ulFreePrivateMemory of structure struct _CK_TOKEN_INFO
+                    declared but not used
+pkcs11.h:246:22: Field hardwareVersion of structure struct _CK_TOKEN_INFO
+                    declared but not used
+pkcs11.h:247:22: Field firmwareVersion of structure struct _CK_TOKEN_INFO
+                    declared but not used
+pkcs11.h:248:17: Field utcTime of structure struct _CK_TOKEN_INFO declared but
+                    not used
+pkcs11.h:298:14: Field slotID of structure struct _CK_SESSION_INFO declared but
+                    not used
+pkcs11.h:299:12: Field state of structure struct _CK_SESSION_INFO declared but
+                    not used
+pkcs11.h:300:12: Field flags of structure struct _CK_SESSION_INFO declared but
+                    not used
+pkcs11.h:301:17: Field ulDeviceError of structure struct _CK_SESSION_INFO
+                    declared but not used
+pkcs11.h:324:23: Type CK_HW_FEATURE_TYPE declared but not used
+  A type is declared but not used. Use /*@unused@*/ in front of typedef to
+  suppress messages. (Use -typeuse to inhibit warning)
+pkcs11.h:332:23: Type CK_KEY_TYPE declared but not used
+pkcs11.h:365:23: Type CK_CERTIFICATE_TYPE declared but not used
+pkcs11.h:468:21: Field type of structure struct _CK_ATTRIBUTE declared but not
+                    used
+pkcs11.h:469:9: Field pValue of structure struct _CK_ATTRIBUTE declared but not
+                   used
+pkcs11.h:470:17: Field ulValueLen of structure struct _CK_ATTRIBUTE declared
+                    but not used
+pkcs11.h:476:17: Field year of structure struct _CK_DATE declared but not used
+pkcs11.h:477:17: Field month of structure struct _CK_DATE declared but not used
+pkcs11.h:478:17: Field day of structure struct _CK_DATE declared but not used
+pkcs11.h:719:21: Field mechanism of structure struct _CK_MECHANISM declared but
+                    not used
+pkcs11.h:720:9: Field pParameter of structure struct _CK_MECHANISM declared but
+                   not used
+pkcs11.h:721:17: Field ulParameterLen of structure struct _CK_MECHANISM
+                    declared but not used
+pkcs11.h:727:17: Field ulMinKeySize of structure struct _CK_MECHANISM_INFO
+                    declared but not used
+pkcs11.h:728:17: Field ulMaxKeySize of structure struct _CK_MECHANISM_INFO
+                    declared but not used
+pkcs11.h:729:12: Field flags of structure struct _CK_MECHANISM_INFO declared
+                    but not used
+pkcs11.h:761:17: Field kdf of structure struct CK_ECDH1_DERIVE_PARAMS declared
+                    but not used
+pkcs11.h:762:17: Field ulSharedDataLen of structure struct CK_ECDH1_DERIVE_PARAM
+                    S declared but not used
+pkcs11.h:763:19: Field pSharedData of structure struct CK_ECDH1_DERIVE_PARAMS
+                    declared but not used
+pkcs11.h:764:17: Field ulPublicDataLen of structure struct CK_ECDH1_DERIVE_PARAM
+                    S declared but not used
+pkcs11.h:765:19: Field pPublicData of structure struct CK_ECDH1_DERIVE_PARAMS
+                    declared but not used
+pkcs11.h:766:3: Type CK_ECDH1_DERIVE_PARAMS declared but not used
+pkcs11.h:771:21: Field hashAlg of structure struct CK_RSA_PKCS_OAEP_PARAMS
+                    declared but not used
+pkcs11.h:772:24: Field mgf of structure struct CK_RSA_PKCS_OAEP_PARAMS declared
+                    but not used
+pkcs11.h:773:32: Field source of structure struct CK_RSA_PKCS_OAEP_PARAMS
+                    declared but not used
+pkcs11.h:774:9: Field pSourceData of structure struct CK_RSA_PKCS_OAEP_PARAMS
+                   declared but not used
+pkcs11.h:775:17: Field ulSourceDataLen of structure struct CK_RSA_PKCS_OAEP_PARA
+                    MS declared but not used
+pkcs11.h:776:3: Type CK_RSA_PKCS_OAEP_PARAMS declared but not used
+pkcs11.h:779:22: Field hashAlg of structure struct CK_RSA_PKCS_PSS_PARAMS
+                    declared but not used
+pkcs11.h:780:18: Field mgf of structure struct CK_RSA_PKCS_PSS_PARAMS declared
+                    but not used
+pkcs11.h:781:18: Field sLen of structure struct CK_RSA_PKCS_PSS_PARAMS declared
+                    but not used
+pkcs11.h:782:3: Type CK_RSA_PKCS_PSS_PARAMS declared but not used
+pkcs11.h:1082:22: Field version of structure struct _CK_FUNCTION_LIST declared
+                     but not used
+pkcs11.h:1083:19: Field C_Initialize of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1084:17: Field C_Finalize of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1085:16: Field C_GetInfo of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1086:24: Field C_GetFunctionList of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1087:20: Field C_GetSlotList of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1088:20: Field C_GetSlotInfo of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1089:21: Field C_GetTokenInfo of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1090:25: Field C_GetMechanismList of structure struct
+                     _CK_FUNCTION_LIST declared but not used
+pkcs11.h:1091:25: Field C_GetMechanismInfo of structure struct
+                     _CK_FUNCTION_LIST declared but not used
+pkcs11.h:1092:18: Field C_InitToken of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1093:16: Field C_InitPIN of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1094:15: Field C_SetPIN of structure struct _CK_FUNCTION_LIST declared
+                     but not used
+pkcs11.h:1095:20: Field C_OpenSession of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1096:21: Field C_CloseSession of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1097:25: Field C_CloseAllSessions of structure struct
+                     _CK_FUNCTION_LIST declared but not used
+pkcs11.h:1098:23: Field C_GetSessionInfo of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1099:26: Field C_GetOperationState of structure struct
+                     _CK_FUNCTION_LIST declared but not used
+pkcs11.h:1100:26: Field C_SetOperationState of structure struct
+                     _CK_FUNCTION_LIST declared but not used
+pkcs11.h:1101:14: Field C_Login of structure struct _CK_FUNCTION_LIST declared
+                     but not used
+pkcs11.h:1102:15: Field C_Logout of structure struct _CK_FUNCTION_LIST declared
+                     but not used
+pkcs11.h:1103:21: Field C_CreateObject of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1104:19: Field C_CopyObject of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1105:22: Field C_DestroyObject of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1106:22: Field C_GetObjectSize of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1107:26: Field C_GetAttributeValue of structure struct
+                     _CK_FUNCTION_LIST declared but not used
+pkcs11.h:1108:26: Field C_SetAttributeValue of structure struct
+                     _CK_FUNCTION_LIST declared but not used
+pkcs11.h:1109:24: Field C_FindObjectsInit of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1110:20: Field C_FindObjects of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1111:25: Field C_FindObjectsFinal of structure struct
+                     _CK_FUNCTION_LIST declared but not used
+pkcs11.h:1112:20: Field C_EncryptInit of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1113:16: Field C_Encrypt of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1114:22: Field C_EncryptUpdate of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1115:21: Field C_EncryptFinal of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1116:20: Field C_DecryptInit of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1117:16: Field C_Decrypt of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1118:22: Field C_DecryptUpdate of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1119:21: Field C_DecryptFinal of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1120:19: Field C_DigestInit of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1121:15: Field C_Digest of structure struct _CK_FUNCTION_LIST declared
+                     but not used
+pkcs11.h:1122:21: Field C_DigestUpdate of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1123:18: Field C_DigestKey of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1124:20: Field C_DigestFinal of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1125:17: Field C_SignInit of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1126:13: Field C_Sign of structure struct _CK_FUNCTION_LIST declared
+                     but not used
+pkcs11.h:1127:19: Field C_SignUpdate of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1128:18: Field C_SignFinal of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1129:24: Field C_SignRecoverInit of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1130:20: Field C_SignRecover of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1131:19: Field C_VerifyInit of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1132:15: Field C_Verify of structure struct _CK_FUNCTION_LIST declared
+                     but not used
+pkcs11.h:1133:21: Field C_VerifyUpdate of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1134:20: Field C_VerifyFinal of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1135:26: Field C_VerifyRecoverInit of structure struct
+                     _CK_FUNCTION_LIST declared but not used
+pkcs11.h:1136:22: Field C_VerifyRecover of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1137:28: Field C_DigestEncryptUpdate of structure struct
+                     _CK_FUNCTION_LIST declared but not used
+pkcs11.h:1138:28: Field C_DecryptDigestUpdate of structure struct
+                     _CK_FUNCTION_LIST declared but not used
+pkcs11.h:1139:26: Field C_SignEncryptUpdate of structure struct
+                     _CK_FUNCTION_LIST declared but not used
+pkcs11.h:1140:28: Field C_DecryptVerifyUpdate of structure struct
+                     _CK_FUNCTION_LIST declared but not used
+pkcs11.h:1141:20: Field C_GenerateKey of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1142:24: Field C_GenerateKeyPair of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1143:16: Field C_WrapKey of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1144:18: Field C_UnwrapKey of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1145:18: Field C_DeriveKey of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1146:19: Field C_SeedRandom of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1147:23: Field C_GenerateRandom of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1148:26: Field C_GetFunctionStatus of structure struct
+                     _CK_FUNCTION_LIST declared but not used
+pkcs11.h:1149:23: Field C_CancelFunction of structure struct _CK_FUNCTION_LIST
+                     declared but not used
+pkcs11.h:1150:25: Field C_WaitForSlotEvent of structure struct
+                     _CK_FUNCTION_LIST declared but not used
+pkcs11.h:803:63: Function C_Initialize declared but not used
+  A function is declared but not used. Use /*@unused@*/ in front of function
+  header to suppress message. (Use -fcnuse to inhibit warning)
+pkcs11.h:804:61: Function C_Finalize declared but not used
+pkcs11.h:805:66: Function C_GetInfo declared but not used
+pkcs11.h:807:62: Function C_GetFunctionList declared but not used
+pkcs11.h:811:42: Function C_GetSlotList declared but not used
+pkcs11.h:813:67: Function C_GetSlotInfo declared but not used
+pkcs11.h:815:68: Function C_GetTokenInfo declared but not used
+pkcs11.h:817:71: Function C_WaitForSlotEvent declared but not used
+pkcs11.h:821:42: Function C_GetMechanismList declared but not used
+pkcs11.h:824:53: Function C_GetMechanismInfo declared but not used
+pkcs11.h:827:65: Function C_InitToken declared but not used
+pkcs11.h:830:43: Function C_InitPIN declared but not used
+pkcs11.h:834:43: Function C_SetPIN declared but not used
+pkcs11.h:839:48: Function C_OpenSession declared but not used
+pkcs11.h:840:75: Function C_CloseSession declared but not used
+pkcs11.h:841:71: Function C_CloseAllSessions declared but not used
+pkcs11.h:844:51: Function C_GetSessionInfo declared but not used
+pkcs11.h:848:56: Function C_GetOperationState declared but not used
+pkcs11.h:854:56: Function C_SetOperationState declared but not used
+pkcs11.h:857:63: Function C_Login declared but not used
+pkcs11.h:858:69: Function C_Logout declared but not used
+pkcs11.h:863:67: Function C_CreateObject declared but not used
+pkcs11.h:867:50: Function C_CopyObject declared but not used
+pkcs11.h:870:45: Function C_DestroyObject declared but not used
+pkcs11.h:874:41: Function C_GetObjectSize declared but not used
+pkcs11.h:879:41: Function C_GetAttributeValue declared but not used
+pkcs11.h:884:41: Function C_SetAttributeValue declared but not used
+pkcs11.h:888:41: Function C_FindObjectsInit declared but not used
+pkcs11.h:893:49: Function C_FindObjects declared but not used
+pkcs11.h:895:47: Function C_FindObjectsFinal declared but not used
+pkcs11.h:900:42: Function C_EncryptInit declared but not used
+pkcs11.h:905:55: Function C_Encrypt declared but not used
+pkcs11.h:910:55: Function C_EncryptUpdate declared but not used
+pkcs11.h:914:60: Function C_EncryptFinal declared but not used
+pkcs11.h:919:42: Function C_DecryptInit declared but not used
+pkcs11.h:924:66: Function C_Decrypt declared but not used
+pkcs11.h:929:66: Function C_DecryptUpdate declared but not used
+pkcs11.h:933:50: Function C_DecryptFinal declared but not used
+pkcs11.h:937:53: Function C_DigestInit declared but not used
+pkcs11.h:942:47: Function C_Digest declared but not used
+pkcs11.h:945:65: Function C_DigestUpdate declared but not used
+pkcs11.h:947:69: Function C_DigestKey declared but not used
+pkcs11.h:951:47: Function C_DigestFinal declared but not used
+pkcs11.h:956:42: Function C_SignInit declared but not used
+pkcs11.h:961:50: Function C_Sign declared but not used
+pkcs11.h:964:65: Function C_SignUpdate declared but not used
+pkcs11.h:968:50: Function C_SignFinal declared but not used
+pkcs11.h:972:42: Function C_SignRecoverInit declared but not used
+pkcs11.h:977:50: Function C_SignRecover declared but not used
+pkcs11.h:982:42: Function C_VerifyInit declared but not used
+pkcs11.h:987:49: Function C_Verify declared but not used
+pkcs11.h:990:65: Function C_VerifyUpdate declared but not used
+pkcs11.h:994:49: Function C_VerifyFinal declared but not used
+pkcs11.h:998:42: Function C_VerifyRecoverInit declared but not used
+pkcs11.h:1004:45: Function C_VerifyRecover declared but not used
+pkcs11.h:1010:55: Function C_DigestEncryptUpdate declared but not used
+pkcs11.h:1016:45: Function C_DecryptDigestUpdate declared but not used
+pkcs11.h:1021:55: Function C_SignEncryptUpdate declared but not used
+pkcs11.h:1027:45: Function C_DecryptVerifyUpdate declared but not used
+pkcs11.h:1034:43: Function C_GenerateKey declared but not used
+pkcs11.h:1043:51: Function C_GenerateKeyPair declared but not used
+pkcs11.h:1050:52: Function C_WrapKey declared but not used
+pkcs11.h:1059:43: Function C_UnwrapKey declared but not used
+pkcs11.h:1066:43: Function C_DeriveKey declared but not used
+pkcs11.h:1070:44: Function C_SeedRandom declared but not used
+pkcs11.h:1074:46: Function C_GenerateRandom declared but not used
+pkcs11.h:1076:80: Function C_GetFunctionStatus declared but not used
+pkcs11.h:1077:77: Function C_CancelFunction declared but not used
+pkcs11.h:1162:18: Field CreateMutex of structure struct _CK_C_INITIALIZE_ARGS
+                     declared but not used
+pkcs11.h:1163:19: Field DestroyMutex of structure struct _CK_C_INITIALIZE_ARGS
+                     declared but not used
+pkcs11.h:1164:16: Field LockMutex of structure struct _CK_C_INITIALIZE_ARGS
+                     declared but not used
+pkcs11.h:1165:18: Field UnlockMutex of structure struct _CK_C_INITIALIZE_ARGS
+                     declared but not used
+pkcs11.h:1166:12: Field flags of structure struct _CK_C_INITIALIZE_ARGS
+                     declared but not used
+pkcs11.h:1167:9: Field pReserved of structure struct _CK_C_INITIALIZE_ARGS
+                    declared but not used
+pkcs11.h:1275:23: Type CK_BBOOL declared but not used
+pkcs11.h:1277:18: Type CK_LONG declared but not used
+pkcs11.h:1278:18: Type CK_BYTE_PTR declared but not used
+pkcs11.h:1279:18: Type CK_CHAR_PTR declared but not used
+pkcs11.h:1280:22: Type CK_UTF8CHAR_PTR declared but not used
+pkcs11.h:1281:19: Type CK_ULONG_PTR declared but not used
+pkcs11.h:1282:15: Type CK_VOID_PTR declared but not used
+pkcs11.h:1283:16: Type CK_VOID_PTR_PTR declared but not used
+pkcs11.h:1295:28: Type CK_VERSION declared but not used
+pkcs11.h:1296:29: Type CK_VERSION_PTR declared but not used
+pkcs11.h:1298:25: Type CK_INFO declared but not used
+pkcs11.h:1299:26: Type CK_INFO_PTR declared but not used
+pkcs11.h:1301:21: Type CK_SLOT_ID_PTR declared but not used
+pkcs11.h:1303:30: Type CK_SLOT_INFO declared but not used
+pkcs11.h:1304:31: Type CK_SLOT_INFO_PTR declared but not used
+pkcs11.h:1306:31: Type CK_TOKEN_INFO declared but not used
+pkcs11.h:1307:32: Type CK_TOKEN_INFO_PTR declared but not used
+pkcs11.h:1309:28: Type CK_SESSION_HANDLE_PTR declared but not used
+pkcs11.h:1311:33: Type CK_SESSION_INFO declared but not used
+pkcs11.h:1312:34: Type CK_SESSION_INFO_PTR declared but not used
+pkcs11.h:1314:27: Type CK_OBJECT_HANDLE_PTR declared but not used
+pkcs11.h:1316:26: Type CK_OBJECT_CLASS_PTR declared but not used
+pkcs11.h:1318:30: Type CK_ATTRIBUTE declared but not used
+pkcs11.h:1319:31: Type CK_ATTRIBUTE_PTR declared but not used
+pkcs11.h:1321:25: Type CK_DATE declared but not used
+pkcs11.h:1322:26: Type CK_DATE_PTR declared but not used
+pkcs11.h:1324:28: Type CK_MECHANISM_TYPE_PTR declared but not used
+pkcs11.h:1326:31: Type CK_RSA_PKCS_MGF_TYPE_PTR declared but not used
+pkcs11.h:1328:30: Type CK_MECHANISM declared but not used
+pkcs11.h:1329:31: Type CK_MECHANISM_PTR declared but not used
+pkcs11.h:1331:35: Type CK_MECHANISM_INFO declared but not used
+pkcs11.h:1332:36: Type CK_MECHANISM_INFO_PTR declared but not used
+pkcs11.h:1334:34: Type CK_FUNCTION_LIST declared but not used
+pkcs11.h:1335:35: Type CK_FUNCTION_LIST_PTR declared but not used
+pkcs11.h:1336:36: Type CK_FUNCTION_LIST_PTR_PTR declared but not used
+pkcs11.h:1338:38: Type CK_C_INITIALIZE_ARGS declared but not used
+pkcs11.h:1339:39: Type CK_C_INITIALIZE_ARGS_PTR declared but not used
+pkcs11.h:803:63: Function C_Initialize exported but not declared in header file
+  A declaration is exported, but does not appear in a header file. (Use
+  -exportheader to inhibit warning)
+pkcs11.h:804:61: Function C_Finalize exported but not declared in header file
+pkcs11.h:805:66: Function C_GetInfo exported but not declared in header file
+pkcs11.h:807:62: Function C_GetFunctionList exported but not declared in header
+                    file
+pkcs11.h:811:42: Function C_GetSlotList exported but not declared in header
+                    file
+pkcs11.h:813:67: Function C_GetSlotInfo exported but not declared in header
+                    file
+pkcs11.h:815:68: Function C_GetTokenInfo exported but not declared in header
+                    file
+pkcs11.h:817:71: Function C_WaitForSlotEvent exported but not declared in
+                    header file
+pkcs11.h:821:42: Function C_GetMechanismList exported but not declared in
+                    header file
+pkcs11.h:824:53: Function C_GetMechanismInfo exported but not declared in
+                    header file
+pkcs11.h:827:65: Function C_InitToken exported but not declared in header file
+pkcs11.h:830:43: Function C_InitPIN exported but not declared in header file
+pkcs11.h:834:43: Function C_SetPIN exported but not declared in header file
+pkcs11.h:839:48: Function C_OpenSession exported but not declared in header
+                    file
+pkcs11.h:840:75: Function C_CloseSession exported but not declared in header
+                    file
+pkcs11.h:841:71: Function C_CloseAllSessions exported but not declared in
+                    header file
+pkcs11.h:844:51: Function C_GetSessionInfo exported but not declared in header
+                    file
+pkcs11.h:848:56: Function C_GetOperationState exported but not declared in
+                    header file
+pkcs11.h:854:56: Function C_SetOperationState exported but not declared in
+                    header file
+pkcs11.h:857:63: Function C_Login exported but not declared in header file
+pkcs11.h:858:69: Function C_Logout exported but not declared in header file
+pkcs11.h:863:67: Function C_CreateObject exported but not declared in header
+                    file
+pkcs11.h:867:50: Function C_CopyObject exported but not declared in header file
+pkcs11.h:870:45: Function C_DestroyObject exported but not declared in header
+                    file
+pkcs11.h:874:41: Function C_GetObjectSize exported but not declared in header
+                    file
+pkcs11.h:879:41: Function C_GetAttributeValue exported but not declared in
+                    header file
+pkcs11.h:884:41: Function C_SetAttributeValue exported but not declared in
+                    header file
+pkcs11.h:888:41: Function C_FindObjectsInit exported but not declared in header
+                    file
+pkcs11.h:893:49: Function C_FindObjects exported but not declared in header
+                    file
+pkcs11.h:895:47: Function C_FindObjectsFinal exported but not declared in
+                    header file
+pkcs11.h:900:42: Function C_EncryptInit exported but not declared in header
+                    file
+pkcs11.h:905:55: Function C_Encrypt exported but not declared in header file
+pkcs11.h:910:55: Function C_EncryptUpdate exported but not declared in header
+                    file
+pkcs11.h:914:60: Function C_EncryptFinal exported but not declared in header
+                    file
+pkcs11.h:919:42: Function C_DecryptInit exported but not declared in header
+                    file
+pkcs11.h:924:66: Function C_Decrypt exported but not declared in header file
+pkcs11.h:929:66: Function C_DecryptUpdate exported but not declared in header
+                    file
+pkcs11.h:933:50: Function C_DecryptFinal exported but not declared in header
+                    file
+pkcs11.h:937:53: Function C_DigestInit exported but not declared in header file
+pkcs11.h:942:47: Function C_Digest exported but not declared in header file
+pkcs11.h:945:65: Function C_DigestUpdate exported but not declared in header
+                    file
+pkcs11.h:947:69: Function C_DigestKey exported but not declared in header file
+pkcs11.h:951:47: Function C_DigestFinal exported but not declared in header
+                    file
+pkcs11.h:956:42: Function C_SignInit exported but not declared in header file
+pkcs11.h:961:50: Function C_Sign exported but not declared in header file
+pkcs11.h:964:65: Function C_SignUpdate exported but not declared in header file
+pkcs11.h:968:50: Function C_SignFinal exported but not declared in header file
+pkcs11.h:972:42: Function C_SignRecoverInit exported but not declared in header
+                    file
+pkcs11.h:977:50: Function C_SignRecover exported but not declared in header
+                    file
+pkcs11.h:982:42: Function C_VerifyInit exported but not declared in header file
+pkcs11.h:987:49: Function C_Verify exported but not declared in header file
+pkcs11.h:990:65: Function C_VerifyUpdate exported but not declared in header
+                    file
+pkcs11.h:994:49: Function C_VerifyFinal exported but not declared in header
+                    file
+pkcs11.h:998:42: Function C_VerifyRecoverInit exported but not declared in
+                    header file
+pkcs11.h:1004:45: Function C_VerifyRecover exported but not declared in header
+                     file
+pkcs11.h:1010:55: Function C_DigestEncryptUpdate exported but not declared in
+                     header file
+pkcs11.h:1016:45: Function C_DecryptDigestUpdate exported but not declared in
+                     header file
+pkcs11.h:1021:55: Function C_SignEncryptUpdate exported but not declared in
+                     header file
+pkcs11.h:1027:45: Function C_DecryptVerifyUpdate exported but not declared in
+                     header file
+pkcs11.h:1034:43: Function C_GenerateKey exported but not declared in header
+                     file
+pkcs11.h:1043:51: Function C_GenerateKeyPair exported but not declared in
+                     header file
+pkcs11.h:1050:52: Function C_WrapKey exported but not declared in header file
+pkcs11.h:1059:43: Function C_UnwrapKey exported but not declared in header file
+pkcs11.h:1066:43: Function C_DeriveKey exported but not declared in header file
+pkcs11.h:1070:44: Function C_SeedRandom exported but not declared in header
+                     file
+pkcs11.h:1074:46: Function C_GenerateRandom exported but not declared in header
+                     file
+pkcs11.h:1076:80: Function C_GetFunctionStatus exported but not declared in
+                     header file
+pkcs11.h:1077:77: Function C_CancelFunction exported but not declared in header
+                     file
+

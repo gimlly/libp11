@@ -1,0 +1,35 @@
+libp11.h:25: Name _LIB11_H is in the implementation name space (any identifier
+                beginning with underscore)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+/usr/include/openssl/e_os2.h:56:33: Cannot find include file
+    openssl/opensslconf.h on search path: /usr/include;/usr/include
+  Preprocessing error. (Use -preproc to inhibit warning)
+   In file included from /usr/include/openssl/bio.h:62,
+                 from libp11.h:28
+/usr/include/openssl/evp.h:66:35: Cannot find include file openssl/opensslconf.h
+                                      on search path: /usr/include;/usr/include
+   In file included from /usr/include/openssl/x509.h:73,
+                 from libp11.h:32
+/usr/include/openssl/ec.h:79:34: Cannot find include file openssl/opensslconf.h
+                                    on search path: /usr/include;/usr/include
+   In file included from /usr/include/openssl/x509.h:83,
+                 from libp11.h:32
+/usr/include/openssl/ecdsa.h:62:34: Cannot find include file
+    openssl/opensslconf.h on search path: /usr/include;/usr/include
+   In file included from /usr/include/openssl/x509.h:87,
+                 from libp11.h:32
+/usr/include/openssl/ecdh.h:72:34: Cannot find include file
+    openssl/opensslconf.h on search path: /usr/include;/usr/include
+   In file included from /usr/include/openssl/x509.h:91,
+                 from libp11.h:32
+/usr/include/openssl/x509_vfy.h:70:34:
+    Cannot find include file openssl/opensslconf.h on search path:
+    /usr/include;/usr/include
+   In file included from /usr/include/openssl/x509.h:581,
+                 from libp11.h:32
+libp11.h:577: Name ERR_LIB_PKCS11 is reserved for future library extensions.
+    Macros beginning with E and a digit or uppercase letter may be added to
+    <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)

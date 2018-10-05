@@ -1,0 +1,109 @@
+eng_err.h:26: Name ENGerr is reserved for future library extensions. Macros
+    beginning with E and a digit or uppercase letter may be added to <errno.h>.
+    (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:31: Name ENG_F_CTX_CTRL_LOAD_CERT is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:32: Name ENG_F_CTX_CTRL_SET_PIN is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:33: Name ENG_F_CTX_ENGINE_CTRL is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:34: Name ENG_F_CTX_LOAD_CERT is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:35: Name ENG_F_CTX_LOAD_KEY is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:36: Name ENG_F_CTX_LOAD_PRIVKEY is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:37: Name ENG_F_CTX_LOAD_PUBKEY is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:40: Name ENG_R_INVALID_ID is reserved for future library extensions.
+    Macros beginning with E and a digit or uppercase letter may be added to
+    <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:41: Name ENG_R_INVALID_PARAMETER is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:42: Name ENG_R_OBJECT_NOT_FOUND is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:43: Name ENG_R_UNKNOWN_COMMAND is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:23:5: Name ERR_load_ENG_strings is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:24:6: Name ERR_unload_ENG_strings is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:25:6: Name ERR_ENG_error is reserved for future library extensions.
+    Macros beginning with E and a digit or uppercase letter may be added to
+    <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:25:24: Declaration parameter has name: function
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+eng_err.h:25:38: Declaration parameter has name: reason
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+eng_err.h:25:52: Declaration parameter has name: file
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+eng_err.h:25:62: Declaration parameter has name: line
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+eng_err.h:23:5: Function ERR_load_ENG_strings declared but not defined
+  A function or variable is declared, but not defined in any source code file.
+  (Use -declundef to inhibit warning)
+eng_err.h:24:6: Function ERR_unload_ENG_strings declared but not defined
+eng_err.h:25:6: Function ERR_ENG_error declared but not defined
+eng_err.h:23:5: Function ERR_load_ENG_strings declared but not used
+  A function is declared but not used. Use /*@unused@*/ in front of function
+  header to suppress message. (Use -fcnuse to inhibit warning)
+eng_err.h:24:6: Function ERR_unload_ENG_strings declared but not used
+eng_err.h:25:6: Function ERR_ENG_error declared but not used
+eng_err.h:23:5: Function ERR_load_ENG_strings exported but not declared in
+                   header file
+  A declaration is exported, but does not appear in a header file. (Use
+  -exportheader to inhibit warning)
+eng_err.h:24:6: Function ERR_unload_ENG_strings exported but not declared in
+                   header file
+eng_err.h:25:6: Function ERR_ENG_error exported but not declared in header file
+

@@ -1,0 +1,49 @@
+p11_err.h:23:5: Name ERR_load_P11_strings is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+p11_err.h:24:6: Name ERR_unload_P11_strings is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+p11_err.h:25:6: Name ERR_P11_error is reserved for future library extensions.
+    Macros beginning with E and a digit or uppercase letter may be added to
+    <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+p11_err.h:25:24: Declaration parameter has name: function
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+p11_err.h:25:38: Declaration parameter has name: reason
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+p11_err.h:25:52: Declaration parameter has name: file
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+p11_err.h:25:62: Declaration parameter has name: line
+  A parameter in a function prototype has a name.  This is dangerous, since a
+  macro definition could be visible here. (Use either -protoparamname or
+  -namechecks to inhibit warning)
+p11_err.h:23:5: Function ERR_load_P11_strings declared but not defined
+  A function or variable is declared, but not defined in any source code file.
+  (Use -declundef to inhibit warning)
+p11_err.h:24:6: Function ERR_unload_P11_strings declared but not defined
+p11_err.h:25:6: Function ERR_P11_error declared but not defined
+p11_err.h:23:5: Function ERR_load_P11_strings declared but not used
+  A function is declared but not used. Use /*@unused@*/ in front of function
+  header to suppress message. (Use -fcnuse to inhibit warning)
+p11_err.h:24:6: Function ERR_unload_P11_strings declared but not used
+p11_err.h:25:6: Function ERR_P11_error declared but not used
+p11_err.h:23:5: Function ERR_load_P11_strings exported but not declared in
+                   header file
+  A declaration is exported, but does not appear in a header file. (Use
+  -exportheader to inhibit warning)
+p11_err.h:24:6: Function ERR_unload_P11_strings exported but not declared in
+                   header file
+p11_err.h:25:6: Function ERR_P11_error exported but not declared in header file
+

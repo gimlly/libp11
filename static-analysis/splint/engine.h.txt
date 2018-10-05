@@ -1,0 +1,108 @@
+engine.h:29: Name _ENGINE_PKCS11_H is in the implementation name space (any
+                identifier beginning with underscore)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+libp11.h:25: Name _LIB11_H is in the implementation name space (any identifier
+                beginning with underscore)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+/usr/include/openssl/e_os2.h:56:33: Cannot find include file
+    openssl/opensslconf.h on search path: /usr/include;/usr/include
+  Preprocessing error. (Use -preproc to inhibit warning)
+   In file included from /usr/include/openssl/bio.h:62,
+                 from libp11.h:28,
+                 from engine.h:35
+/usr/include/openssl/evp.h:66:35: Cannot find include file openssl/opensslconf.h
+                                      on search path: /usr/include;/usr/include
+   In file included from /usr/include/openssl/x509.h:73,
+                 from libp11.h:32,
+                 from engine.h:35
+/usr/include/openssl/ec.h:79:34: Cannot find include file openssl/opensslconf.h
+                                    on search path: /usr/include;/usr/include
+   In file included from /usr/include/openssl/x509.h:83,
+                 from libp11.h:32,
+                 from engine.h:35
+/usr/include/openssl/ecdsa.h:62:34: Cannot find include file
+    openssl/opensslconf.h on search path: /usr/include;/usr/include
+   In file included from /usr/include/openssl/x509.h:87,
+                 from libp11.h:32,
+                 from engine.h:35
+/usr/include/openssl/ecdh.h:72:34: Cannot find include file
+    openssl/opensslconf.h on search path: /usr/include;/usr/include
+   In file included from /usr/include/openssl/x509.h:91,
+                 from libp11.h:32,
+                 from engine.h:35
+/usr/include/openssl/x509_vfy.h:70:34:
+    Cannot find include file openssl/opensslconf.h on search path:
+    /usr/include;/usr/include
+   In file included from /usr/include/openssl/x509.h:581,
+                 from libp11.h:32,
+                 from engine.h:35
+libp11.h:577: Name ERR_LIB_PKCS11 is reserved for future library extensions.
+    Macros beginning with E and a digit or uppercase letter may be added to
+    <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:26: Name ENGerr is reserved for future library extensions. Macros
+    beginning with E and a digit or uppercase letter may be added to <errno.h>.
+    (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:31: Name ENG_F_CTX_CTRL_LOAD_CERT is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:32: Name ENG_F_CTX_CTRL_SET_PIN is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:33: Name ENG_F_CTX_ENGINE_CTRL is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:34: Name ENG_F_CTX_LOAD_CERT is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:35: Name ENG_F_CTX_LOAD_KEY is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:36: Name ENG_F_CTX_LOAD_PRIVKEY is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:37: Name ENG_F_CTX_LOAD_PUBKEY is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:40: Name ENG_R_INVALID_ID is reserved for future library extensions.
+    Macros beginning with E and a digit or uppercase letter may be added to
+    <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:41: Name ENG_R_INVALID_PARAMETER is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:42: Name ENG_R_OBJECT_NOT_FOUND is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+eng_err.h:43: Name ENG_R_UNKNOWN_COMMAND is reserved for future library
+    extensions. Macros beginning with E and a digit or uppercase letter may be
+    added to <errno.h>. (ISO99:7.26.3)
+  External name is reserved for system use by ISO C99 standard. (Use either
+  -isoreserved or -namechecks to inhibit warning)
+/usr/include/openssl/engine.h:68:34: Cannot find include file
+    openssl/opensslconf.h on search path: /usr/include;/usr/include
+   In file included from engine.h:41
