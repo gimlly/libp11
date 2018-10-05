@@ -1,0 +1,1380 @@
+/libp11/src/eng_back.c:79:27: warning: statement should be inside braces [readability-braces-around-statements]
+        if (level > ctx->verbose)
+                                 ^
+/libp11/src/eng_back.c:91:27: warning: statement should be inside braces [readability-braces-around-statements]
+        for (n = 0; n < len; n++)
+                                 ^
+/libp11/src/eng_back.c:125:28: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (callback_data != NULL)
+                                  ^
+/libp11/src/eng_back.c:130:23: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ctx->pin == NULL)
+                             ^
+/libp11/src/eng_back.c:180:77: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (!(ctx->force_login || tok->loginRequired) || slot_logged_in(ctx, slot))
+                                                                                   ^
+/libp11/src/eng_back.c:224:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ctx == NULL)
+                        ^
+/libp11/src/eng_back.c:259:19: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (ctx->rwlock)
+                                ^
+/libp11/src/eng_back.c:308:18: warning: statement should be inside braces [readability-braces-around-statements]
+        if (ctx->rwlock)
+                        ^
+/libp11/src/eng_back.c:311:56: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ctx->pkcs11_ctx == NULL || ctx->slot_list == NULL)
+                                                              ^
+/libp11/src/eng_back.c:316:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ctx->rwlock)
+                        ^
+/libp11/src/eng_back.c:391:27: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ctx_init_libp11(ctx)) /* Delayed libp11 initialization */
+                                 ^
+/libp11/src/eng_back.c:407:16: warning: statement should be inside braces [google-readability-braces-around-statements]
+                                if (!login)
+                                           ^
+/libp11/src/eng_back.c:436:46: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (cert_id_len != 0 && cert_label != NULL)
+                                                           ^
+/libp11/src/eng_back.c:438:26: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (cert_label != NULL)
+                                       ^
+/libp11/src/eng_back.c:447:34: warning: statement should be inside braces [google-readability-braces-around-statements]
+                        if (!slot->token->initialized)
+                                                      ^
+/libp11/src/eng_back.c:448:5: warning: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+                                strcat(flags, "uninitialized, ");
+                                ^
+/libp11/src/eng_back.c:448:5: note: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119
+                                strcat(flags, "uninitialized, ");
+                                ^
+/libp11/src/eng_back.c:449:38: warning: statement should be inside braces [google-readability-braces-around-statements]
+                        else if (!slot->token->userPinSet)
+                                                          ^
+/libp11/src/eng_back.c:450:5: warning: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+                                strcat(flags, "no pin, ");
+                                ^
+/libp11/src/eng_back.c:450:5: note: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119
+                                strcat(flags, "no pin, ");
+                                ^
+/libp11/src/eng_back.c:451:35: warning: statement should be inside braces [readability-braces-around-statements]
+                        if (slot->token->loginRequired)
+                                                       ^
+/libp11/src/eng_back.c:452:5: warning: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+                                strcat(flags, "login, ");
+                                ^
+/libp11/src/eng_back.c:452:5: note: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119
+                                strcat(flags, "login, ");
+                                ^
+/libp11/src/eng_back.c:453:30: warning: statement should be inside braces [readability-braces-around-statements]
+                        if (slot->token->readOnly)
+                                                  ^
+/libp11/src/eng_back.c:454:5: warning: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+                                strcat(flags, "ro, ");
+                                ^
+/libp11/src/eng_back.c:454:5: note: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119
+                                strcat(flags, "ro, ");
+                                ^
+/libp11/src/eng_back.c:456:4: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+                        strcpy(flags, "no token");
+                        ^
+/libp11/src/eng_back.c:456:4: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+                        strcpy(flags, "no token");
+                        ^
+/libp11/src/eng_back.c:539:64: warning: statement should be inside braces [google-readability-braces-around-statements]
+                        if (cert_label != NULL && strcmp(k->label, cert_label) == 0)
+                                                                                    ^
+/libp11/src/eng_back.c:542:47: warning: statement should be inside braces [readability-braces-around-statements]
+                                        memcmp(k->id, cert_id, cert_id_len) == 0)
+                                                                                 ^
+/libp11/src/eng_back.c:553:22: warning: statement should be inside braces [readability-braces-around-statements]
+                if (!selected_cert)
+                                   ^
+/libp11/src/eng_back.c:560:13: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (login) /* Only print the error on the second attempt */
+                          ^
+/libp11/src/eng_back.c:564:25: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (cert_label != NULL)
+                               ^
+/libp11/src/eng_back.c:585:24: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (!ctx->force_login)
+                              ^
+/libp11/src/eng_back.c:592:30: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (!ERR_peek_last_error())
+                                           ^
+/libp11/src/eng_back.c:621:27: warning: statement should be inside braces [readability-braces-around-statements]
+        if (ctx_init_libp11(ctx)) /* Delayed libp11 initialization */
+                                 ^
+/libp11/src/eng_back.c:625:3: warning: redundant cast to the same type [google-readability-casting]
+                (char *)(isPrivate ? "private" : "public"),
+                ^
+/libp11/src/eng_back.c:640:16: warning: statement should be inside braces [readability-braces-around-statements]
+                                if (!login)
+                                           ^
+/libp11/src/eng_back.c:669:44: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (key_id_len != 0 && key_label != NULL)
+                                                         ^
+/libp11/src/eng_back.c:671:25: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (key_label != NULL)
+                                      ^
+/libp11/src/eng_back.c:680:34: warning: statement should be inside braces [readability-braces-around-statements]
+                        if (!slot->token->initialized)
+                                                      ^
+/libp11/src/eng_back.c:681:5: warning: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+                                strcat(flags, "uninitialized, ");
+                                ^
+/libp11/src/eng_back.c:681:5: note: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119
+                                strcat(flags, "uninitialized, ");
+                                ^
+/libp11/src/eng_back.c:682:38: warning: statement should be inside braces [readability-braces-around-statements]
+                        else if (!slot->token->userPinSet)
+                                                          ^
+/libp11/src/eng_back.c:683:5: warning: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+                                strcat(flags, "no pin, ");
+                                ^
+/libp11/src/eng_back.c:683:5: note: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119
+                                strcat(flags, "no pin, ");
+                                ^
+/libp11/src/eng_back.c:684:35: warning: statement should be inside braces [google-readability-braces-around-statements]
+                        if (slot->token->loginRequired)
+                                                       ^
+/libp11/src/eng_back.c:685:5: warning: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+                                strcat(flags, "login, ");
+                                ^
+/libp11/src/eng_back.c:685:5: note: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119
+                                strcat(flags, "login, ");
+                                ^
+/libp11/src/eng_back.c:686:30: warning: statement should be inside braces [google-readability-braces-around-statements]
+                        if (slot->token->readOnly)
+                                                  ^
+/libp11/src/eng_back.c:687:5: warning: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+                                strcat(flags, "ro, ");
+                                ^
+/libp11/src/eng_back.c:687:5: note: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119
+                                strcat(flags, "ro, ");
+                                ^
+/libp11/src/eng_back.c:689:4: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+                        strcpy(flags, "no token");
+                        ^
+/libp11/src/eng_back.c:689:4: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+                        strcpy(flags, "no token");
+                        ^
+/libp11/src/eng_back.c:751:24: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (!tok->initialized)
+                              ^
+/libp11/src/eng_back.c:778:13: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (login) /* Only print the error on the second attempt */
+                          ^
+/libp11/src/eng_back.c:780:5: warning: redundant cast to the same type [google-readability-casting]
+                                (char *)(isPrivate ? "private" : "public"));
+                                ^
+/libp11/src/eng_back.c:784:3: warning: redundant cast to the same type [google-readability-casting]
+                (char *)(isPrivate ? "private" : "public"),
+                ^
+/libp11/src/eng_back.c:797:62: warning: statement should be inside braces [google-readability-braces-around-statements]
+                        if (key_label != NULL && strcmp(k->label, key_label) == 0)
+                                                                                  ^
+/libp11/src/eng_back.c:800:48: warning: statement should be inside braces [google-readability-braces-around-statements]
+                                        && memcmp(k->id, key_id, key_id_len) == 0)
+                                                                                  ^
+/libp11/src/eng_back.c:812:13: warning: statement should be inside braces [readability-braces-around-statements]
+                if (login) /* Only print the error on the second attempt */
+                          ^
+/libp11/src/eng_back.c:817:24: warning: statement should be inside braces [readability-braces-around-statements]
+        if (key_label != NULL)
+                              ^
+/libp11/src/eng_back.c:828:24: warning: statement should be inside braces [readability-braces-around-statements]
+        if (!ctx->force_login)
+                              ^
+/libp11/src/eng_back.c:836:30: warning: statement should be inside braces [readability-braces-around-statements]
+                if (!ERR_peek_last_error())
+                                           ^
+/libp11/src/eng_back.c:849:24: warning: statement should be inside braces [readability-braces-around-statements]
+        if (!ctx->force_login)
+                              ^
+/libp11/src/eng_back.c:857:30: warning: statement should be inside braces [readability-braces-around-statements]
+                if (!ERR_peek_last_error())
+                                           ^
+/libp11/src/eng_back.c:932:30: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ctx->pkcs11_ctx != NULL) /* libp11 is already initialized */
+                                    ^
+/libp11/src/eng_back.c:941:30: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ctx->pkcs11_ctx != NULL) /* libp11 is already initialized */
+                                    ^
+/libp11/src/eng_err.c:11:1: warning: #includes are not sorted properly [llvm-include-order]
+#include <stdio.h>
+^
+/libp11/src/eng_err.c:56:33: warning: statement should be inside braces [google-readability-braces-around-statements]
+    if (ENG_lib_error_code == 0)
+                                ^
+/libp11/src/eng_err.c:91:33: warning: statement should be inside braces [google-readability-braces-around-statements]
+    if (ENG_lib_error_code == 0)
+                                ^
+/libp11/src/eng_front.c:17:1: warning: #includes are not sorted properly [llvm-include-order]
+#include <stdio.h>
+^
+/libp11/src/eng_front.c:87:22: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (pkcs11_idx < 0)
+                                   ^
+/libp11/src/eng_front.c:107:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ctx == NULL)
+                        ^
+/libp11/src/eng_front.c:132:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ctx == NULL)
+                        ^
+/libp11/src/eng_front.c:144:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ctx == NULL)
+                        ^
+/libp11/src/eng_front.c:171:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ctx == NULL)
+                        ^
+/libp11/src/eng_front.c:183:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ctx == NULL)
+                        ^
+/libp11/src/eng_front.c:202:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ctx == NULL)
+                        ^
+/libp11/src/eng_front.c:238:4: warning: do not use 'else' after 'return' [readability-else-after-return]
+        } else {
+          ^
+/libp11/src/eng_parse.c:52:29: warning: statement should be inside braces [readability-braces-around-statements]
+                        if ('0' <= c && c <= '9')
+                                                 ^
+/libp11/src/eng_parse.c:54:34: warning: statement should be inside braces [google-readability-braces-around-statements]
+                        else if ('a' <= c && c <= 'f')
+                                                      ^
+/libp11/src/eng_parse.c:56:34: warning: statement should be inside braces [google-readability-braces-around-statements]
+                        else if ('A' <= c && c <= 'F')
+                                                      ^
+/libp11/src/eng_parse.c:67:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (*in == ':')
+                               ^
+/libp11/src/eng_parse.c:105:6: warning: 'sscanf' used to convert a string to an integer value, but function will not report conversion errors; consider using 'strtol' instead [cert-err34-c]
+        if (sscanf(slot_id, "%d", &n) == 1) {
+            ^
+/libp11/src/eng_parse.c:162:6: warning: 'sscanf' used to convert a string to an integer value, but function will not report conversion errors; consider using 'strtol' instead [cert-err34-c]
+        if (sscanf(slot_id + 5, "%d", &n) != 1) {
+            ^
+/libp11/src/eng_parse.c:222:19: warning: statement should be inside braces [readability-braces-around-statements]
+                if (out == NULL)
+                                ^
+/libp11/src/eng_parse.c:224:9: warning: either cast from 'int' to 'size_t' (aka 'unsigned long') is ineffective, or there is loss of precision before the conversion [misc-misplaced-widening-cast]
+                max = attrlen + 1;
+                      ^
+/libp11/src/eng_parse.c:248:31: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (attrlen && outlen == max)
+                                     ^
+/libp11/src/eng_parse.c:259:25: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (field_len == NULL)
+                                      ^
+/libp11/src/eng_parse.c:288:19: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (end == NULL)
+                                ^
+/libp11/src/eng_parse.c:330:14: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (!id_set)
+                    ^
+/libp11/src/eng_parse.c:332:15: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (!pin_set)
+                     ^
+/libp11/src/libp11-int.h:168:14: warning: function 'C_LoadModule' has a definition with different parameter names [readability-inconsistent-declaration-parameter-name]
+extern void *C_LoadModule(const char *name, CK_FUNCTION_LIST_PTR_PTR);
+             ^
+                                      mspec
+/libp11/src/libpkcs11.c:49:1: note: the definition seen here
+C_LoadModule(const char *mspec, CK_FUNCTION_LIST_PTR_PTR funcs)
+^
+/libp11/src/libp11-int.h:168:14: note: differing parameters are named here: ('name'), in definition: ('mspec')
+extern void *C_LoadModule(const char *name, CK_FUNCTION_LIST_PTR_PTR);
+             ^
+/libp11/src/libpkcs11.c:27:1: warning: #includes are not sorted properly [llvm-include-order]
+#include <stdlib.h>
+^
+/libp11/src/libpkcs11.c:55:20: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (mspec == NULL)
+                          ^
+/libp11/src/libpkcs11.c:59:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (mod == NULL)
+                        ^
+/libp11/src/libpkcs11.c:70:26: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (mod->handle == NULL)
+                                ^
+/libp11/src/libpkcs11.c:86:34: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (c_get_function_list == NULL)
+                                        ^
+/libp11/src/libpkcs11.c:89:19: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (rv == CKR_OK)
+                         ^
+/libp11/src/libpkcs11.c:107:42: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (mod == NULL || mod->_magic != MAGIC)
+                                                ^
+/libp11/src/p11_atfork.c:53:27: warning: statement should be inside braces [readability-braces-around-statements]
+        if (forkid == P11_forkid)
+                                 ^
+/libp11/src/p11_atfork.c:69:63: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (__register_atfork(0, 0, fork_handler, __dso_handle) != 0)
+                                                                     ^
+/libp11/src/p11_atfork.c:112:34: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (pkcs11_CTX_reload(ctx) < 0)
+                                               ^
+/libp11/src/p11_atfork.c:129:41: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_fork_int(SLOT2CTX(slot)) < 0)
+                                               ^
+/libp11/src/p11_atfork.c:136:33: warning: statement should be inside braces [google-readability-braces-around-statements]
+                        if (pkcs11_relogin(slot) < 0)
+                                                     ^
+/libp11/src/p11_atfork.c:142:40: warning: statement should be inside braces [google-readability-braces-around-statements]
+                        if (pkcs11_reopen_session(slot) < 0)
+                                                            ^
+/libp11/src/p11_atfork.c:160:36: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_slot_fork_int(slot) < 0)
+                                          ^
+/libp11/src/p11_atfork.c:177:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ctx == NULL)
+                        ^
+/libp11/src/p11_atfork.c:194:19: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (slot == NULL)
+                         ^
+/libp11/src/p11_atfork.c:208:20: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (token == NULL)
+                          ^
+/libp11/src/p11_atfork.c:221:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (key == NULL)
+                        ^
+/libp11/src/p11_atfork.c:235:19: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (cert == NULL)
+                         ^
+/libp11/src/p11_attr.c:74:58: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (pkcs11_getattr_var(token, object, type, NULL, &len))
+                                                                ^
+/libp11/src/p11_attr.c:86:12: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (value)
+                  ^
+/libp11/src/p11_attr.c:88:11: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (size)
+                 ^
+/libp11/src/p11_attr.c:100:64: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (pkcs11_getattr_alloc(token, object, type, &binary, &size))
+                                                                      ^
+/libp11/src/p11_attr.c:123:25: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ap->pValue == NULL)
+                               ^
+/libp11/src/p11_attr.c:125:2: warning: Null pointer passed as an argument to a 'nonnull' parameter [clang-analyzer-core.NonNullParamChecker]
+        memcpy(ap->pValue, data, size);
+        ^
+/libp11/src/p11_attr.c:144:30: note: Assuming 's' is null
+        pkcs11_addattr(ap, type, s, s ? strlen(s) : 0); /* RFC2279 string an unpadded string of CK_UTF8CHARs with no null-termination */
+                                    ^
+/libp11/src/p11_attr.c:144:30: note: '?' condition is false
+        pkcs11_addattr(ap, type, s, s ? strlen(s) : 0); /* RFC2279 string an unpadded string of CK_UTF8CHARs with no null-termination */
+                                    ^
+/libp11/src/p11_attr.c:144:27: note: Passing value via 3rd parameter 'data'
+        pkcs11_addattr(ap, type, s, s ? strlen(s) : 0); /* RFC2279 string an unpadded string of CK_UTF8CHARs with no null-termination */
+                                 ^
+/libp11/src/p11_attr.c:144:2: note: Calling 'pkcs11_addattr'
+        pkcs11_addattr(ap, type, s, s ? strlen(s) : 0); /* RFC2279 string an unpadded string of CK_UTF8CHARs with no null-termination */
+        ^
+/libp11/src/p11_attr.c:123:6: note: Assuming the condition is false
+        if (ap->pValue == NULL)
+            ^
+/libp11/src/p11_attr.c:123:2: note: Taking false branch
+        if (ap->pValue == NULL)
+        ^
+/libp11/src/p11_attr.c:125:2: note: Null pointer passed as an argument to a 'nonnull' parameter
+        memcpy(ap->pValue, data, size);
+        ^
+/libp11/src/p11_attr.c:164:25: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ap->pValue == NULL)
+                               ^
+/libp11/src/p11_attr.c:173:20: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (ap[n].pValue)
+                                 ^
+/libp11/src/libp11-int.h:293:12: warning: function 'pkcs11_enumerate_certs' has a definition with different parameter names [readability-inconsistent-declaration-parameter-name]
+extern int pkcs11_enumerate_certs(PKCS11_TOKEN *token,
+           ^
+/libp11/src/p11_cert.c:37:5: note: the definition seen here
+int pkcs11_enumerate_certs(PKCS11_TOKEN *token,
+    ^
+/libp11/src/libp11-int.h:293:12: note: differing parameters are named here: ('certs', 'ncerts'), in definition: ('certp', 'countp')
+extern int pkcs11_enumerate_certs(PKCS11_TOKEN *token,
+           ^
+/libp11/src/libp11-int.h:297:12: warning: function 'pkcs11_remove_certificate' has a definition with different parameter names [readability-inconsistent-declaration-parameter-name]
+extern int pkcs11_remove_certificate(PKCS11_CERT *key);
+           ^
+                                                  cert
+/libp11/src/p11_cert.c:69:5: note: the definition seen here
+int pkcs11_remove_certificate(PKCS11_CERT *cert){
+    ^
+/libp11/src/libp11-int.h:297:12: note: differing parameters are named here: ('key'), in definition: ('cert')
+extern int pkcs11_remove_certificate(PKCS11_CERT *key);
+           ^
+/libp11/src/p11_cert.c:29:44: warning: all parameters should be named in a function [readability-named-parameter]
+static int pkcs11_find_certs(PKCS11_TOKEN *);
+                                           ^
+                                            /*token*/
+/libp11/src/p11_cert.c:30:41: warning: all parameters should be named in a function [readability-named-parameter]
+static int pkcs11_next_cert(PKCS11_CTX *, PKCS11_TOKEN *, CK_SESSION_HANDLE);
+                                        ^
+                                         /*ctx*/         /*token*/          /*session*/
+/libp11/src/p11_cert.c:31:12: warning: function 'pkcs11_init_cert' has a definition with different parameter names [readability-inconsistent-declaration-parameter-name]
+static int pkcs11_init_cert(PKCS11_CTX *ctx, PKCS11_TOKEN *token,
+           ^
+/libp11/src/p11_cert.c:183:12: note: the definition seen here
+static int pkcs11_init_cert(PKCS11_CTX *ctx, PKCS11_TOKEN *token,
+           ^
+/libp11/src/p11_cert.c:31:12: note: differing parameters are named here: ('o'), in definition: ('obj')
+static int pkcs11_init_cert(PKCS11_CTX *ctx, PKCS11_TOKEN *token,
+           ^
+/libp11/src/p11_cert.c:32:63: warning: all parameters should be named in a function [readability-named-parameter]
+        CK_SESSION_HANDLE session, CK_OBJECT_HANDLE o, PKCS11_CERT **);
+                                                                     ^
+                                                                      /*ret*/
+/libp11/src/p11_cert.c:48:58: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (!spriv->haveSession && PKCS11_open_session(slot, 0))
+                                                                ^
+/libp11/src/p11_cert.c:59:12: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (certp)
+                  ^
+/libp11/src/p11_cert.c:61:13: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (countp)
+                   ^
+/libp11/src/p11_cert.c:124:60: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (PKCS11_enumerate_certs(KEY2TOKEN(key), &cert, &count))
+                                                                  ^
+/libp11/src/p11_cert.c:129:53: warning: statement should be inside braces [google-readability-braces-around-statements]
+                                && !memcmp(cpriv->id, kpriv->id, kpriv->id_len))
+                                                                                ^
+/libp11/src/p11_cert.c:174:17: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (count == 0)
+                       ^
+/libp11/src/p11_cert.c:177:55: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (pkcs11_init_cert(ctx, token, session, obj, NULL))
+                                                             ^
+/libp11/src/p11_cert.c:199:89: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (pkcs11_getattr_var(token, obj, CKA_CERTIFICATE_TYPE, (CK_BYTE *)&cert_type, &size))
+                                                                                               ^
+/libp11/src/p11_cert.c:201:29: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (cert_type != CKC_X_509)
+                                   ^
+/libp11/src/p11_cert.c:207:46: warning: statement should be inside braces [google-readability-braces-around-statements]
+        for (i=0; i < PRIVTOKEN(token)->ncerts; ++i)
+                                                    ^
+/libp11/src/p11_cert.c:208:60: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (PRIVCERT(PRIVTOKEN(token)->certs + i)->object == obj)
+                                                                         ^
+/libp11/src/p11_cert.c:213:20: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (cpriv == NULL)
+                          ^
+/libp11/src/p11_cert.c:219:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (tmp == NULL)
+                        ^
+/libp11/src/p11_cert.c:242:72: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (pkcs11_getattr_var(token, obj, CKA_ID, cpriv->id, &cpriv->id_len))
+                                                                              ^
+/libp11/src/p11_cert.c:245:10: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ret)
+                ^
+/libp11/src/p11_cert.c:260:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (cert->x509)
+                               ^
+/libp11/src/p11_cert.c:263:16: warning: statement should be inside braces [readability-braces-around-statements]
+                if (cert->id)
+                             ^
+/libp11/src/p11_cert.c:265:30: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (cert->_private != NULL)
+                                           ^
+/libp11/src/p11_cert.c:268:19: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (tpriv->certs)
+                         ^
+/libp11/src/p11_cert.c:293:67: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (!PRIVSLOT(slot)->haveSession && PKCS11_open_session(slot, 1))
+                                                                         ^
+/libp11/src/p11_cert.c:328:48: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if(X509_pubkey_digest(x509,evp_md,md,&md_len))
+                                                      ^
+/libp11/src/p11_cert.c:332:12: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (label)
+                  ^
+/libp11/src/p11_cert.c:334:19: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (id && id_len)
+                         ^
+/libp11/src/p11_ckr.c:163:30: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (CKR_lib_error_code == 0)
+                                    ^
+/libp11/src/p11_ckr.c:198:30: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (CKR_lib_error_code == 0)
+                                    ^
+/libp11/src/p11_ckr.c:205:30: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (CKR_lib_error_code == 0)
+                                    ^
+/libp11/src/p11_ec.c:126:18: warning: statement should be inside braces [readability-braces-around-statements]
+        if (out == NULL)
+                        ^
+/libp11/src/p11_ec.c:128:8: warning: statement should be inside braces [readability-braces-around-statements]
+        if (m)
+              ^
+/libp11/src/p11_ec.c:130:6: warning: statement should be inside braces [google-readability-braces-around-statements]
+        else
+            ^
+/libp11/src/p11_ec.c:158:27: warning: statement should be inside braces [google-readability-braces-around-statements]
+                while (ec_ex_index == 0) /* Workaround for OpenSSL RT3710 */
+                                        ^
+/libp11/src/p11_ec.c:166:23: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (ec_ex_index < 0)
+                                    ^
+/libp11/src/p11_ec.c:196:66: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (key_getattr_alloc(key, CKA_EC_PARAMS, &params, &params_len))
+                                                                        ^
+/libp11/src/p11_ec.c:216:61: warning: statement should be inside braces [google-readability-braces-around-statements]
+                        key_getattr_alloc(key, CKA_EC_POINT, &point, &point_len))
+                                                                                 ^
+/libp11/src/p11_ec.c:241:17: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ec == NULL)
+                       ^
+/libp11/src/p11_ec.c:251:33: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (no_point && key->isPrivate) /* Retry with the public key */
+                                       ^
+/libp11/src/p11_ec.c:285:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (evp == NULL)
+                        ^
+/libp11/src/p11_ec.c:287:43: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (EVP_PKEY_base_id(evp) != EVP_PKEY_EC)
+                                                 ^
+/libp11/src/p11_ec.c:310:17: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ec == NULL)
+                       ^
+/libp11/src/p11_ec.c:358:51: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (!rv && kpriv->always_authenticate == CK_TRUE)
+                                                         ^
+/libp11/src/p11_ec.c:360:10: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (!rv)
+                ^
+/libp11/src/p11_ec.c:416:22: warning: statement should be inside braces [google-readability-braces-around-statements]
+                        if (klen < 8*dlen)
+                                          ^
+/libp11/src/p11_ec.c:423:63: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (pkcs11_ecdsa_sign(dgst, dlen, sigret, &siglen, key) <= 0)
+                                                                     ^
+/libp11/src/p11_ec.c:429:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (sig == NULL)
+                        ^
+/libp11/src/p11_ec.c:451:37: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (group == NULL || point == NULL)
+                                           ^
+/libp11/src/p11_ec.c:455:15: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (len == 0)
+                     ^
+/libp11/src/p11_ec.c:458:18: warning: statement should be inside braces [readability-braces-around-statements]
+        if (buf == NULL)
+                        ^
+/libp11/src/p11_ec.c:552:16: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (tmpnewkey) /* For future use (not used by pkcs11_ec_ckey) */
+                      ^
+/libp11/src/p11_ec.c:554:6: warning: statement should be inside braces [google-readability-braces-around-statements]
+        else /* Destroy the temporary key */
+            ^
+/libp11/src/p11_ec.c:623:30: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_key_fork(key) < 0)
+                                    ^
+/libp11/src/p11_ec.c:628:20: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (parms == NULL)
+                          ^
+/libp11/src/p11_ec.c:632:13: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (rv < 0)
+                   ^
+/libp11/src/p11_ec.c:641:23: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (outlen > buflen)
+                                    ^
+/libp11/src/p11_err.c:11:1: warning: #includes are not sorted properly [llvm-include-order]
+#include <stdio.h>
+^
+/libp11/src/p11_err.c:62:33: warning: statement should be inside braces [google-readability-braces-around-statements]
+    if (P11_lib_error_code == 0)
+                                ^
+/libp11/src/p11_err.c:97:33: warning: statement should be inside braces [google-readability-braces-around-statements]
+    if (P11_lib_error_code == 0)
+                                ^
+/libp11/src/libp11.h:190:22: warning: function 'PKCS11_get_slotid_from_slot' has a definition with different parameter names [readability-inconsistent-declaration-parameter-name]
+extern unsigned long PKCS11_get_slotid_from_slot(PKCS11_SLOT *slotp);
+                     ^
+                                                              slot
+/libp11/src/p11_front.c:78:15: note: the definition seen here
+unsigned long PKCS11_get_slotid_from_slot(PKCS11_SLOT *slot)
+              ^
+/libp11/src/libp11.h:190:22: note: differing parameters are named here: ('slotp'), in definition: ('slot')
+extern unsigned long PKCS11_get_slotid_from_slot(PKCS11_SLOT *slotp);
+                     ^
+/libp11/src/libp11.h:224:14: warning: function 'PKCS11_find_next_token' has a definition with different parameter names [readability-inconsistent-declaration-parameter-name]
+PKCS11_SLOT *PKCS11_find_next_token(PKCS11_CTX * ctx,
+             ^
+/libp11/src/p11_front.c:101:14: note: the definition seen here
+PKCS11_SLOT *PKCS11_find_next_token(PKCS11_CTX *ctx,
+             ^
+/libp11/src/libp11.h:224:14: note: differing parameters are named here: ('slot'), in definition: ('current')
+PKCS11_SLOT *PKCS11_find_next_token(PKCS11_CTX * ctx,
+             ^
+/libp11/src/libp11.h:480:32: warning: function 'PKCS11_private_encrypt' has a definition with different parameter names [readability-inconsistent-declaration-parameter-name]
+P11_DEPRECATED_FUNC extern int PKCS11_private_encrypt(
+                               ^
+/libp11/src/p11_front.c:322:5: note: the definition seen here
+int PKCS11_private_encrypt(int flen, const unsigned char *from, unsigned char *to,
+    ^
+/libp11/src/libp11.h:480:32: note: differing parameters are named here: ('rsa'), in definition: ('key')
+P11_DEPRECATED_FUNC extern int PKCS11_private_encrypt(
+                               ^
+/libp11/src/p11_front.c:37:26: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_fork(ctx) < 0)
+                                ^
+/libp11/src/p11_front.c:44:26: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_fork(ctx) < 0)
+                                ^
+/libp11/src/p11_front.c:51:26: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_fork(ctx) < 0)
+                                ^
+/libp11/src/p11_front.c:58:26: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_fork(ctx) < 0)
+                                ^
+/libp11/src/p11_front.c:65:32: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_slot_fork(slot) < 0)
+                                      ^
+/libp11/src/p11_front.c:73:26: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_fork(ctx) < 0)
+                                ^
+/libp11/src/p11_front.c:80:32: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_slot_fork(slot) < 0)
+                                      ^
+/libp11/src/p11_front.c:88:26: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_fork(ctx) < 0)
+                                ^
+/libp11/src/p11_front.c:96:26: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_fork(ctx) < 0)
+                                ^
+/libp11/src/p11_front.c:105:26: warning: statement should be inside braces [readability-braces-around-statements]
+        if (check_fork(ctx) < 0)
+                                ^
+/libp11/src/p11_front.c:112:32: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_slot_fork(slot) < 0)
+                                      ^
+/libp11/src/p11_front.c:119:32: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_slot_fork(slot) < 0)
+                                      ^
+/libp11/src/p11_front.c:126:32: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_slot_fork(slot) < 0)
+                                      ^
+/libp11/src/p11_front.c:134:34: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_token_fork(token) < 0)
+                                        ^
+/libp11/src/p11_front.c:141:30: warning: statement should be inside braces [readability-braces-around-statements]
+        if (check_key_fork(key) < 0)
+                                    ^
+/libp11/src/p11_front.c:149:34: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_token_fork(token) < 0)
+                                        ^
+/libp11/src/p11_front.c:156:30: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_key_fork(key) < 0)
+                                    ^
+/libp11/src/p11_front.c:163:30: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_key_fork(key) < 0)
+                                    ^
+/libp11/src/p11_front.c:170:30: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_key_fork(key) < 0)
+                                    ^
+/libp11/src/p11_front.c:177:30: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_key_fork(key) < 0)
+                                    ^
+/libp11/src/p11_front.c:184:32: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_cert_fork(cert) < 0)
+                                      ^
+/libp11/src/p11_front.c:192:34: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_token_fork(token) < 0)
+                                        ^
+/libp11/src/p11_front.c:199:32: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_cert_fork(cert) < 0)
+                                      ^
+/libp11/src/p11_front.c:207:34: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_token_fork(token) < 0)
+                                        ^
+/libp11/src/p11_front.c:214:34: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_token_fork(token) < 0)
+                                        ^
+/libp11/src/p11_front.c:222:32: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_slot_fork(slot) < 0)
+                                      ^
+/libp11/src/p11_front.c:230:34: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_token_fork(token) < 0)
+                                        ^
+/libp11/src/p11_front.c:238:34: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_token_fork(token) < 0)
+                                        ^
+/libp11/src/p11_front.c:247:34: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_token_fork(token) < 0)
+                                        ^
+/libp11/src/p11_front.c:254:32: warning: statement should be inside braces [readability-braces-around-statements]
+        if (check_slot_fork(slot) < 0)
+                                      ^
+/libp11/src/p11_front.c:261:32: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_slot_fork(slot) < 0)
+                                      ^
+/libp11/src/p11_front.c:277:26: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_fork(ctx) < 0)
+                                ^
+/libp11/src/p11_front.c:288:34: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_token_fork(token) < 0)
+                                        ^
+/libp11/src/p11_front.c:295:30: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_key_fork(key) < 0)
+                                    ^
+/libp11/src/p11_front.c:302:30: warning: statement should be inside braces [readability-braces-around-statements]
+        if (check_key_fork(key) < 0)
+                                    ^
+/libp11/src/p11_front.c:309:30: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_key_fork(key) < 0)
+                                    ^
+/libp11/src/p11_front.c:317:30: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_key_fork(key) < 0)
+                                    ^
+/libp11/src/p11_front.c:325:30: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_key_fork(key) < 0)
+                                    ^
+/libp11/src/p11_front.c:333:30: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_key_fork(key) < 0)
+                                    ^
+/libp11/src/p11_front.c:339:18: warning: pointer parameter 'signature' can be pointer to const [readability-non-const-parameter]
+                unsigned char *signature, unsigned int siglen, PKCS11_KEY *key)
+                               ^
+                const 
+/libp11/src/libp11-int.h:271:12: warning: function 'pkcs11_enumerate_keys' has a definition with different parameter names [readability-inconsistent-declaration-parameter-name]
+extern int pkcs11_enumerate_keys(PKCS11_TOKEN *token, unsigned int type,
+           ^
+/libp11/src/p11_key.c:409:5: note: the definition seen here
+int pkcs11_enumerate_keys(PKCS11_TOKEN *token, unsigned int type,
+    ^
+/libp11/src/libp11-int.h:271:12: note: differing parameters are named here: ('keys', 'nkeys'), in definition: ('keyp', 'countp')
+extern int pkcs11_enumerate_keys(PKCS11_TOKEN *token, unsigned int type,
+           ^
+/libp11/src/libp11-int.h:290:20: warning: function 'pkcs11_find_key_from_key' has a definition with different parameter names [readability-inconsistent-declaration-parameter-name]
+extern PKCS11_KEY *pkcs11_find_key_from_key(PKCS11_KEY *key);
+                   ^
+                                                        keyin
+/libp11/src/p11_key.c:78:13: note: the definition seen here
+PKCS11_KEY *pkcs11_find_key_from_key(PKCS11_KEY *keyin)
+            ^
+/libp11/src/libp11-int.h:290:20: note: differing parameters are named here: ('key'), in definition: ('keyin')
+extern PKCS11_KEY *pkcs11_find_key_from_key(PKCS11_KEY *key);
+                   ^
+/libp11/src/p11_key.c:21:1: warning: #includes are not sorted properly [llvm-include-order]
+#include <string.h>
+^
+/libp11/src/p11_key.c:32:43: warning: all parameters should be named in a function [readability-named-parameter]
+static int pkcs11_find_keys(PKCS11_TOKEN *, unsigned int);
+                                          ^
+                                           /*token*/     /*type*/
+/libp11/src/p11_key.c:35:12: warning: function 'pkcs11_init_key' has a definition with different parameter names [readability-inconsistent-declaration-parameter-name]
+static int pkcs11_init_key(PKCS11_CTX *ctx, PKCS11_TOKEN *token,
+           ^
+/libp11/src/p11_key.c:545:12: note: the definition seen here
+static int pkcs11_init_key(PKCS11_CTX *ctx, PKCS11_TOKEN *token,
+           ^
+/libp11/src/p11_key.c:35:12: note: differing parameters are named here: ('o'), in definition: ('obj')
+static int pkcs11_init_key(PKCS11_CTX *ctx, PKCS11_TOKEN *token,
+           ^
+/libp11/src/p11_key.c:37:37: warning: all parameters should be named in a function [readability-named-parameter]
+        CK_OBJECT_CLASS type, PKCS11_KEY **);
+                                           ^
+                                            /*ret*/
+/libp11/src/p11_key.c:38:43: warning: all parameters should be named in a function [readability-named-parameter]
+static int pkcs11_store_key(PKCS11_TOKEN *, EVP_PKEY *, unsigned int,
+                                          ^
+/libp11/src/p11_key.c:46:20: warning: statement should be inside braces [readability-braces-around-statements]
+        if (cpriv == NULL)
+                          ^
+/libp11/src/p11_key.c:64:61: warning: statement should be inside braces [readability-braces-around-statements]
+        if (PKCS11_enumerate_keys(CERT2TOKEN(cert), &keys, &count))
+                                                                   ^
+/libp11/src/p11_key.c:69:53: warning: statement should be inside braces [readability-braces-around-statements]
+                                && !memcmp(cpriv->id, kpriv->id, cpriv->id_len))
+                                                                                ^
+/libp11/src/p11_key.c:87:16: warning: The right operand of '<' is a garbage value [clang-analyzer-core.UndefinedBinaryOperatorResult]
+        for (n = 0; n < count; n++) {
+                      ^
+/libp11/src/p11_key.c:324:2: note: Taking true branch
+        if (key->isPrivate != isPrivate)
+        ^
+/libp11/src/p11_key.c:325:9: note: Calling 'pkcs11_find_key_from_key'
+                key = pkcs11_find_key_from_key(key);
+                      ^
+/libp11/src/p11_key.c:82:18: note: 'count' declared without an initial value
+        unsigned int n, count;
+                        ^
+/libp11/src/p11_key.c:85:3: note: Assuming the condition is false
+                keyin->isPrivate ? CKO_PUBLIC_KEY : CKO_PRIVATE_KEY, /* other type */
+                ^
+/libp11/src/p11_key.c:85:3: note: '?' condition is false
+                keyin->isPrivate ? CKO_PUBLIC_KEY : CKO_PRIVATE_KEY, /* other type */
+                ^
+/libp11/src/p11_key.c:84:2: note: Calling 'pkcs11_enumerate_keys'
+        pkcs11_enumerate_keys(KEY2TOKEN(keyin),
+        ^
+/libp11/src/p11_key.c:417:22: note: '?' condition is true
+        PKCS11_keys *keys = (type == CKO_PRIVATE_KEY) ? &tpriv->prv : &tpriv->pub;
+                            ^
+/libp11/src/p11_key.c:423:6: note: Assuming the condition is false
+        if (!spriv->haveSession && PKCS11_open_session(slot, 0))
+            ^
+/libp11/src/p11_key.c:423:26: note: Left side of '&&' is false
+        if (!spriv->haveSession && PKCS11_open_session(slot, 0))
+                                ^
+/libp11/src/p11_key.c:426:27: note: Assuming the condition is false
+        CRYPTO_THREAD_write_lock(cpriv->rwlock);
+                                 ^
+/libp11/src/libp11-int.h:145:5: note: expanded from macro 'CRYPTO_THREAD_write_lock'
+        if(type) CRYPTO_lock(CRYPTO_LOCK|CRYPTO_WRITE,type,__FILE__,__LINE__)
+           ^
+/libp11/src/p11_key.c:426:2: note: Taking false branch
+        CRYPTO_THREAD_write_lock(cpriv->rwlock);
+        ^
+/libp11/src/libp11-int.h:145:2: note: expanded from macro 'CRYPTO_THREAD_write_lock'
+        if(type) CRYPTO_lock(CRYPTO_LOCK|CRYPTO_WRITE,type,__FILE__,__LINE__)
+        ^
+/libp11/src/p11_key.c:428:2: note: Taking false branch
+        CRYPTO_THREAD_unlock(cpriv->rwlock);
+        ^
+/libp11/src/libp11-int.h:147:2: note: expanded from macro 'CRYPTO_THREAD_unlock'
+        if(type) CRYPTO_lock(CRYPTO_UNLOCK|CRYPTO_WRITE,type,__FILE__,__LINE__)
+        ^
+/libp11/src/p11_key.c:429:6: note: Assuming 'rv' is < 0
+        if (rv < 0) {
+            ^
+/libp11/src/p11_key.c:429:2: note: Taking true branch
+        if (rv < 0) {
+        ^
+/libp11/src/p11_key.c:84:2: note: Returning from 'pkcs11_enumerate_keys'
+        pkcs11_enumerate_keys(KEY2TOKEN(keyin),
+        ^
+/libp11/src/p11_key.c:87:16: note: The right operand of '<' is a garbage value
+        for (n = 0; n < count; n++) {
+                      ^
+/libp11/src/p11_key.c:88:31: warning: Access to field '_private' results in a dereference of a null pointer [clang-analyzer-core.NullDereference]
+                PKCS11_KEY_private *kpriv = PRIVKEY(&keys[n]);
+                                            ^
+/libp11/src/libp11-int.h:101:47: note: expanded from macro 'PRIVKEY'
+#define PRIVKEY(key)            ((PKCS11_KEY_private *) (key)->_private)
+                                                        ^
+/libp11/src/p11_key.c:324:2: note: Taking true branch
+        if (key->isPrivate != isPrivate)
+        ^
+/libp11/src/p11_key.c:325:9: note: Calling 'pkcs11_find_key_from_key'
+                key = pkcs11_find_key_from_key(key);
+                      ^
+/libp11/src/p11_key.c:85:3: note: Assuming the condition is false
+                keyin->isPrivate ? CKO_PUBLIC_KEY : CKO_PRIVATE_KEY, /* other type */
+                ^
+/libp11/src/p11_key.c:85:3: note: '?' condition is false
+                keyin->isPrivate ? CKO_PUBLIC_KEY : CKO_PRIVATE_KEY, /* other type */
+                ^
+/libp11/src/p11_key.c:87:14: note: Assuming 'n' is < 'count'
+        for (n = 0; n < count; n++) {
+                    ^
+/libp11/src/p11_key.c:87:2: note: Loop condition is true.  Entering loop body
+        for (n = 0; n < count; n++) {
+        ^
+/libp11/src/p11_key.c:88:31: note: Access to field '_private' results in a dereference of a null pointer
+                PKCS11_KEY_private *kpriv = PRIVKEY(&keys[n]);
+                                            ^
+/libp11/src/libp11-int.h:101:47: note: expanded from macro 'PRIVKEY'
+#define PRIVKEY(key)            ((PKCS11_KEY_private *) (key)->_private)
+                                                        ^
+/libp11/src/p11_key.c:90:57: warning: statement should be inside braces [readability-braces-around-statements]
+                                && !memcmp(kinpriv->id, kpriv->id, kinpriv->id_len))
+                                                                                    ^
+/libp11/src/p11_key.c:152:58: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (!spriv->haveSession && PKCS11_open_session(slot, 1))
+                                                                ^
+/libp11/src/p11_key.c:157:12: warning: statement should be inside braces [readability-braces-around-statements]
+        if (label)
+                  ^
+/libp11/src/p11_key.c:169:12: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (label)
+                  ^
+/libp11/src/p11_key.c:205:76: warning: statement should be inside braces [readability-braces-around-statements]
+        if (pkcs11_store_key(token, pk, CKO_PRIVATE_KEY, label, id, id_len, NULL))
+                                                                                  ^
+/libp11/src/p11_key.c:213:75: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (pkcs11_store_key(token, pk, CKO_PUBLIC_KEY, label, id, id_len, NULL))
+                                                                                 ^
+/libp11/src/p11_key.c:235:58: warning: statement should be inside braces [readability-braces-around-statements]
+        if (!spriv->haveSession && PKCS11_open_session(slot, 1))
+                                                                ^
+/libp11/src/p11_key.c:240:12: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (label)
+                  ^
+/libp11/src/p11_key.c:242:19: warning: statement should be inside braces [readability-braces-around-statements]
+        if (id && id_len)
+                         ^
+/libp11/src/p11_key.c:283:17: warning: statement should be inside braces [google-readability-braces-around-statements]
+                        if (rsa_dmp1)
+                                     ^
+/libp11/src/p11_key.c:285:17: warning: statement should be inside braces [readability-braces-around-statements]
+                        if (rsa_dmq1)
+                                     ^
+/libp11/src/p11_key.c:287:17: warning: statement should be inside braces [google-readability-braces-around-statements]
+                        if (rsa_iqmp)
+                                     ^
+/libp11/src/p11_key.c:324:34: warning: statement should be inside braces [readability-braces-around-statements]
+        if (key->isPrivate != isPrivate)
+                                        ^
+/libp11/src/p11_key.c:326:18: warning: statement should be inside braces [readability-braces-around-statements]
+        if (key == NULL)
+                        ^
+/libp11/src/p11_key.c:331:28: warning: statement should be inside braces [readability-braces-around-statements]
+                if (key->evp_key == NULL)
+                                         ^
+/libp11/src/p11_key.c:374:17: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ui == NULL)
+                       ^
+/libp11/src/p11_key.c:376:34: warning: statement should be inside braces [readability-braces-around-statements]
+        if (cpriv->ui_user_data != NULL)
+                                        ^
+/libp11/src/p11_key.c:423:58: warning: statement should be inside braces [readability-braces-around-statements]
+        if (!spriv->haveSession && PKCS11_open_session(slot, 0))
+                                                                ^
+/libp11/src/p11_key.c:443:11: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (keyp)
+                 ^
+/libp11/src/p11_key.c:445:13: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (countp)
+                   ^
+/libp11/src/p11_key.c:464:58: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (!spriv->haveSession && PKCS11_open_session(slot, 1))
+                                                                ^
+/libp11/src/p11_key.c:466:21: warning: statement should be inside braces [readability-braces-around-statements]
+        if (key->isPrivate)
+                           ^
+/libp11/src/p11_key.c:468:6: warning: statement should be inside braces [google-readability-braces-around-statements]
+        else
+            ^
+/libp11/src/p11_key.c:470:29: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (key->id && key->id_len)
+                                   ^
+/libp11/src/p11_key.c:472:17: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (key->label)
+                       ^
+/libp11/src/p11_key.c:536:17: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (count == 0)
+                       ^
+/libp11/src/p11_key.c:539:60: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (pkcs11_init_key(ctx, token, session, obj, type, NULL))
+                                                                  ^
+/libp11/src/p11_key.c:563:80: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (pkcs11_getattr_var(token, obj, CKA_KEY_TYPE, (CK_BYTE *)&key_type, &size))
+                                                                                      ^
+/libp11/src/p11_key.c:571:19: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (ops == NULL)
+                                ^
+/libp11/src/p11_key.c:582:31: warning: statement should be inside braces [readability-braces-around-statements]
+        for (i=0; i < keys->num; ++i)
+                                     ^
+/libp11/src/p11_key.c:583:46: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (PRIVKEY(keys->keys + i)->object == obj)
+                                                           ^
+/libp11/src/p11_key.c:588:20: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (kpriv == NULL)
+                          ^
+/libp11/src/p11_key.c:592:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (tmp == NULL)
+                        ^
+/libp11/src/p11_key.c:609:72: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (pkcs11_getattr_var(token, obj, CKA_ID, kpriv->id, &kpriv->id_len))
+                                                                              ^
+/libp11/src/p11_key.c:614:10: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ret)
+                ^
+/libp11/src/p11_key.c:630:20: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (key->evp_key)
+                                 ^
+/libp11/src/p11_key.c:633:15: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (key->id)
+                            ^
+/libp11/src/p11_key.c:635:29: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (key->_private != NULL)
+                                          ^
+/libp11/src/p11_key.c:638:17: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (keys->keys)
+                       ^
+/libp11/src/libp11-int.h:224:12: warning: function 'pkcs11_CTX_load' has a definition with different parameter names [readability-inconsistent-declaration-parameter-name]
+extern int pkcs11_CTX_load(PKCS11_CTX * ctx, const char * ident);
+           ^
+                                                          name
+/libp11/src/p11_load.c:70:5: note: the definition seen here
+int pkcs11_CTX_load(PKCS11_CTX *ctx, const char *name)
+    ^
+/libp11/src/libp11-int.h:224:12: note: differing parameters are named here: ('ident'), in definition: ('name')
+extern int pkcs11_CTX_load(PKCS11_CTX * ctx, const char * ident);
+           ^
+/libp11/src/p11_load.c:34:20: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (cpriv == NULL)
+                          ^
+/libp11/src/p11_load.c:38:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ctx == NULL)
+                        ^
+/libp11/src/p11_load.c:122:28: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (cpriv->method == NULL) /* Module not loaded */
+                                  ^
+/libp11/src/p11_load.c:148:36: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (cpriv->forkid == get_forkid())
+                                          ^
+/libp11/src/p11_misc.c:21:1: warning: #includes are not sorted properly [llvm-include-order]
+#include <string.h>
+^
+/libp11/src/p11_misc.c:32:38: warning: statement should be inside braces [google-readability-braces-around-statements]
+        while (size && mem[size - 1] == ' ')
+                                            ^
+/libp11/src/p11_misc.c:35:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (res == NULL)
+                        ^
+/libp11/src/p11_misc.c:54:50: warning: statement should be inside braces [google-readability-braces-around-statements]
+                        CRYPTO_get_dynlock_destroy_callback() == NULL)
+                                                                      ^
+/libp11/src/p11_misc.c:57:13: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (i == 0)
+                   ^
+/libp11/src/p11_misc.c:64:8: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (i)
+              ^
+/libp11/src/p11_pkey.c:156:17: warning: statement should be inside braces [readability-braces-around-statements]
+        if (psign_init)
+                       ^
+/libp11/src/p11_pkey.c:158:12: warning: statement should be inside braces [readability-braces-around-statements]
+        if (psign)
+                  ^
+/libp11/src/p11_pkey.c:170:20: warning: statement should be inside braces [readability-braces-around-statements]
+        if (pdecrypt_init)
+                          ^
+/libp11/src/p11_pkey.c:172:15: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (pdecrypt)
+                     ^
+/libp11/src/p11_pkey.c:221:55: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (EVP_PKEY_CTX_get_signature_md(ctx, &sig_md) <= 0)
+                                                             ^
+/libp11/src/p11_pkey.c:223:55: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (EVP_PKEY_CTX_get_rsa_mgf1_md(ctx, &mgf1_md) <= 0)
+                                                             ^
+/libp11/src/p11_pkey.c:225:56: warning: statement should be inside braces [readability-braces-around-statements]
+        if (!EVP_PKEY_CTX_get_rsa_pss_saltlen(ctx, &salt_len))
+                                                              ^
+/libp11/src/p11_pkey.c:233:24: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (evp_pkey == NULL)
+                                     ^
+/libp11/src/p11_pkey.c:236:50: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (((EVP_PKEY_bits(evp_pkey) - 1) & 0x7) == 0)
+                                                               ^
+/libp11/src/p11_pkey.c:238:20: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (salt_len < 0) /* integer underflow detected */
+                                 ^
+/libp11/src/p11_pkey.c:250:33: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (!pss->hashAlg || !pss->mgf)
+                                       ^
+/libp11/src/p11_pkey.c:262:55: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (EVP_PKEY_CTX_get_rsa_oaep_md(ctx, &oaep_md) <= 0)
+                                                             ^
+/libp11/src/p11_pkey.c:264:55: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (EVP_PKEY_CTX_get_rsa_mgf1_md(ctx, &mgf1_md) <= 0)
+                                                             ^
+/libp11/src/p11_pkey.c:275:35: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (!oaep->hashAlg || !oaep->mgf)
+                                         ^
+/libp11/src/p11_pkey.c:306:19: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (pkey == NULL)
+                         ^
+/libp11/src/p11_pkey.c:309:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (rsa == NULL)
+                        ^
+/libp11/src/p11_pkey.c:312:30: warning: statement should be inside braces [readability-braces-around-statements]
+        if (check_key_fork(key) < 0)
+                                    ^
+/libp11/src/p11_pkey.c:320:27: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (evp_pkey_ctx == NULL)
+                                 ^
+/libp11/src/p11_pkey.c:322:64: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (EVP_PKEY_CTX_get_signature_md(evp_pkey_ctx, &sig_md) <= 0)
+                                                                      ^
+/libp11/src/p11_pkey.c:324:44: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (tbslen != (size_t)EVP_MD_size(sig_md))
+                                                  ^
+/libp11/src/p11_pkey.c:340:57: warning: statement should be inside braces [google-readability-braces-around-statements]
+                        if (pkcs11_params_pss(&pss_params, evp_pkey_ctx) < 0)
+                                                                             ^
+/libp11/src/p11_pkey.c:357:52: warning: statement should be inside braces [readability-braces-around-statements]
+                if (!rv && kpriv->always_authenticate == CK_TRUE)
+                                                                 ^
+/libp11/src/p11_pkey.c:360:10: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (!rv)
+                ^
+/libp11/src/p11_pkey.c:364:31: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (!cpriv->sign_initialized)
+                                     ^
+/libp11/src/p11_pkey.c:371:19: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (rv != CKR_OK)
+                         ^
+/libp11/src/p11_pkey.c:384:14: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ret < 0)
+                    ^
+/libp11/src/p11_pkey.c:410:19: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (pkey == NULL)
+                         ^
+/libp11/src/p11_pkey.c:413:18: warning: statement should be inside braces [readability-braces-around-statements]
+        if (rsa == NULL)
+                        ^
+/libp11/src/p11_pkey.c:416:30: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (check_key_fork(key) < 0)
+                                    ^
+/libp11/src/p11_pkey.c:424:27: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (evp_pkey_ctx == NULL)
+                                 ^
+/libp11/src/p11_pkey.c:440:59: warning: statement should be inside braces [google-readability-braces-around-statements]
+                        if (pkcs11_params_oaep(&oaep_params, evp_pkey_ctx) < 0)
+                                                                               ^
+/libp11/src/p11_pkey.c:465:52: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (!rv && kpriv->always_authenticate == CK_TRUE)
+                                                                 ^
+/libp11/src/p11_pkey.c:468:10: warning: statement should be inside braces [readability-braces-around-statements]
+        if (!rv)
+                ^
+/libp11/src/p11_pkey.c:472:34: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (!cpriv->decrypt_initialized)
+                                        ^
+/libp11/src/p11_pkey.c:479:19: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (rv != CKR_OK)
+                         ^
+/libp11/src/p11_pkey.c:492:14: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ret < 0)
+                    ^
+/libp11/src/p11_pkey.c:523:50: warning: parameter 'evp_pkey_ctx' is unused [misc-unused-parameters]
+static int pkcs11_try_pkey_ec_sign(EVP_PKEY_CTX *evp_pkey_ctx,
+                                                 ^
+/libp11/src/p11_pkey.c:524:18: warning: parameter 'sig' is unused [misc-unused-parameters]
+                unsigned char *sig, size_t *siglen,
+                               ^
+/libp11/src/p11_pkey.c:524:31: warning: parameter 'siglen' is unused [misc-unused-parameters]
+                unsigned char *sig, size_t *siglen,
+                                            ^
+/libp11/src/p11_pkey.c:525:24: warning: parameter 'tbs' is unused [misc-unused-parameters]
+                const unsigned char *tbs, size_t tbslen)
+                                     ^
+note: this fix will not be applied because it overlaps with another fix
+/libp11/src/p11_pkey.c:525:36: warning: parameter 'tbslen' is unused [misc-unused-parameters]
+                const unsigned char *tbs, size_t tbslen)
+                                                 ^
+note: this fix will not be applied because it overlaps with another fix
+/libp11/src/p11_pkey.c:541:14: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ret < 0)
+                    ^
+/libp11/src/p11_pkey.c:589:31: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (pkey_method_rsa == NULL)
+                                            ^
+/libp11/src/p11_pkey.c:591:31: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (pkey_method_rsa == NULL)
+                                            ^
+/libp11/src/p11_pkey.c:597:30: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (pkey_method_ec == NULL)
+                                           ^
+/libp11/src/p11_pkey.c:599:30: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (pkey_method_ec == NULL)
+                                           ^
+/libp11/src/libp11-int.h:358:12: warning: function 'pkcs11_private_encrypt' has a definition with different parameter names [readability-inconsistent-declaration-parameter-name]
+extern int pkcs11_private_encrypt(
+           ^
+/libp11/src/p11_rsa.c:77:5: note: the definition seen here
+int pkcs11_private_encrypt(int flen,
+    ^
+/libp11/src/libp11-int.h:358:12: note: differing parameters are named here: ('rsa'), in definition: ('key')
+extern int pkcs11_private_encrypt(
+           ^
+/libp11/src/p11_rsa.c:26:1: warning: #includes are not sorted properly [llvm-include-order]
+#include <string.h>
+^
+/libp11/src/p11_rsa.c:36:22: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (evp_key == NULL)
+                            ^
+/libp11/src/p11_rsa.c:49:18: warning: statement should be inside braces [readability-braces-around-statements]
+        if (rsa == NULL)
+                        ^
+/libp11/src/p11_rsa.c:91:48: warning: statement should be inside braces [readability-braces-around-statements]
+        if (pkcs11_mechanism(&mechanism, padding) < 0)
+                                                      ^
+/libp11/src/p11_rsa.c:98:51: warning: statement should be inside braces [readability-braces-around-statements]
+        if (!rv && kpriv->always_authenticate == CK_TRUE)
+                                                         ^
+/libp11/src/p11_rsa.c:100:10: warning: statement should be inside braces [readability-braces-around-statements]
+        if (!rv)
+                ^
+/libp11/src/p11_rsa.c:107:52: warning: statement should be inside braces [readability-braces-around-statements]
+                if (!rv && kpriv->always_authenticate == CK_TRUE)
+                                                                 ^
+/libp11/src/p11_rsa.c:109:11: warning: statement should be inside braces [readability-braces-around-statements]
+                if (!rv)
+                        ^
+/libp11/src/p11_rsa.c:135:48: warning: statement should be inside braces [readability-braces-around-statements]
+        if (pkcs11_mechanism(&mechanism, padding) < 0)
+                                                      ^
+/libp11/src/p11_rsa.c:141:51: warning: statement should be inside braces [readability-braces-around-statements]
+        if (!rv && kpriv->always_authenticate == CK_TRUE)
+                                                         ^
+/libp11/src/p11_rsa.c:143:10: warning: statement should be inside braces [readability-braces-around-statements]
+        if (!rv)
+                ^
+/libp11/src/p11_rsa.c:159:18: warning: pointer parameter 'signature' can be pointer to const [readability-non-const-parameter]
+                unsigned char *signature, unsigned int siglen, PKCS11_KEY *key)
+                               ^
+                const 
+/libp11/src/p11_rsa.c:184:47: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (key_getattr_bn(key, CKA_MODULUS, &rsa_n))
+                                                     ^
+/libp11/src/p11_rsa.c:189:26: warning: statement should be inside braces [readability-braces-around-statements]
+                if (!BN_is_zero(rsa_e)) /* A valid public exponent */
+                                       ^
+/libp11/src/p11_rsa.c:204:36: warning: statement should be inside braces [google-readability-braces-around-statements]
+                                                CKA_PUBLIC_EXPONENT, &rsa_e))
+                                                                             ^
+/libp11/src/p11_rsa.c:212:42: warning: statement should be inside braces [readability-braces-around-statements]
+        if (rsa_e && BN_set_word(rsa_e, RSA_F4))
+                                                ^
+/libp11/src/p11_rsa.c:216:12: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (rsa_n)
+                  ^
+/libp11/src/p11_rsa.c:218:12: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (rsa_e)
+                  ^
+/libp11/src/p11_rsa.c:224:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (rsa == NULL)
+                        ^
+/libp11/src/p11_rsa.c:249:18: warning: statement should be inside braces [readability-braces-around-statements]
+        if (evp == NULL)
+                        ^
+/libp11/src/p11_rsa.c:251:44: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (EVP_PKEY_base_id(evp) != EVP_PKEY_RSA)
+                                                  ^
+/libp11/src/p11_rsa.c:267:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (rsa == NULL)
+                        ^
+/libp11/src/p11_rsa.c:276:21: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (key->isPrivate)
+                           ^
+/libp11/src/p11_rsa.c:296:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (rsa == NULL)
+                        ^
+/libp11/src/p11_rsa.c:313:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (rsa == NULL)
+                        ^
+/libp11/src/p11_rsa.c:328:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (rsa == NULL)
+                        ^
+/libp11/src/p11_rsa.c:386:28: warning: statement should be inside braces [google-readability-braces-around-statements]
+                while (rsa_ex_index == 0) /* Workaround for OpenSSL RT3710 */
+                                         ^
+/libp11/src/p11_rsa.c:389:24: warning: statement should be inside braces [readability-braces-around-statements]
+                if (rsa_ex_index < 0)
+                                     ^
+/libp11/src/p11_rsa.c:410:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (ret == NULL)
+                        ^
+/libp11/src/p11_rsa.c:424:18: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (tmp == NULL)
+                        ^
+/libp11/src/p11_rsa.c:471:19: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (ops == NULL)
+                                ^
+/libp11/src/libp11-int.h:239:12: warning: function 'pkcs11_enumerate_slots' has a definition with different parameter names [readability-inconsistent-declaration-parameter-name]
+extern int pkcs11_enumerate_slots(PKCS11_CTX * ctx,
+           ^
+/libp11/src/p11_slot.c:42:5: note: the definition seen here
+int pkcs11_enumerate_slots(PKCS11_CTX *ctx, PKCS11_SLOT **slotp,
+    ^
+/libp11/src/libp11-int.h:239:12: note: differing parameters are named here: ('slotsp', 'nslotsp'), in definition: ('slotp', 'countp')
+extern int pkcs11_enumerate_slots(PKCS11_CTX * ctx,
+           ^
+/libp11/src/p11_slot.c:21:1: warning: #includes are not sorted properly [llvm-include-order]
+#include <string.h>
+^
+/libp11/src/p11_slot.c:24:41: warning: all parameters should be named in a function [readability-named-parameter]
+static int pkcs11_init_slot(PKCS11_CTX *, PKCS11_SLOT *, CK_SLOT_ID);
+                                        ^
+                                         /*ctx*/        /*slot*/    /*id*/
+/libp11/src/p11_slot.c:25:45: warning: all parameters should be named in a function [readability-named-parameter]
+static void pkcs11_release_slot(PKCS11_CTX *, PKCS11_SLOT *);
+                                            ^
+                                             /*ctx*/        /*slot*/
+/libp11/src/p11_slot.c:26:43: warning: all parameters should be named in a function [readability-named-parameter]
+static int pkcs11_check_token(PKCS11_CTX *, PKCS11_SLOT *);
+                                          ^
+                                           /*ctx*/        /*slot*/
+/libp11/src/p11_slot.c:27:48: warning: all parameters should be named in a function [readability-named-parameter]
+static void pkcs11_destroy_token(PKCS11_TOKEN *);
+                                               ^
+                                                /*token*/
+/libp11/src/p11_slot.c:56:48: warning: statement should be inside braces [readability-braces-around-statements]
+        if (alloc_size / sizeof(CK_SLOT_ID) != nslots) /* integer overflow */
+                                                      ^
+/libp11/src/p11_slot.c:59:21: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (slotid == NULL)
+                           ^
+/libp11/src/p11_slot.c:66:49: warning: statement should be inside braces [readability-braces-around-statements]
+        if (alloc_size / sizeof(PKCS11_SLOT) != nslots) /* integer overflow */
+                                                       ^
+/libp11/src/p11_slot.c:69:20: warning: statement should be inside braces [readability-braces-around-statements]
+        if (slots == NULL)
+                          ^
+/libp11/src/p11_slot.c:74:15: warning: statement should be inside braces [readability-braces-around-statements]
+                        while (n--)
+                                   ^
+/libp11/src/p11_slot.c:82:12: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (slotp)
+                  ^
+/libp11/src/p11_slot.c:84:6: warning: statement should be inside braces [google-readability-braces-around-statements]
+        else
+            ^
+/libp11/src/p11_slot.c:86:13: warning: statement should be inside braces [readability-braces-around-statements]
+        if (countp)
+                   ^
+/libp11/src/p11_slot.c:104:20: warning: statement should be inside braces [readability-braces-around-statements]
+        if (slots == NULL)
+                          ^
+/libp11/src/p11_slot.c:113:55: warning: statement should be inside braces [readability-braces-around-statements]
+                                        tok->loginRequired > best->token->loginRequired))
+                                                                                         ^
+/libp11/src/p11_slot.c:128:20: warning: statement should be inside braces [readability-braces-around-statements]
+        if (slots == NULL)
+                          ^
+/libp11/src/p11_slot.c:133:52: warning: statement should be inside braces [readability-braces-around-statements]
+                if (offset < 1 || (unsigned int)offset >= nslots)
+                                                                 ^
+/libp11/src/p11_slot.c:201:37: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (PKCS11_open_session(slot, so))
+                                                  ^
+/libp11/src/p11_slot.c:226:34: warning: statement should be inside braces [readability-braces-around-statements]
+        if (!relogin && spriv->loggedIn)
+                                        ^
+/libp11/src/p11_slot.c:232:46: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (pkcs11_open_session(slot, so, relogin))
+                                                           ^
+/libp11/src/p11_slot.c:239:45: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (rv && rv != CKR_USER_ALREADY_LOGGED_IN) /* logged in -> OK */
+                                                   ^
+/libp11/src/p11_slot.c:301:20: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (label == NULL)
+                          ^
+/libp11/src/p11_slot.c:426:20: warning: statement should be inside braces [readability-braces-around-statements]
+        if (spriv == NULL)
+                          ^
+/libp11/src/p11_slot.c:442:72: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if ((info.flags & CKF_TOKEN_PRESENT) && pkcs11_check_token(ctx, slot))
+                                                                              ^
+/libp11/src/p11_slot.c:453:28: warning: statement should be inside braces [google-readability-braces-around-statements]
+        for (i=0; i < nslots; i++)
+                                  ^
+/libp11/src/p11_slot.c:491:27: warning: statement should be inside braces [google-readability-braces-around-statements]
+                if (slot->token == NULL)
+                                        ^
+/libp11/src/p11_slot.c:506:20: warning: statement should be inside braces [google-readability-braces-around-statements]
+        if (tpriv == NULL)
+                          ^

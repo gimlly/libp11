@@ -1,0 +1,174 @@
+/libp11/src/eng_back.c:448:5: warning: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+                                strcat(flags, "uninitialized, ");
+                                ^
+/libp11/src/eng_back.c:448:5: note: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119
+                                strcat(flags, "uninitialized, ");
+                                ^
+/libp11/src/eng_back.c:450:5: warning: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+                                strcat(flags, "no pin, ");
+                                ^
+/libp11/src/eng_back.c:450:5: note: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119
+                                strcat(flags, "no pin, ");
+                                ^
+/libp11/src/eng_back.c:452:5: warning: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+                                strcat(flags, "login, ");
+                                ^
+/libp11/src/eng_back.c:452:5: note: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119
+                                strcat(flags, "login, ");
+                                ^
+/libp11/src/eng_back.c:454:5: warning: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+                                strcat(flags, "ro, ");
+                                ^
+/libp11/src/eng_back.c:454:5: note: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119
+                                strcat(flags, "ro, ");
+                                ^
+/libp11/src/eng_back.c:456:4: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+                        strcpy(flags, "no token");
+                        ^
+/libp11/src/eng_back.c:456:4: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+                        strcpy(flags, "no token");
+                        ^
+/libp11/src/eng_back.c:681:5: warning: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+                                strcat(flags, "uninitialized, ");
+                                ^
+/libp11/src/eng_back.c:681:5: note: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119
+                                strcat(flags, "uninitialized, ");
+                                ^
+/libp11/src/eng_back.c:683:5: warning: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+                                strcat(flags, "no pin, ");
+                                ^
+/libp11/src/eng_back.c:683:5: note: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119
+                                strcat(flags, "no pin, ");
+                                ^
+/libp11/src/eng_back.c:685:5: warning: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+                                strcat(flags, "login, ");
+                                ^
+/libp11/src/eng_back.c:685:5: note: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119
+                                strcat(flags, "login, ");
+                                ^
+/libp11/src/eng_back.c:687:5: warning: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+                                strcat(flags, "ro, ");
+                                ^
+/libp11/src/eng_back.c:687:5: note: Call to function 'strcat' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcat'. CWE-119
+                                strcat(flags, "ro, ");
+                                ^
+/libp11/src/eng_back.c:689:4: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+                        strcpy(flags, "no token");
+                        ^
+/libp11/src/eng_back.c:689:4: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+                        strcpy(flags, "no token");
+                        ^
+/libp11/src/p11_attr.c:125:2: warning: Null pointer passed as an argument to a 'nonnull' parameter [clang-analyzer-core.NonNullParamChecker]
+        memcpy(ap->pValue, data, size);
+        ^
+/libp11/src/p11_attr.c:144:30: note: Assuming 's' is null
+        pkcs11_addattr(ap, type, s, s ? strlen(s) : 0); /* RFC2279 string an unpadded string of CK_UTF8CHARs with no null-termination */
+                                    ^
+/libp11/src/p11_attr.c:144:30: note: '?' condition is false
+        pkcs11_addattr(ap, type, s, s ? strlen(s) : 0); /* RFC2279 string an unpadded string of CK_UTF8CHARs with no null-termination */
+                                    ^
+/libp11/src/p11_attr.c:144:27: note: Passing value via 3rd parameter 'data'
+        pkcs11_addattr(ap, type, s, s ? strlen(s) : 0); /* RFC2279 string an unpadded string of CK_UTF8CHARs with no null-termination */
+                                 ^
+/libp11/src/p11_attr.c:144:2: note: Calling 'pkcs11_addattr'
+        pkcs11_addattr(ap, type, s, s ? strlen(s) : 0); /* RFC2279 string an unpadded string of CK_UTF8CHARs with no null-termination */
+        ^
+/libp11/src/p11_attr.c:123:6: note: Assuming the condition is false
+        if (ap->pValue == NULL)
+            ^
+/libp11/src/p11_attr.c:123:2: note: Taking false branch
+        if (ap->pValue == NULL)
+        ^
+/libp11/src/p11_attr.c:125:2: note: Null pointer passed as an argument to a 'nonnull' parameter
+        memcpy(ap->pValue, data, size);
+        ^
+/libp11/src/p11_key.c:87:16: warning: The right operand of '<' is a garbage value [clang-analyzer-core.UndefinedBinaryOperatorResult]
+        for (n = 0; n < count; n++) {
+                      ^
+/libp11/src/p11_key.c:324:2: note: Taking true branch
+        if (key->isPrivate != isPrivate)
+        ^
+/libp11/src/p11_key.c:325:9: note: Calling 'pkcs11_find_key_from_key'
+                key = pkcs11_find_key_from_key(key);
+                      ^
+/libp11/src/p11_key.c:82:18: note: 'count' declared without an initial value
+        unsigned int n, count;
+                        ^
+/libp11/src/p11_key.c:85:3: note: Assuming the condition is false
+                keyin->isPrivate ? CKO_PUBLIC_KEY : CKO_PRIVATE_KEY, /* other type */
+                ^
+/libp11/src/p11_key.c:85:3: note: '?' condition is false
+                keyin->isPrivate ? CKO_PUBLIC_KEY : CKO_PRIVATE_KEY, /* other type */
+                ^
+/libp11/src/p11_key.c:84:2: note: Calling 'pkcs11_enumerate_keys'
+        pkcs11_enumerate_keys(KEY2TOKEN(keyin),
+        ^
+/libp11/src/p11_key.c:417:22: note: '?' condition is true
+        PKCS11_keys *keys = (type == CKO_PRIVATE_KEY) ? &tpriv->prv : &tpriv->pub;
+                            ^
+/libp11/src/p11_key.c:423:6: note: Assuming the condition is false
+        if (!spriv->haveSession && PKCS11_open_session(slot, 0))
+            ^
+/libp11/src/p11_key.c:423:26: note: Left side of '&&' is false
+        if (!spriv->haveSession && PKCS11_open_session(slot, 0))
+                                ^
+/libp11/src/p11_key.c:426:27: note: Assuming the condition is false
+        CRYPTO_THREAD_write_lock(cpriv->rwlock);
+                                 ^
+/libp11/src/libp11-int.h:145:5: note: expanded from macro 'CRYPTO_THREAD_write_lock'
+        if(type) CRYPTO_lock(CRYPTO_LOCK|CRYPTO_WRITE,type,__FILE__,__LINE__)
+           ^
+/libp11/src/p11_key.c:426:2: note: Taking false branch
+        CRYPTO_THREAD_write_lock(cpriv->rwlock);
+        ^
+/libp11/src/libp11-int.h:145:2: note: expanded from macro 'CRYPTO_THREAD_write_lock'
+        if(type) CRYPTO_lock(CRYPTO_LOCK|CRYPTO_WRITE,type,__FILE__,__LINE__)
+        ^
+/libp11/src/p11_key.c:428:2: note: Taking false branch
+        CRYPTO_THREAD_unlock(cpriv->rwlock);
+        ^
+/libp11/src/libp11-int.h:147:2: note: expanded from macro 'CRYPTO_THREAD_unlock'
+        if(type) CRYPTO_lock(CRYPTO_UNLOCK|CRYPTO_WRITE,type,__FILE__,__LINE__)
+        ^
+/libp11/src/p11_key.c:429:6: note: Assuming 'rv' is < 0
+        if (rv < 0) {
+            ^
+/libp11/src/p11_key.c:429:2: note: Taking true branch
+        if (rv < 0) {
+        ^
+/libp11/src/p11_key.c:84:2: note: Returning from 'pkcs11_enumerate_keys'
+        pkcs11_enumerate_keys(KEY2TOKEN(keyin),
+        ^
+/libp11/src/p11_key.c:87:16: note: The right operand of '<' is a garbage value
+        for (n = 0; n < count; n++) {
+                      ^
+/libp11/src/p11_key.c:88:31: warning: Access to field '_private' results in a dereference of a null pointer [clang-analyzer-core.NullDereference]
+                PKCS11_KEY_private *kpriv = PRIVKEY(&keys[n]);
+                                            ^
+/libp11/src/libp11-int.h:101:47: note: expanded from macro 'PRIVKEY'
+#define PRIVKEY(key)            ((PKCS11_KEY_private *) (key)->_private)
+                                                        ^
+/libp11/src/p11_key.c:324:2: note: Taking true branch
+        if (key->isPrivate != isPrivate)
+        ^
+/libp11/src/p11_key.c:325:9: note: Calling 'pkcs11_find_key_from_key'
+                key = pkcs11_find_key_from_key(key);
+                      ^
+/libp11/src/p11_key.c:85:3: note: Assuming the condition is false
+                keyin->isPrivate ? CKO_PUBLIC_KEY : CKO_PRIVATE_KEY, /* other type */
+                ^
+/libp11/src/p11_key.c:85:3: note: '?' condition is false
+                keyin->isPrivate ? CKO_PUBLIC_KEY : CKO_PRIVATE_KEY, /* other type */
+                ^
+/libp11/src/p11_key.c:87:14: note: Assuming 'n' is < 'count'
+        for (n = 0; n < count; n++) {
+                    ^
+/libp11/src/p11_key.c:87:2: note: Loop condition is true.  Entering loop body
+        for (n = 0; n < count; n++) {
+        ^
+/libp11/src/p11_key.c:88:31: note: Access to field '_private' results in a dereference of a null pointer
+                PKCS11_KEY_private *kpriv = PRIVKEY(&keys[n]);
+                                            ^
+/libp11/src/libp11-int.h:101:47: note: expanded from macro 'PRIVKEY'
+#define PRIVKEY(key)            ((PKCS11_KEY_private *) (key)->_private)
+                                                        ^
