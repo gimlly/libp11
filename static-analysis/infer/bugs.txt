@@ -1,0 +1,46 @@
+Found 5 issues
+
+examples/listkeys.c:100: error: UNINITIALIZED_VALUE
+  The value read from nslots was never initialized.
+  98.   end:
+  99.   	if (slots)
+  100. > 		PKCS11_release_all_slots(ctx, slots, nslots);
+  101.   	if (ctx) {
+  102.   		PKCS11_CTX_unload(ctx);
+
+src/p11_cert.c:150: error: DEAD_STORE
+  The value written to &cert_search_class (type unsigned long) is never used.
+  148.   
+  149.   	/* Tell the PKCS11 lib to enumerate all matching objects */
+  150. > 	cert_search_class = CKO_CERTIFICATE;
+  151.   	rv = CRYPTOKI_call(ctx, C_FindObjectsInit(spriv->session, cert_search_attrs, 1));
+  152.   	CRYPTOKI_checkerr(CKR_F_PKCS11_FIND_CERTS, rv);
+
+src/p11_cert.c:147: error: DEAD_STORE
+  The value written to &res (type int) is never used.
+  145.   		{CKA_CLASS, &cert_search_class, sizeof(cert_search_class)},
+  146.   	};
+  147. > 	int rv, res = -1;
+  148.   
+  149.   	/* Tell the PKCS11 lib to enumerate all matching objects */
+
+src/p11_key.c:511: error: DEAD_STORE
+  The value written to &key_search_class (type unsigned long) is never used.
+  509.   
+  510.   	/* Tell the PKCS11 lib to enumerate all matching objects */
+  511. > 	key_search_class = type;
+  512.   	rv = CRYPTOKI_call(ctx,
+  513.   		C_FindObjectsInit(spriv->session, key_search_attrs, 1));
+
+src/p11_key.c:508: error: DEAD_STORE
+  The value written to &res (type int) is never used.
+  506.   		{CKA_CLASS, &key_search_class, sizeof(key_search_class)},
+  507.   	};
+  508. > 	int rv, res = -1;
+  509.   
+  510.   	/* Tell the PKCS11 lib to enumerate all matching objects */
+
+Summary of the reports
+
+           DEAD_STORE: 4
+  UNINITIALIZED_VALUE: 1
