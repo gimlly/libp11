@@ -1,0 +1,16 @@
+src/p11_pkey.c: In function ‘pkcs11_try_pkey_ec_sign’:
+src/p11_pkey.c:523:50: warning: unused parameter ‘evp_pkey_ctx’ [-Wunused-parameter]
+ static int pkcs11_try_pkey_ec_sign(EVP_PKEY_CTX *evp_pkey_ctx,
+                                                  ^~~~~~~~~~~~
+src/p11_pkey.c:524:18: warning: unused parameter ‘sig’ [-Wunused-parameter]
+   unsigned char *sig, size_t *siglen,
+                  ^~~
+src/p11_pkey.c:524:31: warning: unused parameter ‘siglen’ [-Wunused-parameter]
+   unsigned char *sig, size_t *siglen,
+                               ^~~~~~
+src/p11_pkey.c:525:24: warning: unused parameter ‘tbs’ [-Wunused-parameter]
+   const unsigned char *tbs, size_t tbslen)
+                        ^~~
+src/p11_pkey.c:525:36: warning: unused parameter ‘tbslen’ [-Wunused-parameter]
+   const unsigned char *tbs, size_t tbslen)
+                                    ^~~~~~
