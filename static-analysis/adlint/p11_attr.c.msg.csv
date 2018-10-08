@@ -1,0 +1,513 @@
+W,p11_attr.c,1,1,c_builtin,W0576,UNC,X99,The character except for basic source character is used in the comment of source file `p11_attr.c'.
+W,config.h,64,1,c_builtin,W0576,UNC,X99,The character except for basic source character is used in the comment of source file `config.h'.
+W,p11_err.h,26,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11.h,42,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11.h,415,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,pkcs11.h,799,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,pkcs11.h,801,17,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,pkcs11.h,800,32,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,pkcs11.h,801,22,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,pkcs11.h,1267,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,pkcs11.h,1267,42,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,pkcs11.h,1267,57,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,54,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,68,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,69,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,82,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,83,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,84,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,101,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,102,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,103,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,104,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,112,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,113,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,114,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,115,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,123,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,126,11,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,126,14,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,131,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,132,24,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,136,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,137,25,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,144,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,145,48,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,146,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,147,50,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,148,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,149,47,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,150,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,151,49,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,156,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,190,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,193,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,196,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,203,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,pkcs11.h,766,3,c_builtin,W0491,UNC,X99,The same identifier name `CK_ECDH1_DERIVE_PARAMS' is also used in the declaration of other namespace.
+C,pkcs11.h,760,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `CK_ECDH1_DERIVE_PARAMS'.
+W,pkcs11.h,776,3,c_builtin,W0491,UNC,X99,The same identifier name `CK_RSA_PKCS_OAEP_PARAMS' is also used in the declaration of other namespace.
+C,pkcs11.h,770,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `CK_RSA_PKCS_OAEP_PARAMS'.
+W,pkcs11.h,782,3,c_builtin,W0491,UNC,X99,The same identifier name `CK_RSA_PKCS_PSS_PARAMS' is also used in the declaration of other namespace.
+C,pkcs11.h,778,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `CK_RSA_PKCS_PSS_PARAMS'.
+W,p11_attr.c,36,12,c_builtin,W1076,UNC,X99,`pkcs11_getattr_int' has internal-linkage without any prototype declarations.
+W,p11_attr.c,36,66,c_builtin,W0492,UNC,X99,"The same identifier name `session' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11-int.h,60,20,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `session'.
+W,p11_attr.c,37,41,c_builtin,W0492,UNC,X99,"The same identifier name `type' is also used in the member of structure/union, label, tag or normal identifier."
+C,pkcs11.h,468,23,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+C,libp11-int.h,87,6,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+W,p11_attr.c,45,21,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,38,11,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_attr.c,47,7,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,36,43,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_attr.c,47,7,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_attr.c,47,7,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_attr.c,47,7,c_builtin,W9003,UNC,X99,An object typed `CK_RV' is implicitly converted into an object of type `int'.
+W,p11_attr.c,48,2,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_attr.c,50,2,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,38,11,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_attr.c,41,6,c_builtin,W0100,UNC,X99,The variable `rv' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_attr.c,36,43,c_builtin,W0104,UNC,X99,The value of formal argument `ctx' is not change. It can be declarable with 'const'.
+W,p11_attr.c,36,66,c_builtin,W0104,UNC,X99,The value of formal argument `session' is not change. It can be declarable with 'const'.
+W,p11_attr.c,37,20,c_builtin,W0104,UNC,X99,The value of formal argument `o' is not change. It can be declarable with 'const'.
+W,p11_attr.c,37,41,c_builtin,W0104,UNC,X99,The value of formal argument `type' is not change. It can be declarable with 'const'.
+W,p11_attr.c,37,56,c_builtin,W0104,UNC,X99,The value of formal argument `value' is not change. It can be declarable with 'const'.
+W,p11_attr.c,38,11,c_builtin,W0104,UNC,X99,The value of formal argument `size' is not change. It can be declarable with 'const'.
+W,p11_attr.c,36,43,c_builtin,W0105,UNC,X99,The object which points the formal argument `ctx' is not change. It can be declaring as pointer type which points const object.
+W,p11_attr.c,37,56,c_builtin,W0105,UNC,X99,The object which points the formal argument `value' is not change. It can be declaring as pointer type which points const object.
+W,p11_attr.c,36,12,c_builtin,W1071,UNC,X99,Function `pkcs11_getattr_int' has multiple termination points.
+W,p11_attr.c,54,38,c_builtin,W0492,UNC,X99,"The same identifier name `token' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11.h,104,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `token'.
+W,p11_attr.c,54,62,c_builtin,W0492,UNC,X99,"The same identifier name `object' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11-int.h,94,19,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `object'.
+C,libp11-int.h,108,19,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `object'.
+W,p11_attr.c,55,16,c_builtin,W0492,UNC,X99,"The same identifier name `type' is also used in the member of structure/union, label, tag or normal identifier."
+C,pkcs11.h,468,23,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+C,libp11-int.h,87,6,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+W,p11_attr.c,57,28,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,54,38,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_attr.c,58,3,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,54,38,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_attr.c,58,30,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+W,p11_attr.c,59,11,c_builtin,W9003,UNC,X99,An object typed `unsigned int' is implicitly converted into an object of type `CK_ATTRIBUTE_TYPE'.
+W,p11_attr.c,54,38,c_builtin,W0104,UNC,X99,The value of formal argument `token' is not change. It can be declarable with 'const'.
+W,p11_attr.c,54,62,c_builtin,W0104,UNC,X99,The value of formal argument `object' is not change. It can be declarable with 'const'.
+W,p11_attr.c,55,16,c_builtin,W0104,UNC,X99,The value of formal argument `type' is not change. It can be declarable with 'const'.
+W,p11_attr.c,55,31,c_builtin,W0104,UNC,X99,The value of formal argument `value' is not change. It can be declarable with 'const'.
+W,p11_attr.c,55,46,c_builtin,W0104,UNC,X99,The value of formal argument `size' is not change. It can be declarable with 'const'.
+W,p11_attr.c,54,38,c_builtin,W0105,UNC,X99,The object which points the formal argument `token' is not change. It can be declaring as pointer type which points const object.
+W,p11_attr.c,55,31,c_builtin,W0105,UNC,X99,The object which points the formal argument `value' is not change. It can be declaring as pointer type which points const object.
+W,p11_attr.c,55,46,c_builtin,W0105,UNC,X99,The object which points the formal argument `size' is not change. It can be declaring as pointer type which points const object.
+W,p11_attr.c,62,38,c_builtin,W0492,UNC,X99,"The same identifier name `token' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11.h,104,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `token'.
+W,p11_attr.c,62,62,c_builtin,W0492,UNC,X99,"The same identifier name `object' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11-int.h,94,19,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `object'.
+C,libp11-int.h,108,19,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `object'.
+W,p11_attr.c,63,16,c_builtin,W0492,UNC,X99,"The same identifier name `type' is also used in the member of structure/union, label, tag or normal identifier."
+C,pkcs11.h,468,23,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+C,libp11-int.h,87,6,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+W,p11_attr.c,65,49,c_builtin,W9003,UNC,X99,An object typed `void *' is implicitly converted into an object of type `CK_BYTE *'.
+W,p11_attr.c,62,38,c_builtin,W0104,UNC,X99,The value of formal argument `token' is not change. It can be declarable with 'const'.
+W,p11_attr.c,62,62,c_builtin,W0104,UNC,X99,The value of formal argument `object' is not change. It can be declarable with 'const'.
+W,p11_attr.c,63,16,c_builtin,W0104,UNC,X99,The value of formal argument `type' is not change. It can be declarable with 'const'.
+W,p11_attr.c,63,28,c_builtin,W0104,UNC,X99,The value of formal argument `value' is not change. It can be declarable with 'const'.
+W,p11_attr.c,62,38,c_builtin,W0105,UNC,X99,The object which points the formal argument `token' is not change. It can be declaring as pointer type which points const object.
+W,p11_attr.c,63,28,c_builtin,W0105,UNC,X99,The object which points the formal argument `value' is not change. It can be declaring as pointer type which points const object.
+W,p11_attr.c,68,40,c_builtin,W0492,UNC,X99,"The same identifier name `token' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11.h,104,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `token'.
+W,p11_attr.c,68,64,c_builtin,W0492,UNC,X99,"The same identifier name `object' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11-int.h,94,19,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `object'.
+C,libp11-int.h,108,19,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `object'.
+W,p11_attr.c,69,16,c_builtin,W0492,UNC,X99,"The same identifier name `type' is also used in the member of structure/union, label, tag or normal identifier."
+C,pkcs11.h,468,23,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+C,libp11-int.h,87,6,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+W,p11_attr.c,72,15,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_attr.c,72,15,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,p11_attr.c,76,9,c_builtin,W1049,UNC,X99,The result of conversion to signed integer type in integer expression might not be expressed by a signed type.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,72,9,c_builtin,C1006,INF,X99,New value is assigned to the problematic variable.
+C,p11_attr.c,74,24,c_builtin,C1006,INF,X99,New value is assigned to the problematic variable.
+W,p11_attr.c,76,9,c_builtin,W0723,UNC,X99,A value of signed statement might be overflow.
+W,p11_attr.c,76,9,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_attr.c,76,9,c_builtin,W9003,UNC,X99,An object typed `void *' is implicitly converted into an object of type `CK_BYTE *'.
+W,p11_attr.c,78,3,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_attr.c,78,3,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_attr.c,81,22,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_attr.c,71,11,c_builtin,W0100,UNC,X99,The variable `data' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_attr.c,68,40,c_builtin,W0104,UNC,X99,The value of formal argument `token' is not change. It can be declarable with 'const'.
+W,p11_attr.c,68,64,c_builtin,W0104,UNC,X99,The value of formal argument `object' is not change. It can be declarable with 'const'.
+W,p11_attr.c,69,16,c_builtin,W0104,UNC,X99,The value of formal argument `type' is not change. It can be declarable with 'const'.
+W,p11_attr.c,69,32,c_builtin,W0104,UNC,X99,The value of formal argument `value' is not change. It can be declarable with 'const'.
+W,p11_attr.c,69,47,c_builtin,W0104,UNC,X99,The value of formal argument `size' is not change. It can be declarable with 'const'.
+W,p11_attr.c,68,40,c_builtin,W0105,UNC,X99,The object which points the formal argument `token' is not change. It can be declaring as pointer type which points const object.
+W,p11_attr.c,68,5,c_builtin,W1071,UNC,X99,Function `pkcs11_getattr_alloc' has multiple termination points.
+W,p11_attr.c,81,8,c_builtin,W1073,UNC,X99,Return value of the function `memset' is discarded.
+W,p11_attr.c,93,37,c_builtin,W0492,UNC,X99,"The same identifier name `token' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11.h,104,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `token'.
+W,p11_attr.c,93,61,c_builtin,W0492,UNC,X99,"The same identifier name `object' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11-int.h,94,19,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `object'.
+C,libp11-int.h,108,19,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `object'.
+W,p11_attr.c,94,16,c_builtin,W0492,UNC,X99,"The same identifier name `type' is also used in the member of structure/union, label, tag or normal identifier."
+C,pkcs11.h,468,23,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+C,libp11-int.h,87,6,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+W,p11_attr.c,99,9,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_attr.c,99,9,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,p11_attr.c,100,48,c_builtin,W0459,UNC,X99,A value of variable `binary' doesn't set when this expression is evaluated. This program is danger.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,96,11,c_builtin,C1003,INF,X99,The problematic variable is defined here without initializer.
+W,p11_attr.c,106,14,c_builtin,W0607,UNC,X99,An integer expression which the value which the value is minus converted to unsigned type.
+W,p11_attr.c,107,3,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_attr.c,107,3,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_attr.c,111,2,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,94,31,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_attr.c,111,26,c_builtin,W1049,UNC,X99,The result of conversion to signed integer type in integer expression might not be expressed by a signed type.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,97,9,c_builtin,C1006,INF,X99,New value is assigned to the problematic variable.
+C,p11_attr.c,99,7,c_builtin,C1006,INF,X99,New value is assigned to the problematic variable.
+C,p11_attr.c,100,26,c_builtin,C1006,INF,X99,New value is assigned to the problematic variable.
+W,p11_attr.c,111,37,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,94,31,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_attr.c,113,9,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,94,31,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_attr.c,96,11,c_builtin,W0100,UNC,X99,The variable `binary' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_attr.c,93,37,c_builtin,W0104,UNC,X99,The value of formal argument `token' is not change. It can be declarable with 'const'.
+W,p11_attr.c,93,61,c_builtin,W0104,UNC,X99,The value of formal argument `object' is not change. It can be declarable with 'const'.
+W,p11_attr.c,94,16,c_builtin,W0104,UNC,X99,The value of formal argument `type' is not change. It can be declarable with 'const'.
+W,p11_attr.c,94,31,c_builtin,W0104,UNC,X99,The value of formal argument `bn' is not change. It can be declarable with 'const'.
+W,p11_attr.c,93,37,c_builtin,W0105,UNC,X99,The object which points the formal argument `token' is not change. It can be declaring as pointer type which points const object.
+W,p11_attr.c,93,5,c_builtin,W1071,UNC,X99,Function `pkcs11_getattr_bn' has multiple termination points.
+W,p11_attr.c,119,46,c_builtin,W0492,UNC,X99,"The same identifier name `type' is also used in the member of structure/union, label, tag or normal identifier."
+C,pkcs11.h,468,23,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+C,libp11-int.h,87,6,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+W,p11_attr.c,121,4,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,119,38,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_attr.c,121,13,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_attr.c,121,13,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `CK_ATTRIBUTE_TYPE'.
+W,p11_attr.c,122,4,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,119,38,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_attr.c,122,15,c_builtin,W1049,UNC,X99,The result of conversion to signed integer type in integer expression might not be expressed by a signed type.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,119,77,c_builtin,C1006,INF,X99,New value is assigned to the problematic variable.
+W,p11_attr.c,122,15,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_attr.c,123,8,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,119,38,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_attr.c,125,11,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,119,38,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_attr.c,126,4,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,119,38,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_attr.c,119,38,c_builtin,W0104,UNC,X99,The value of formal argument `ap' is not change. It can be declarable with 'const'.
+W,p11_attr.c,119,46,c_builtin,W0104,UNC,X99,The value of formal argument `type' is not change. It can be declarable with 'const'.
+W,p11_attr.c,119,64,c_builtin,W0104,UNC,X99,The value of formal argument `data' is not change. It can be declarable with 'const'.
+W,p11_attr.c,119,77,c_builtin,W0104,UNC,X99,The value of formal argument `size' is not change. It can be declarable with 'const'.
+W,p11_attr.c,119,38,c_builtin,W0105,UNC,X99,The object which points the formal argument `ap' is not change. It can be declaring as pointer type which points const object.
+W,p11_attr.c,119,6,c_builtin,W1071,UNC,X99,Function `pkcs11_addattr' has multiple termination points.
+W,p11_attr.c,125,8,c_builtin,W1073,UNC,X99,Return value of the function `memcpy' is discarded.
+W,p11_attr.c,130,50,c_builtin,W0492,UNC,X99,"The same identifier name `type' is also used in the member of structure/union, label, tag or normal identifier."
+C,pkcs11.h,468,23,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+C,libp11-int.h,87,6,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+W,p11_attr.c,132,11,c_builtin,W0100,UNC,X99,The variable `ulValue' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_attr.c,130,42,c_builtin,W0104,UNC,X99,The value of formal argument `ap' is not change. It can be declarable with 'const'.
+W,p11_attr.c,130,50,c_builtin,W0104,UNC,X99,The value of formal argument `type' is not change. It can be declarable with 'const'.
+W,p11_attr.c,130,70,c_builtin,W0104,UNC,X99,The value of formal argument `value' is not change. It can be declarable with 'const'.
+W,p11_attr.c,130,42,c_builtin,W0105,UNC,X99,The object which points the formal argument `ap' is not change. It can be declaring as pointer type which points const object.
+W,p11_attr.c,137,51,c_builtin,W0492,UNC,X99,"The same identifier name `type' is also used in the member of structure/union, label, tag or normal identifier."
+C,pkcs11.h,468,23,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+C,libp11-int.h,87,6,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+W,p11_attr.c,137,43,c_builtin,W0104,UNC,X99,The value of formal argument `ap' is not change. It can be declarable with 'const'.
+W,p11_attr.c,137,51,c_builtin,W0104,UNC,X99,The value of formal argument `type' is not change. It can be declarable with 'const'.
+W,p11_attr.c,137,61,c_builtin,W0104,UNC,X99,The value of formal argument `value' is not change. It can be declarable with 'const'.
+W,p11_attr.c,137,43,c_builtin,W0105,UNC,X99,The object which points the formal argument `ap' is not change. It can be declaring as pointer type which points const object.
+W,p11_attr.c,142,48,c_builtin,W0492,UNC,X99,"The same identifier name `type' is also used in the member of structure/union, label, tag or normal identifier."
+C,pkcs11.h,468,23,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+C,libp11-int.h,87,6,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+W,p11_attr.c,142,40,c_builtin,W0104,UNC,X99,The value of formal argument `ap' is not change. It can be declarable with 'const'.
+W,p11_attr.c,142,48,c_builtin,W0104,UNC,X99,The value of formal argument `type' is not change. It can be declarable with 'const'.
+W,p11_attr.c,142,66,c_builtin,W0104,UNC,X99,The value of formal argument `s' is not change. It can be declarable with 'const'.
+W,p11_attr.c,142,40,c_builtin,W0105,UNC,X99,The object which points the formal argument `ap' is not change. It can be declaring as pointer type which points const object.
+W,p11_attr.c,147,49,c_builtin,W0492,UNC,X99,"The same identifier name `type' is also used in the member of structure/union, label, tag or normal identifier."
+C,pkcs11.h,468,23,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+C,libp11-int.h,87,6,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+W,p11_attr.c,152,2,c_builtin,W0723,UNC,X99,A value of signed statement might be overflow.
+W,p11_attr.c,152,2,c_builtin,W0579,UNC,X99,A generic integer value of the compound expression typed `int' is explicitly converted into a new value of bigger type `size_t'.
+W,p11_attr.c,152,2,c_builtin,W0608,UNC,X99,An integer expression which the value might be minus converted to unsigned type.
+W,p11_attr.c,152,2,c_builtin,W0109,UNC,X99,"The definition of this function doesn't found. It consider it was omitted, and insert `extern int __func__()'."
+W,p11_attr.c,152,2,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `unsigned int'.
+W,p11_attr.c,152,2,c_builtin,W9003,UNC,X99,An object typed `int(*)()' is implicitly converted into an object of type `char const *'.
+W,p11_attr.c,152,2,c_builtin,W0644,UNC,X99,A value in void statement is going to use. 'void' statement doesn't have a value.
+W,p11_attr.c,153,15,c_builtin,W0167,UNC,X99,Implicit conversion from `signed int' to `unsigned int'.
+W,p11_attr.c,154,33,c_builtin,W9003,UNC,X99,An object typed `unsigned int' is implicitly converted into an object of type `size_t'.
+W,p11_attr.c,149,16,c_builtin,W0100,UNC,X99,The variable `temp' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_attr.c,150,15,c_builtin,W0100,UNC,X99,The variable `n' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_attr.c,147,41,c_builtin,W0104,UNC,X99,The value of formal argument `ap' is not change. It can be declarable with 'const'.
+W,p11_attr.c,147,49,c_builtin,W0104,UNC,X99,The value of formal argument `type' is not change. It can be declarable with 'const'.
+W,p11_attr.c,147,69,c_builtin,W0104,UNC,X99,The value of formal argument `bn' is not change. It can be declarable with 'const'.
+W,p11_attr.c,147,41,c_builtin,W0105,UNC,X99,The object which points the formal argument `ap' is not change. It can be declaring as pointer type which points const object.
+W,p11_attr.c,157,50,c_builtin,W0492,UNC,X99,"The same identifier name `type' is also used in the member of structure/union, label, tag or normal identifier."
+C,pkcs11.h,468,23,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+C,libp11-int.h,87,6,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+W,p11_attr.c,161,4,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,157,42,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_attr.c,161,13,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_attr.c,161,13,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `CK_ATTRIBUTE_TYPE'.
+W,p11_attr.c,162,4,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,157,42,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_attr.c,162,22,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_attr.c,163,4,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,157,42,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_attr.c,163,15,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,157,42,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_attr.c,163,15,c_builtin,W1049,UNC,X99,The result of conversion to signed integer type in integer expression might not be expressed by a signed type.
+W,p11_attr.c,163,15,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_attr.c,164,8,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,157,42,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_attr.c,166,8,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,157,42,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_attr.c,166,8,c_builtin,W9003,UNC,X99,An object typed `void *' is implicitly converted into an object of type `unsigned char *'.
+W,p11_attr.c,157,42,c_builtin,W0104,UNC,X99,The value of formal argument `ap' is not change. It can be declarable with 'const'.
+W,p11_attr.c,157,50,c_builtin,W0104,UNC,X99,The value of formal argument `type' is not change. It can be declarable with 'const'.
+W,p11_attr.c,157,70,c_builtin,W0104,UNC,X99,The value of formal argument `enc' is not change. It can be declarable with 'const'.
+W,p11_attr.c,157,81,c_builtin,W0104,UNC,X99,The value of formal argument `obj' is not change. It can be declarable with 'const'.
+W,p11_attr.c,157,42,c_builtin,W0105,UNC,X99,The object which points the formal argument `ap' is not change. It can be declaring as pointer type which points const object.
+W,p11_attr.c,157,81,c_builtin,W0105,UNC,X99,The object which points the formal argument `obj' is not change. It can be declaring as pointer type which points const object.
+W,p11_attr.c,157,6,c_builtin,W1071,UNC,X99,Function `pkcs11_addattr_obj' has multiple termination points.
+W,p11_attr.c,167,5,c_builtin,W1073,UNC,X99,Return value of the function `(anon)' is discarded.
+W,p11_attr.c,173,10,c_builtin,W0147,UNC,X99,An implicit type conversion from unsigned int to signed int.
+W,p11_attr.c,173,9,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,170,40,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_attr.c,174,4,c_builtin,W0147,UNC,X99,An implicit type conversion from unsigned int to signed int.
+W,p11_attr.c,174,4,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_attr.c,170,40,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_attr.c,170,40,c_builtin,W0104,UNC,X99,The value of formal argument `ap' is not change. It can be declarable with 'const'.
+W,p11_attr.c,170,40,c_builtin,W0105,UNC,X99,The object which points the formal argument `ap' is not change. It can be declaring as pointer type which points const object.
+W,libp11.h,39,5,c_builtin,W0771,UNC,X99,A global identifier `ERR_load_CKR_strings' is declared in more than one file.
+C,libp11-int.h,133,12,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `ERR_load_CKR_strings'.
+W,libp11-int.h,133,12,c_builtin,W0771,UNC,X99,A global identifier `ERR_load_CKR_strings' is declared in more than one file.
+C,libp11.h,39,5,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `ERR_load_CKR_strings'.
+W,libp11-int.h,27,1,c_builtin,W0073,UNC,X99,No include guard in this include file.
+W,p11_err.h,26,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11.h,28,1,c_builtin,W0073,UNC,X99,No include guard in this include file.
+W,libp11.h,42,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,pkcs11.h,271,1,c_builtin,W0479,UNC,X99,This macro definition might be replaced with 'typedef' declaration.
+W,pkcs11.h,799,1,c_builtin,W0478,UNC,X99,This macro defines scraps of unrecognized codes.
+W,pkcs11.h,1267,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,69,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,83,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,84,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,102,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,103,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,104,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,113,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,114,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,115,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,131,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,144,1,c_builtin,W0478,UNC,X99,This macro defines scraps of unrecognized codes.
+W,libp11-int.h,146,1,c_builtin,W0478,UNC,X99,This macro defines scraps of unrecognized codes.
+W,libp11-int.h,148,1,c_builtin,W0478,UNC,X99,This macro defines scraps of unrecognized codes.
+W,libp11-int.h,150,1,c_builtin,W0478,UNC,X99,This macro defines scraps of unrecognized codes.
+W,libp11-int.h,156,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,190,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,193,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,196,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,203,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,pkcs11.h,188,8,c_builtin,W0809,UNC,X99,An identifier `_CK_VERSION' is reserved by the library.
+W,pkcs11.h,195,8,c_builtin,W0809,UNC,X99,An identifier `_CK_INFO' is reserved by the library.
+W,pkcs11.h,213,8,c_builtin,W0809,UNC,X99,An identifier `_CK_SLOT_INFO' is reserved by the library.
+W,pkcs11.h,229,8,c_builtin,W0809,UNC,X99,An identifier `_CK_TOKEN_INFO' is reserved by the library.
+W,pkcs11.h,296,8,c_builtin,W0809,UNC,X99,An identifier `_CK_SESSION_INFO' is reserved by the library.
+W,pkcs11.h,466,8,c_builtin,W0809,UNC,X99,An identifier `_CK_ATTRIBUTE' is reserved by the library.
+W,pkcs11.h,474,8,c_builtin,W0809,UNC,X99,An identifier `_CK_DATE' is reserved by the library.
+W,pkcs11.h,717,8,c_builtin,W0809,UNC,X99,An identifier `_CK_MECHANISM' is reserved by the library.
+W,pkcs11.h,725,8,c_builtin,W0809,UNC,X99,An identifier `_CK_MECHANISM_INFO' is reserved by the library.
+W,pkcs11.h,1080,8,c_builtin,W0809,UNC,X99,An identifier `_CK_FUNCTION_LIST' is reserved by the library.
+W,pkcs11.h,1160,8,c_builtin,W0809,UNC,X99,An identifier `_CK_C_INITIALIZE_ARGS' is reserved by the library.
+W,pkcs11.h,1324,30,c_builtin,W0039,UNC,X99,The number of local identifier in the block exceeds 127. This program doesn't meet the strict ISO C90 standards of the term.
+W,libp11-int.h,142,5,c_builtin,W0078,UNC,X99,A function is declared without list of formal argument.
+W,libp11-int.h,160,21,c_builtin,W0078,UNC,X99,A function is declared without list of formal argument.
+W,libp11-int.h,168,14,c_builtin,W0542,UNC,X99,There are identifiers in the part of formal argument in a function declaration.
+W,libp11-int.h,328,12,c_builtin,W0542,UNC,X99,There are identifiers in the part of formal argument in a function declaration.
+W,libp11-int.h,329,12,c_builtin,W0542,UNC,X99,There are identifiers in the part of formal argument in a function declaration.
+W,p11_attr.c,75,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_attr.c,87,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_attr.c,89,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_attr.c,101,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_attr.c,124,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_attr.c,144,32,c_builtin,W0010,UNC,X99,There is a side-effect in this ternary operator (conditional operator).
+W,p11_attr.c,144,32,c_builtin,W0086,UNC,X99,Second or third operand is verbose statement which doesn't have side-effects in ternary operator (conditional operator).
+W,p11_attr.c,149,21,c_builtin,W0950,UNC,X99,Integer constant `1024' is specified directly as an array size.
+W,p11_attr.c,152,2,c_builtin,W0010,UNC,X99,There is a side-effect in this ternary operator (conditional operator).
+W,p11_attr.c,152,2,c_builtin,W0086,UNC,X99,Second or third operand is verbose statement which doesn't have side-effects in ternary operator (conditional operator).
+W,p11_attr.c,165,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_attr.c,174,4,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,libp11-int.h,24,1,c_builtin,W0071,UNC,X99,"Included ""config.h"" is not referenced in the translation unit. It can be removed."
+W,libp11.h,27,1,c_builtin,W0071,UNC,X99,"Included ""p11_err.h"" is not referenced in the translation unit. It can be removed."
+W,p11_attr.c,48,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_attr.c,74,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_attr.c,82,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_attr.c,86,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_attr.c,88,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_attr.c,100,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_attr.c,113,9,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_attr.c,144,30,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_attr.c,172,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_attr.c,173,3,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,pkcs11.h,803,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,804,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,805,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,806,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,809,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,812,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,814,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,816,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,818,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,822,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,825,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,828,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,831,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,836,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,840,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,841,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,842,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,845,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,849,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,855,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,858,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,860,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,864,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,868,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,871,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,875,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,880,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,885,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,889,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,894,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,897,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,901,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,906,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,911,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,916,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,920,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,925,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,930,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,935,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,938,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,943,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,946,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,948,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,953,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,957,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,962,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,965,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,969,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,973,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,979,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,983,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,988,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,991,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,995,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,999,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1006,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1011,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1017,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1022,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1029,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1035,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1044,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1051,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1060,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1068,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1071,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1076,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1077,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,libp11-int.h,58,29,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,libp11-int.h,78,19,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,p11_attr.c,48,2,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,p11_attr.c,40,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,41,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,43,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,44,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,45,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,47,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,48,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,50,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,51,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,57,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,65,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,71,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,72,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,74,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,75,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,76,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,77,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,78,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,79,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,80,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,81,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,82,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,83,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,84,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,85,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,86,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,87,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,88,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,89,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,90,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,96,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,97,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,99,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,100,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,101,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,106,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,107,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,108,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,109,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,110,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,111,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,112,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,113,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,121,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,122,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,123,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,124,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,125,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,126,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,132,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,134,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,139,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,144,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,149,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,150,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,153,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,154,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,159,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,161,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,162,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,163,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,164,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,165,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,166,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,167,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,172,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,173,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,174,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_attr.c,175,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.

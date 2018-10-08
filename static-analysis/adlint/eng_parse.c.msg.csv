@@ -1,0 +1,860 @@
+W,eng_parse.c,1,1,c_builtin,W0576,UNC,X99,The character except for basic source character is used in the comment of source file `eng_parse.c'.
+W,p11_err.h,26,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11.h,42,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11.h,428,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,eng_err.h,26,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,eng_parse.c,30,1,c_builtin,W0026,UNC,X99,`/usr/include/stdio.h' is already included by this file indirectly.
+W,eng_parse.c,31,1,c_builtin,W0026,UNC,X99,`/usr/include/string.h' is already included by this file indirectly.
+W,eng_parse.c,33,12,c_builtin,W1076,UNC,X99,`hex_to_bin' has internal-linkage without any prototype declarations.
+W,eng_parse.c,36,23,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,36,23,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,38,20,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,34,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,38,20,c_builtin,W0123,UNC,X99,An implicit type conversion from char to signed int.
+W,eng_parse.c,39,3,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,34,47,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,39,13,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,39,13,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,43,9,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,34,47,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,45,9,c_builtin,W0123,UNC,X99,An implicit type conversion from char to signed int.
+W,eng_parse.c,48,30,c_builtin,W0123,UNC,X99,An implicit type conversion from char to signed int.
+W,eng_parse.c,50,9,c_builtin,W0570,UNC,X99,This signed left shift operation may make undefined value.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,45,13,c_builtin,C1002,INF,X99,This controlling-expression is evaluated to be false.
+W,eng_parse.c,50,9,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,eng_parse.c,50,9,c_builtin,W0794,UNC,X99,Left shift operation of signed value causes implementation-defined behavior.
+W,eng_parse.c,51,11,c_builtin,W0024,UNC,X99,Increment or decrement is being made by pointer variable.
+W,eng_parse.c,52,15,c_builtin,W0123,UNC,X99,An implicit type conversion from char to signed int.
+W,eng_parse.c,52,20,c_builtin,W0123,UNC,X99,An implicit type conversion from char to signed int.
+W,eng_parse.c,53,5,c_builtin,W0123,UNC,X99,An implicit type conversion from char to signed int.
+W,eng_parse.c,53,5,c_builtin,W0136,UNC,X99,An implicit type conversion from signed int to char.
+W,eng_parse.c,54,20,c_builtin,W0123,UNC,X99,An implicit type conversion from char to signed int.
+W,eng_parse.c,54,25,c_builtin,W0123,UNC,X99,An implicit type conversion from char to signed int.
+W,eng_parse.c,55,9,c_builtin,W0123,UNC,X99,An implicit type conversion from char to signed int.
+W,eng_parse.c,55,17,c_builtin,W0136,UNC,X99,An implicit type conversion from signed int to char.
+W,eng_parse.c,56,20,c_builtin,W0123,UNC,X99,An implicit type conversion from char to signed int.
+W,eng_parse.c,56,25,c_builtin,W0123,UNC,X99,An implicit type conversion from char to signed int.
+W,eng_parse.c,57,9,c_builtin,W0123,UNC,X99,An implicit type conversion from char to signed int.
+W,eng_parse.c,57,17,c_builtin,W0136,UNC,X99,An implicit type conversion from signed int to char.
+W,eng_parse.c,61,6,c_builtin,W0123,UNC,X99,An implicit type conversion from char to signed int.
+W,eng_parse.c,62,5,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,34,47,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,62,15,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,62,15,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,65,12,c_builtin,W0123,UNC,X99,An implicit type conversion from char to signed int.
+W,eng_parse.c,65,9,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,eng_parse.c,67,7,c_builtin,W0123,UNC,X99,An implicit type conversion from char to signed int.
+W,eng_parse.c,68,6,c_builtin,W0024,UNC,X99,Increment or decrement is being made by pointer variable.
+W,eng_parse.c,69,15,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,71,4,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,34,47,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,71,14,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,71,14,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,74,12,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,eng_parse.c,74,12,c_builtin,W9003,UNC,X99,An object typed `size_t' is implicitly converted into an object of type `int'.
+W,eng_parse.c,74,6,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,34,34,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,74,18,c_builtin,W0608,UNC,X99,An integer expression which the value might be minus converted to unsigned type.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,45,13,c_builtin,C1001,INF,X99,This controlling-expression is evaluated to be true.
+C,eng_parse.c,48,27,c_builtin,C1001,INF,X99,This controlling-expression is evaluated to be true.
+C,eng_parse.c,50,9,c_builtin,C1006,INF,X99,New value is assigned to the problematic variable.
+C,eng_parse.c,65,9,c_builtin,C1006,INF,X99,New value is assigned to the problematic variable.
+W,eng_parse.c,78,2,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,34,47,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,33,35,c_builtin,W0104,UNC,X99,The value of formal argument `ctx' is not change. It can be declarable with 'const'.
+W,eng_parse.c,34,34,c_builtin,W0104,UNC,X99,The value of formal argument `out' is not change. It can be declarable with 'const'.
+W,eng_parse.c,34,47,c_builtin,W0104,UNC,X99,The value of formal argument `outlen' is not change. It can be declarable with 'const'.
+W,eng_parse.c,33,35,c_builtin,W0105,UNC,X99,The object which points the formal argument `ctx' is not change. It can be declaring as pointer type which points const object.
+W,eng_parse.c,33,12,c_builtin,W1071,UNC,X99,Function `hex_to_bin' has multiple termination points.
+W,eng_parse.c,85,18,c_builtin,W0492,UNC,X99,"The same identifier name `id' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11.h,59,17,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `id'.
+C,libp11.h,70,17,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `id'.
+W,eng_parse.c,85,30,c_builtin,W0492,UNC,X99,"The same identifier name `id_len' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11.h,60,9,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `id_len'.
+C,libp11.h,71,9,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `id_len'.
+W,eng_parse.c,85,45,c_builtin,W0492,UNC,X99,"The same identifier name `label' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11.h,58,8,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `label'.
+C,libp11.h,69,8,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `label'.
+C,libp11.h,78,8,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `label'.
+W,eng_parse.c,96,26,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,96,31,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,96,35,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,85,30,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,100,3,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,29,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,105,28,c_builtin,W0459,UNC,X99,A value of variable `n' doesn't set when this expression is evaluated. This program is danger.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,87,6,c_builtin,C1003,INF,X99,The problematic variable is defined here without initializer.
+W,eng_parse.c,106,13,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,eng_parse.c,106,13,c_builtin,W9003,UNC,X99,An object typed `size_t' is implicitly converted into an object of type `int'.
+W,eng_parse.c,108,14,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,108,14,c_builtin,W0123,UNC,X99,An implicit type conversion from char to signed int.
+W,eng_parse.c,113,14,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,113,14,c_builtin,W0123,UNC,X99,An implicit type conversion from char to signed int.
+W,eng_parse.c,114,4,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,29,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,115,4,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,85,30,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,115,14,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,115,14,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,118,24,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,118,22,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,118,14,c_builtin,W0424,UNC,X99,Arithmetic operation is being made to the pointer which its value might be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,118,40,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,123,26,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,123,30,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,123,35,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,123,39,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,85,30,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,127,3,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,29,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,128,36,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,128,34,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,128,26,c_builtin,W0424,UNC,X99,Arithmetic operation is being made to the pointer which its value might be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,132,30,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,132,30,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,133,24,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,133,22,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,133,14,c_builtin,W0424,UNC,X99,Arithmetic operation is being made to the pointer which its value might be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,133,40,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,138,26,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,138,30,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,138,35,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,138,39,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,85,30,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,142,3,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,29,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,143,36,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,143,34,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,143,26,c_builtin,W0424,UNC,X99,Arithmetic operation is being made to the pointer which its value might be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,147,33,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,147,33,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,148,3,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,29,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,149,3,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,85,45,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,149,12,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,149,12,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,149,12,c_builtin,W0424,UNC,X99,Arithmetic operation is being made to the pointer which its value might be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,149,12,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,eng_parse.c,150,3,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,85,30,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,150,13,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,150,13,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,151,10,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,85,45,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,156,32,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,156,32,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,162,23,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,162,21,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,162,13,c_builtin,W0424,UNC,X99,Arithmetic operation is being made to the pointer which its value might be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,167,23,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,167,21,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,167,13,c_builtin,W0424,UNC,X99,Arithmetic operation is being made to the pointer which its value might be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,167,12,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,eng_parse.c,167,12,c_builtin,W9003,UNC,X99,An object typed `size_t' is implicitly converted into an object of type `int'.
+W,eng_parse.c,169,16,c_builtin,W0723,UNC,X99,A value of signed statement might be overflow.
+W,eng_parse.c,169,13,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,169,13,c_builtin,W0123,UNC,X99,An implicit type conversion from char to signed int.
+W,eng_parse.c,170,3,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,29,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,171,3,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,85,30,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,171,13,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,171,13,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,175,16,c_builtin,W0723,UNC,X99,A value of signed statement might be overflow.
+W,eng_parse.c,175,13,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,175,13,c_builtin,W0123,UNC,X99,An implicit type conversion from char to signed int.
+W,eng_parse.c,180,8,c_builtin,W0723,UNC,X99,A value of signed statement might be overflow.
+W,eng_parse.c,180,12,c_builtin,W0723,UNC,X99,A value of signed statement might be overflow.
+W,eng_parse.c,183,24,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,183,22,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,183,14,c_builtin,W0424,UNC,X99,Arithmetic operation is being made to the pointer which its value might be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,183,34,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,183,34,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,184,24,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,184,22,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,184,14,c_builtin,W0424,UNC,X99,Arithmetic operation is being made to the pointer which its value might be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,184,28,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,184,26,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,184,22,c_builtin,W0424,UNC,X99,Arithmetic operation is being made to the pointer which its value might be NULL.
+W,eng_parse.c,184,44,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,184,48,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,189,26,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,189,30,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,189,34,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,189,39,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,189,43,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,85,30,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,193,3,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,29,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,194,36,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,194,34,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,194,26,c_builtin,W0424,UNC,X99,Arithmetic operation is being made to the pointer which its value might be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,194,40,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,194,38,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,194,34,c_builtin,W0424,UNC,X99,Arithmetic operation is being made to the pointer which its value might be NULL.
+W,eng_parse.c,198,24,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,198,22,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,198,14,c_builtin,W0424,UNC,X99,Arithmetic operation is being made to the pointer which its value might be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,198,37,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,198,37,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,199,3,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,29,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,200,3,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,85,45,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,200,12,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,200,12,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,200,12,c_builtin,W0424,UNC,X99,Arithmetic operation is being made to the pointer which its value might be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,84,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,200,12,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,eng_parse.c,201,3,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,85,30,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,201,13,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,201,13,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,202,10,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,85,45,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,83,38,c_builtin,W0104,UNC,X99,The value of formal argument `ctx' is not change. It can be declarable with 'const'.
+W,eng_parse.c,84,15,c_builtin,W0104,UNC,X99,The value of formal argument `slot_id' is not change. It can be declarable with 'const'.
+W,eng_parse.c,84,29,c_builtin,W0104,UNC,X99,The value of formal argument `slot' is not change. It can be declarable with 'const'.
+W,eng_parse.c,85,18,c_builtin,W0104,UNC,X99,The value of formal argument `id' is not change. It can be declarable with 'const'.
+W,eng_parse.c,85,30,c_builtin,W0104,UNC,X99,The value of formal argument `id_len' is not change. It can be declarable with 'const'.
+W,eng_parse.c,85,45,c_builtin,W0104,UNC,X99,The value of formal argument `label' is not change. It can be declarable with 'const'.
+W,eng_parse.c,83,38,c_builtin,W0105,UNC,X99,The object which points the formal argument `ctx' is not change. It can be declaring as pointer type which points const object.
+W,eng_parse.c,85,18,c_builtin,W0105,UNC,X99,The object which points the formal argument `id' is not change. It can be declaring as pointer type which points const object.
+W,eng_parse.c,83,5,c_builtin,W1071,UNC,X99,Function `parse_slot_id_string' has multiple termination points.
+W,eng_parse.c,209,12,c_builtin,W1076,UNC,X99,`parse_uri_attr' has internal-linkage without any prototype declarations.
+W,eng_parse.c,213,23,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,213,23,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,218,9,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,210,50,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,221,9,c_builtin,W0723,UNC,X99,A value of signed statement might be overflow.
+W,eng_parse.c,221,9,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,eng_parse.c,221,9,c_builtin,W9003,UNC,X99,An object typed `void *' is implicitly converted into an object of type `unsigned char *'.
+W,eng_parse.c,224,17,c_builtin,W0723,UNC,X99,A value of signed statement might be overflow.
+W,eng_parse.c,224,17,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,224,17,c_builtin,W0578,UNC,X99,A generic integer value of the compound expression typed `int' is implicitly converted into a new value of bigger type `size_t'.
+W,eng_parse.c,224,17,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,228,7,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,210,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,228,7,c_builtin,W0123,UNC,X99,An implicit type conversion from char to signed int.
+W,eng_parse.c,233,16,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,233,16,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,235,18,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,210,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,236,18,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,210,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,237,14,c_builtin,W0136,UNC,X99,An implicit type conversion from signed int to char.
+W,eng_parse.c,238,43,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,eng_parse.c,238,43,c_builtin,W9003,UNC,X99,An object typed `size_t' is implicitly converted into an object of type `int'.
+W,eng_parse.c,238,36,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,214,17,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+C,eng_parse.c,217,6,c_builtin,C1001,INF,X99,This controlling-expression is evaluated to be true.
+C,eng_parse.c,218,7,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,238,21,c_builtin,W0581,UNC,X99,The number or type of actual argument is different from the past.
+W,eng_parse.c,240,13,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,240,10,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,240,5,c_builtin,W0424,UNC,X99,Arithmetic operation is being made to the pointer which its value might be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,210,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,244,14,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,eng_parse.c,244,14,c_builtin,W9003,UNC,X99,An object typed `size_t' is implicitly converted into an object of type `int'.
+W,eng_parse.c,244,7,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,214,17,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+C,eng_parse.c,217,6,c_builtin,C1001,INF,X99,This controlling-expression is evaluated to be true.
+C,eng_parse.c,218,7,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,244,26,c_builtin,W0024,UNC,X99,Increment or decrement is being made by pointer variable.
+W,eng_parse.c,244,20,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+W,eng_parse.c,255,8,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,eng_parse.c,255,8,c_builtin,W9003,UNC,X99,An object typed `size_t' is implicitly converted into an object of type `int'.
+W,eng_parse.c,255,7,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,214,17,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+C,eng_parse.c,217,6,c_builtin,C1001,INF,X99,This controlling-expression is evaluated to be true.
+C,eng_parse.c,218,7,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,255,18,c_builtin,W0165,UNC,X99,Implicit conversion from `signed int' to `unsigned char'.
+W,eng_parse.c,256,4,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,210,50,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,209,39,c_builtin,W0104,UNC,X99,The value of formal argument `ctx' is not change. It can be declarable with 'const'.
+W,eng_parse.c,210,50,c_builtin,W0104,UNC,X99,The value of formal argument `field' is not change. It can be declarable with 'const'.
+W,eng_parse.c,211,11,c_builtin,W0104,UNC,X99,The value of formal argument `field_len' is not change. It can be declarable with 'const'.
+W,eng_parse.c,209,39,c_builtin,W0105,UNC,X99,The object which points the formal argument `ctx' is not change. It can be declaring as pointer type which points const object.
+W,eng_parse.c,209,12,c_builtin,W1071,UNC,X99,Function `parse_uri_attr' has multiple termination points.
+W,eng_parse.c,268,18,c_builtin,W0492,UNC,X99,"The same identifier name `id' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11.h,59,17,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `id'.
+C,libp11.h,70,17,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `id'.
+W,eng_parse.c,268,30,c_builtin,W0492,UNC,X99,"The same identifier name `id_len' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11.h,60,9,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `id_len'.
+C,libp11.h,71,9,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `id_len'.
+W,eng_parse.c,269,10,c_builtin,W0492,UNC,X99,"The same identifier name `label' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11.h,58,8,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `label'.
+C,libp11.h,69,8,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `label'.
+C,libp11.h,78,8,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `label'.
+W,eng_parse.c,276,8,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,eng_parse.c,276,8,c_builtin,W9003,UNC,X99,An object typed `void *' is implicitly converted into an object of type `PKCS11_TOKEN *'.
+W,eng_parse.c,284,14,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,284,12,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,284,8,c_builtin,W0424,UNC,X99,Arithmetic operation is being made to the pointer which its value might be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,267,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,285,18,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+W,eng_parse.c,285,28,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+W,eng_parse.c,286,13,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,286,11,c_builtin,W0024,UNC,X99,Increment or decrement is being made by pointer variable.
+W,eng_parse.c,286,7,c_builtin,W0424,UNC,X99,Arithmetic operation is being made to the pointer which its value might be NULL.
+W,eng_parse.c,289,20,c_builtin,W9003,UNC,X99,An object typed `size_t' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,289,12,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,289,12,c_builtin,W1052,UNC,X99,The result of unsigned arithmetic expression typed `char const *' can be going around by overflow.
+W,eng_parse.c,291,29,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,291,29,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,292,9,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,292,6,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,293,36,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,293,36,c_builtin,W1052,UNC,X99,The result of unsigned arithmetic expression typed `char const *' can be going around by overflow.
+W,eng_parse.c,293,36,c_builtin,W9003,UNC,X99,An object typed `char const *' is implicitly converted into an object of type `int'.
+W,eng_parse.c,294,43,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,294,43,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,295,9,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,295,6,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,296,36,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,296,36,c_builtin,W1052,UNC,X99,The result of unsigned arithmetic expression typed `char const *' can be going around by overflow.
+W,eng_parse.c,296,36,c_builtin,W9003,UNC,X99,An object typed `char const *' is implicitly converted into an object of type `int'.
+W,eng_parse.c,297,36,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,297,36,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,298,9,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,298,6,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,299,36,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,299,36,c_builtin,W1052,UNC,X99,The result of unsigned arithmetic expression typed `char const *' can be going around by overflow.
+W,eng_parse.c,299,36,c_builtin,W9003,UNC,X99,An object typed `char const *' is implicitly converted into an object of type `int'.
+W,eng_parse.c,300,37,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,300,37,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,301,9,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,301,6,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,302,36,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,302,36,c_builtin,W1052,UNC,X99,The result of unsigned arithmetic expression typed `char const *' can be going around by overflow.
+W,eng_parse.c,302,36,c_builtin,W9003,UNC,X99,An object typed `char const *' is implicitly converted into an object of type `int'.
+W,eng_parse.c,303,37,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,303,37,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,304,9,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,304,6,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,305,36,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,305,36,c_builtin,W1052,UNC,X99,The result of unsigned arithmetic expression typed `char const *' can be going around by overflow.
+W,eng_parse.c,305,36,c_builtin,W9003,UNC,X99,An object typed `char const *' is implicitly converted into an object of type `int'.
+W,eng_parse.c,306,33,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,306,33,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,307,9,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,307,6,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,308,36,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,308,36,c_builtin,W1052,UNC,X99,The result of unsigned arithmetic expression typed `char const *' can be going around by overflow.
+W,eng_parse.c,308,36,c_builtin,W9003,UNC,X99,An object typed `char const *' is implicitly converted into an object of type `int'.
+W,eng_parse.c,308,23,c_builtin,W0581,UNC,X99,The number or type of actual argument is different from the past.
+W,eng_parse.c,310,40,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,310,40,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,311,9,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,311,6,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,312,36,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,312,36,c_builtin,W1052,UNC,X99,The result of unsigned arithmetic expression typed `char const *' can be going around by overflow.
+W,eng_parse.c,312,36,c_builtin,W9003,UNC,X99,An object typed `char const *' is implicitly converted into an object of type `int'.
+W,eng_parse.c,312,23,c_builtin,W0581,UNC,X99,The number or type of actual argument is different from the past.
+W,eng_parse.c,314,35,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,314,35,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,314,69,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,314,69,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,315,25,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char *'.
+W,eng_parse.c,315,23,c_builtin,W0024,UNC,X99,Increment or decrement is being made by pointer variable.
+W,eng_parse.c,315,14,c_builtin,W0424,UNC,X99,Arithmetic operation is being made to the pointer which its value might be NULL.
+W,eng_parse.c,317,13,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,317,13,c_builtin,W1052,UNC,X99,The result of unsigned arithmetic expression typed `char const *' can be going around by overflow.
+W,eng_parse.c,317,20,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,317,17,c_builtin,W0027,UNC,X99,Comparison operation is being made by pointer variable.
+W,eng_parse.c,317,45,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,317,45,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,318,11,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,318,11,c_builtin,W1052,UNC,X99,The result of unsigned arithmetic expression typed `char const *' can be going around by overflow.
+W,eng_parse.c,318,18,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,318,15,c_builtin,W0027,UNC,X99,Comparison operation is being made by pointer variable.
+W,eng_parse.c,318,45,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,318,45,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,319,11,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,eng_parse.c,319,11,c_builtin,W1052,UNC,X99,The result of unsigned arithmetic expression typed `char const *' can be going around by overflow.
+W,eng_parse.c,319,18,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `char const *'.
+W,eng_parse.c,319,15,c_builtin,W0027,UNC,X99,Comparison operation is being made by pointer variable.
+W,eng_parse.c,319,46,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,319,46,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,331,3,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,268,30,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,331,13,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,331,13,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,333,3,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,268,57,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,333,14,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,eng_parse.c,333,14,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,eng_parse.c,336,3,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,269,10,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,337,3,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,eng_parse.c,267,35,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,eng_parse.c,266,34,c_builtin,W0104,UNC,X99,The value of formal argument `ctx' is not change. It can be declarable with 'const'.
+W,eng_parse.c,267,15,c_builtin,W0104,UNC,X99,The value of formal argument `uri' is not change. It can be declarable with 'const'.
+W,eng_parse.c,267,35,c_builtin,W0104,UNC,X99,The value of formal argument `p_tok' is not change. It can be declarable with 'const'.
+W,eng_parse.c,268,30,c_builtin,W0104,UNC,X99,The value of formal argument `id_len' is not change. It can be declarable with 'const'.
+W,eng_parse.c,268,57,c_builtin,W0104,UNC,X99,The value of formal argument `pin_len' is not change. It can be declarable with 'const'.
+W,eng_parse.c,269,10,c_builtin,W0104,UNC,X99,The value of formal argument `label' is not change. It can be declarable with 'const'.
+W,eng_parse.c,266,34,c_builtin,W0105,UNC,X99,The object which points the formal argument `ctx' is not change. It can be declaring as pointer type which points const object.
+W,eng_parse.c,268,18,c_builtin,W0105,UNC,X99,The object which points the formal argument `id' is not change. It can be declaring as pointer type which points const object.
+W,eng_parse.c,268,44,c_builtin,W0105,UNC,X99,The object which points the formal argument `pin' is not change. It can be declaring as pointer type which points const object.
+W,eng_parse.c,266,5,c_builtin,W1071,UNC,X99,Function `parse_pkcs11_uri' has multiple termination points.
+W,eng_parse.c,281,8,c_builtin,W1073,UNC,X99,Return value of the function `memset' is discarded.
+W,engine.h,35,1,c_builtin,W0073,UNC,X99,No include guard in this include file.
+W,p11_err.h,26,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11.h,28,1,c_builtin,W0073,UNC,X99,No include guard in this include file.
+W,libp11.h,42,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,eng_err.h,26,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,engine.h,59,13,c_builtin,W0078,UNC,X99,A function is declared without list of formal argument.
+W,eng_parse.c,38,6,c_builtin,W0489,UNC,X99,A monadic operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,eng_parse.c,38,6,c_builtin,W0490,UNC,X99,A binary operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,eng_parse.c,38,6,c_builtin,W0497,UNC,X99,"Shift operator, relational operator or equivalent operator is used in several times. It had better clear the coupling by using `()'."
+W,eng_parse.c,38,6,c_builtin,W0502,UNC,X99,"A binary operator other than `+', `-', `*', `/' and `%' appears with binary operator which has different precedence without expression grouping."
+W,eng_parse.c,38,27,c_builtin,W0948,UNC,X99,Character constant '\0' is specified directly.
+W,eng_parse.c,45,16,c_builtin,W0948,UNC,X99,Character constant '\0' is specified directly.
+W,eng_parse.c,48,10,c_builtin,W0489,UNC,X99,A monadic operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,eng_parse.c,48,10,c_builtin,W0490,UNC,X99,A binary operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,eng_parse.c,48,10,c_builtin,W0502,UNC,X99,"A binary operator other than `+', `-', `*', `/' and `%' appears with binary operator which has different precedence without expression grouping."
+W,eng_parse.c,48,17,c_builtin,W0734,UNC,X99,A left operand of logical operator is bit operator or arithmetic operator.
+W,eng_parse.c,48,37,c_builtin,W0948,UNC,X99,Character constant ':' is specified directly.
+W,eng_parse.c,51,11,c_builtin,W0512,UNC,X99,The result of `++' or `--' operator is used in the statement.
+W,eng_parse.c,53,5,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,eng_parse.c,52,8,c_builtin,W0490,UNC,X99,A binary operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,eng_parse.c,52,8,c_builtin,W0497,UNC,X99,"Shift operator, relational operator or equivalent operator is used in several times. It had better clear the coupling by using `()'."
+W,eng_parse.c,52,8,c_builtin,W0502,UNC,X99,"A binary operator other than `+', `-', `*', `/' and `%' appears with binary operator which has different precedence without expression grouping."
+W,eng_parse.c,52,8,c_builtin,W0948,UNC,X99,Character constant '0' is specified directly.
+W,eng_parse.c,52,25,c_builtin,W0948,UNC,X99,Character constant '9' is specified directly.
+W,eng_parse.c,53,10,c_builtin,W0948,UNC,X99,Character constant '0' is specified directly.
+W,eng_parse.c,55,5,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,eng_parse.c,54,13,c_builtin,W0490,UNC,X99,A binary operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,eng_parse.c,54,13,c_builtin,W0497,UNC,X99,"Shift operator, relational operator or equivalent operator is used in several times. It had better clear the coupling by using `()'."
+W,eng_parse.c,54,13,c_builtin,W0502,UNC,X99,"A binary operator other than `+', `-', `*', `/' and `%' appears with binary operator which has different precedence without expression grouping."
+W,eng_parse.c,54,13,c_builtin,W0948,UNC,X99,Character constant 'a' is specified directly.
+W,eng_parse.c,54,30,c_builtin,W0948,UNC,X99,Character constant 'f' is specified directly.
+W,eng_parse.c,55,5,c_builtin,W0498,UNC,X99,"The different operator of same priority in the binary operator '+','-', '*','/' is used. It had better clear the coupling by using `()'."
+W,eng_parse.c,55,13,c_builtin,W0948,UNC,X99,Character constant 'a' is specified directly.
+W,eng_parse.c,57,5,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,eng_parse.c,56,13,c_builtin,W0490,UNC,X99,A binary operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,eng_parse.c,56,13,c_builtin,W0497,UNC,X99,"Shift operator, relational operator or equivalent operator is used in several times. It had better clear the coupling by using `()'."
+W,eng_parse.c,56,13,c_builtin,W0502,UNC,X99,"A binary operator other than `+', `-', `*', `/' and `%' appears with binary operator which has different precedence without expression grouping."
+W,eng_parse.c,56,13,c_builtin,W0948,UNC,X99,Character constant 'A' is specified directly.
+W,eng_parse.c,56,30,c_builtin,W0948,UNC,X99,Character constant 'F' is specified directly.
+W,eng_parse.c,57,5,c_builtin,W0498,UNC,X99,"The different operator of same priority in the binary operator '+','-', '*','/' is used. It had better clear the coupling by using `()'."
+W,eng_parse.c,57,13,c_builtin,W0948,UNC,X99,Character constant 'A' is specified directly.
+W,eng_parse.c,60,6,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,68,4,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,eng_parse.c,67,14,c_builtin,W0948,UNC,X99,Character constant ':' is specified directly.
+W,eng_parse.c,70,20,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,74,12,c_builtin,W0512,UNC,X99,The result of `++' or `--' operator is used in the statement.
+W,eng_parse.c,90,1,c_builtin,W0624,UNC,X99,There is '#define' or '#undef' in a block.
+W,eng_parse.c,91,1,c_builtin,W0624,UNC,X99,There is '#define' or '#undef' in a block.
+W,eng_parse.c,96,7,c_builtin,W0502,UNC,X99,"A binary operator other than `+', `-', `*', `/' and `%' appears with binary operator which has different precedence without expression grouping."
+W,eng_parse.c,97,20,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,105,22,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,108,21,c_builtin,W0948,UNC,X99,Character constant ':' is specified directly.
+W,eng_parse.c,109,20,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,118,7,c_builtin,W0502,UNC,X99,"A binary operator other than `+', `-', `*', `/' and `%' appears with binary operator which has different precedence without expression grouping."
+W,eng_parse.c,119,20,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,123,7,c_builtin,W0498,UNC,X99,"The different operator of same priority in the binary operator '+','-', '*','/' is used. It had better clear the coupling by using `()'."
+W,eng_parse.c,123,7,c_builtin,W0502,UNC,X99,"A binary operator other than `+', `-', `*', `/' and `%' appears with binary operator which has different precedence without expression grouping."
+W,eng_parse.c,124,20,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,132,23,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,133,7,c_builtin,W0502,UNC,X99,"A binary operator other than `+', `-', `*', `/' and `%' appears with binary operator which has different precedence without expression grouping."
+W,eng_parse.c,134,20,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,138,7,c_builtin,W0498,UNC,X99,"The different operator of same priority in the binary operator '+','-', '*','/' is used. It had better clear the coupling by using `()'."
+W,eng_parse.c,138,7,c_builtin,W0502,UNC,X99,"A binary operator other than `+', `-', `*', `/' and `%' appears with binary operator which has different precedence without expression grouping."
+W,eng_parse.c,139,20,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,147,23,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,156,23,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,157,19,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,162,26,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,163,19,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,175,24,c_builtin,W0948,UNC,X99,Character constant '-' is specified directly.
+W,eng_parse.c,176,19,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,183,27,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,184,7,c_builtin,W0502,UNC,X99,"A binary operator other than `+', `-', `*', `/' and `%' appears with binary operator which has different precedence without expression grouping."
+W,eng_parse.c,185,20,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,189,7,c_builtin,W0498,UNC,X99,"The different operator of same priority in the binary operator '+','-', '*','/' is used. It had better clear the coupling by using `()'."
+W,eng_parse.c,189,7,c_builtin,W0502,UNC,X99,"A binary operator other than `+', `-', `*', `/' and `%' appears with binary operator which has different precedence without expression grouping."
+W,eng_parse.c,190,20,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,198,27,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,205,18,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,223,4,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,eng_parse.c,227,9,c_builtin,W0490,UNC,X99,A binary operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,eng_parse.c,227,9,c_builtin,W0502,UNC,X99,"A binary operator other than `+', `-', `*', `/' and `%' appears with binary operator which has different precedence without expression grouping."
+W,eng_parse.c,228,16,c_builtin,W0948,UNC,X99,Character constant '%' is specified directly.
+W,eng_parse.c,232,14,c_builtin,W0950,UNC,X99,Integer constant `3' is specified directly as an array size.
+W,eng_parse.c,238,43,c_builtin,W0512,UNC,X99,The result of `++' or `--' operator is used in the statement.
+W,eng_parse.c,244,14,c_builtin,W0512,UNC,X99,The result of `++' or `--' operator is used in the statement.
+W,eng_parse.c,244,26,c_builtin,W0512,UNC,X99,The result of `++' or `--' operator is used in the statement.
+W,eng_parse.c,249,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,eng_parse.c,248,6,c_builtin,W0490,UNC,X99,A binary operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,eng_parse.c,248,6,c_builtin,W0502,UNC,X99,"A binary operator other than `+', `-', `*', `/' and `%' appears with binary operator which has different precedence without expression grouping."
+W,eng_parse.c,260,4,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,eng_parse.c,278,19,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,285,9,c_builtin,W0488,UNC,X99,"A function call`()', array's index operation`[]', or structure/union operation `->' or `.' are used with && or ||. It had better clear the coupling by using `()'."
+W,eng_parse.c,287,20,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,289,4,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,eng_parse.c,291,19,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,294,26,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,297,26,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,300,26,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,303,26,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,306,26,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,310,26,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,314,14,c_builtin,W0488,UNC,X99,"A function call`()', array's index operation`[]', or structure/union operation `->' or `.' are used with && or ||. It had better clear the coupling by using `()'."
+W,eng_parse.c,314,14,c_builtin,W0489,UNC,X99,A monadic operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,eng_parse.c,314,38,c_builtin,W0508,UNC,X99,There's a side effect at the right operand of `&&' or `||'operator.
+W,eng_parse.c,314,26,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,314,53,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,315,18,c_builtin,W0948,UNC,X99,Character constant '=' is specified directly.
+W,eng_parse.c,317,8,c_builtin,W0488,UNC,X99,"A function call`()', array's index operation`[]', or structure/union operation `->' or `.' are used with && or ||. It had better clear the coupling by using `()'."
+W,eng_parse.c,318,6,c_builtin,W0488,UNC,X99,"A function call`()', array's index operation`[]', or structure/union operation `->' or `.' are used with && or ||. It had better clear the coupling by using `()'."
+W,eng_parse.c,319,6,c_builtin,W0488,UNC,X99,"A function call`()', array's index operation`[]', or structure/union operation `->' or `.' are used with && or ||. It had better clear the coupling by using `()'."
+W,eng_parse.c,317,8,c_builtin,W0489,UNC,X99,A monadic operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,eng_parse.c,318,6,c_builtin,W0489,UNC,X99,A monadic operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,eng_parse.c,319,6,c_builtin,W0489,UNC,X99,A monadic operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,eng_parse.c,317,8,c_builtin,W0490,UNC,X99,A binary operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,eng_parse.c,318,6,c_builtin,W0490,UNC,X99,A binary operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,eng_parse.c,319,6,c_builtin,W0490,UNC,X99,A binary operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,eng_parse.c,317,8,c_builtin,W0502,UNC,X99,"A binary operator other than `+', `-', `*', `/' and `%' appears with binary operator which has different precedence without expression grouping."
+W,eng_parse.c,318,6,c_builtin,W0502,UNC,X99,"A binary operator other than `+', `-', `*', `/' and `%' appears with binary operator which has different precedence without expression grouping."
+W,eng_parse.c,319,6,c_builtin,W0502,UNC,X99,"A binary operator other than `+', `-', `*', `/' and `%' appears with binary operator which has different precedence without expression grouping."
+W,eng_parse.c,318,49,c_builtin,W0508,UNC,X99,There's a side effect at the right operand of `&&' or `||'operator.
+W,eng_parse.c,317,49,c_builtin,W0508,UNC,X99,There's a side effect at the right operand of `&&' or `||'operator.
+W,eng_parse.c,317,22,c_builtin,W0508,UNC,X99,There's a side effect at the right operand of `&&' or `||'operator.
+W,eng_parse.c,317,37,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,318,20,c_builtin,W0508,UNC,X99,There's a side effect at the right operand of `&&' or `||'operator.
+W,eng_parse.c,318,35,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,319,20,c_builtin,W0508,UNC,X99,There's a side effect at the right operand of `&&' or `||'operator.
+W,eng_parse.c,319,35,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,322,21,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,eng_parse.c,331,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,eng_parse.c,333,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,libp11.h,29,1,c_builtin,W0070,UNC,X99,Included </usr/include/openssl/err.h> is not referenced in the translation unit. It can be removed.
+W,engine.h,40,1,c_builtin,W0070,UNC,X99,Included </usr/include/openssl/objects.h> is not referenced in the translation unit. It can be removed.
+W,engine.h,41,1,c_builtin,W0070,UNC,X99,Included </usr/include/openssl/engine.h> is not referenced in the translation unit. It can be removed.
+W,engine.h,42,1,c_builtin,W0070,UNC,X99,Included </usr/include/openssl/ui.h> is not referenced in the translation unit. It can be removed.
+W,engine.h,32,1,c_builtin,W0071,UNC,X99,"Included ""config.h"" is not referenced in the translation unit. It can be removed."
+W,libp11.h,27,1,c_builtin,W0071,UNC,X99,"Included ""p11_err.h"" is not referenced in the translation unit. It can be removed."
+W,engine.h,36,1,c_builtin,W0071,UNC,X99,"Included ""eng_err.h"" is not referenced in the translation unit. It can be removed."
+W,eng_parse.c,217,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,eng_parse.c,251,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,eng_parse.c,252,3,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,eng_parse.c,335,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,eng_parse.c,36,15,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,eng_parse.c,46,17,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,eng_parse.c,87,9,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,eng_parse.c,213,14,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,eng_parse.c,273,20,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,eng_parse.c,274,14,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,eng_parse.c,274,26,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,eng_parse.c,36,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,38,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,39,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,40,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,41,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,43,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,45,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,46,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,48,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,49,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,50,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,51,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,52,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,53,5,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,54,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,55,5,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,56,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,57,5,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,58,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,59,5,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,62,5,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,63,5,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,64,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,65,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,66,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,67,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,68,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,69,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,70,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,71,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,72,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,73,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,74,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,75,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,76,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,78,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,79,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,87,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,94,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,96,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,97,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,98,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,99,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,100,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,101,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,102,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,105,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,106,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,108,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,109,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,110,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,111,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,112,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,113,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,114,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,115,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,116,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,117,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,118,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,119,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,120,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,121,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,123,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,124,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,125,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,126,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,127,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,128,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,129,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,132,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,133,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,134,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,135,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,136,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,138,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,139,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,140,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,141,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,142,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,143,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,144,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,147,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,148,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,149,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,150,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,151,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,152,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,156,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,157,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,158,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,159,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,162,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,163,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,164,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,165,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,167,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,169,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,170,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,171,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,172,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,173,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,175,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,176,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,177,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,178,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,180,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,183,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,184,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,185,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,186,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,187,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,189,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,190,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,191,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,192,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,193,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,194,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,195,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,198,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,199,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,200,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,201,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,202,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,203,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,205,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,206,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,213,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,214,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,215,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,217,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,218,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,219,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,220,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,221,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,222,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,223,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,224,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,225,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,227,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,228,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,229,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,230,5,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,231,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,232,5,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,233,5,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,235,5,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,236,5,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,237,5,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,238,5,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,239,5,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,240,5,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,241,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,243,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,244,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,245,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,246,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,247,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,248,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,249,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,251,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,252,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,253,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,254,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,255,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,256,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,257,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,258,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,259,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,260,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,261,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,263,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,271,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,272,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,273,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,274,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,276,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,277,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,278,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,279,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,280,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,281,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,284,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,285,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,286,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,287,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,288,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,289,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,291,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,292,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,293,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,294,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,295,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,296,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,297,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,298,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,299,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,300,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,301,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,302,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,303,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,304,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,305,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,306,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,307,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,308,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,309,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,310,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,311,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,312,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,313,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,314,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,315,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,317,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,321,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,322,5,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,323,5,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,324,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,325,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,326,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,327,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,328,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,330,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,331,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,332,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,333,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,335,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,336,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,337,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,338,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,339,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,340,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,341,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,342,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,eng_parse.c,344,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
