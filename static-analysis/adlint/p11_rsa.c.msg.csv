@@ -1,0 +1,885 @@
+W,p11_rsa.c,1,1,c_builtin,W0576,UNC,X99,The character except for basic source character is used in the comment of source file `p11_rsa.c'.
+W,config.h,64,1,c_builtin,W0576,UNC,X99,The character except for basic source character is used in the comment of source file `config.h'.
+W,p11_err.h,26,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11.h,42,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11.h,415,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,pkcs11.h,799,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,pkcs11.h,801,17,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,pkcs11.h,800,32,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,pkcs11.h,801,22,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,pkcs11.h,1267,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,pkcs11.h,1267,42,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,pkcs11.h,1267,57,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,54,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,68,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,69,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,82,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,83,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,84,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,101,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,102,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,103,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,104,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,112,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,113,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,114,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,115,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,123,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,126,11,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,126,14,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,131,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,132,24,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,136,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,137,25,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,144,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,145,48,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,146,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,147,50,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,148,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,149,47,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,150,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,151,49,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,156,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,190,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,193,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,196,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,203,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,p11_rsa.c,27,1,c_builtin,W0026,UNC,X99,`/usr/include/openssl/evp.h' is already included by this file indirectly.
+W,p11_rsa.c,28,1,c_builtin,W0026,UNC,X99,`/usr/include/openssl/rsa.h' is already included by this file indirectly.
+W,pkcs11.h,766,3,c_builtin,W0491,UNC,X99,The same identifier name `CK_ECDH1_DERIVE_PARAMS' is also used in the declaration of other namespace.
+C,pkcs11.h,760,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `CK_ECDH1_DERIVE_PARAMS'.
+W,pkcs11.h,776,3,c_builtin,W0491,UNC,X99,The same identifier name `CK_RSA_PKCS_OAEP_PARAMS' is also used in the declaration of other namespace.
+C,pkcs11.h,770,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `CK_RSA_PKCS_OAEP_PARAMS'.
+W,pkcs11.h,782,3,c_builtin,W0491,UNC,X99,The same identifier name `CK_RSA_PKCS_PSS_PARAMS' is also used in the declaration of other namespace.
+C,pkcs11.h,778,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `CK_RSA_PKCS_PSS_PARAMS'.
+W,p11_rsa.c,32,13,c_builtin,W1076,UNC,X99,`pkcs11_rsa' has internal-linkage without any prototype declarations.
+W,p11_rsa.c,34,45,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,32,36,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,34,45,c_builtin,W0246,UNC,X99,Implicit conversion from `unsigned char' to `signed int'.
+W,p11_rsa.c,34,12,c_builtin,W0492,UNC,X99,"The same identifier name `evp_key' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11.h,63,12,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `evp_key'.
+W,p11_rsa.c,34,12,c_builtin,W0100,UNC,X99,The variable `evp_key' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,35,7,c_builtin,W0100,UNC,X99,The variable `rsa' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,32,36,c_builtin,W0104,UNC,X99,The value of formal argument `key' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,32,36,c_builtin,W0105,UNC,X99,The object which points the formal argument `key' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,32,13,c_builtin,W1071,UNC,X99,Function `pkcs11_rsa' has multiple termination points.
+W,p11_rsa.c,45,21,c_builtin,W0492,UNC,X99,"The same identifier name `type' is also used in the member of structure/union, label, tag or normal identifier."
+C,pkcs11.h,468,23,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+C,libp11-int.h,87,6,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+W,p11_rsa.c,48,7,c_builtin,W0100,UNC,X99,The variable `rsa' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,45,21,c_builtin,W0104,UNC,X99,The value of formal argument `type' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,45,48,c_builtin,W0104,UNC,X99,The value of formal argument `m' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,45,64,c_builtin,W0104,UNC,X99,The value of formal argument `m_len' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,46,18,c_builtin,W0104,UNC,X99,The value of formal argument `sigret' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,46,40,c_builtin,W0104,UNC,X99,The value of formal argument `siglen' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,46,60,c_builtin,W0104,UNC,X99,The value of formal argument `key' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,46,18,c_builtin,W0105,UNC,X99,The object which points the formal argument `sigret' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,46,40,c_builtin,W0105,UNC,X99,The object which points the formal argument `siglen' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,46,60,c_builtin,W0105,UNC,X99,The object which points the formal argument `key' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,45,5,c_builtin,W1071,UNC,X99,Function `pkcs11_sign' has multiple termination points.
+W,p11_rsa.c,55,12,c_builtin,W1076,UNC,X99,`pkcs11_mechanism' has internal-linkage without any prototype declarations.
+W,p11_rsa.c,55,43,c_builtin,W0492,UNC,X99,"The same identifier name `mechanism' is also used in the member of structure/union, label, tag or normal identifier."
+C,pkcs11.h,719,23,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `mechanism'.
+W,p11_rsa.c,60,13,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,55,43,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,63,12,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,55,43,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,66,12,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,55,43,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,69,3,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_rsa.c,55,43,c_builtin,W0104,UNC,X99,The value of formal argument `mechanism' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,55,43,c_builtin,W0105,UNC,X99,The object which points the formal argument `mechanism' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,55,12,c_builtin,W1071,UNC,X99,Function `pkcs11_mechanism' has multiple termination points.
+W,p11_rsa.c,57,8,c_builtin,W1073,UNC,X99,Return value of the function `memset' is discarded.
+W,p11_rsa.c,81,22,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,79,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,82,20,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,79,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,83,30,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,79,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,84,31,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,81,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,85,15,c_builtin,W0492,UNC,X99,"The same identifier name `mechanism' is also used in the member of structure/union, label, tag or normal identifier."
+C,pkcs11.h,719,23,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `mechanism'.
+W,p11_rsa.c,89,28,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_rsa.c,89,28,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `CK_ULONG'.
+W,p11_rsa.c,91,23,c_builtin,W0459,UNC,X99,A value of variable `mechanism' doesn't set when this expression is evaluated. This program is danger.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,85,15,c_builtin,C1003,INF,X99,The problematic variable is defined here without initializer.
+W,p11_rsa.c,94,2,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,82,14,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,94,2,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_rsa.c,94,2,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_rsa.c,96,7,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,84,23,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,96,7,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_rsa.c,96,7,c_builtin,W9003,UNC,X99,An object typed `CK_RV' is implicitly converted into an object of type `int'.
+W,p11_rsa.c,98,18,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,83,22,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,98,18,c_builtin,W0246,UNC,X99,Implicit conversion from `unsigned char' to `signed int'.
+W,p11_rsa.c,98,18,c_builtin,W9003,UNC,X99,An object typed `CK_BBOOL' is implicitly converted into an object of type `int'.
+W,p11_rsa.c,101,8,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,84,23,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,101,8,c_builtin,W0019,UNC,X99,This pointer cast is danger because it delete const qualifier.
+W,p11_rsa.c,101,8,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_rsa.c,101,8,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_rsa.c,101,8,c_builtin,W9003,UNC,X99,An object typed `CK_RV' is implicitly converted into an object of type `int'.
+W,p11_rsa.c,103,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_rsa.c,105,8,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,84,23,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,105,8,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_rsa.c,105,8,c_builtin,W9003,UNC,X99,An object typed `CK_RV' is implicitly converted into an object of type `int'.
+W,p11_rsa.c,107,19,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,83,22,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,107,19,c_builtin,W0246,UNC,X99,Implicit conversion from `unsigned char' to `signed int'.
+W,p11_rsa.c,107,19,c_builtin,W9003,UNC,X99,An object typed `CK_BBOOL' is implicitly converted into an object of type `int'.
+W,p11_rsa.c,110,9,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,84,23,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,110,9,c_builtin,W0019,UNC,X99,This pointer cast is danger because it delete const qualifier.
+W,p11_rsa.c,110,9,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_rsa.c,110,9,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_rsa.c,110,9,c_builtin,W9003,UNC,X99,An object typed `CK_RV' is implicitly converted into an object of type `int'.
+W,p11_rsa.c,113,2,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,82,14,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,113,2,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_rsa.c,113,2,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_rsa.c,116,3,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_rsa.c,120,9,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_rsa.c,120,9,c_builtin,W9003,UNC,X99,An object typed `CK_ULONG' is implicitly converted into an object of type `int'.
+W,p11_rsa.c,120,2,c_builtin,W0286,UNC,X99,A value of unsigned long type is returned from `signed int pkcs11_private_encrypt()' function.
+W,p11_rsa.c,81,15,c_builtin,W0100,UNC,X99,The variable `slot' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,82,14,c_builtin,W0100,UNC,X99,The variable `ctx' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,83,22,c_builtin,W0100,UNC,X99,The variable `kpriv' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,84,23,c_builtin,W0100,UNC,X99,The variable `spriv' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,77,32,c_builtin,W0104,UNC,X99,The value of formal argument `flen' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,78,24,c_builtin,W0104,UNC,X99,The value of formal argument `from' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,78,45,c_builtin,W0104,UNC,X99,The value of formal argument `to' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,79,15,c_builtin,W0104,UNC,X99,The value of formal argument `key' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,79,24,c_builtin,W0104,UNC,X99,The value of formal argument `padding' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,78,45,c_builtin,W0105,UNC,X99,The object which points the formal argument `to' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,79,15,c_builtin,W0105,UNC,X99,The object which points the formal argument `key' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,77,5,c_builtin,W1071,UNC,X99,Function `pkcs11_private_encrypt' has multiple termination points.
+W,p11_rsa.c,127,22,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,125,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,128,20,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,125,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,129,30,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,125,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,130,31,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,127,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,131,15,c_builtin,W0492,UNC,X99,"The same identifier name `mechanism' is also used in the member of structure/union, label, tag or normal identifier."
+C,pkcs11.h,719,23,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `mechanism'.
+W,p11_rsa.c,132,18,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_rsa.c,132,18,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `CK_ULONG'.
+W,p11_rsa.c,135,23,c_builtin,W0459,UNC,X99,A value of variable `mechanism' doesn't set when this expression is evaluated. This program is danger.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,131,15,c_builtin,C1003,INF,X99,The problematic variable is defined here without initializer.
+W,p11_rsa.c,138,2,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,128,14,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,138,2,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_rsa.c,138,2,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_rsa.c,139,7,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,130,23,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,141,18,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,129,22,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,141,18,c_builtin,W0246,UNC,X99,Implicit conversion from `unsigned char' to `signed int'.
+W,p11_rsa.c,141,18,c_builtin,W9003,UNC,X99,An object typed `CK_BBOOL' is implicitly converted into an object of type `int'.
+W,p11_rsa.c,142,27,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_rsa.c,142,27,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `CK_RV'.
+W,p11_rsa.c,144,8,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,130,23,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,144,8,c_builtin,W0019,UNC,X99,This pointer cast is danger because it delete const qualifier.
+W,p11_rsa.c,144,8,c_builtin,W0599,UNC,X99,`size' is modified and referenced between the side-effects completion point. The evaluation order is undefined.
+W,p11_rsa.c,147,2,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,128,14,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,147,2,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_rsa.c,147,2,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_rsa.c,150,3,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_rsa.c,150,3,c_builtin,W9003,UNC,X99,An object typed `CK_RV' is implicitly converted into an object of type `int'.
+W,p11_rsa.c,150,3,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_rsa.c,154,9,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_rsa.c,154,9,c_builtin,W9003,UNC,X99,An object typed `CK_ULONG' is implicitly converted into an object of type `int'.
+W,p11_rsa.c,154,2,c_builtin,W0286,UNC,X99,A value of unsigned long type is returned from `signed int pkcs11_private_decrypt()' function.
+W,p11_rsa.c,127,15,c_builtin,W0100,UNC,X99,The variable `slot' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,128,14,c_builtin,W0100,UNC,X99,The variable `ctx' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,129,22,c_builtin,W0100,UNC,X99,The variable `kpriv' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,130,23,c_builtin,W0100,UNC,X99,The variable `spriv' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,124,32,c_builtin,W0104,UNC,X99,The value of formal argument `flen' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,124,59,c_builtin,W0104,UNC,X99,The value of formal argument `from' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,124,80,c_builtin,W0104,UNC,X99,The value of formal argument `to' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,125,15,c_builtin,W0104,UNC,X99,The value of formal argument `key' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,125,24,c_builtin,W0104,UNC,X99,The value of formal argument `padding' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,124,80,c_builtin,W0105,UNC,X99,The object which points the formal argument `to' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,125,15,c_builtin,W0105,UNC,X99,The object which points the formal argument `key' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,124,5,c_builtin,W1071,UNC,X99,Function `pkcs11_private_decrypt' has multiple termination points.
+W,p11_rsa.c,158,23,c_builtin,W0492,UNC,X99,"The same identifier name `type' is also used in the member of structure/union, label, tag or normal identifier."
+C,pkcs11.h,468,23,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+C,libp11-int.h,87,6,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `type'.
+W,p11_rsa.c,169,2,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_rsa.c,158,23,c_builtin,W0104,UNC,X99,The value of formal argument `type' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,158,50,c_builtin,W0104,UNC,X99,The value of formal argument `m' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,158,66,c_builtin,W0104,UNC,X99,The value of formal argument `m_len' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,159,18,c_builtin,W0104,UNC,X99,The value of formal argument `signature' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,159,42,c_builtin,W0104,UNC,X99,The value of formal argument `siglen' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,159,62,c_builtin,W0104,UNC,X99,The value of formal argument `key' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,159,18,c_builtin,W0105,UNC,X99,The object which points the formal argument `signature' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,159,62,c_builtin,W0105,UNC,X99,The object which points the formal argument `key' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,176,13,c_builtin,W1076,UNC,X99,`pkcs11_get_rsa' has internal-linkage without any prototype declarations.
+W,p11_rsa.c,179,14,c_builtin,W0492,UNC,X99,"The same identifier name `keys' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11-int.h,73,14,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `keys'.
+W,p11_rsa.c,184,6,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,176,40,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,184,6,c_builtin,W0758,UNC,X99,An implicit type conversion from unsigned long to unsigned int.
+W,p11_rsa.c,188,7,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,176,40,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,188,7,c_builtin,W0758,UNC,X99,An implicit type conversion from unsigned long to unsigned int.
+W,p11_rsa.c,189,8,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,181,25,c_builtin,C1004,INF,X99,NULL value is assigned to the the problematic variable.
+C,p11_rsa.c,188,7,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,197,36,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,176,40,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,197,52,c_builtin,W0459,UNC,X99,A value of variable `keys' doesn't set when this expression is evaluated. This program is danger.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,179,14,c_builtin,C1003,INF,X99,The problematic variable is defined here without initializer.
+W,p11_rsa.c,197,59,c_builtin,W0459,UNC,X99,A value of variable `count' doesn't set when this expression is evaluated. This program is danger.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,180,18,c_builtin,C1003,INF,X99,The problematic variable is defined here without initializer.
+W,p11_rsa.c,198,12,c_builtin,W0167,UNC,X99,Implicit conversion from `signed int' to `unsigned int'.
+W,p11_rsa.c,200,9,c_builtin,W0147,UNC,X99,An implicit type conversion from unsigned int to signed int.
+W,p11_rsa.c,200,9,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,179,14,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+C,p11_rsa.c,197,35,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,200,9,c_builtin,W0758,UNC,X99,An implicit type conversion from unsigned long to unsigned int.
+W,p11_rsa.c,203,19,c_builtin,W0147,UNC,X99,An implicit type conversion from unsigned int to signed int.
+W,p11_rsa.c,203,19,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,179,14,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+C,p11_rsa.c,197,35,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,203,19,c_builtin,W0758,UNC,X99,An implicit type conversion from unsigned long to unsigned int.
+W,p11_rsa.c,201,9,c_builtin,W0100,UNC,X99,The variable `found' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,212,34,c_builtin,W0172,UNC,X99,An implicit type conversion from signed long to unsigned long.
+W,p11_rsa.c,178,7,c_builtin,W0100,UNC,X99,The variable `rsa' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,179,14,c_builtin,W0100,UNC,X99,The variable `keys' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,180,18,c_builtin,W0100,UNC,X99,The variable `count' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,215,1,c_builtin,W0033,UNC,X99,A label of `failure:' is not used in this function. It might be removed.
+W,p11_rsa.c,176,40,c_builtin,W0104,UNC,X99,The value of formal argument `key' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,176,40,c_builtin,W0105,UNC,X99,The object which points the formal argument `key' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,176,13,c_builtin,W1071,UNC,X99,Function `pkcs11_get_rsa' has multiple termination points.
+W,p11_rsa.c,237,24,c_builtin,W9003,UNC,X99,An object typed `void *' is implicitly converted into an object of type `PKCS11_KEY *'.
+W,p11_rsa.c,235,47,c_builtin,W0104,UNC,X99,The value of formal argument `rsa' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,240,13,c_builtin,W1076,UNC,X99,`pkcs11_set_ex_data_rsa' has internal-linkage without any prototype declarations.
+W,p11_rsa.c,240,41,c_builtin,W0104,UNC,X99,The value of formal argument `rsa' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,240,58,c_builtin,W0104,UNC,X99,The value of formal argument `key' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,240,41,c_builtin,W0105,UNC,X99,The object which points the formal argument `rsa' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,240,58,c_builtin,W0105,UNC,X99,The object which points the formal argument `key' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,242,17,c_builtin,W1073,UNC,X99,Return value of the function `RSA_set_ex_data' is discarded.
+W,p11_rsa.c,245,13,c_builtin,W1076,UNC,X99,`pkcs11_update_ex_data_rsa' has internal-linkage without any prototype declarations.
+W,p11_rsa.c,247,21,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,245,51,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,247,12,c_builtin,W0100,UNC,X99,The variable `evp' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,248,7,c_builtin,W0100,UNC,X99,The variable `rsa' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,245,51,c_builtin,W0104,UNC,X99,The value of formal argument `key' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,245,51,c_builtin,W0105,UNC,X99,The object which points the formal argument `key' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,245,13,c_builtin,W1071,UNC,X99,Function `pkcs11_update_ex_data_rsa' has multiple termination points.
+W,p11_rsa.c,261,18,c_builtin,W1076,UNC,X99,`pkcs11_get_evp_key_rsa' has internal-linkage without any prototype declarations.
+W,p11_rsa.c,276,9,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,261,53,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,263,12,c_builtin,W0100,UNC,X99,The variable `pk' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,264,7,c_builtin,W0100,UNC,X99,The variable `rsa' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,261,53,c_builtin,W0104,UNC,X99,The value of formal argument `key' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,261,53,c_builtin,W0105,UNC,X99,The object which points the formal argument `key' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,261,18,c_builtin,W1071,UNC,X99,Function `pkcs11_get_evp_key_rsa' has multiple termination points.
+W,p11_rsa.c,274,19,c_builtin,W1073,UNC,X99,Return value of the function `EVP_PKEY_set1_RSA' is discarded.
+W,p11_rsa.c,277,17,c_builtin,W1073,UNC,X99,Return value of the function `RSA_set_method' is discarded.
+W,p11_rsa.c,303,2,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,291,54,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,304,9,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,291,54,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,293,7,c_builtin,W0100,UNC,X99,The variable `rsa' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,294,16,c_builtin,W0100,UNC,X99,The variable `rsa_n' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,291,40,c_builtin,W0104,UNC,X99,The value of formal argument `key' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,291,54,c_builtin,W0104,UNC,X99,The value of formal argument `bn' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,291,40,c_builtin,W0105,UNC,X99,The object which points the formal argument `key' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,291,5,c_builtin,W1071,UNC,X99,Function `pkcs11_get_key_modulus' has multiple termination points.
+W,p11_rsa.c,320,2,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,308,55,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,321,9,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,308,55,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,310,7,c_builtin,W0100,UNC,X99,The variable `rsa' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,311,16,c_builtin,W0100,UNC,X99,The variable `rsa_e' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,308,41,c_builtin,W0104,UNC,X99,The value of formal argument `key' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,308,55,c_builtin,W0104,UNC,X99,The value of formal argument `bn' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,308,41,c_builtin,W0105,UNC,X99,The object which points the formal argument `key' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,308,5,c_builtin,W1071,UNC,X99,Function `pkcs11_get_key_exponent' has multiple termination points.
+W,p11_rsa.c,327,7,c_builtin,W0100,UNC,X99,The variable `rsa' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,325,37,c_builtin,W0104,UNC,X99,The value of formal argument `key' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,325,37,c_builtin,W0105,UNC,X99,The object which points the formal argument `key' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,325,5,c_builtin,W1071,UNC,X99,Function `pkcs11_get_key_size' has multiple termination points.
+W,p11_rsa.c,335,7,c_builtin,W0117,UNC,X99,`RSA_meth_get_priv_enc' has external-linkage without any prototype declarations.
+W,p11_rsa.c,339,16,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,335,47,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,335,47,c_builtin,W0104,UNC,X99,The value of formal argument `meth' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,342,7,c_builtin,W0117,UNC,X99,`RSA_meth_get_priv_dec' has external-linkage without any prototype declarations.
+W,p11_rsa.c,346,16,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,342,47,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,342,47,c_builtin,W0104,UNC,X99,The value of formal argument `meth' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,351,12,c_builtin,W1076,UNC,X99,`pkcs11_rsa_priv_dec_method' has internal-linkage without any prototype declarations.
+W,p11_rsa.c,354,14,c_builtin,W0100,UNC,X99,The variable `key' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,351,43,c_builtin,W0104,UNC,X99,The value of formal argument `flen' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,351,70,c_builtin,W0104,UNC,X99,The value of formal argument `from' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,352,18,c_builtin,W0104,UNC,X99,The value of formal argument `to' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,352,27,c_builtin,W0104,UNC,X99,The value of formal argument `rsa' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,352,36,c_builtin,W0104,UNC,X99,The value of formal argument `padding' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,352,18,c_builtin,W0105,UNC,X99,The object which points the formal argument `to' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,352,27,c_builtin,W0105,UNC,X99,The object which points the formal argument `rsa' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,351,12,c_builtin,W1071,UNC,X99,Function `pkcs11_rsa_priv_dec_method' has multiple termination points.
+W,p11_rsa.c,364,12,c_builtin,W1076,UNC,X99,`pkcs11_rsa_priv_enc_method' has internal-linkage without any prototype declarations.
+W,p11_rsa.c,367,14,c_builtin,W0100,UNC,X99,The variable `key' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,364,43,c_builtin,W0104,UNC,X99,The value of formal argument `flen' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,364,70,c_builtin,W0104,UNC,X99,The value of formal argument `from' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,365,18,c_builtin,W0104,UNC,X99,The value of formal argument `to' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,365,27,c_builtin,W0104,UNC,X99,The value of formal argument `rsa' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,365,36,c_builtin,W0104,UNC,X99,The value of formal argument `padding' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,365,18,c_builtin,W0105,UNC,X99,The object which points the formal argument `to' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,365,27,c_builtin,W0105,UNC,X99,The object which points the formal argument `rsa' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,364,12,c_builtin,W1071,UNC,X99,Function `pkcs11_rsa_priv_enc_method' has multiple termination points.
+W,p11_rsa.c,377,12,c_builtin,W1076,UNC,X99,`pkcs11_rsa_free_method' has internal-linkage without any prototype declarations.
+W,p11_rsa.c,377,40,c_builtin,W0104,UNC,X99,The value of formal argument `rsa' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,377,40,c_builtin,W0105,UNC,X99,The object which points the formal argument `rsa' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,379,17,c_builtin,W1073,UNC,X99,Return value of the function `RSA_set_ex_data' is discarded.
+W,p11_rsa.c,383,13,c_builtin,W1076,UNC,X99,`alloc_rsa_ex_index' has internal-linkage without any prototype declarations.
+W,p11_rsa.c,394,13,c_builtin,W1076,UNC,X99,`free_rsa_ex_index' has internal-linkage without any prototype declarations.
+W,p11_rsa.c,407,20,c_builtin,W1076,UNC,X99,`RSA_meth_dup' has internal-linkage without any prototype declarations.
+W,p11_rsa.c,409,20,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_rsa.c,409,20,c_builtin,W9003,UNC,X99,An object typed `void *' is implicitly converted into an object of type `RSA_METHOD *'.
+W,p11_rsa.c,413,14,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,407,51,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,413,14,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_rsa.c,409,14,c_builtin,W0100,UNC,X99,The variable `ret' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,407,51,c_builtin,W0104,UNC,X99,The value of formal argument `meth' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,407,20,c_builtin,W1071,UNC,X99,Function `RSA_meth_dup' has multiple termination points.
+W,p11_rsa.c,412,8,c_builtin,W1073,UNC,X99,Return value of the function `memcpy' is discarded.
+W,p11_rsa.c,421,12,c_builtin,W1076,UNC,X99,`RSA_meth_set1_name' has internal-linkage without any prototype declarations.
+W,p11_rsa.c,423,14,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_rsa.c,426,2,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,421,43,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,426,2,c_builtin,W0019,UNC,X99,This pointer cast is danger because it delete const qualifier.
+W,p11_rsa.c,427,6,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,421,43,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,423,8,c_builtin,W0100,UNC,X99,The variable `tmp' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_rsa.c,421,43,c_builtin,W0104,UNC,X99,The value of formal argument `meth' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,421,61,c_builtin,W0104,UNC,X99,The value of formal argument `name' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,421,43,c_builtin,W0105,UNC,X99,The object which points the formal argument `meth' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,421,12,c_builtin,W1071,UNC,X99,Function `RSA_meth_set1_name' has multiple termination points.
+W,p11_rsa.c,431,12,c_builtin,W1076,UNC,X99,`RSA_meth_set_flags' has internal-linkage without any prototype declarations.
+W,p11_rsa.c,431,53,c_builtin,W0492,UNC,X99,"The same identifier name `flags' is also used in the member of structure/union, label, tag or normal identifier."
+C,pkcs11.h,199,14,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `flags'.
+C,pkcs11.h,217,14,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `flags'.
+C,pkcs11.h,235,14,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `flags'.
+C,pkcs11.h,300,14,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `flags'.
+C,pkcs11.h,729,14,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `flags'.
+C,pkcs11.h,1166,14,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `flags'.
+W,p11_rsa.c,433,6,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,431,43,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,431,43,c_builtin,W0104,UNC,X99,The value of formal argument `meth' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,431,53,c_builtin,W0104,UNC,X99,The value of formal argument `flags' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,431,43,c_builtin,W0105,UNC,X99,The object which points the formal argument `meth' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,437,12,c_builtin,W1076,UNC,X99,`RSA_meth_set_priv_enc' has internal-linkage without any prototype declarations.
+W,p11_rsa.c,441,6,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,437,46,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,437,46,c_builtin,W0104,UNC,X99,The value of formal argument `meth' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,438,9,c_builtin,W0104,UNC,X99,The value of formal argument `priv_enc' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,437,46,c_builtin,W0105,UNC,X99,The object which points the formal argument `meth' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,445,12,c_builtin,W1076,UNC,X99,`RSA_meth_set_priv_dec' has internal-linkage without any prototype declarations.
+W,p11_rsa.c,449,6,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,445,46,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,445,46,c_builtin,W0104,UNC,X99,The value of formal argument `meth' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,446,9,c_builtin,W0104,UNC,X99,The value of formal argument `priv_dec' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,445,46,c_builtin,W0105,UNC,X99,The object which points the formal argument `meth' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,453,12,c_builtin,W1076,UNC,X99,`RSA_meth_set_finish' has internal-linkage without any prototype declarations.
+W,p11_rsa.c,455,6,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_rsa.c,453,44,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_rsa.c,453,44,c_builtin,W0104,UNC,X99,The value of formal argument `meth' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,453,56,c_builtin,W0104,UNC,X99,The value of formal argument `finish' is not change. It can be declarable with 'const'.
+W,p11_rsa.c,453,44,c_builtin,W0105,UNC,X99,The object which points the formal argument `meth' is not change. It can be declaring as pointer type which points const object.
+W,p11_rsa.c,466,21,c_builtin,W0492,UNC,X99,"The same identifier name `ops' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11-int.h,98,18,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `ops'.
+W,p11_rsa.c,464,13,c_builtin,W1071,UNC,X99,Function `PKCS11_get_rsa_method' has multiple termination points.
+W,p11_rsa.c,473,21,c_builtin,W1073,UNC,X99,Return value of the function `RSA_meth_set1_name' is discarded.
+W,p11_rsa.c,474,21,c_builtin,W1073,UNC,X99,Return value of the function `RSA_meth_set_flags' is discarded.
+W,p11_rsa.c,475,24,c_builtin,W1073,UNC,X99,Return value of the function `RSA_meth_set_priv_enc' is discarded.
+W,p11_rsa.c,476,24,c_builtin,W1073,UNC,X99,Return value of the function `RSA_meth_set_priv_dec' is discarded.
+W,p11_rsa.c,477,22,c_builtin,W1073,UNC,X99,Return value of the function `RSA_meth_set_finish' is discarded.
+W,p11_rsa.c,483,6,c_builtin,W0117,UNC,X99,`PKCS11_rsa_method_free' has external-linkage without any prototype declarations.
+W,libp11.h,39,5,c_builtin,W0771,UNC,X99,A global identifier `ERR_load_CKR_strings' is declared in more than one file.
+C,libp11-int.h,133,12,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `ERR_load_CKR_strings'.
+W,libp11-int.h,133,12,c_builtin,W0771,UNC,X99,A global identifier `ERR_load_CKR_strings' is declared in more than one file.
+C,libp11.h,39,5,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `ERR_load_CKR_strings'.
+W,libp11-int.h,27,1,c_builtin,W0073,UNC,X99,No include guard in this include file.
+W,p11_err.h,26,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11.h,28,1,c_builtin,W0073,UNC,X99,No include guard in this include file.
+W,libp11.h,42,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,pkcs11.h,271,1,c_builtin,W0479,UNC,X99,This macro definition might be replaced with 'typedef' declaration.
+W,pkcs11.h,799,1,c_builtin,W0478,UNC,X99,This macro defines scraps of unrecognized codes.
+W,pkcs11.h,1267,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,69,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,83,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,84,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,102,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,103,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,104,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,113,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,114,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,115,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,131,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,144,1,c_builtin,W0478,UNC,X99,This macro defines scraps of unrecognized codes.
+W,libp11-int.h,146,1,c_builtin,W0478,UNC,X99,This macro defines scraps of unrecognized codes.
+W,libp11-int.h,148,1,c_builtin,W0478,UNC,X99,This macro defines scraps of unrecognized codes.
+W,libp11-int.h,150,1,c_builtin,W0478,UNC,X99,This macro defines scraps of unrecognized codes.
+W,libp11-int.h,156,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,190,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,193,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,196,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,203,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,pkcs11.h,188,8,c_builtin,W0809,UNC,X99,An identifier `_CK_VERSION' is reserved by the library.
+W,pkcs11.h,195,8,c_builtin,W0809,UNC,X99,An identifier `_CK_INFO' is reserved by the library.
+W,pkcs11.h,213,8,c_builtin,W0809,UNC,X99,An identifier `_CK_SLOT_INFO' is reserved by the library.
+W,pkcs11.h,229,8,c_builtin,W0809,UNC,X99,An identifier `_CK_TOKEN_INFO' is reserved by the library.
+W,pkcs11.h,296,8,c_builtin,W0809,UNC,X99,An identifier `_CK_SESSION_INFO' is reserved by the library.
+W,pkcs11.h,466,8,c_builtin,W0809,UNC,X99,An identifier `_CK_ATTRIBUTE' is reserved by the library.
+W,pkcs11.h,474,8,c_builtin,W0809,UNC,X99,An identifier `_CK_DATE' is reserved by the library.
+W,pkcs11.h,717,8,c_builtin,W0809,UNC,X99,An identifier `_CK_MECHANISM' is reserved by the library.
+W,pkcs11.h,725,8,c_builtin,W0809,UNC,X99,An identifier `_CK_MECHANISM_INFO' is reserved by the library.
+W,pkcs11.h,1080,8,c_builtin,W0809,UNC,X99,An identifier `_CK_FUNCTION_LIST' is reserved by the library.
+W,pkcs11.h,1160,8,c_builtin,W0809,UNC,X99,An identifier `_CK_C_INITIALIZE_ARGS' is reserved by the library.
+W,pkcs11.h,1324,30,c_builtin,W0039,UNC,X99,The number of local identifier in the block exceeds 127. This program doesn't meet the strict ISO C90 standards of the term.
+W,libp11-int.h,142,5,c_builtin,W0078,UNC,X99,A function is declared without list of formal argument.
+W,libp11-int.h,160,21,c_builtin,W0078,UNC,X99,A function is declared without list of formal argument.
+W,libp11-int.h,168,14,c_builtin,W0542,UNC,X99,There are identifiers in the part of formal argument in a function declaration.
+W,libp11-int.h,328,12,c_builtin,W0542,UNC,X99,There are identifiers in the part of formal argument in a function declaration.
+W,libp11-int.h,329,12,c_builtin,W0542,UNC,X99,There are identifiers in the part of formal argument in a function declaration.
+W,p11_rsa.c,37,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,50,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,77,5,c_builtin,W0543,UNC,X99,The identifier of formal argument in this function declaration is different from the past declaration of it.
+W,p11_rsa.c,92,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,94,2,c_builtin,W0414,UNC,X99,Body of the controlling statement in a line is not enclosed by `{}'.
+W,p11_rsa.c,99,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,98,6,c_builtin,W0488,UNC,X99,"A function call`()', array's index operation`[]', or structure/union operation `->' or `.' are used with && or ||. It had better clear the coupling by using `()'."
+W,p11_rsa.c,98,6,c_builtin,W0489,UNC,X99,A monadic operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,p11_rsa.c,98,6,c_builtin,W0490,UNC,X99,A binary operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,p11_rsa.c,98,6,c_builtin,W0502,UNC,X99,"A binary operator other than `+', `-', `*', `/' and `%' appears with binary operator which has different precedence without expression grouping."
+W,p11_rsa.c,101,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,108,4,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,107,7,c_builtin,W0488,UNC,X99,"A function call`()', array's index operation`[]', or structure/union operation `->' or `.' are used with && or ||. It had better clear the coupling by using `()'."
+W,p11_rsa.c,107,7,c_builtin,W0489,UNC,X99,A monadic operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,p11_rsa.c,107,7,c_builtin,W0490,UNC,X99,A binary operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,p11_rsa.c,107,7,c_builtin,W0502,UNC,X99,"A binary operator other than `+', `-', `*', `/' and `%' appears with binary operator which has different precedence without expression grouping."
+W,p11_rsa.c,110,4,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,113,2,c_builtin,W0414,UNC,X99,Body of the controlling statement in a line is not enclosed by `{}'.
+W,p11_rsa.c,136,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,138,2,c_builtin,W0414,UNC,X99,Body of the controlling statement in a line is not enclosed by `{}'.
+W,p11_rsa.c,142,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,141,6,c_builtin,W0488,UNC,X99,"A function call`()', array's index operation`[]', or structure/union operation `->' or `.' are used with && or ||. It had better clear the coupling by using `()'."
+W,p11_rsa.c,141,6,c_builtin,W0489,UNC,X99,A monadic operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,p11_rsa.c,141,6,c_builtin,W0490,UNC,X99,A binary operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,p11_rsa.c,141,6,c_builtin,W0502,UNC,X99,"A binary operator other than `+', `-', `*', `/' and `%' appears with binary operator which has different precedence without expression grouping."
+W,p11_rsa.c,144,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,147,2,c_builtin,W0414,UNC,X99,Body of the controlling statement in a line is not enclosed by `{}'.
+W,p11_rsa.c,185,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,190,4,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,190,4,c_builtin,W1072,UNC,X99,A `goto' statement is found.
+W,p11_rsa.c,205,6,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,203,9,c_builtin,W0488,UNC,X99,"A function call`()', array's index operation`[]', or structure/union operation `->' or `.' are used with && or ||. It had better clear the coupling by using `()'."
+W,p11_rsa.c,203,9,c_builtin,W0489,UNC,X99,A monadic operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,p11_rsa.c,203,15,c_builtin,W0508,UNC,X99,There's a side effect at the right operand of `&&' or `||'operator.
+W,p11_rsa.c,205,6,c_builtin,W1072,UNC,X99,A `goto' statement is found.
+W,p11_rsa.c,213,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,212,6,c_builtin,W0488,UNC,X99,"A function call`()', array's index operation`[]', or structure/union operation `->' or `.' are used with && or ||. It had better clear the coupling by using `()'."
+W,p11_rsa.c,212,12,c_builtin,W0508,UNC,X99,There's a side effect at the right operand of `&&' or `||'operator.
+W,p11_rsa.c,213,3,c_builtin,W1072,UNC,X99,A `goto' statement is found.
+W,p11_rsa.c,217,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,219,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,222,1,c_builtin,W9001,UNC,X99,Control never reaches to this statement.
+W,p11_rsa.c,223,2,c_builtin,W9001,UNC,X99,Control never reaches to this statement.
+W,p11_rsa.c,225,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,224,2,c_builtin,W9001,UNC,X99,Control never reaches to this statement.
+W,p11_rsa.c,225,3,c_builtin,W1072,UNC,X99,A `goto' statement is found.
+W,p11_rsa.c,225,3,c_builtin,W9001,UNC,X99,Control never reaches to this statement.
+W,p11_rsa.c,229,2,c_builtin,W9001,UNC,X99,Control never reaches to this statement.
+W,p11_rsa.c,230,2,c_builtin,W9001,UNC,X99,Control never reaches to this statement.
+W,p11_rsa.c,232,2,c_builtin,W9001,UNC,X99,Control never reaches to this statement.
+W,p11_rsa.c,250,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,252,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,268,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,277,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,297,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,304,21,c_builtin,W0501,UNC,X99,A ternary operator is used with binary operator. It had better clear the coupling by using `()'.
+W,p11_rsa.c,314,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,321,21,c_builtin,W0501,UNC,X99,A ternary operator is used with binary operator. It had better clear the coupling by using `()'.
+W,p11_rsa.c,329,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,383,13,c_builtin,W0540,UNC,X99,A function which the blank formal argument list is declared. `void' is omitted.
+W,p11_rsa.c,387,4,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,387,43,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,p11_rsa.c,390,4,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,394,13,c_builtin,W0540,UNC,X99,A function which the blank formal argument list is declared. `void' is omitted.
+W,p11_rsa.c,411,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,425,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,472,4,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_rsa.c,473,27,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,libp11.h,29,1,c_builtin,W0070,UNC,X99,Included </usr/include/openssl/err.h> is not referenced in the translation unit. It can be removed.
+W,libp11-int.h,24,1,c_builtin,W0071,UNC,X99,"Included ""config.h"" is not referenced in the translation unit. It can be removed."
+W,p11_rsa.c,161,2,c_builtin,W0085,UNC,X99,This statement doesn't have side-effects. It is highly possible that it having error.
+W,p11_rsa.c,162,2,c_builtin,W0085,UNC,X99,This statement doesn't have side-effects. It is highly possible that it having error.
+W,p11_rsa.c,163,2,c_builtin,W0085,UNC,X99,This statement doesn't have side-effects. It is highly possible that it having error.
+W,p11_rsa.c,164,2,c_builtin,W0085,UNC,X99,This statement doesn't have side-effects. It is highly possible that it having error.
+W,p11_rsa.c,165,2,c_builtin,W0085,UNC,X99,This statement doesn't have side-effects. It is highly possible that it having error.
+W,p11_rsa.c,166,2,c_builtin,W0085,UNC,X99,This statement doesn't have side-effects. It is highly possible that it having error.
+W,p11_rsa.c,94,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_rsa.c,113,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_rsa.c,115,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_rsa.c,138,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_rsa.c,147,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_rsa.c,149,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_rsa.c,184,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_rsa.c,216,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_rsa.c,218,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_rsa.c,276,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,pkcs11.h,803,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,804,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,805,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,806,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,809,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,812,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,814,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,816,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,818,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,822,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,825,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,828,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,831,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,836,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,840,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,841,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,842,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,845,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,849,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,855,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,858,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,860,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,864,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,868,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,871,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,875,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,880,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,885,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,889,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,894,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,897,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,901,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,906,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,911,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,916,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,920,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,925,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,930,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,935,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,938,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,943,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,946,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,948,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,953,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,957,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,962,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,965,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,969,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,973,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,979,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,983,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,988,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,991,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,995,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,999,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1006,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1011,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1017,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1022,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1029,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1035,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1044,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1051,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1060,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1068,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1071,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1076,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1077,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,libp11-int.h,58,29,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,libp11-int.h,78,19,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,p11_rsa.c,180,18,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,p11_rsa.c,181,25,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,p11_rsa.c,63,3,c_builtin,W0431,UNC,X99,This line begins at more left than previous lines of the same indentation level.
+W,p11_rsa.c,339,5,c_builtin,W0431,UNC,X99,This line begins at more left than previous lines of the same indentation level.
+W,p11_rsa.c,34,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,35,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,36,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,37,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,38,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,39,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,40,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,48,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,49,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,50,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,51,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,57,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,58,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,60,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,61,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,63,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,64,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,66,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,67,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,69,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,70,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,71,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,72,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,81,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,82,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,83,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,84,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,85,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,86,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,87,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,89,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,91,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,92,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,94,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,96,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,98,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,99,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,100,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,101,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,103,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,105,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,107,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,108,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,109,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,110,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,112,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,113,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,115,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,116,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,117,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,118,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,120,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,127,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,128,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,129,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,130,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,131,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,132,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,133,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,135,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,136,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,138,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,139,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,141,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,142,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,143,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,144,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,147,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,149,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,150,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,151,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,152,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,154,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,169,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,170,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,178,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,179,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,180,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,181,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,184,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,185,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,188,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,189,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,190,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,191,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,192,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,193,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,197,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,198,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,199,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,200,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,201,5,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,202,5,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,203,5,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,205,6,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,206,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,207,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,208,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,211,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,212,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,213,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,216,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,217,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,218,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,219,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,220,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,223,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,224,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,225,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,229,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,230,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,232,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,237,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,242,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,247,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,248,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,249,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,250,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,251,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,252,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,254,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,255,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,256,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,263,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,264,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,266,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,267,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,268,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,269,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,270,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,271,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,272,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,273,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,274,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,276,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,277,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,285,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,286,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,287,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,293,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,294,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,296,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,297,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,301,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,303,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,304,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,310,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,311,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,313,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,314,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,318,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,320,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,321,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,327,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,328,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,329,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,330,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,354,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,355,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,357,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,358,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,359,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,360,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,361,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,367,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,368,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,370,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,371,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,372,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,373,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,374,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,379,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,380,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,385,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,386,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,387,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,389,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,390,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,391,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,409,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,410,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,411,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,412,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,413,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,414,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,415,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,416,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,417,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,418,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,423,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,424,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,425,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,426,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,427,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,428,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,433,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,434,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,441,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,442,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,449,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,450,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,455,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,456,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,466,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,468,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,469,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,470,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,471,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,472,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,473,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,474,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,475,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,476,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,477,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,478,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,479,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,485,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,489,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,490,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_rsa.c,491,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.

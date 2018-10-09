@@ -1,0 +1,938 @@
+W,p11_cert.c,1,1,c_builtin,W0576,UNC,X99,The character except for basic source character is used in the comment of source file `p11_cert.c'.
+W,config.h,64,1,c_builtin,W0576,UNC,X99,The character except for basic source character is used in the comment of source file `config.h'.
+W,p11_err.h,26,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11.h,42,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11.h,415,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,pkcs11.h,799,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,pkcs11.h,801,17,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,pkcs11.h,800,32,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,pkcs11.h,801,22,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,pkcs11.h,1267,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,pkcs11.h,1267,42,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,pkcs11.h,1267,57,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,54,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,68,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,69,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,82,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,83,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,84,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,101,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,102,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,103,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,104,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,112,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,113,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,114,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,115,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,123,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,126,11,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,126,14,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,131,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,132,24,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,136,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,137,25,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,144,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,145,48,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,146,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,147,50,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,148,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,149,47,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,150,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,151,49,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,156,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,190,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,193,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,196,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,203,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,pkcs11.h,766,3,c_builtin,W0491,UNC,X99,The same identifier name `CK_ECDH1_DERIVE_PARAMS' is also used in the declaration of other namespace.
+C,pkcs11.h,760,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `CK_ECDH1_DERIVE_PARAMS'.
+W,pkcs11.h,776,3,c_builtin,W0491,UNC,X99,The same identifier name `CK_RSA_PKCS_OAEP_PARAMS' is also used in the declaration of other namespace.
+C,pkcs11.h,770,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `CK_RSA_PKCS_OAEP_PARAMS'.
+W,pkcs11.h,782,3,c_builtin,W0491,UNC,X99,The same identifier name `CK_RSA_PKCS_PSS_PARAMS' is also used in the declaration of other namespace.
+C,pkcs11.h,778,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `CK_RSA_PKCS_PSS_PARAMS'.
+W,p11_cert.c,37,42,c_builtin,W0492,UNC,X99,"The same identifier name `token' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11.h,104,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `token'.
+W,p11_cert.c,40,22,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,37,42,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,41,20,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,40,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,42,32,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,37,42,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,43,31,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,40,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,44,30,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,41,14,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,48,12,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,43,23,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,51,2,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,44,22,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,51,2,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_cert.c,51,2,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_cert.c,53,2,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,44,22,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,53,2,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_cert.c,53,2,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_cert.c,60,17,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,42,24,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,62,18,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,42,24,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,62,18,c_builtin,W0167,UNC,X99,Implicit conversion from `signed int' to `unsigned int'.
+W,p11_cert.c,40,15,c_builtin,W0100,UNC,X99,The variable `slot' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,41,14,c_builtin,W0100,UNC,X99,The variable `ctx' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,42,24,c_builtin,W0100,UNC,X99,The variable `tpriv' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,43,23,c_builtin,W0100,UNC,X99,The variable `spriv' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,44,22,c_builtin,W0100,UNC,X99,The variable `cpriv' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,45,6,c_builtin,W0100,UNC,X99,The variable `rv' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,37,42,c_builtin,W0104,UNC,X99,The value of formal argument `token' is not change. It can be declarable with 'const'.
+W,p11_cert.c,38,17,c_builtin,W0104,UNC,X99,The value of formal argument `certp' is not change. It can be declarable with 'const'.
+W,p11_cert.c,38,38,c_builtin,W0104,UNC,X99,The value of formal argument `countp' is not change. It can be declarable with 'const'.
+W,p11_cert.c,37,42,c_builtin,W0105,UNC,X99,The object which points the formal argument `token' is not change. It can be declaring as pointer type which points const object.
+W,p11_cert.c,37,5,c_builtin,W1071,UNC,X99,Function `pkcs11_enumerate_certs' has multiple termination points.
+W,p11_cert.c,70,22,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,69,44,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,71,20,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,69,44,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,72,31,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,70,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,76,19,c_builtin,W0167,UNC,X99,Implicit conversion from `signed int' to `unsigned int'.
+W,p11_cert.c,80,12,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,72,23,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,84,42,c_builtin,W9003,UNC,X99,An object typed `unsigned int' is implicitly converted into an object of type `CK_ATTRIBUTE *'.
+W,p11_cert.c,84,39,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,p11_cert.c,84,46,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_cert.c,85,10,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,69,44,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,85,22,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,69,44,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,86,39,c_builtin,W9003,UNC,X99,An object typed `unsigned int' is implicitly converted into an object of type `CK_ATTRIBUTE *'.
+W,p11_cert.c,86,36,c_builtin,W0024,UNC,X99,Increment or decrement is being made by pointer variable.
+W,p11_cert.c,86,55,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,69,44,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,86,65,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,69,44,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,86,43,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_cert.c,88,10,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,69,44,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,89,42,c_builtin,W9003,UNC,X99,An object typed `unsigned int' is implicitly converted into an object of type `CK_ATTRIBUTE *'.
+W,p11_cert.c,89,39,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,p11_cert.c,89,61,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,69,44,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,89,46,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_cert.c,92,7,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,72,23,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,92,7,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_cert.c,92,7,c_builtin,W9003,UNC,X99,An object typed `CK_RV' is implicitly converted into an object of type `int'.
+W,p11_cert.c,94,2,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_cert.c,96,7,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,72,23,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,96,7,c_builtin,W0459,UNC,X99,A value of variable `obj' doesn't set when this expression is evaluated. This program is danger.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,73,19,c_builtin,C1003,INF,X99,The problematic variable is defined here without initializer.
+W,p11_cert.c,96,7,c_builtin,W0459,UNC,X99,A value of variable `count' doesn't set when this expression is evaluated. This program is danger.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,74,11,c_builtin,C1003,INF,X99,The problematic variable is defined here without initializer.
+W,p11_cert.c,96,7,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_cert.c,96,7,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_cert.c,96,7,c_builtin,W9003,UNC,X99,An object typed `CK_RV' is implicitly converted into an object of type `int'.
+W,p11_cert.c,97,2,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_cert.c,99,2,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,72,23,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,100,13,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_cert.c,104,7,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,72,23,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,104,7,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_cert.c,104,7,c_builtin,W9003,UNC,X99,An object typed `CK_RV' is implicitly converted into an object of type `int'.
+W,p11_cert.c,105,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_cert.c,70,15,c_builtin,W0100,UNC,X99,The variable `slot' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,71,14,c_builtin,W0100,UNC,X99,The variable `ctx' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,72,23,c_builtin,W0100,UNC,X99,The variable `spriv' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,73,19,c_builtin,W0100,UNC,X99,The variable `obj' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,74,11,c_builtin,W0100,UNC,X99,The variable `count' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,69,44,c_builtin,W0104,UNC,X99,The value of formal argument `cert' is not change. It can be declarable with 'const'.
+W,p11_cert.c,69,44,c_builtin,W0105,UNC,X99,The object which points the formal argument `cert' is not change. It can be declaring as pointer type which points const object.
+W,p11_cert.c,69,5,c_builtin,W1071,UNC,X99,Function `pkcs11_remove_certificate' has multiple termination points.
+W,p11_cert.c,99,2,c_builtin,W1073,UNC,X99,Return value of the function `(anon)' is discarded.
+W,p11_cert.c,123,10,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,116,50,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,124,29,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,116,50,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,124,45,c_builtin,W0459,UNC,X99,A value of variable `cert' doesn't set when this expression is evaluated. This program is danger.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,120,15,c_builtin,C1003,INF,X99,The problematic variable is defined here without initializer.
+W,p11_cert.c,124,52,c_builtin,W0459,UNC,X99,A value of variable `count' doesn't set when this expression is evaluated. This program is danger.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,121,18,c_builtin,C1003,INF,X99,The problematic variable is defined here without initializer.
+W,p11_cert.c,126,11,c_builtin,W0167,UNC,X99,Implicit conversion from `signed int' to `unsigned int'.
+W,p11_cert.c,127,11,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,120,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+C,p11_cert.c,124,28,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,128,12,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,119,23,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+C,p11_cert.c,126,16,c_builtin,C1001,INF,X99,This controlling-expression is evaluated to be true.
+C,p11_cert.c,127,9,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,128,29,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,118,22,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+C,p11_cert.c,123,8,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,129,21,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,119,23,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+C,p11_cert.c,126,16,c_builtin,C1001,INF,X99,This controlling-expression is evaluated to be true.
+C,p11_cert.c,127,9,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,129,32,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,118,22,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+C,p11_cert.c,123,8,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,129,43,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,118,22,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+C,p11_cert.c,123,8,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,126,34,c_builtin,W0024,UNC,X99,Increment or decrement is being made by pointer variable.
+W,p11_cert.c,118,22,c_builtin,W0100,UNC,X99,The variable `kpriv' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,121,18,c_builtin,W0100,UNC,X99,The variable `count' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,116,50,c_builtin,W0104,UNC,X99,The value of formal argument `key' is not change. It can be declarable with 'const'.
+W,p11_cert.c,116,50,c_builtin,W0105,UNC,X99,The object which points the formal argument `key' is not change. It can be declaring as pointer type which points const object.
+W,p11_cert.c,116,14,c_builtin,W1071,UNC,X99,Function `pkcs11_find_certificate' has multiple termination points.
+W,p11_cert.c,138,44,c_builtin,W0492,UNC,X99,"The same identifier name `token' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11.h,104,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `token'.
+W,p11_cert.c,140,22,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,138,44,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,141,20,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,140,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,142,31,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,140,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,145,15,c_builtin,W0459,UNC,X99,A value of variable `cert_search_class' doesn't set when this expression is evaluated. This program is danger.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,143,18,c_builtin,C1003,INF,X99,The problematic variable is defined here without initializer.
+W,p11_cert.c,144,15,c_builtin,W1047,UNC,X99,"The struct, union or array's initializer is not literal."
+W,p11_cert.c,151,7,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,142,23,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,151,7,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_cert.c,151,7,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_cert.c,151,7,c_builtin,W9003,UNC,X99,An object typed `CK_RV' is implicitly converted into an object of type `int'.
+W,p11_cert.c,152,2,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_cert.c,155,43,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,142,23,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,158,2,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,142,23,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,140,15,c_builtin,W0100,UNC,X99,The variable `slot' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,141,14,c_builtin,W0100,UNC,X99,The variable `ctx' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,142,23,c_builtin,W0100,UNC,X99,The variable `spriv' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,143,18,c_builtin,W0100,UNC,X99,The variable `cert_search_class' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,147,6,c_builtin,W0100,UNC,X99,The variable `rv' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,138,44,c_builtin,W0104,UNC,X99,The value of formal argument `token' is not change. It can be declarable with 'const'.
+W,p11_cert.c,138,44,c_builtin,W0105,UNC,X99,The object which points the formal argument `token' is not change. It can be declaring as pointer type which points const object.
+W,p11_cert.c,138,12,c_builtin,W1071,UNC,X99,Function `pkcs11_find_certs' has multiple termination points.
+W,p11_cert.c,158,2,c_builtin,W1073,UNC,X99,Return value of the function `(anon)' is discarded.
+W,p11_cert.c,163,60,c_builtin,W0492,UNC,X99,"The same identifier name `token' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11.h,104,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `token'.
+W,p11_cert.c,164,21,c_builtin,W0492,UNC,X99,"The same identifier name `session' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11-int.h,60,20,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `session'.
+W,p11_cert.c,171,7,c_builtin,W0459,UNC,X99,A value of variable `obj' doesn't set when this expression is evaluated. This program is danger.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,166,19,c_builtin,C1003,INF,X99,The problematic variable is defined here without initializer.
+W,p11_cert.c,171,7,c_builtin,W0459,UNC,X99,A value of variable `count' doesn't set when this expression is evaluated. This program is danger.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,167,11,c_builtin,C1003,INF,X99,The problematic variable is defined here without initializer.
+W,p11_cert.c,171,7,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,163,41,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,171,7,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_cert.c,171,7,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_cert.c,171,7,c_builtin,W9003,UNC,X99,An object typed `CK_RV' is implicitly converted into an object of type `int'.
+W,p11_cert.c,172,2,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_cert.c,174,15,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_cert.c,166,19,c_builtin,W0100,UNC,X99,The variable `obj' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,167,11,c_builtin,W0100,UNC,X99,The variable `count' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,168,6,c_builtin,W0100,UNC,X99,The variable `rv' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,163,41,c_builtin,W0104,UNC,X99,The value of formal argument `ctx' is not change. It can be declarable with 'const'.
+W,p11_cert.c,163,60,c_builtin,W0104,UNC,X99,The value of formal argument `token' is not change. It can be declarable with 'const'.
+W,p11_cert.c,164,21,c_builtin,W0104,UNC,X99,The value of formal argument `session' is not change. It can be declarable with 'const'.
+W,p11_cert.c,163,41,c_builtin,W0105,UNC,X99,The object which points the formal argument `ctx' is not change. It can be declaring as pointer type which points const object.
+W,p11_cert.c,163,60,c_builtin,W0105,UNC,X99,The object which points the formal argument `token' is not change. It can be declaring as pointer type which points const object.
+W,p11_cert.c,163,12,c_builtin,W1071,UNC,X99,Function `pkcs11_next_cert' has multiple termination points.
+W,p11_cert.c,183,60,c_builtin,W0492,UNC,X99,"The same identifier name `token' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11.h,104,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `token'.
+W,p11_cert.c,184,21,c_builtin,W0492,UNC,X99,"The same identifier name `session' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11-int.h,60,20,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `session'.
+W,p11_cert.c,199,70,c_builtin,W0459,UNC,X99,A value of variable `cert_type' doesn't set when this expression is evaluated. This program is danger.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,190,22,c_builtin,C1003,INF,X99,The problematic variable is defined here without initializer.
+W,p11_cert.c,199,37,c_builtin,W0758,UNC,X99,An implicit type conversion from unsigned long to unsigned int.
+W,p11_cert.c,207,16,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,183,60,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,207,32,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+W,p11_cert.c,208,7,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,183,60,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,208,7,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `PKCS11_CERT *'.
+W,p11_cert.c,208,7,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,p11_cert.c,208,7,c_builtin,W0424,UNC,X99,Arithmetic operation is being made to the pointer which its value might be NULL.
+W,p11_cert.c,208,44,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+W,p11_cert.c,212,10,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_cert.c,212,10,c_builtin,W9003,UNC,X99,An object typed `void *' is implicitly converted into an object of type `PKCS11_CERT_private *'.
+W,p11_cert.c,216,10,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,183,60,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,217,8,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,186,24,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+C,p11_cert.c,216,8,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,217,8,c_builtin,W0723,UNC,X99,A value of signed statement might be overflow.
+W,p11_cert.c,217,8,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_cert.c,217,8,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_cert.c,217,8,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_cert.c,217,8,c_builtin,W9003,UNC,X99,An object typed `void *' is implicitly converted into an object of type `PKCS11_CERT *'.
+W,p11_cert.c,221,7,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,186,24,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+C,p11_cert.c,216,8,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,222,14,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,186,24,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+C,p11_cert.c,216,8,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,222,29,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,186,24,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+C,p11_cert.c,216,8,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,222,37,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `PKCS11_CERT *'.
+W,p11_cert.c,222,22,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,p11_cert.c,222,14,c_builtin,W0424,UNC,X99,Arithmetic operation is being made to the pointer which its value might be NULL.
+W,p11_cert.c,226,63,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,188,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+C,p11_cert.c,222,7,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,226,35,c_builtin,W0758,UNC,X99,An implicit type conversion from unsigned long to unsigned int.
+W,p11_cert.c,227,9,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_cert.c,227,9,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,p11_cert.c,228,51,c_builtin,W0459,UNC,X99,A value of variable `data' doesn't set when this expression is evaluated. This program is danger.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,189,17,c_builtin,C1003,INF,X99,The problematic variable is defined here without initializer.
+W,p11_cert.c,228,40,c_builtin,W0758,UNC,X99,An implicit type conversion from unsigned long to unsigned int.
+W,p11_cert.c,231,7,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,188,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+C,p11_cert.c,222,7,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,231,35,c_builtin,W1049,UNC,X99,The result of conversion to signed integer type in integer expression might not be expressed by a signed type.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,191,9,c_builtin,C1006,INF,X99,New value is assigned to the problematic variable.
+C,p11_cert.c,198,7,c_builtin,C1006,INF,X99,New value is assigned to the problematic variable.
+C,p11_cert.c,199,24,c_builtin,C1006,INF,X99,New value is assigned to the problematic variable.
+C,p11_cert.c,228,27,c_builtin,C1006,INF,X99,New value is assigned to the problematic variable.
+W,p11_cert.c,234,6,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,188,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+C,p11_cert.c,222,7,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,234,17,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_cert.c,234,17,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,p11_cert.c,235,48,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,188,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+C,p11_cert.c,222,7,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,235,59,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,188,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+C,p11_cert.c,222,7,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,235,35,c_builtin,W0758,UNC,X99,An implicit type conversion from unsigned long to unsigned int.
+W,p11_cert.c,238,6,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,188,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+C,p11_cert.c,222,7,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,242,37,c_builtin,W0758,UNC,X99,An implicit type conversion from unsigned long to unsigned int.
+W,p11_cert.c,243,19,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_cert.c,243,19,c_builtin,W9003,UNC,X99,An object typed `int' is implicitly converted into an object of type `size_t'.
+W,p11_cert.c,186,24,c_builtin,W0100,UNC,X99,The variable `tpriv' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,187,23,c_builtin,W0100,UNC,X99,The variable `cpriv' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,188,15,c_builtin,W0100,UNC,X99,The variable `cert' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,188,22,c_builtin,W0100,UNC,X99,The variable `tmp' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,189,17,c_builtin,W0100,UNC,X99,The variable `data' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,190,22,c_builtin,W0100,UNC,X99,The variable `cert_type' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,183,41,c_builtin,W0104,UNC,X99,The value of formal argument `ctx' is not change. It can be declarable with 'const'.
+W,p11_cert.c,183,60,c_builtin,W0104,UNC,X99,The value of formal argument `token' is not change. It can be declarable with 'const'.
+W,p11_cert.c,184,21,c_builtin,W0104,UNC,X99,The value of formal argument `session' is not change. It can be declarable with 'const'.
+W,p11_cert.c,184,47,c_builtin,W0104,UNC,X99,The value of formal argument `obj' is not change. It can be declarable with 'const'.
+W,p11_cert.c,184,67,c_builtin,W0104,UNC,X99,The value of formal argument `ret' is not change. It can be declarable with 'const'.
+W,p11_cert.c,183,41,c_builtin,W0105,UNC,X99,The object which points the formal argument `ctx' is not change. It can be declaring as pointer type which points const object.
+W,p11_cert.c,183,60,c_builtin,W0105,UNC,X99,The object which points the formal argument `token' is not change. It can be declaring as pointer type which points const object.
+W,p11_cert.c,183,12,c_builtin,W1071,UNC,X99,Function `pkcs11_init_cert' has multiple termination points.
+W,p11_cert.c,215,8,c_builtin,W1073,UNC,X99,Return value of the function `memset' is discarded.
+W,p11_cert.c,223,8,c_builtin,W1073,UNC,X99,Return value of the function `memset' is discarded.
+W,p11_cert.c,226,22,c_builtin,W1073,UNC,X99,Return value of the function `pkcs11_getattr_alloc' is discarded.
+W,p11_cert.c,235,22,c_builtin,W1073,UNC,X99,Return value of the function `pkcs11_getattr_alloc' is discarded.
+W,p11_cert.c,253,41,c_builtin,W0492,UNC,X99,"The same identifier name `token' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11.h,104,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `token'.
+W,p11_cert.c,255,32,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,253,41,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,257,14,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,255,24,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,258,29,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,255,24,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,258,45,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,255,24,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,258,36,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+W,p11_cert.c,258,16,c_builtin,W0100,UNC,X99,The variable `cert' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,268,11,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,255,24,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,269,3,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,255,24,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,270,7,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,255,24,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,271,7,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,255,24,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,255,24,c_builtin,W0100,UNC,X99,The variable `tpriv' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,253,41,c_builtin,W0104,UNC,X99,The value of formal argument `token' is not change. It can be declarable with 'const'.
+W,p11_cert.c,253,41,c_builtin,W0105,UNC,X99,The object which points the formal argument `token' is not change. It can be declaring as pointer type which points const object.
+W,p11_cert.c,277,44,c_builtin,W0492,UNC,X99,"The same identifier name `token' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11.h,104,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `token'.
+W,p11_cert.c,277,57,c_builtin,W0492,UNC,X99,"The same identifier name `x509' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11.h,72,8,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `x509'.
+W,p11_cert.c,277,69,c_builtin,W0492,UNC,X99,"The same identifier name `label' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11.h,58,8,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `label'.
+C,libp11.h,69,8,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `label'.
+C,libp11.h,78,8,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `label'.
+C,pkcs11.h,231,17,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `label'.
+W,p11_cert.c,278,18,c_builtin,W0492,UNC,X99,"The same identifier name `id' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11.h,59,17,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `id'.
+C,libp11.h,70,17,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `id'.
+C,libp11-int.h,59,13,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `id'.
+C,libp11-int.h,96,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `id'.
+C,libp11-int.h,109,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `id'.
+W,p11_cert.c,278,29,c_builtin,W0492,UNC,X99,"The same identifier name `id_len' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11.h,60,9,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `id_len'.
+C,libp11.h,71,9,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `id_len'.
+C,libp11-int.h,97,9,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `id_len'.
+C,libp11-int.h,110,9,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `id_len'.
+W,p11_cert.c,280,22,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,277,44,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,281,20,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,280,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,282,31,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,280,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,283,19,c_builtin,W0492,UNC,X99,"The same identifier name `object' is also used in the member of structure/union, label, tag or normal identifier."
+C,libp11-int.h,94,19,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `object'.
+C,libp11-int.h,108,19,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `object'.
+W,p11_cert.c,285,19,c_builtin,W0167,UNC,X99,Implicit conversion from `signed int' to `unsigned int'.
+W,p11_cert.c,293,7,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,280,15,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,293,21,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+W,p11_cert.c,297,30,c_builtin,W9003,UNC,X99,An object typed `unsigned int' is implicitly converted into an object of type `CK_ATTRIBUTE *'.
+W,p11_cert.c,297,27,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,p11_cert.c,297,34,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_cert.c,298,31,c_builtin,W9003,UNC,X99,An object typed `unsigned int' is implicitly converted into an object of type `CK_ATTRIBUTE *'.
+W,p11_cert.c,298,28,c_builtin,W0024,UNC,X99,Increment or decrement is being made by pointer variable.
+W,p11_cert.c,298,35,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_cert.c,299,30,c_builtin,W9003,UNC,X99,An object typed `unsigned int' is implicitly converted into an object of type `CK_ATTRIBUTE *'.
+W,p11_cert.c,299,27,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,p11_cert.c,299,34,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_cert.c,300,30,c_builtin,W9003,UNC,X99,An object typed `unsigned int' is implicitly converted into an object of type `CK_ATTRIBUTE *'.
+W,p11_cert.c,300,27,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,p11_cert.c,301,3,c_builtin,W0553,UNC,X99,A pointer points to the function cast to other function pointer type.
+W,p11_cert.c,300,34,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_cert.c,302,30,c_builtin,W9003,UNC,X99,An object typed `unsigned int' is implicitly converted into an object of type `CK_ATTRIBUTE *'.
+W,p11_cert.c,302,27,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,p11_cert.c,303,3,c_builtin,W0553,UNC,X99,A pointer points to the function cast to other function pointer type.
+W,p11_cert.c,302,34,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_cert.c,327,30,c_builtin,W9003,UNC,X99,An object typed `unsigned int' is implicitly converted into an object of type `CK_ATTRIBUTE *'.
+W,p11_cert.c,327,27,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,p11_cert.c,327,34,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_cert.c,328,39,c_builtin,W0459,UNC,X99,A value of variable `md_len' doesn't set when this expression is evaluated. This program is danger.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,290,15,c_builtin,C1003,INF,X99,The problematic variable is defined here without initializer.
+W,p11_cert.c,329,27,c_builtin,W9003,UNC,X99,An object typed `unsigned int' is implicitly converted into an object of type `CK_ATTRIBUTE *'.
+W,p11_cert.c,329,24,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,p11_cert.c,329,31,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_cert.c,329,65,c_builtin,W9003,UNC,X99,An object typed `unsigned int' is implicitly converted into an object of type `size_t'.
+W,p11_cert.c,331,30,c_builtin,W9003,UNC,X99,An object typed `unsigned int' is implicitly converted into an object of type `CK_ATTRIBUTE *'.
+W,p11_cert.c,331,27,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,p11_cert.c,331,45,c_builtin,W0553,UNC,X99,A pointer points to the function cast to other function pointer type.
+W,p11_cert.c,331,34,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_cert.c,333,29,c_builtin,W9003,UNC,X99,An object typed `unsigned int' is implicitly converted into an object of type `CK_ATTRIBUTE *'.
+W,p11_cert.c,333,26,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,p11_cert.c,333,33,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_cert.c,335,27,c_builtin,W9003,UNC,X99,An object typed `unsigned int' is implicitly converted into an object of type `CK_ATTRIBUTE *'.
+W,p11_cert.c,335,24,c_builtin,W0023,UNC,X99,Arithmetic operation is being made by pointer variable.
+W,p11_cert.c,335,31,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_cert.c,338,7,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,282,23,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,338,7,c_builtin,W0459,UNC,X99,A value of variable `object' doesn't set when this expression is evaluated. This program is danger.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,283,19,c_builtin,C1003,INF,X99,The problematic variable is defined here without initializer.
+W,p11_cert.c,338,7,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,p11_cert.c,338,7,c_builtin,W9003,UNC,X99,An object typed `CK_RV' is implicitly converted into an object of type `int'.
+W,p11_cert.c,343,2,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,p11_cert.c,346,43,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_cert.c,282,23,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,p11_cert.c,280,15,c_builtin,W0100,UNC,X99,The variable `slot' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,281,14,c_builtin,W0100,UNC,X99,The variable `ctx' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,282,23,c_builtin,W0100,UNC,X99,The variable `spriv' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,283,19,c_builtin,W0100,UNC,X99,The variable `object' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,286,6,c_builtin,W0100,UNC,X99,The variable `rv' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,287,16,c_builtin,W0100,UNC,X99,The variable `evp_md' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,289,16,c_builtin,W0100,UNC,X99,The variable `md' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,290,15,c_builtin,W0100,UNC,X99,The variable `md_len' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,p11_cert.c,277,44,c_builtin,W0104,UNC,X99,The value of formal argument `token' is not change. It can be declarable with 'const'.
+W,p11_cert.c,277,57,c_builtin,W0104,UNC,X99,The value of formal argument `x509' is not change. It can be declarable with 'const'.
+W,p11_cert.c,277,69,c_builtin,W0104,UNC,X99,The value of formal argument `label' is not change. It can be declarable with 'const'.
+W,p11_cert.c,278,18,c_builtin,W0104,UNC,X99,The value of formal argument `id' is not change. It can be declarable with 'const'.
+W,p11_cert.c,278,29,c_builtin,W0104,UNC,X99,The value of formal argument `id_len' is not change. It can be declarable with 'const'.
+W,p11_cert.c,278,52,c_builtin,W0104,UNC,X99,The value of formal argument `ret_cert' is not change. It can be declarable with 'const'.
+W,p11_cert.c,277,44,c_builtin,W0105,UNC,X99,The object which points the formal argument `token' is not change. It can be declaring as pointer type which points const object.
+W,p11_cert.c,277,57,c_builtin,W0105,UNC,X99,The object which points the formal argument `x509' is not change. It can be declaring as pointer type which points const object.
+W,p11_cert.c,277,69,c_builtin,W0105,UNC,X99,The object which points the formal argument `label' is not change. It can be declaring as pointer type which points const object.
+W,p11_cert.c,278,18,c_builtin,W0105,UNC,X99,The object which points the formal argument `id' is not change. It can be declaring as pointer type which points const object.
+W,p11_cert.c,278,52,c_builtin,W0105,UNC,X99,The object which points the formal argument `ret_cert' is not change. It can be declaring as pointer type which points const object.
+W,p11_cert.c,277,5,c_builtin,W1071,UNC,X99,Function `pkcs11_store_certificate' has multiple termination points.
+W,libp11.h,39,5,c_builtin,W0771,UNC,X99,A global identifier `ERR_load_CKR_strings' is declared in more than one file.
+C,libp11-int.h,133,12,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `ERR_load_CKR_strings'.
+W,libp11-int.h,133,12,c_builtin,W0771,UNC,X99,A global identifier `ERR_load_CKR_strings' is declared in more than one file.
+C,libp11.h,39,5,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `ERR_load_CKR_strings'.
+W,libp11-int.h,27,1,c_builtin,W0073,UNC,X99,No include guard in this include file.
+W,p11_err.h,26,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11.h,28,1,c_builtin,W0073,UNC,X99,No include guard in this include file.
+W,libp11.h,42,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,pkcs11.h,271,1,c_builtin,W0479,UNC,X99,This macro definition might be replaced with 'typedef' declaration.
+W,pkcs11.h,799,1,c_builtin,W0478,UNC,X99,This macro defines scraps of unrecognized codes.
+W,pkcs11.h,1267,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,69,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,83,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,84,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,102,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,103,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,104,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,113,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,114,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,115,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,131,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,144,1,c_builtin,W0478,UNC,X99,This macro defines scraps of unrecognized codes.
+W,libp11-int.h,146,1,c_builtin,W0478,UNC,X99,This macro defines scraps of unrecognized codes.
+W,libp11-int.h,148,1,c_builtin,W0478,UNC,X99,This macro defines scraps of unrecognized codes.
+W,libp11-int.h,150,1,c_builtin,W0478,UNC,X99,This macro defines scraps of unrecognized codes.
+W,libp11-int.h,156,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,190,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,193,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,196,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,203,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,pkcs11.h,188,8,c_builtin,W0809,UNC,X99,An identifier `_CK_VERSION' is reserved by the library.
+W,pkcs11.h,195,8,c_builtin,W0809,UNC,X99,An identifier `_CK_INFO' is reserved by the library.
+W,pkcs11.h,213,8,c_builtin,W0809,UNC,X99,An identifier `_CK_SLOT_INFO' is reserved by the library.
+W,pkcs11.h,229,8,c_builtin,W0809,UNC,X99,An identifier `_CK_TOKEN_INFO' is reserved by the library.
+W,pkcs11.h,296,8,c_builtin,W0809,UNC,X99,An identifier `_CK_SESSION_INFO' is reserved by the library.
+W,pkcs11.h,466,8,c_builtin,W0809,UNC,X99,An identifier `_CK_ATTRIBUTE' is reserved by the library.
+W,pkcs11.h,474,8,c_builtin,W0809,UNC,X99,An identifier `_CK_DATE' is reserved by the library.
+W,pkcs11.h,717,8,c_builtin,W0809,UNC,X99,An identifier `_CK_MECHANISM' is reserved by the library.
+W,pkcs11.h,725,8,c_builtin,W0809,UNC,X99,An identifier `_CK_MECHANISM_INFO' is reserved by the library.
+W,pkcs11.h,1080,8,c_builtin,W0809,UNC,X99,An identifier `_CK_FUNCTION_LIST' is reserved by the library.
+W,pkcs11.h,1160,8,c_builtin,W0809,UNC,X99,An identifier `_CK_C_INITIALIZE_ARGS' is reserved by the library.
+W,pkcs11.h,1324,30,c_builtin,W0039,UNC,X99,The number of local identifier in the block exceeds 127. This program doesn't meet the strict ISO C90 standards of the term.
+W,libp11-int.h,142,5,c_builtin,W0078,UNC,X99,A function is declared without list of formal argument.
+W,libp11-int.h,160,21,c_builtin,W0078,UNC,X99,A function is declared without list of formal argument.
+W,libp11-int.h,168,14,c_builtin,W0542,UNC,X99,There are identifiers in the part of formal argument in a function declaration.
+W,libp11-int.h,328,12,c_builtin,W0542,UNC,X99,There are identifiers in the part of formal argument in a function declaration.
+W,libp11-int.h,329,12,c_builtin,W0542,UNC,X99,There are identifiers in the part of formal argument in a function declaration.
+W,p11_cert.c,31,12,c_builtin,W0542,UNC,X99,There are identifiers in the part of formal argument in a function declaration.
+W,p11_cert.c,37,5,c_builtin,W0543,UNC,X99,The identifier of formal argument in this function declaration is different from the past declaration of it.
+W,p11_cert.c,49,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,48,6,c_builtin,W0488,UNC,X99,"A function call`()', array's index operation`[]', or structure/union operation `->' or `.' are used with && or ||. It had better clear the coupling by using `()'."
+W,p11_cert.c,48,6,c_builtin,W0489,UNC,X99,A monadic operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,p11_cert.c,48,26,c_builtin,W0508,UNC,X99,There's a side effect at the right operand of `&&' or `||'operator.
+W,p11_cert.c,51,2,c_builtin,W0414,UNC,X99,Body of the controlling statement in a line is not enclosed by `{}'.
+W,p11_cert.c,53,2,c_builtin,W0414,UNC,X99,Body of the controlling statement in a line is not enclosed by `{}'.
+W,p11_cert.c,60,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,62,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,69,5,c_builtin,W0543,UNC,X99,The identifier of formal argument in this function declaration is different from the past declaration of it.
+W,p11_cert.c,75,33,c_builtin,W0950,UNC,X99,Integer constant `32' is specified directly as an array size.
+W,p11_cert.c,80,6,c_builtin,W0488,UNC,X99,"A function call`()', array's index operation`[]', or structure/union operation `->' or `.' are used with && or ||. It had better clear the coupling by using `()'."
+W,p11_cert.c,80,6,c_builtin,W0489,UNC,X99,A monadic operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,p11_cert.c,80,26,c_builtin,W0508,UNC,X99,There's a side effect at the right operand of `&&' or `||'operator.
+W,p11_cert.c,84,42,c_builtin,W0512,UNC,X99,The result of `++' or `--' operator is used in the statement.
+W,p11_cert.c,85,6,c_builtin,W0488,UNC,X99,"A function call`()', array's index operation`[]', or structure/union operation `->' or `.' are used with && or ||. It had better clear the coupling by using `()'."
+W,p11_cert.c,86,39,c_builtin,W0512,UNC,X99,The result of `++' or `--' operator is used in the statement.
+W,p11_cert.c,89,42,c_builtin,W0512,UNC,X99,The result of `++' or `--' operator is used in the statement.
+W,p11_cert.c,125,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,126,25,c_builtin,W0535,UNC,X99,A comma operator is used in a 'for' statement.
+W,p11_cert.c,130,4,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,128,7,c_builtin,W0488,UNC,X99,"A function call`()', array's index operation`[]', or structure/union operation `->' or `.' are used with && or ||. It had better clear the coupling by using `()'."
+W,p11_cert.c,128,7,c_builtin,W0489,UNC,X99,A monadic operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,p11_cert.c,128,7,c_builtin,W0490,UNC,X99,A binary operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,p11_cert.c,128,7,c_builtin,W0502,UNC,X99,"A binary operator other than `+', `-', `*', `/' and `%' appears with binary operator which has different precedence without expression grouping."
+W,p11_cert.c,129,5,c_builtin,W0508,UNC,X99,There's a side effect at the right operand of `&&' or `||'operator.
+W,p11_cert.c,175,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,178,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,183,12,c_builtin,W0543,UNC,X99,The identifier of formal argument in this function declaration is different from the past declaration of it.
+W,p11_cert.c,200,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,202,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,208,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,209,4,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,214,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,220,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,222,37,c_builtin,W0512,UNC,X99,The result of `++' or `--' operator is used in the statement.
+W,p11_cert.c,243,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,246,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,261,4,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,264,4,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,266,4,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,269,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,284,21,c_builtin,W0950,UNC,X99,Integer constant `32' is specified directly as an array size.
+W,p11_cert.c,294,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,293,6,c_builtin,W0488,UNC,X99,"A function call`()', array's index operation`[]', or structure/union operation `->' or `.' are used with && or ||. It had better clear the coupling by using `()'."
+W,p11_cert.c,293,6,c_builtin,W0489,UNC,X99,A monadic operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,p11_cert.c,293,35,c_builtin,W0508,UNC,X99,There's a side effect at the right operand of `&&' or `||'operator.
+W,p11_cert.c,297,30,c_builtin,W0512,UNC,X99,The result of `++' or `--' operator is used in the statement.
+W,p11_cert.c,298,31,c_builtin,W0512,UNC,X99,The result of `++' or `--' operator is used in the statement.
+W,p11_cert.c,299,30,c_builtin,W0512,UNC,X99,The result of `++' or `--' operator is used in the statement.
+W,p11_cert.c,300,30,c_builtin,W0512,UNC,X99,The result of `++' or `--' operator is used in the statement.
+W,p11_cert.c,302,30,c_builtin,W0512,UNC,X99,The result of `++' or `--' operator is used in the statement.
+W,p11_cert.c,308,2,c_builtin,W0538,UNC,X99,This 'default' label is not final label in this 'switch' statement.
+W,p11_cert.c,327,30,c_builtin,W0512,UNC,X99,The result of `++' or `--' operator is used in the statement.
+W,p11_cert.c,329,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,329,27,c_builtin,W0512,UNC,X99,The result of `++' or `--' operator is used in the statement.
+W,p11_cert.c,331,30,c_builtin,W0512,UNC,X99,The result of `++' or `--' operator is used in the statement.
+W,p11_cert.c,333,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,333,29,c_builtin,W0512,UNC,X99,The result of `++' or `--' operator is used in the statement.
+W,p11_cert.c,335,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_cert.c,335,27,c_builtin,W0512,UNC,X99,The result of `++' or `--' operator is used in the statement.
+W,libp11-int.h,24,1,c_builtin,W0071,UNC,X99,"Included ""config.h"" is not referenced in the translation unit. It can be removed."
+W,libp11.h,27,1,c_builtin,W0071,UNC,X99,"Included ""p11_err.h"" is not referenced in the translation unit. It can be removed."
+W,p11_cert.c,194,2,c_builtin,W0085,UNC,X99,This statement doesn't have side-effects. It is highly possible that it having error.
+W,p11_cert.c,195,2,c_builtin,W0085,UNC,X99,This statement doesn't have side-effects. It is highly possible that it having error.
+W,p11_cert.c,51,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_cert.c,53,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_cert.c,59,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_cert.c,61,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_cert.c,88,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_cert.c,94,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_cert.c,97,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_cert.c,124,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_cert.c,152,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_cert.c,172,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_cert.c,177,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_cert.c,199,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_cert.c,242,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_cert.c,245,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_cert.c,260,3,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_cert.c,263,3,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_cert.c,268,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_cert.c,328,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_cert.c,332,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,p11_cert.c,343,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,pkcs11.h,803,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,804,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,805,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,806,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,809,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,812,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,814,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,816,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,818,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,822,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,825,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,828,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,831,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,836,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,840,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,841,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,842,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,845,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,849,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,855,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,858,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,860,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,864,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,868,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,871,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,875,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,880,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,885,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,889,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,894,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,897,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,901,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,906,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,911,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,916,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,920,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,925,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,930,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,935,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,938,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,943,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,946,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,948,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,953,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,957,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,962,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,965,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,969,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,973,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,979,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,983,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,988,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,991,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,995,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,999,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1006,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1011,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1017,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1022,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1029,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1035,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1044,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1051,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1060,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1068,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1071,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1076,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1077,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,libp11-int.h,58,29,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,libp11-int.h,78,19,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,p11_cert.c,94,2,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,p11_cert.c,97,2,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,p11_cert.c,121,18,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,p11_cert.c,147,10,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,p11_cert.c,152,2,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,p11_cert.c,172,2,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,p11_cert.c,188,22,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,p11_cert.c,343,2,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,p11_cert.c,101,3,c_builtin,W0431,UNC,X99,This line begins at more left than previous lines of the same indentation level.
+W,p11_cert.c,40,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,41,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,42,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,43,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,44,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,45,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,48,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,49,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,51,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,52,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,53,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,54,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,55,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,56,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,57,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,59,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,60,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,61,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,62,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,63,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,70,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,71,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,72,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,73,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,74,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,75,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,76,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,77,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,80,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,81,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,82,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,84,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,85,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,86,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,87,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,88,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,89,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,90,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,92,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,94,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,96,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,97,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,100,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,101,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,102,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,103,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,104,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,105,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,106,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,107,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,108,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,109,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,110,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,118,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,119,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,120,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,121,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,123,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,124,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,125,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,126,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,127,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,128,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,130,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,131,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,132,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,140,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,141,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,142,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,143,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,144,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,145,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,146,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,147,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,150,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,151,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,152,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,154,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,155,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,156,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,160,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,166,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,167,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,168,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,171,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,172,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,174,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,175,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,177,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,178,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,180,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,186,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,187,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,188,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,189,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,190,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,191,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,192,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,198,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,199,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,200,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,201,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,202,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,207,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,208,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,209,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,212,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,213,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,214,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,215,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,216,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,217,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,219,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,220,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,221,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,222,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,223,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,226,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,227,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,228,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,229,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,231,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,232,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,233,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,234,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,235,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,238,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,239,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,240,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,241,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,242,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,243,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,245,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,246,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,247,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,255,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,257,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,258,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,260,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,261,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,262,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,263,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,264,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,265,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,266,4,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,267,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,268,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,269,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,270,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,271,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,280,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,281,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,282,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,283,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,284,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,285,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,286,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,287,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,288,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,289,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,290,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,293,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,294,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,297,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,298,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,299,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,300,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,302,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,306,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,307,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,310,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,311,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,313,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,314,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,316,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,317,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,319,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,320,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,322,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,323,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,324,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,327,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,328,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,329,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,331,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,332,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,333,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,334,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,335,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,338,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,341,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,343,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,p11_cert.c,346,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.

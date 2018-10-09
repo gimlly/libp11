@@ -1,0 +1,51 @@
+W,libp11.h,39,5,c_builtin,W0770,UNC,X99,A declaration of identifier `int ERR_load_CKR_strings(void)' which has external coupling exists more than one.
+C,libp11-int.h,133,12,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `int ERR_load_CKR_strings(void)'.
+W,libp11-int.h,133,12,c_builtin,W0770,UNC,X99,A declaration of identifier `int ERR_load_CKR_strings(void)' which has external coupling exists more than one.
+C,libp11.h,39,5,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `int ERR_load_CKR_strings(void)'.
+W,eng_back.c,349,5,c_builtin,W0628,UNC,X99,"A function `int ctx_finish(ENGINE_CTX *)' is defined, but this is not used in this project."
+W,eng_front.c,257,1,c_builtin,W0628,UNC,X99,"A function `unsigned long v_check(unsigned long)' is defined, but this is not used in this project."
+W,eng_front.c,258,1,c_builtin,W0628,UNC,X99,"A function `int bind_engine(ENGINE *,char const *,dynamic_fns const *)' is defined, but this is not used in this project."
+W,p11_atfork.c,67,5,c_builtin,W0628,UNC,X99,"A function `int _P11_register_fork_handler(void)' is defined, but this is not used in this project."
+W,p11_ckr.c,161,5,c_builtin,W0770,UNC,X99,A declaration of identifier `int ERR_load_CKR_strings(void)' which has external coupling exists more than one.
+C,libp11.h,39,5,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `int ERR_load_CKR_strings(void)'.
+C,libp11-int.h,133,12,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `int ERR_load_CKR_strings(void)'.
+W,p11_ckr.c,181,6,c_builtin,W0628,UNC,X99,"A function `void ERR_unload_CKR_strings(void)' is defined, but this is not used in this project."
+W,p11_ckr.c,203,5,c_builtin,W0628,UNC,X99,"A function `int ERR_get_CKR_code(void)' is defined, but this is not used in this project."
+W,p11_ec.c,122,14,c_builtin,W0589,UNC,X99,An object `ECDH_METHOD * ECDH_METHOD_new(ECDH_METHOD const *)' is only referenced by function `ECDH_METHOD * PKCS11_get_ecdh_method(void)' in the defined translation unit.
+W,p11_ec.c,122,14,c_builtin,W0591,UNC,X99,A function `ECDH_METHOD * ECDH_METHOD_new(ECDH_METHOD const *)' is only referenced by the defined translation unit.
+W,p11_ec.c,135,6,c_builtin,W0628,UNC,X99,"A function `void ECDH_METHOD_free(ECDH_METHOD *)' is defined, but this is not used in this project."
+W,p11_ec.c,140,6,c_builtin,W0589,UNC,X99,"An object `void ECDH_METHOD_get_compute_key(ECDH_METHOD *,compute_key_fn *)' is only referenced by function `ECDH_METHOD * PKCS11_get_ecdh_method(void)' in the defined translation unit."
+W,p11_ec.c,140,6,c_builtin,W0591,UNC,X99,"A function `void ECDH_METHOD_get_compute_key(ECDH_METHOD *,compute_key_fn *)' is only referenced by the defined translation unit."
+W,p11_ec.c,145,6,c_builtin,W0589,UNC,X99,"An object `void ECDH_METHOD_set_compute_key(ECDH_METHOD *,compute_key_fn)' is only referenced by function `ECDH_METHOD * PKCS11_get_ecdh_method(void)' in the defined translation unit."
+W,p11_ec.c,145,6,c_builtin,W0591,UNC,X99,"A function `void ECDH_METHOD_set_compute_key(ECDH_METHOD *,compute_key_fn)' is only referenced by the defined translation unit."
+W,p11_ec.c,695,7,c_builtin,W0628,UNC,X99,"A function `void * PKCS11_get_ec_key_method(void)' is defined, but this is not used in this project."
+W,p11_ec.c,751,6,c_builtin,W0628,UNC,X99,"A function `void PKCS11_ecdsa_method_free(void)' is defined, but this is not used in this project."
+W,p11_err.c,80,6,c_builtin,W0628,UNC,X99,"A function `void ERR_unload_P11_strings(void)' is defined, but this is not used in this project."
+W,p11_front.c,101,14,c_builtin,W0628,UNC,X99,"A function `PKCS11_SLOT * PKCS11_find_next_token(PKCS11_CTX *,PKCS11_SLOT *,unsigned int,PKCS11_SLOT *)' is defined, but this is not used in this project."
+W,p11_front.c,124,5,c_builtin,W0628,UNC,X99,"A function `int PKCS11_logout(PKCS11_SLOT *)' is defined, but this is not used in this project."
+W,p11_front.c,139,5,c_builtin,W0628,UNC,X99,"A function `int PKCS11_remove_key(PKCS11_KEY *)' is defined, but this is not used in this project."
+W,p11_front.c,154,5,c_builtin,W0628,UNC,X99,"A function `int PKCS11_get_key_type(PKCS11_KEY *)' is defined, but this is not used in this project."
+W,p11_front.c,175,14,c_builtin,W0628,UNC,X99,"A function `PKCS11_CERT * PKCS11_find_certificate(PKCS11_KEY *)' is defined, but this is not used in this project."
+W,p11_front.c,182,13,c_builtin,W0628,UNC,X99,"A function `PKCS11_KEY * PKCS11_find_key(PKCS11_CERT *)' is defined, but this is not used in this project."
+W,p11_front.c,197,5,c_builtin,W0628,UNC,X99,"A function `int PKCS11_remove_certificate(PKCS11_CERT *)' is defined, but this is not used in this project."
+W,p11_front.c,204,5,c_builtin,W0628,UNC,X99,"A function `int PKCS11_init_token(PKCS11_TOKEN *,char const *,char const *)' is defined, but this is not used in this project."
+W,p11_front.c,212,5,c_builtin,W0628,UNC,X99,"A function `int PKCS11_init_pin(PKCS11_TOKEN *,char const *)' is defined, but this is not used in this project."
+W,p11_front.c,219,5,c_builtin,W0628,UNC,X99,"A function `int PKCS11_change_pin(PKCS11_SLOT *,char const *,char const *)' is defined, but this is not used in this project."
+W,p11_front.c,227,5,c_builtin,W0628,UNC,X99,"A function `int PKCS11_store_private_key(PKCS11_TOKEN *,EVP_PKEY *,char *,unsigned char *,size_t)' is defined, but this is not used in this project."
+W,p11_front.c,235,5,c_builtin,W0628,UNC,X99,"A function `int PKCS11_store_public_key(PKCS11_TOKEN *,EVP_PKEY *,char *,unsigned char *,size_t)' is defined, but this is not used in this project."
+W,p11_front.c,243,5,c_builtin,W0628,UNC,X99,"A function `int PKCS11_store_certificate(PKCS11_TOKEN *,X509 *,char *,unsigned char *,size_t,PKCS11_CERT * *)' is defined, but this is not used in this project."
+W,p11_front.c,252,5,c_builtin,W0628,UNC,X99,"A function `int PKCS11_seed_random(PKCS11_SLOT *,unsigned char const *,unsigned int)' is defined, but this is not used in this project."
+W,p11_front.c,259,5,c_builtin,W0628,UNC,X99,"A function `int PKCS11_generate_random(PKCS11_SLOT *,unsigned char *,unsigned int)' is defined, but this is not used in this project."
+W,p11_front.c,284,5,c_builtin,W0628,UNC,X99,"A function `int PKCS11_generate_key(PKCS11_TOKEN *,int,unsigned int,char *,unsigned char *,size_t)' is defined, but this is not used in this project."
+W,p11_front.c,293,5,c_builtin,W0628,UNC,X99,"A function `int PKCS11_get_key_size(PKCS11_KEY *)' is defined, but this is not used in this project."
+W,p11_front.c,300,5,c_builtin,W0628,UNC,X99,"A function `int PKCS11_get_key_modulus(PKCS11_KEY *,BIGNUM * *)' is defined, but this is not used in this project."
+W,p11_front.c,307,5,c_builtin,W0628,UNC,X99,"A function `int PKCS11_get_key_exponent(PKCS11_KEY *,BIGNUM * *)' is defined, but this is not used in this project."
+W,p11_front.c,314,5,c_builtin,W0628,UNC,X99,"A function `int PKCS11_sign(int,unsigned char const *,unsigned int,unsigned char *,unsigned int *,PKCS11_KEY *)' is defined, but this is not used in this project."
+W,p11_front.c,338,5,c_builtin,W0628,UNC,X99,"A function `int PKCS11_verify(int,unsigned char const *,unsigned int,unsigned char *,unsigned int,PKCS11_KEY *)' is defined, but this is not used in this project."
+W,p11_rsa.c,158,5,c_builtin,W0628,UNC,X99,"A function `int pkcs11_verify(int,unsigned char const *,unsigned int,unsigned char *,unsigned int,PKCS11_KEY *)' is defined, but this is not used in this project."
+W,p11_rsa.c,335,7,c_builtin,W0589,UNC,X99,"An object `int(*)(int,unsigned char const *,unsigned char *,RSA *,int) RSA_meth_get_priv_enc(RSA_METHOD const *)' is only referenced by function `int pkcs11_rsa_priv_enc_method(int,unsigned char const *,unsigned char *,RSA *,int)' in the defined translation unit."
+W,p11_rsa.c,335,7,c_builtin,W0591,UNC,X99,"A function `int(*)(int,unsigned char const *,unsigned char *,RSA *,int) RSA_meth_get_priv_enc(RSA_METHOD const *)' is only referenced by the defined translation unit."
+W,p11_rsa.c,342,7,c_builtin,W0589,UNC,X99,"An object `int(*)(int,unsigned char const *,unsigned char *,RSA *,int) RSA_meth_get_priv_dec(RSA_METHOD const *)' is only referenced by function `int pkcs11_rsa_priv_dec_method(int,unsigned char const *,unsigned char *,RSA *,int)' in the defined translation unit."
+W,p11_rsa.c,342,7,c_builtin,W0591,UNC,X99,"A function `int(*)(int,unsigned char const *,unsigned char *,RSA *,int) RSA_meth_get_priv_dec(RSA_METHOD const *)' is only referenced by the defined translation unit."
+W,p11_rsa.c,483,6,c_builtin,W0628,UNC,X99,"A function `void PKCS11_rsa_method_free(void)' is defined, but this is not used in this project."
+W,p11_ec.c,727,16,c_builtin,W0593,UNC,X99,An object `pkcs11_ec_ops_s' is only referenced by the defined translation unit.

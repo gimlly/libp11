@@ -1,0 +1,114 @@
+W,p11_err.h,26,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,p11_err.c,20,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,p11_err.c,20,36,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,p11_err.c,21,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,p11_err.c,21,42,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,p11_err.c,24,6,c_builtin,W0172,UNC,X99,An implicit type conversion from signed long to unsigned long.
+W,p11_err.c,24,6,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_err.c,24,6,c_builtin,W0076,UNC,X99,Hexadecimal constant without `U' or `u' suffix.
+W,p11_err.c,24,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_err.c,25,6,c_builtin,W0172,UNC,X99,An implicit type conversion from signed long to unsigned long.
+W,p11_err.c,25,6,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_err.c,25,6,c_builtin,W0076,UNC,X99,Hexadecimal constant without `U' or `u' suffix.
+W,p11_err.c,25,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_err.c,26,6,c_builtin,W0172,UNC,X99,An implicit type conversion from signed long to unsigned long.
+W,p11_err.c,26,6,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_err.c,26,6,c_builtin,W0076,UNC,X99,Hexadecimal constant without `U' or `u' suffix.
+W,p11_err.c,26,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_err.c,27,6,c_builtin,W0172,UNC,X99,An implicit type conversion from signed long to unsigned long.
+W,p11_err.c,27,6,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_err.c,27,6,c_builtin,W0076,UNC,X99,Hexadecimal constant without `U' or `u' suffix.
+W,p11_err.c,27,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_err.c,28,6,c_builtin,W0172,UNC,X99,An implicit type conversion from signed long to unsigned long.
+W,p11_err.c,28,6,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_err.c,28,6,c_builtin,W0076,UNC,X99,Hexadecimal constant without `U' or `u' suffix.
+W,p11_err.c,28,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_err.c,29,6,c_builtin,W0172,UNC,X99,An implicit type conversion from signed long to unsigned long.
+W,p11_err.c,29,6,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_err.c,29,6,c_builtin,W0076,UNC,X99,Hexadecimal constant without `U' or `u' suffix.
+W,p11_err.c,29,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_err.c,30,6,c_builtin,W0172,UNC,X99,An implicit type conversion from signed long to unsigned long.
+W,p11_err.c,30,6,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_err.c,30,6,c_builtin,W0076,UNC,X99,Hexadecimal constant without `U' or `u' suffix.
+W,p11_err.c,30,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_err.c,31,6,c_builtin,W0172,UNC,X99,An implicit type conversion from signed long to unsigned long.
+W,p11_err.c,31,6,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_err.c,31,6,c_builtin,W0076,UNC,X99,Hexadecimal constant without `U' or `u' suffix.
+W,p11_err.c,31,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_err.c,32,6,c_builtin,W0172,UNC,X99,An implicit type conversion from signed long to unsigned long.
+W,p11_err.c,32,6,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_err.c,32,6,c_builtin,W0076,UNC,X99,Hexadecimal constant without `U' or `u' suffix.
+W,p11_err.c,32,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_err.c,33,6,c_builtin,W0172,UNC,X99,An implicit type conversion from signed long to unsigned long.
+W,p11_err.c,33,6,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_err.c,33,6,c_builtin,W0076,UNC,X99,Hexadecimal constant without `U' or `u' suffix.
+W,p11_err.c,33,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_err.c,34,6,c_builtin,W0172,UNC,X99,An implicit type conversion from signed long to unsigned long.
+W,p11_err.c,34,6,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_err.c,34,6,c_builtin,W0076,UNC,X99,Hexadecimal constant without `U' or `u' suffix.
+W,p11_err.c,34,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_err.c,35,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_err.c,39,6,c_builtin,W0172,UNC,X99,An implicit type conversion from signed long to unsigned long.
+W,p11_err.c,39,6,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_err.c,39,6,c_builtin,W0076,UNC,X99,Hexadecimal constant without `U' or `u' suffix.
+W,p11_err.c,39,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_err.c,40,6,c_builtin,W0172,UNC,X99,An implicit type conversion from signed long to unsigned long.
+W,p11_err.c,40,6,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_err.c,40,6,c_builtin,W0076,UNC,X99,Hexadecimal constant without `U' or `u' suffix.
+W,p11_err.c,40,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_err.c,41,6,c_builtin,W0172,UNC,X99,An implicit type conversion from signed long to unsigned long.
+W,p11_err.c,41,6,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_err.c,41,6,c_builtin,W0076,UNC,X99,Hexadecimal constant without `U' or `u' suffix.
+W,p11_err.c,41,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_err.c,42,6,c_builtin,W0172,UNC,X99,An implicit type conversion from signed long to unsigned long.
+W,p11_err.c,42,6,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_err.c,42,6,c_builtin,W0076,UNC,X99,Hexadecimal constant without `U' or `u' suffix.
+W,p11_err.c,42,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_err.c,43,6,c_builtin,W0172,UNC,X99,An implicit type conversion from signed long to unsigned long.
+W,p11_err.c,43,6,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_err.c,43,6,c_builtin,W0076,UNC,X99,Hexadecimal constant without `U' or `u' suffix.
+W,p11_err.c,43,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_err.c,44,6,c_builtin,W0172,UNC,X99,An implicit type conversion from signed long to unsigned long.
+W,p11_err.c,44,6,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_err.c,44,6,c_builtin,W0076,UNC,X99,Hexadecimal constant without `U' or `u' suffix.
+W,p11_err.c,44,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_err.c,45,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_err.c,52,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_err.c,53,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_err.c,73,31,c_builtin,W0608,UNC,X99,An integer expression which the value might be minus converted to unsigned type.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,p11_err.c,57,12,c_builtin,C1006,INF,X99,New value is assigned to the problematic variable.
+C,p11_err.c,62,28,c_builtin,C1001,INF,X99,This controlling-expression is evaluated to be true.
+C,p11_err.c,63,28,c_builtin,C1006,INF,X99,New value is assigned to the problematic variable.
+W,p11_err.c,73,31,c_builtin,W0172,UNC,X99,An implicit type conversion from signed long to unsigned long.
+W,p11_err.c,73,31,c_builtin,W0572,UNC,X99,Bitwise operation of signed value causes implementation-defined behavior.
+W,p11_err.c,73,31,c_builtin,W0076,UNC,X99,Hexadecimal constant without `U' or `u' suffix.
+W,p11_err.c,73,31,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,p11_err.c,95,24,c_builtin,W0104,UNC,X99,The value of formal argument `function' is not change. It can be declarable with 'const'.
+W,p11_err.c,95,38,c_builtin,W0104,UNC,X99,The value of formal argument `reason' is not change. It can be declarable with 'const'.
+W,p11_err.c,95,52,c_builtin,W0104,UNC,X99,The value of formal argument `file' is not change. It can be declarable with 'const'.
+W,p11_err.c,95,62,c_builtin,W0104,UNC,X99,The value of formal argument `line' is not change. It can be declarable with 'const'.
+W,p11_err.c,95,52,c_builtin,W0105,UNC,X99,The object which points the formal argument `file' is not change. It can be declaring as pointer type which points const object.
+W,p11_err.h,26,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,p11_err.c,20,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,p11_err.c,21,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,p11_err.c,24,41,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,p11_err.c,25,39,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,p11_err.c,26,41,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,p11_err.c,27,42,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,p11_err.c,28,46,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,p11_err.c,29,39,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,p11_err.c,30,37,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,p11_err.c,31,40,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,p11_err.c,32,42,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,p11_err.c,33,40,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,p11_err.c,34,37,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,p11_err.c,39,39,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,p11_err.c,40,43,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,p11_err.c,41,39,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,p11_err.c,42,36,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,p11_err.c,43,35,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,p11_err.c,44,50,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,p11_err.c,63,9,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_err.c,98,9,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,p11_err.c,65,5,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.

@@ -1,0 +1,255 @@
+W,libpkcs11.c,1,1,c_builtin,W0576,UNC,X99,The character except for basic source character is used in the comment of source file `libpkcs11.c'.
+W,libp11-int.h,1,1,c_builtin,W0576,UNC,X99,The character except for basic source character is used in the comment of source file `libp11-int.h'.
+W,config.h,64,1,c_builtin,W0576,UNC,X99,The character except for basic source character is used in the comment of source file `config.h'.
+W,p11_err.h,26,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11.h,42,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11.h,415,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,pkcs11.h,799,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,pkcs11.h,801,17,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,pkcs11.h,800,32,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,pkcs11.h,801,22,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,pkcs11.h,1267,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,pkcs11.h,1267,42,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,pkcs11.h,1267,57,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,54,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,68,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,69,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,82,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,83,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,84,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,101,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,102,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,103,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,104,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,112,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,113,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,114,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,115,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,123,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,126,11,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,126,14,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,131,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,132,24,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,136,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,137,25,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,144,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,145,48,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,146,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,147,50,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,148,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,149,47,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,150,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,151,49,c_builtin,W0549,UNC,X99,A formal argument of macro doesn't enclosed by `()'.
+W,libp11-int.h,156,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,190,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,193,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,196,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,libp11-int.h,203,1,c_builtin,W0442,UNC,X99,A function-like macro is defined.
+W,pkcs11.h,766,3,c_builtin,W0491,UNC,X99,The same identifier name `CK_ECDH1_DERIVE_PARAMS' is also used in the declaration of other namespace.
+C,pkcs11.h,760,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `CK_ECDH1_DERIVE_PARAMS'.
+W,pkcs11.h,776,3,c_builtin,W0491,UNC,X99,The same identifier name `CK_RSA_PKCS_OAEP_PARAMS' is also used in the declaration of other namespace.
+C,pkcs11.h,770,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `CK_RSA_PKCS_OAEP_PARAMS'.
+W,pkcs11.h,782,3,c_builtin,W0491,UNC,X99,The same identifier name `CK_RSA_PKCS_PSS_PARAMS' is also used in the declaration of other namespace.
+C,pkcs11.h,778,16,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `CK_RSA_PKCS_PSS_PARAMS'.
+W,libpkcs11.c,58,8,c_builtin,W9003,UNC,X99,An object typed `char *' is implicitly converted into an object of type `int'.
+W,libpkcs11.c,58,8,c_builtin,W9003,UNC,X99,An object typed `void *' is implicitly converted into an object of type `sc_pkcs11_module_t *'.
+W,libpkcs11.c,62,16,c_builtin,W0076,UNC,X99,Hexadecimal constant without `U' or `u' suffix.
+W,libpkcs11.c,62,16,c_builtin,W0441,UNC,X99,The type of integer literal which doesn't have a suffix is not int type.
+W,libpkcs11.c,67,30,c_builtin,W0076,UNC,X99,Hexadecimal constant without `U' or `u' suffix.
+W,libpkcs11.c,82,11,c_builtin,W0459,UNC,X99,A value of variable `c_get_function_list' doesn't set when this expression is evaluated. This program is danger.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,libpkcs11.c,52,10,c_builtin,C1003,INF,X99,The problematic variable is defined here without initializer.
+W,libpkcs11.c,81,9,c_builtin,W0100,UNC,X99,The variable `p' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,libpkcs11.c,88,26,c_builtin,W0150,UNC,X99,An implicit type conversion from unsigned long to signed int.
+W,libpkcs11.c,88,26,c_builtin,W9003,UNC,X99,An object typed `CK_RV' is implicitly converted into an object of type `int'.
+W,libpkcs11.c,89,6,c_builtin,W0168,UNC,X99,An implicit type conversion from signed int to unsigned long.
+W,libpkcs11.c,51,22,c_builtin,W0100,UNC,X99,The variable `mod' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,libpkcs11.c,53,6,c_builtin,W0100,UNC,X99,The variable `rv' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,libpkcs11.c,49,26,c_builtin,W0104,UNC,X99,The value of formal argument `mspec' is not change. It can be declarable with 'const'.
+W,libpkcs11.c,49,58,c_builtin,W0104,UNC,X99,The value of formal argument `funcs' is not change. It can be declarable with 'const'.
+W,libpkcs11.c,49,58,c_builtin,W0105,UNC,X99,The object which points the formal argument `funcs' is not change. It can be declaring as pointer type which points const object.
+W,libpkcs11.c,49,1,c_builtin,W1071,UNC,X99,Function `C_LoadModule' has multiple termination points.
+W,libpkcs11.c,61,8,c_builtin,W1073,UNC,X99,Return value of the function `memset' is discarded.
+W,libpkcs11.c,82,10,c_builtin,W1073,UNC,X99,Return value of the function `memmove' is discarded.
+W,libpkcs11.c,93,16,c_builtin,W1073,UNC,X99,Return value of the function `C_UnloadModule' is discarded.
+W,libpkcs11.c,107,24,c_builtin,W0422,UNC,X99,Value of the dereferencing pointer may be NULL.
+C,,,,c_builtin,C1000,INF,X99,Warning above is detected in the following context.
+C,libpkcs11.c,105,22,c_builtin,C1005,INF,X99,A value possibly be NULL is assigned to the problematic variable.
+W,libpkcs11.c,107,36,c_builtin,W0076,UNC,X99,Hexadecimal constant without `U' or `u' suffix.
+W,libpkcs11.c,107,36,c_builtin,W0441,UNC,X99,The type of integer literal which doesn't have a suffix is not int type.
+W,libpkcs11.c,105,22,c_builtin,W0100,UNC,X99,The variable `mod' has not been reassigned since the initial value is assigned. It may be able to be defined as `const' with an initial value.
+W,libpkcs11.c,103,22,c_builtin,W0104,UNC,X99,The value of formal argument `module' is not change. It can be declarable with 'const'.
+W,libpkcs11.c,103,22,c_builtin,W0105,UNC,X99,The object which points the formal argument `module' is not change. It can be declaring as pointer type which points const object.
+W,libpkcs11.c,103,1,c_builtin,W1071,UNC,X99,Function `C_UnloadModule' has multiple termination points.
+W,libpkcs11.c,114,10,c_builtin,W1073,UNC,X99,Return value of the function `dlclose' is discarded.
+W,libpkcs11.c,118,8,c_builtin,W1073,UNC,X99,Return value of the function `memset' is discarded.
+W,libp11.h,39,5,c_builtin,W0771,UNC,X99,A global identifier `ERR_load_CKR_strings' is declared in more than one file.
+C,libp11-int.h,133,12,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `ERR_load_CKR_strings'.
+W,libp11-int.h,133,12,c_builtin,W0771,UNC,X99,A global identifier `ERR_load_CKR_strings' is declared in more than one file.
+C,libp11.h,39,5,c_builtin,C0001,INF,X99,A warning is detected as a pair of this identifier `ERR_load_CKR_strings'.
+W,libp11-int.h,27,1,c_builtin,W0073,UNC,X99,No include guard in this include file.
+W,p11_err.h,26,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11.h,28,1,c_builtin,W0073,UNC,X99,No include guard in this include file.
+W,libp11.h,42,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,pkcs11.h,271,1,c_builtin,W0479,UNC,X99,This macro definition might be replaced with 'typedef' declaration.
+W,pkcs11.h,799,1,c_builtin,W0478,UNC,X99,This macro defines scraps of unrecognized codes.
+W,pkcs11.h,1267,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,69,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,83,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,84,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,102,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,103,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,104,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,113,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,114,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,115,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,131,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,144,1,c_builtin,W0478,UNC,X99,This macro defines scraps of unrecognized codes.
+W,libp11-int.h,146,1,c_builtin,W0478,UNC,X99,This macro defines scraps of unrecognized codes.
+W,libp11-int.h,148,1,c_builtin,W0478,UNC,X99,This macro defines scraps of unrecognized codes.
+W,libp11-int.h,150,1,c_builtin,W0478,UNC,X99,This macro defines scraps of unrecognized codes.
+W,libp11-int.h,156,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,190,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,193,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,196,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,libp11-int.h,203,1,c_builtin,W0443,UNC,X99,This function-like macro might be replaced with a function.
+W,pkcs11.h,188,8,c_builtin,W0809,UNC,X99,An identifier `_CK_VERSION' is reserved by the library.
+W,pkcs11.h,195,8,c_builtin,W0809,UNC,X99,An identifier `_CK_INFO' is reserved by the library.
+W,pkcs11.h,213,8,c_builtin,W0809,UNC,X99,An identifier `_CK_SLOT_INFO' is reserved by the library.
+W,pkcs11.h,229,8,c_builtin,W0809,UNC,X99,An identifier `_CK_TOKEN_INFO' is reserved by the library.
+W,pkcs11.h,296,8,c_builtin,W0809,UNC,X99,An identifier `_CK_SESSION_INFO' is reserved by the library.
+W,pkcs11.h,466,8,c_builtin,W0809,UNC,X99,An identifier `_CK_ATTRIBUTE' is reserved by the library.
+W,pkcs11.h,474,8,c_builtin,W0809,UNC,X99,An identifier `_CK_DATE' is reserved by the library.
+W,pkcs11.h,717,8,c_builtin,W0809,UNC,X99,An identifier `_CK_MECHANISM' is reserved by the library.
+W,pkcs11.h,725,8,c_builtin,W0809,UNC,X99,An identifier `_CK_MECHANISM_INFO' is reserved by the library.
+W,pkcs11.h,1080,8,c_builtin,W0809,UNC,X99,An identifier `_CK_FUNCTION_LIST' is reserved by the library.
+W,pkcs11.h,1160,8,c_builtin,W0809,UNC,X99,An identifier `_CK_C_INITIALIZE_ARGS' is reserved by the library.
+W,pkcs11.h,1324,30,c_builtin,W0039,UNC,X99,The number of local identifier in the block exceeds 127. This program doesn't meet the strict ISO C90 standards of the term.
+W,libp11-int.h,142,5,c_builtin,W0078,UNC,X99,A function is declared without list of formal argument.
+W,libp11-int.h,160,21,c_builtin,W0078,UNC,X99,A function is declared without list of formal argument.
+W,libp11-int.h,168,14,c_builtin,W0542,UNC,X99,There are identifiers in the part of formal argument in a function declaration.
+W,libp11-int.h,328,12,c_builtin,W0542,UNC,X99,There are identifiers in the part of formal argument in a function declaration.
+W,libp11-int.h,329,12,c_builtin,W0542,UNC,X99,There are identifiers in the part of formal argument in a function declaration.
+W,libpkcs11.c,49,1,c_builtin,W0543,UNC,X99,The identifier of formal argument in this function declaration is different from the past declaration of it.
+W,libpkcs11.c,56,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,libpkcs11.c,60,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,libpkcs11.c,71,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,libpkcs11.c,71,3,c_builtin,W1072,UNC,X99,A `goto' statement is found.
+W,libpkcs11.c,81,32,c_builtin,W0947,UNC,X99,String literal is specified directly.
+W,libpkcs11.c,87,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,libpkcs11.c,87,3,c_builtin,W1072,UNC,X99,A `goto' statement is found.
+W,libpkcs11.c,90,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,libpkcs11.c,108,3,c_builtin,W0413,UNC,X99,The body of control statement is unenclosed by curly brace `{}' block.
+W,libpkcs11.c,107,6,c_builtin,W0488,UNC,X99,"A function call`()', array's index operation`[]', or structure/union operation `->' or `.' are used with && or ||. It had better clear the coupling by using `()'."
+W,libpkcs11.c,107,6,c_builtin,W0490,UNC,X99,A binary operator is used with `&&' or `||'. It had better clear the coupling by using `()'.
+W,libpkcs11.c,107,6,c_builtin,W0499,UNC,X99,"The different operator of same priority in the binary operator except '+','-', '*','/' is used. It had better clear the coupling by using `()'."
+W,libpkcs11.c,107,6,c_builtin,W0502,UNC,X99,"A binary operator other than `+', `-', `*', `/' and `%' appears with binary operator which has different precedence without expression grouping."
+W,libp11.h,29,1,c_builtin,W0070,UNC,X99,Included </usr/include/openssl/err.h> is not referenced in the translation unit. It can be removed.
+W,libp11-int.h,24,1,c_builtin,W0071,UNC,X99,"Included ""config.h"" is not referenced in the translation unit. It can be removed."
+W,libp11.h,27,1,c_builtin,W0071,UNC,X99,"Included ""p11_err.h"" is not referenced in the translation unit. It can be removed."
+W,libpkcs11.c,110,2,c_builtin,W0114,UNC,X99,This control expression is not explicit logical operation.
+W,pkcs11.h,803,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,804,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,805,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,806,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,809,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,812,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,814,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,816,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,818,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,822,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,825,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,828,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,831,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,836,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,840,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,841,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,842,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,845,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,849,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,855,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,858,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,860,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,864,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,868,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,871,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,875,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,880,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,885,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,889,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,894,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,897,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,901,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,906,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,911,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,916,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,920,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,925,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,930,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,935,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,938,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,943,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,946,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,948,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,953,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,957,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,962,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,965,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,969,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,973,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,979,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,983,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,988,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,991,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,995,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,999,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1006,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1011,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1017,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1022,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1029,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1035,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1044,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1051,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1060,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1068,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1071,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1076,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,pkcs11.h,1077,1,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,libp11-int.h,58,29,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,libp11-int.h,78,19,c_builtin,W0425,UNC,X99,There are several definitions or statements in a line.
+W,libpkcs11.c,39,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,40,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,51,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,52,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,53,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,55,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,56,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,58,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,59,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,60,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,61,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,62,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,67,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,70,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,71,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,77,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,81,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,82,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,83,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,86,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,87,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,88,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,89,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,90,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,93,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,94,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,105,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,107,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,108,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,110,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,114,3,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,116,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,118,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,119,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
+W,libpkcs11.c,121,2,c_builtin,W0432,UNC,X99,Indentation of this line does not comply with the project's indent style.
