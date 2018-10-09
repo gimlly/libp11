@@ -1,0 +1,109 @@
+[../../examples/auth.c:226] -> [../../examples/auth.c:219]: (warning) Either the condition 'pubkey!=NULL' is redundant or there is possible null pointer dereference: pubkey.
+[../../examples/auth.c:151]: (style) Checking if unsigned variable 'ncerts' is less than zero.
+[../../examples/decrypt.c:228] -> [../../examples/decrypt.c:206]: (warning) Either the condition 'pubkey!=NULL' is redundant or there is possible null pointer dereference: pubkey.
+[../../examples/decrypt.c:230] -> [../../examples/decrypt.c:219]: (warning) Either the condition 'random!=NULL' is redundant or there is possible null pointer dereference: random.
+[../../examples/decrypt.c:234] -> [../../examples/decrypt.c:219]: (warning) Either the condition 'decrypted!=NULL' is redundant or there is possible null pointer dereference: decrypted.
+[../../examples/decrypt.c:89]: (style) Checking if unsigned variable 'ncerts' is less than zero.
+[../../examples/getrandom.c:45]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
+[../../src/eng_back.c:382]: (style) The scope of the variable 'm' can be reduced.
+[../../src/eng_back.c:386]: (style) The scope of the variable 'tmp_pin' can be reduced.
+[../../src/eng_back.c:233]: (information) Skipping configuration 'DEFAULT_PKCS11_MODULE' since the value of 'DEFAULT_PKCS11_MODULE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[../../src/eng_front.c:38]: (information) Skipping configuration 'ENGINE_CMD_BASE' since the value of 'ENGINE_CMD_BASE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[../../src/eng_front.c:42]: (information) Skipping configuration 'ENGINE_CMD_BASE' since the value of 'ENGINE_CMD_BASE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[../../src/eng_front.c:46]: (information) Skipping configuration 'ENGINE_CMD_BASE' since the value of 'ENGINE_CMD_BASE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[../../src/eng_front.c:50]: (information) Skipping configuration 'ENGINE_CMD_BASE' since the value of 'ENGINE_CMD_BASE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[../../src/eng_front.c:54]: (information) Skipping configuration 'ENGINE_CMD_BASE' since the value of 'ENGINE_CMD_BASE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[../../src/eng_front.c:58]: (information) Skipping configuration 'ENGINE_CMD_BASE' since the value of 'ENGINE_CMD_BASE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[../../src/eng_front.c:62]: (information) Skipping configuration 'ENGINE_CMD_BASE' since the value of 'ENGINE_CMD_BASE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[../../src/eng_front.c:66]: (information) Skipping configuration 'ENGINE_CMD_BASE' since the value of 'ENGINE_CMD_BASE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[../../src/eng_front.c:70]: (information) Skipping configuration 'ENGINE_CMD_BASE' since the value of 'ENGINE_CMD_BASE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[../../src/eng_front.c:74]: (information) Skipping configuration 'ENGINE_CMD_BASE' since the value of 'ENGINE_CMD_BASE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[../../src/p11_attr.c:144] -> [../../src/p11_attr.c:125]: (warning) Either the condition 's?strlen(s):0' is redundant or there is possible null pointer dereference: data.
+[../../src/p11_cert.c:119]: (style) The scope of the variable 'cpriv' can be reduced.
+[../../src/p11_ec.c:66]: (style) struct member 'ecdsa_method::name' is never used.
+[../../src/p11_ec.c:68]: (style) struct member 'ecdsa_method::ecdsa_sign_setup' is never used.
+[../../src/p11_ec.c:69]: (style) struct member 'ecdsa_method::ecdsa_do_verify' is never used.
+[../../src/p11_ec.c:70]: (style) struct member 'ecdsa_method::flags' is never used.
+[../../src/p11_ec.c:71]: (style) struct member 'ecdsa_method::app_data' is never used.
+[../../src/p11_ec.c:114]: (style) struct member 'ecdh_method::name' is never used.
+[../../src/p11_ec.c:116]: (style) struct member 'ecdh_method::flags' is never used.
+[../../src/p11_key.c:59]: (style) The scope of the variable 'kpriv' can be reduced.
+[../../src/p11_key.c:232]: (style) The scope of the variable 'rsa_n' can be reduced.
+[../../src/p11_key.c:232]: (style) The scope of the variable 'rsa_e' can be reduced.
+[../../src/p11_key.c:232]: (style) The scope of the variable 'rsa_d' can be reduced.
+[../../src/p11_key.c:232]: (style) The scope of the variable 'rsa_p' can be reduced.
+[../../src/p11_key.c:232]: (style) The scope of the variable 'rsa_q' can be reduced.
+[../../src/p11_key.c:232]: (style) The scope of the variable 'rsa_dmp1' can be reduced.
+[../../src/p11_key.c:232]: (style) The scope of the variable 'rsa_dmq1' can be reduced.
+[../../src/p11_key.c:232]: (style) The scope of the variable 'rsa_iqmp' can be reduced.
+[../../src/p11_key.c:420]: (style) The scope of the variable 'i' can be reduced.
+[../../src/p11_load.c:27] -> [../../src/p11_load.c:33]: (style) Variable 'cpriv' is reassigned a value before the old one has been used.
+[../../src/p11_pkey.c:41]: (style) struct member 'evp_pkey_method_st::pkey_id' is never used.
+[../../src/p11_pkey.c:42]: (style) struct member 'evp_pkey_method_st::flags' is never used.
+[../../src/p11_pkey.c:43]: (style) struct member 'evp_pkey_method_st::init' is never used.
+[../../src/p11_pkey.c:44]: (style) struct member 'evp_pkey_method_st::copy' is never used.
+[../../src/p11_pkey.c:45]: (style) struct member 'evp_pkey_method_st::cleanup' is never used.
+[../../src/p11_pkey.c:46]: (style) struct member 'evp_pkey_method_st::paramgen_init' is never used.
+[../../src/p11_pkey.c:47]: (style) struct member 'evp_pkey_method_st::paramgen' is never used.
+[../../src/p11_pkey.c:48]: (style) struct member 'evp_pkey_method_st::keygen_init' is never used.
+[../../src/p11_pkey.c:49]: (style) struct member 'evp_pkey_method_st::keygen' is never used.
+[../../src/p11_pkey.c:53]: (style) struct member 'evp_pkey_method_st::verify_init' is never used.
+[../../src/p11_pkey.c:54]: (style) struct member 'evp_pkey_method_st::verify' is never used.
+[../../src/p11_pkey.c:57]: (style) struct member 'evp_pkey_method_st::verify_recover_init' is never used.
+[../../src/p11_pkey.c:58]: (style) struct member 'evp_pkey_method_st::verify_recover' is never used.
+[../../src/p11_pkey.c:61]: (style) struct member 'evp_pkey_method_st::signctx_init' is never used.
+[../../src/p11_pkey.c:62]: (style) struct member 'evp_pkey_method_st::signctx' is never used.
+[../../src/p11_pkey.c:64]: (style) struct member 'evp_pkey_method_st::verifyctx_init' is never used.
+[../../src/p11_pkey.c:65]: (style) struct member 'evp_pkey_method_st::verifyctx' is never used.
+[../../src/p11_pkey.c:67]: (style) struct member 'evp_pkey_method_st::encrypt_init' is never used.
+[../../src/p11_pkey.c:68]: (style) struct member 'evp_pkey_method_st::encrypt' is never used.
+[../../src/p11_pkey.c:73]: (style) struct member 'evp_pkey_method_st::derive_init' is never used.
+[../../src/p11_pkey.c:74]: (style) struct member 'evp_pkey_method_st::derive' is never used.
+[../../src/p11_pkey.c:75]: (style) struct member 'evp_pkey_method_st::ctrl' is never used.
+[../../src/p11_pkey.c:76]: (style) struct member 'evp_pkey_method_st::ctrl_str' is never used.
+[../../src/p11_pkey.c:301]: (portability) %lu in format string (no. 4) requires 'unsigned long' but the argument type is 'size_t {aka unsigned long}'.
+[../../src/p11_pkey.c:301]: (portability) %lu in format string (no. 6) requires 'unsigned long' but the argument type is 'size_t {aka unsigned long}'.
+[../../src/p11_pkey.c:405]: (portability) %lu in format string (no. 4) requires 'unsigned long' but the argument type is 'size_t {aka unsigned long}'.
+[../../src/p11_pkey.c:405]: (portability) %lu in format string (no. 6) requires 'unsigned long' but the argument type is 'size_t {aka unsigned long}'.
+[../../src/p11_rsa.c:355]: (style) The scope of the variable 'priv_dec' can be reduced.
+[../../src/p11_rsa.c:368]: (style) The scope of the variable 'priv_enc' can be reduced.
+[../../src/p11_slot.c:99]: (style) The scope of the variable 'tok' can be reduced.
+[../../tests/rsa-pss-sign.c:171]: (style) Variable 'md_len' is assigned a value that is never used.
+[../../src/p11_ec.c:135]: (style) The function 'ECDH_METHOD_free' is never used.
+[../../src/p11_ec.c:93]: (style) The function 'ECDSA_METHOD_free' is never used.
+[../../src/p11_ckr.c:203]: (style) The function 'ERR_get_CKR_code' is never used.
+[../../src/eng_err.c:54]: (style) The function 'ERR_load_ENG_strings' is never used.
+[../../src/p11_ckr.c:181]: (style) The function 'ERR_unload_CKR_strings' is never used.
+[../../src/eng_err.c:74]: (style) The function 'ERR_unload_ENG_strings' is never used.
+[../../src/p11_err.c:80]: (style) The function 'ERR_unload_P11_strings' is never used.
+[../../src/p11_front.c:219]: (style) The function 'PKCS11_change_pin' is never used.
+[../../src/p11_ec.c:751]: (style) The function 'PKCS11_ecdsa_method_free' is never used.
+[../../src/p11_front.c:175]: (style) The function 'PKCS11_find_certificate' is never used.
+[../../src/p11_front.c:284]: (style) The function 'PKCS11_generate_key' is never used.
+[../../src/p11_ec.c:695]: (style) The function 'PKCS11_get_ec_key_method' is never used.
+[../../src/p11_front.c:307]: (style) The function 'PKCS11_get_key_exponent' is never used.
+[../../src/p11_front.c:300]: (style) The function 'PKCS11_get_key_modulus' is never used.
+[../../src/p11_front.c:293]: (style) The function 'PKCS11_get_key_size' is never used.
+[../../src/p11_front.c:154]: (style) The function 'PKCS11_get_key_type' is never used.
+[../../src/p11_front.c:212]: (style) The function 'PKCS11_init_pin' is never used.
+[../../src/p11_front.c:204]: (style) The function 'PKCS11_init_token' is never used.
+[../../src/p11_front.c:124]: (style) The function 'PKCS11_logout' is never used.
+[../../src/p11_pkey.c:567]: (style) The function 'PKCS11_pkey_meths' is never used.
+[../../src/p11_front.c:197]: (style) The function 'PKCS11_remove_certificate' is never used.
+[../../src/p11_front.c:139]: (style) The function 'PKCS11_remove_key' is never used.
+[../../src/p11_rsa.c:483]: (style) The function 'PKCS11_rsa_method_free' is never used.
+[../../src/p11_front.c:252]: (style) The function 'PKCS11_seed_random' is never used.
+[../../src/p11_front.c:243]: (style) The function 'PKCS11_store_certificate' is never used.
+[../../src/p11_front.c:227]: (style) The function 'PKCS11_store_private_key' is never used.
+[../../src/p11_front.c:235]: (style) The function 'PKCS11_store_public_key' is never used.
+[../../src/p11_front.c:338]: (style) The function 'PKCS11_verify' is never used.
+[../../src/p11_atfork.c:67]: (style) The function '_P11_register_fork_handler' is never used.
+[../../src/eng_back.c:250]: (style) The function 'ctx_destroy' is never used.
+[../../src/eng_back.c:953]: (style) The function 'ctx_engine_ctrl' is never used.
+[../../src/eng_back.c:349]: (style) The function 'ctx_finish' is never used.
+[../../src/eng_back.c:323]: (style) The function 'ctx_init' is never used.
+[../../src/eng_back.c:843]: (style) The function 'ctx_load_privkey' is never used.
+[../../src/eng_back.c:822]: (style) The function 'ctx_load_pubkey' is never used.
+[../../src/eng_back.c:218]: (style) The function 'ctx_new' is never used.
+[../../src/p11_rsa.c:158]: (style) The function 'pkcs11_verify' is never used.
+(information) Cppcheck cannot find all the include files (use --check-config for details)
