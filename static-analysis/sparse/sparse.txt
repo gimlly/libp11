@@ -1,0 +1,18 @@
+src/eng_back.c:218:21: warning: non-ANSI function declaration of function 'ctx_new'
+src/eng_front.c:257:1: warning: function 'v_check' with external linkage has definition
+src/eng_front.c:258:1: warning: function 'bind_engine' with external linkage has definition
+src/eng_front.c:86:30: warning: Using plain integer as NULL pointer
+src/eng_front.c:172:24: warning: Using plain integer as NULL pointer
+src/eng_front.c:184:24: warning: Using plain integer as NULL pointer
+src/p11_atfork.c:97:25: warning: non-ANSI function declaration of function 'get_forkid'
+src/p11_atfork.c:69:31: warning: Using plain integer as NULL pointer
+src/p11_atfork.c:69:34: warning: Using plain integer as NULL pointer
+src/p11_atfork.c:67:5: warning: symbol '_P11_register_fork_handler' was not declared. Should it be static?
+src/p11_ec.c:155:31: warning: non-ANSI function declaration of function 'alloc_ec_ex_index'
+src/p11_ec.c:727:16: warning: symbol 'pkcs11_ec_ops_s' was not declared. Should it be static?
+src/p11_ec.c:751:6: warning: symbol 'PKCS11_ecdsa_method_free' was not declared. Should it be static?
+src/p11_pkey.c:497:48: warning: non-ANSI function declaration of function 'pkcs11_pkey_method_rsa'
+src/p11_pkey.c:546:47: warning: non-ANSI function declaration of function 'pkcs11_pkey_method_ec'
+src/p11_rsa.c:383:32: warning: non-ANSI function declaration of function 'alloc_rsa_ex_index'
+src/p11_rsa.c:394:31: warning: non-ANSI function declaration of function 'free_rsa_ex_index'
+src/p11_rsa.c:483:6: warning: symbol 'PKCS11_rsa_method_free' was not declared. Should it be static?
