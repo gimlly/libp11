@@ -1,0 +1,1816 @@
+In file included from engine.h:35:0,
+                 from eng_front.c:16:
+libp11.h:63:12: warning: padding struct to align ‘evp_key’ [-Wpadded]
+  EVP_PKEY *evp_key;  /**< initially NULL, need to call PKCS11_load_key */
+            ^~~~~~~
+libp11.h:96:8: warning: padding struct to align ‘_private’ [-Wpadded]
+  void *_private;
+        ^~~~~~~~
+libp11.h:104:16: warning: padding struct to align ‘token’ [-Wpadded]
+  PKCS11_TOKEN *token; /**< NULL if no token present */
+                ^~~~~
+In file included from eng_front.c:16:0:
+engine.h:59:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ ENGINE_CTX *ctx_new();
+ ^~~~~~~~~~
+engine.h:67:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int ctx_engine_ctrl(ENGINE_CTX *ctx, int cmd, long i, void *p, void (*f)());
+ ^~~
+eng_front.c:197:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ static int engine_ctrl(ENGINE *engine, int cmd, long i, void *p, void (*f) ())
+ ^~~~~~
+  CC       pkcs11_la-eng_back.lo
+In file included from engine.h:35:0,
+                 from eng_back.c:29:
+libp11.h:63:12: warning: padding struct to align ‘evp_key’ [-Wpadded]
+  EVP_PKEY *evp_key;  /**< initially NULL, need to call PKCS11_load_key */
+            ^~~~~~~
+libp11.h:96:8: warning: padding struct to align ‘_private’ [-Wpadded]
+  void *_private;
+        ^~~~~~~~
+libp11.h:104:16: warning: padding struct to align ‘token’ [-Wpadded]
+  PKCS11_TOKEN *token; /**< NULL if no token present */
+                ^~~~~
+In file included from eng_back.c:29:0:
+engine.h:59:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ ENGINE_CTX *ctx_new();
+ ^~~~~~~~~~
+engine.h:67:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int ctx_engine_ctrl(ENGINE_CTX *ctx, int cmd, long i, void *p, void (*f)());
+ ^~~
+eng_back.c:60:17: warning: padding struct to align ‘rwlock’ [-Wpadded]
+  CRYPTO_RWLOCK *rwlock;
+                 ^~~~~~
+eng_back.c:69:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+eng_back.c: In function ‘ctx_destroy_pin’:
+eng_back.c:103:29: warning: conversion to ‘size_t {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+   OPENSSL_cleanse(ctx->pin, ctx->pin_length);
+                             ^~~
+eng_back.c: At top level:
+eng_back.c:218:13: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ ENGINE_CTX *ctx_new()
+             ^~~~~~~
+eng_back.c: In function ‘ctx_load_cert’:
+eng_back.c:396:8: warning: conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+    n = parse_pkcs11_uri(ctx, s_slot_cert_id, &match_tok,
+        ^~~~~~~~~~~~~~~~
+eng_back.c:414:24: warning: conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+      ctx->pin_length = tmp_pin_len;
+                        ^~~~~~~~~~~
+eng_back.c:418:8: warning: conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+    n = parse_slot_id_string(ctx, s_slot_cert_id, &slot_nr,
+        ^~~~~~~~~~~~~~~~~~~~
+eng_back.c:458:12: warning: conversion to ‘unsigned int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+   if ((m = strlen(flags)) != 0) {
+            ^~~~~~
+eng_back.c: In function ‘ctx_load_key’:
+eng_back.c:629:8: warning: conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+    n = parse_pkcs11_uri(ctx, s_slot_key_id, &match_tok,
+        ^~~~~~~~~~~~~~~~
+eng_back.c:647:24: warning: conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+      ctx->pin_length = tmp_pin_len;
+                        ^~~~~~~~~~~
+eng_back.c:651:8: warning: conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+    n = parse_slot_id_string(ctx, s_slot_key_id, &slot_nr,
+        ^~~~~~~~~~~~~~~~~~~~
+eng_back.c:691:12: warning: conversion to ‘unsigned int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+   if ((m = strlen(flags)) != 0) {
+            ^~~~~~
+eng_back.c: In function ‘ctx_ctrl_set_pin’:
+eng_back.c:906:20: warning: conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+  ctx->pin_length = strlen(ctx->pin);
+                    ^~~~~~
+eng_back.c: At top level:
+eng_back.c:953:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int ctx_engine_ctrl(ENGINE_CTX *ctx, int cmd, long i, void *p, void (*f)())
+ ^~~
+eng_back.c: In function ‘ctx_init’:
+eng_back.c:323:5: warning: function might be candidate for attribute ‘const’ [-Wsuggest-attribute=const]
+ int ctx_init(ENGINE_CTX *ctx)
+     ^~~~~~~~
+  CC       pkcs11_la-eng_parse.lo
+In file included from engine.h:35:0,
+                 from eng_parse.c:29:
+libp11.h:63:12: warning: padding struct to align ‘evp_key’ [-Wpadded]
+  EVP_PKEY *evp_key;  /**< initially NULL, need to call PKCS11_load_key */
+            ^~~~~~~
+libp11.h:96:8: warning: padding struct to align ‘_private’ [-Wpadded]
+  void *_private;
+        ^~~~~~~~
+libp11.h:104:16: warning: padding struct to align ‘token’ [-Wpadded]
+  PKCS11_TOKEN *token; /**< NULL if no token present */
+                ^~~~~
+In file included from eng_parse.c:29:0:
+engine.h:59:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ ENGINE_CTX *ctx_new();
+ ^~~~~~~~~~
+engine.h:67:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int ctx_engine_ctrl(ENGINE_CTX *ctx, int cmd, long i, void *p, void (*f)());
+ ^~~
+eng_parse.c: In function ‘hex_to_bin’:
+eng_parse.c:53:10: warning: conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+     c -= '0';
+          ^~~
+eng_parse.c:55:9: warning: conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+     c = c - 'a' + 10;
+         ^
+eng_parse.c:57:9: warning: conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+     c = c - 'A' + 10;
+         ^
+eng_parse.c: In function ‘parse_slot_id_string’:
+eng_parse.c:106:7: warning: conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+   i = strspn(slot_id, DIGITS);
+       ^~~~~~
+eng_parse.c:118:38: warning: conversion to ‘size_t {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+   if (strspn(slot_id + i, HEXDIGITS) + i != strlen(slot_id)) {
+                                      ^
+eng_parse.c:123:24: warning: conversion to ‘size_t {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+   if ((strlen(slot_id) - i + 1) / 2 > *id_len) {
+                        ^
+eng_parse.c:167:6: warning: conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+  i = strspn(slot_id + 5, DIGITS);
+      ^~~~~~
+eng_parse.c:184:46: warning: conversion to ‘size_t {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+   if (strspn(slot_id + i + 3, HEXDIGITS) + 3 + i != strlen(slot_id)) {
+                                              ^
+eng_parse.c:189:24: warning: conversion to ‘size_t {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+   if ((strlen(slot_id) - i - 3 + 1) / 2 > *id_len) {
+                        ^
+In file included from /usr/include/openssl/bio.h:20:0,
+                 from libp11.h:28,
+                 from engine.h:35,
+                 from eng_parse.c:29:
+eng_parse.c: In function ‘parse_uri_attr’:
+eng_parse.c:221:24: warning: conversion to ‘size_t {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+   out = OPENSSL_malloc(attrlen + 1);
+                        ^
+eng_parse.c:224:9: warning: conversion to ‘size_t {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+   max = attrlen + 1;
+         ^~~~~~~
+eng_parse.c:244:20: warning: conversion to ‘unsigned char’ from ‘char’ may change the sign of the result [-Wsign-conversion]
+    out[outlen++] = *(attr++);
+                    ^
+eng_parse.c: In function ‘parse_pkcs11_uri’:
+eng_parse.c:293:32: warning: conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+    rv = parse_uri_attr(ctx, p, end - p, (void *)&tok->model, NULL);
+                                ^~~
+eng_parse.c:296:32: warning: conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+    rv = parse_uri_attr(ctx, p, end - p, (void *)&tok->manufacturer, NULL);
+                                ^~~
+eng_parse.c:299:32: warning: conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+    rv = parse_uri_attr(ctx, p, end - p, (void *)&tok->label, NULL);
+                                ^~~
+eng_parse.c:302:32: warning: conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+    rv = parse_uri_attr(ctx, p, end - p, (void *)&tok->serialnr, NULL);
+                                ^~~
+eng_parse.c:305:32: warning: conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+    rv = parse_uri_attr(ctx, p, end - p, (void *)&newlabel, NULL);
+                                ^~~
+eng_parse.c:308:32: warning: conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+    rv = parse_uri_attr(ctx, p, end - p, (void *)&id, id_len);
+                                ^~~
+eng_parse.c:312:32: warning: conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+    rv = parse_uri_attr(ctx, p, end - p, (void *)&pin, pin_len);
+                                ^~~
+  CC       pkcs11_la-eng_err.lo
+  CC       libp11_la-libpkcs11.lo
+In file included from libp11-int.h:27:0,
+                 from libpkcs11.c:26:
+libp11.h:63:12: warning: padding struct to align ‘evp_key’ [-Wpadded]
+  EVP_PKEY *evp_key;  /**< initially NULL, need to call PKCS11_load_key */
+            ^~~~~~~
+libp11.h:96:8: warning: padding struct to align ‘_private’ [-Wpadded]
+  void *_private;
+        ^~~~~~~~
+libp11.h:104:16: warning: padding struct to align ‘token’ [-Wpadded]
+  PKCS11_TOKEN *token; /**< NULL if no token present */
+                ^~~~~
+In file included from libp11-int.h:30:0,
+                 from libpkcs11.c:26:
+pkcs11.h:199:14: warning: padding struct to align ‘flags’ [-Wpadded]
+   ck_flags_t flags;
+              ^~~~~
+pkcs11.h:202:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:220:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:249:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:1083:19: warning: padding struct to align ‘C_Initialize’ [-Wpadded]
+   CK_C_Initialize C_Initialize;
+                   ^~~~~~~~~~~~
+In file included from libpkcs11.c:26:0:
+libp11-int.h:50:16: warning: padding struct to align ‘rwlock’ [-Wpadded]
+  PKCS11_RWLOCK rwlock;
+                ^~~~~~
+libp11-int.h:59:13: warning: padding struct to align ‘id’ [-Wpadded]
+  CK_SLOT_ID id;
+             ^~
+libp11-int.h:67:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_SLOT_private;
+ ^
+libp11-int.h:73:14: warning: padding struct to align ‘keys’ [-Wpadded]
+  PKCS11_KEY *keys;
+              ^~~~
+libp11-int.h:80:15: warning: padding struct to align ‘certs’ [-Wpadded]
+  PKCS11_CERT *certs;
+               ^~~~~
+libp11-int.h:88:14: warning: padding struct to align ‘get_evp_key’ [-Wpadded]
+  EVP_PKEY *(*get_evp_key) (PKCS11_KEY *);
+              ^~~~~~~~~~~
+libp11-int.h:100:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_KEY_private;
+ ^
+libp11-int.h:110:9: warning: padding struct to align ‘id_len’ [-Wpadded]
+  size_t id_len;
+         ^~~~~~
+libp11-int.h:133:12: warning: redundant redeclaration of ‘ERR_load_CKR_strings’ [-Wredundant-decls]
+ extern int ERR_load_CKR_strings(void);
+            ^~~~~~~~~~~~~~~~~~~~
+In file included from libp11-int.h:27:0,
+                 from libpkcs11.c:26:
+libp11.h:39:5: note: previous declaration of ‘ERR_load_CKR_strings’ was here
+ int ERR_load_CKR_strings(void);
+     ^~~~~~~~~~~~~~~~~~~~
+In file included from libpkcs11.c:26:0:
+libp11-int.h:160:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ extern unsigned int get_forkid();
+ ^~~~~~
+libpkcs11.c:40:8: warning: padding struct to align ‘handle’ [-Wpadded]
+  void *handle;
+        ^~~~~~
+libpkcs11.c: In function ‘C_LoadModule’:
+libpkcs11.c:88:7: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+  rv = c_get_function_list(funcs);
+       ^~~~~~~~~~~~~~~~~~~
+  CC       libp11_la-p11_attr.lo
+In file included from libp11-int.h:27:0,
+                 from p11_attr.c:29:
+libp11.h:63:12: warning: padding struct to align ‘evp_key’ [-Wpadded]
+  EVP_PKEY *evp_key;  /**< initially NULL, need to call PKCS11_load_key */
+            ^~~~~~~
+libp11.h:96:8: warning: padding struct to align ‘_private’ [-Wpadded]
+  void *_private;
+        ^~~~~~~~
+libp11.h:104:16: warning: padding struct to align ‘token’ [-Wpadded]
+  PKCS11_TOKEN *token; /**< NULL if no token present */
+                ^~~~~
+In file included from libp11-int.h:30:0,
+                 from p11_attr.c:29:
+pkcs11.h:199:14: warning: padding struct to align ‘flags’ [-Wpadded]
+   ck_flags_t flags;
+              ^~~~~
+pkcs11.h:202:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:220:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:249:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:1083:19: warning: padding struct to align ‘C_Initialize’ [-Wpadded]
+   CK_C_Initialize C_Initialize;
+                   ^~~~~~~~~~~~
+In file included from p11_attr.c:29:0:
+libp11-int.h:50:16: warning: padding struct to align ‘rwlock’ [-Wpadded]
+  PKCS11_RWLOCK rwlock;
+                ^~~~~~
+libp11-int.h:59:13: warning: padding struct to align ‘id’ [-Wpadded]
+  CK_SLOT_ID id;
+             ^~
+libp11-int.h:67:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_SLOT_private;
+ ^
+libp11-int.h:73:14: warning: padding struct to align ‘keys’ [-Wpadded]
+  PKCS11_KEY *keys;
+              ^~~~
+libp11-int.h:80:15: warning: padding struct to align ‘certs’ [-Wpadded]
+  PKCS11_CERT *certs;
+               ^~~~~
+libp11-int.h:88:14: warning: padding struct to align ‘get_evp_key’ [-Wpadded]
+  EVP_PKEY *(*get_evp_key) (PKCS11_KEY *);
+              ^~~~~~~~~~~
+libp11-int.h:100:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_KEY_private;
+ ^
+libp11-int.h:110:9: warning: padding struct to align ‘id_len’ [-Wpadded]
+  size_t id_len;
+         ^~~~~~
+libp11-int.h:133:12: warning: redundant redeclaration of ‘ERR_load_CKR_strings’ [-Wredundant-decls]
+ extern int ERR_load_CKR_strings(void);
+            ^~~~~~~~~~~~~~~~~~~~
+In file included from libp11-int.h:27:0,
+                 from p11_attr.c:29:
+libp11.h:39:5: note: previous declaration of ‘ERR_load_CKR_strings’ was here
+ int ERR_load_CKR_strings(void);
+     ^~~~~~~~~~~~~~~~~~~~
+In file included from p11_attr.c:29:0:
+libp11-int.h:160:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ extern unsigned int get_forkid();
+ ^~~~~~
+p11_attr.c: In function ‘pkcs11_getattr_int’:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_attr.c:47:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx, C_GetAttributeValue(session, o, &templ, 1));
+       ^~~~~~~~~~~~~
+p11_attr.c: In function ‘pkcs11_addattr’:
+p11_attr.c:121:13: warning: conversion to ‘CK_ATTRIBUTE_TYPE {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+  ap->type = type;
+             ^~~~
+p11_attr.c: In function ‘pkcs11_addattr_bn’:
+p11_attr.c:153:6: warning: conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+  n = BN_bn2bin(bn, temp);
+      ^~~~~~~~~
+p11_attr.c: In function ‘pkcs11_addattr_obj’:
+p11_attr.c:161:13: warning: conversion to ‘CK_ATTRIBUTE_TYPE {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+  ap->type = type;
+             ^~~~
+p11_attr.c:162:19: warning: conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+  ap->ulValueLen = enc(obj, NULL);
+                   ^~~
+  CC       libp11_la-p11_cert.lo
+In file included from libp11-int.h:27:0,
+                 from p11_cert.c:26:
+libp11.h:63:12: warning: padding struct to align ‘evp_key’ [-Wpadded]
+  EVP_PKEY *evp_key;  /**< initially NULL, need to call PKCS11_load_key */
+            ^~~~~~~
+libp11.h:96:8: warning: padding struct to align ‘_private’ [-Wpadded]
+  void *_private;
+        ^~~~~~~~
+libp11.h:104:16: warning: padding struct to align ‘token’ [-Wpadded]
+  PKCS11_TOKEN *token; /**< NULL if no token present */
+                ^~~~~
+In file included from libp11-int.h:30:0,
+                 from p11_cert.c:26:
+pkcs11.h:199:14: warning: padding struct to align ‘flags’ [-Wpadded]
+   ck_flags_t flags;
+              ^~~~~
+pkcs11.h:202:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:220:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:249:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:1083:19: warning: padding struct to align ‘C_Initialize’ [-Wpadded]
+   CK_C_Initialize C_Initialize;
+                   ^~~~~~~~~~~~
+In file included from p11_cert.c:26:0:
+libp11-int.h:50:16: warning: padding struct to align ‘rwlock’ [-Wpadded]
+  PKCS11_RWLOCK rwlock;
+                ^~~~~~
+libp11-int.h:59:13: warning: padding struct to align ‘id’ [-Wpadded]
+  CK_SLOT_ID id;
+             ^~
+libp11-int.h:67:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_SLOT_private;
+ ^
+libp11-int.h:73:14: warning: padding struct to align ‘keys’ [-Wpadded]
+  PKCS11_KEY *keys;
+              ^~~~
+libp11-int.h:80:15: warning: padding struct to align ‘certs’ [-Wpadded]
+  PKCS11_CERT *certs;
+               ^~~~~
+libp11-int.h:88:14: warning: padding struct to align ‘get_evp_key’ [-Wpadded]
+  EVP_PKEY *(*get_evp_key) (PKCS11_KEY *);
+              ^~~~~~~~~~~
+libp11-int.h:100:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_KEY_private;
+ ^
+libp11-int.h:110:9: warning: padding struct to align ‘id_len’ [-Wpadded]
+  size_t id_len;
+         ^~~~~~
+libp11-int.h:133:12: warning: redundant redeclaration of ‘ERR_load_CKR_strings’ [-Wredundant-decls]
+ extern int ERR_load_CKR_strings(void);
+            ^~~~~~~~~~~~~~~~~~~~
+In file included from libp11-int.h:27:0,
+                 from p11_cert.c:26:
+libp11.h:39:5: note: previous declaration of ‘ERR_load_CKR_strings’ was here
+ int ERR_load_CKR_strings(void);
+     ^~~~~~~~~~~~~~~~~~~~
+In file included from p11_cert.c:26:0:
+libp11-int.h:160:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ extern unsigned int get_forkid();
+ ^~~~~~
+p11_cert.c: In function ‘pkcs11_enumerate_certs’:
+p11_cert.c:62:13: warning: conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+   *countp = tpriv->ncerts;
+             ^~~~~
+In file included from p11_cert.c:26:0:
+p11_cert.c: In function ‘pkcs11_remove_certificate’:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_cert.c:92:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx,
+       ^~~~~~~~~~~~~
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_cert.c:96:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx, C_FindObjects(spriv->session, &obj, 1, &count));
+       ^~~~~~~~~~~~~
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_cert.c:104:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx, C_DestroyObject(spriv->session, obj));
+       ^~~~~~~~~~~~~
+p11_cert.c: In function ‘pkcs11_find_certs’:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_cert.c:151:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx, C_FindObjectsInit(spriv->session, cert_search_attrs, 1));
+       ^~~~~~~~~~~~~
+p11_cert.c: In function ‘pkcs11_next_cert’:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_cert.c:171:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx, C_FindObjects(session, &obj, 1, &count));
+       ^~~~~~~~~~~~~
+In file included from /usr/include/openssl/bio.h:20:0,
+                 from libp11.h:28,
+                 from libp11-int.h:27,
+                 from p11_cert.c:26:
+p11_cert.c: In function ‘pkcs11_init_cert’:
+p11_cert.c:218:23: warning: conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+   (tpriv->ncerts + 1) * sizeof(PKCS11_CERT));
+                       ^
+p11_cert.c:226:2: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+  pkcs11_getattr_alloc(token, obj, CKA_LABEL, (CK_BYTE **)&cert->label, NULL);
+  ^~~~~~~~~~~~~~~~~~~~
+In file included from p11_cert.c:26:0:
+p11_cert.c: In function ‘pkcs11_store_certificate’:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_cert.c:338:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx, C_CreateObject(spriv->session, attrs, n, &object));
+       ^~~~~~~~~~~~~
+  CC       libp11_la-p11_err.lo
+  CC       libp11_la-p11_ckr.lo
+In file included from p11_ckr.c:19:0:
+libp11.h:63:12: warning: padding struct to align ‘evp_key’ [-Wpadded]
+  EVP_PKEY *evp_key;  /**< initially NULL, need to call PKCS11_load_key */
+            ^~~~~~~
+libp11.h:96:8: warning: padding struct to align ‘_private’ [-Wpadded]
+  void *_private;
+        ^~~~~~~~
+libp11.h:104:16: warning: padding struct to align ‘token’ [-Wpadded]
+  PKCS11_TOKEN *token; /**< NULL if no token present */
+                ^~~~~
+In file included from libp11-int.h:30:0,
+                 from p11_ckr.c:20:
+pkcs11.h:199:14: warning: padding struct to align ‘flags’ [-Wpadded]
+   ck_flags_t flags;
+              ^~~~~
+pkcs11.h:202:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:220:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:249:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:1083:19: warning: padding struct to align ‘C_Initialize’ [-Wpadded]
+   CK_C_Initialize C_Initialize;
+                   ^~~~~~~~~~~~
+In file included from p11_ckr.c:20:0:
+libp11-int.h:50:16: warning: padding struct to align ‘rwlock’ [-Wpadded]
+  PKCS11_RWLOCK rwlock;
+                ^~~~~~
+libp11-int.h:59:13: warning: padding struct to align ‘id’ [-Wpadded]
+  CK_SLOT_ID id;
+             ^~
+libp11-int.h:67:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_SLOT_private;
+ ^
+libp11-int.h:73:14: warning: padding struct to align ‘keys’ [-Wpadded]
+  PKCS11_KEY *keys;
+              ^~~~
+libp11-int.h:80:15: warning: padding struct to align ‘certs’ [-Wpadded]
+  PKCS11_CERT *certs;
+               ^~~~~
+libp11-int.h:88:14: warning: padding struct to align ‘get_evp_key’ [-Wpadded]
+  EVP_PKEY *(*get_evp_key) (PKCS11_KEY *);
+              ^~~~~~~~~~~
+libp11-int.h:100:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_KEY_private;
+ ^
+libp11-int.h:110:9: warning: padding struct to align ‘id_len’ [-Wpadded]
+  size_t id_len;
+         ^~~~~~
+libp11-int.h:133:12: warning: redundant redeclaration of ‘ERR_load_CKR_strings’ [-Wredundant-decls]
+ extern int ERR_load_CKR_strings(void);
+            ^~~~~~~~~~~~~~~~~~~~
+In file included from p11_ckr.c:19:0:
+libp11.h:39:5: note: previous declaration of ‘ERR_load_CKR_strings’ was here
+ int ERR_load_CKR_strings(void);
+     ^~~~~~~~~~~~~~~~~~~~
+In file included from p11_ckr.c:20:0:
+libp11-int.h:160:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ extern unsigned int get_forkid();
+ ^~~~~~
+p11_ckr.c:28:0: warning: macro "ERR_REASON" is not used [-Wunused-macros]
+ # define ERR_REASON(reason) ERR_PACK(0,0,reason)
+ 
+  CC       libp11_la-p11_key.lo
+In file included from libp11-int.h:27:0,
+                 from p11_key.c:20:
+libp11.h:63:12: warning: padding struct to align ‘evp_key’ [-Wpadded]
+  EVP_PKEY *evp_key;  /**< initially NULL, need to call PKCS11_load_key */
+            ^~~~~~~
+libp11.h:96:8: warning: padding struct to align ‘_private’ [-Wpadded]
+  void *_private;
+        ^~~~~~~~
+libp11.h:104:16: warning: padding struct to align ‘token’ [-Wpadded]
+  PKCS11_TOKEN *token; /**< NULL if no token present */
+                ^~~~~
+In file included from libp11-int.h:30:0,
+                 from p11_key.c:20:
+pkcs11.h:199:14: warning: padding struct to align ‘flags’ [-Wpadded]
+   ck_flags_t flags;
+              ^~~~~
+pkcs11.h:202:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:220:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:249:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:1083:19: warning: padding struct to align ‘C_Initialize’ [-Wpadded]
+   CK_C_Initialize C_Initialize;
+                   ^~~~~~~~~~~~
+In file included from p11_key.c:20:0:
+libp11-int.h:50:16: warning: padding struct to align ‘rwlock’ [-Wpadded]
+  PKCS11_RWLOCK rwlock;
+                ^~~~~~
+libp11-int.h:59:13: warning: padding struct to align ‘id’ [-Wpadded]
+  CK_SLOT_ID id;
+             ^~
+libp11-int.h:67:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_SLOT_private;
+ ^
+libp11-int.h:73:14: warning: padding struct to align ‘keys’ [-Wpadded]
+  PKCS11_KEY *keys;
+              ^~~~
+libp11-int.h:80:15: warning: padding struct to align ‘certs’ [-Wpadded]
+  PKCS11_CERT *certs;
+               ^~~~~
+libp11-int.h:88:14: warning: padding struct to align ‘get_evp_key’ [-Wpadded]
+  EVP_PKEY *(*get_evp_key) (PKCS11_KEY *);
+              ^~~~~~~~~~~
+libp11-int.h:100:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_KEY_private;
+ ^
+libp11-int.h:110:9: warning: padding struct to align ‘id_len’ [-Wpadded]
+  size_t id_len;
+         ^~~~~~
+libp11-int.h:133:12: warning: redundant redeclaration of ‘ERR_load_CKR_strings’ [-Wredundant-decls]
+ extern int ERR_load_CKR_strings(void);
+            ^~~~~~~~~~~~~~~~~~~~
+In file included from libp11-int.h:27:0,
+                 from p11_key.c:20:
+libp11.h:39:5: note: previous declaration of ‘ERR_load_CKR_strings’ was here
+ int ERR_load_CKR_strings(void);
+     ^~~~~~~~~~~~~~~~~~~~
+In file included from p11_key.c:20:0:
+libp11-int.h:160:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ extern unsigned int get_forkid();
+ ^~~~~~
+p11_key.c: In function ‘pkcs11_reload_key’:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_key.c:116:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx,
+       ^~~~~~~~~~~~~
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_key.c:120:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx,
+       ^~~~~~~~~~~~~
+p11_key.c: In function ‘pkcs11_generate_key’:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_key.c:179:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx, C_GenerateKeyPair(
+       ^~~~~~~~~~~~~
+p11_key.c: In function ‘pkcs11_store_key’:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_key.c:297:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx, C_CreateObject(spriv->session, attrs, n, &object));
+       ^~~~~~~~~~~~~
+p11_key.c: In function ‘pkcs11_authenticate’:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_key.c:367:8: note: in expansion of macro ‘CRYPTOKI_call’
+   rv = CRYPTOKI_call(ctx,
+        ^~~~~~~~~~~~~
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_key.c:398:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx,
+       ^~~~~~~~~~~~~
+p11_key.c: In function ‘pkcs11_enumerate_keys’:
+p11_key.c:446:13: warning: conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+   *countp = keys->num;
+             ^~~~
+In file included from p11_key.c:20:0:
+p11_key.c: In function ‘pkcs11_remove_key’:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_key.c:475:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx,
+       ^~~~~~~~~~~~~
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_key.c:479:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx, C_FindObjects(spriv->session, &obj, 1, &count));
+       ^~~~~~~~~~~~~
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_key.c:487:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx, C_DestroyObject(spriv->session, obj));
+       ^~~~~~~~~~~~~
+p11_key.c: In function ‘pkcs11_find_keys’:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_key.c:512:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx,
+       ^~~~~~~~~~~~~
+p11_key.c: In function ‘pkcs11_next_key’:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_key.c:533:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx, C_FindObjects(session, &obj, 1, &count));
+       ^~~~~~~~~~~~~
+In file included from /usr/include/openssl/bio.h:20:0,
+                 from libp11.h:28,
+                 from libp11-int.h:27,
+                 from p11_key.c:20:
+p11_key.c: In function ‘pkcs11_init_key’:
+p11_key.c:591:52: warning: conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+  tmp = OPENSSL_realloc(keys->keys, (keys->num + 1) * sizeof(PKCS11_KEY));
+                                                    ^
+p11_key.c:599:2: warning: dereferencing type-punned pointer might break strict-aliasing rules [-Wstrict-aliasing]
+  pkcs11_getattr_alloc(token, obj, CKA_LABEL, (CK_BYTE **)&key->label, NULL);
+  ^~~~~~~~~~~~~~~~~~~~
+p11_key.c: In function ‘pkcs11_get_key_type’:
+p11_key.c:311:5: warning: function might be candidate for attribute ‘pure’ [-Wsuggest-attribute=pure]
+ int pkcs11_get_key_type(PKCS11_KEY *key)
+     ^~~~~~~~~~~~~~~~~~~
+  CC       libp11_la-p11_load.lo
+In file included from libp11-int.h:27:0,
+                 from p11_load.c:19:
+libp11.h:63:12: warning: padding struct to align ‘evp_key’ [-Wpadded]
+  EVP_PKEY *evp_key;  /**< initially NULL, need to call PKCS11_load_key */
+            ^~~~~~~
+libp11.h:96:8: warning: padding struct to align ‘_private’ [-Wpadded]
+  void *_private;
+        ^~~~~~~~
+libp11.h:104:16: warning: padding struct to align ‘token’ [-Wpadded]
+  PKCS11_TOKEN *token; /**< NULL if no token present */
+                ^~~~~
+In file included from libp11-int.h:30:0,
+                 from p11_load.c:19:
+pkcs11.h:199:14: warning: padding struct to align ‘flags’ [-Wpadded]
+   ck_flags_t flags;
+              ^~~~~
+pkcs11.h:202:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:220:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:249:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:1083:19: warning: padding struct to align ‘C_Initialize’ [-Wpadded]
+   CK_C_Initialize C_Initialize;
+                   ^~~~~~~~~~~~
+In file included from p11_load.c:19:0:
+libp11-int.h:50:16: warning: padding struct to align ‘rwlock’ [-Wpadded]
+  PKCS11_RWLOCK rwlock;
+                ^~~~~~
+libp11-int.h:59:13: warning: padding struct to align ‘id’ [-Wpadded]
+  CK_SLOT_ID id;
+             ^~
+libp11-int.h:67:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_SLOT_private;
+ ^
+libp11-int.h:73:14: warning: padding struct to align ‘keys’ [-Wpadded]
+  PKCS11_KEY *keys;
+              ^~~~
+libp11-int.h:80:15: warning: padding struct to align ‘certs’ [-Wpadded]
+  PKCS11_CERT *certs;
+               ^~~~~
+libp11-int.h:88:14: warning: padding struct to align ‘get_evp_key’ [-Wpadded]
+  EVP_PKEY *(*get_evp_key) (PKCS11_KEY *);
+              ^~~~~~~~~~~
+libp11-int.h:100:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_KEY_private;
+ ^
+libp11-int.h:110:9: warning: padding struct to align ‘id_len’ [-Wpadded]
+  size_t id_len;
+         ^~~~~~
+libp11-int.h:133:12: warning: redundant redeclaration of ‘ERR_load_CKR_strings’ [-Wredundant-decls]
+ extern int ERR_load_CKR_strings(void);
+            ^~~~~~~~~~~~~~~~~~~~
+In file included from libp11-int.h:27:0,
+                 from p11_load.c:19:
+libp11.h:39:5: note: previous declaration of ‘ERR_load_CKR_strings’ was here
+ int ERR_load_CKR_strings(void);
+     ^~~~~~~~~~~~~~~~~~~~
+In file included from p11_load.c:19:0:
+libp11-int.h:160:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ extern unsigned int get_forkid();
+ ^~~~~~
+p11_load.c: In function ‘pkcs11_CTX_load’:
+p11_load.c:88:7: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+  rv = cpriv->method->C_Initialize(&args);
+       ^~~~~
+p11_load.c:97:7: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+  rv = cpriv->method->C_GetInfo(&ck_info);
+       ^~~~~
+p11_load.c: In function ‘pkcs11_CTX_reload’:
+p11_load.c:131:7: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+  rv = cpriv->method->C_Initialize(args);
+       ^~~~~
+  CC       libp11_la-p11_misc.lo
+In file included from libp11-int.h:27:0,
+                 from p11_misc.c:20:
+libp11.h:63:12: warning: padding struct to align ‘evp_key’ [-Wpadded]
+  EVP_PKEY *evp_key;  /**< initially NULL, need to call PKCS11_load_key */
+            ^~~~~~~
+libp11.h:96:8: warning: padding struct to align ‘_private’ [-Wpadded]
+  void *_private;
+        ^~~~~~~~
+libp11.h:104:16: warning: padding struct to align ‘token’ [-Wpadded]
+  PKCS11_TOKEN *token; /**< NULL if no token present */
+                ^~~~~
+In file included from libp11-int.h:30:0,
+                 from p11_misc.c:20:
+pkcs11.h:199:14: warning: padding struct to align ‘flags’ [-Wpadded]
+   ck_flags_t flags;
+              ^~~~~
+pkcs11.h:202:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:220:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:249:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:1083:19: warning: padding struct to align ‘C_Initialize’ [-Wpadded]
+   CK_C_Initialize C_Initialize;
+                   ^~~~~~~~~~~~
+In file included from p11_misc.c:20:0:
+libp11-int.h:50:16: warning: padding struct to align ‘rwlock’ [-Wpadded]
+  PKCS11_RWLOCK rwlock;
+                ^~~~~~
+libp11-int.h:59:13: warning: padding struct to align ‘id’ [-Wpadded]
+  CK_SLOT_ID id;
+             ^~
+libp11-int.h:67:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_SLOT_private;
+ ^
+libp11-int.h:73:14: warning: padding struct to align ‘keys’ [-Wpadded]
+  PKCS11_KEY *keys;
+              ^~~~
+libp11-int.h:80:15: warning: padding struct to align ‘certs’ [-Wpadded]
+  PKCS11_CERT *certs;
+               ^~~~~
+libp11-int.h:88:14: warning: padding struct to align ‘get_evp_key’ [-Wpadded]
+  EVP_PKEY *(*get_evp_key) (PKCS11_KEY *);
+              ^~~~~~~~~~~
+libp11-int.h:100:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_KEY_private;
+ ^
+libp11-int.h:110:9: warning: padding struct to align ‘id_len’ [-Wpadded]
+  size_t id_len;
+         ^~~~~~
+libp11-int.h:133:12: warning: redundant redeclaration of ‘ERR_load_CKR_strings’ [-Wredundant-decls]
+ extern int ERR_load_CKR_strings(void);
+            ^~~~~~~~~~~~~~~~~~~~
+In file included from libp11-int.h:27:0,
+                 from p11_misc.c:20:
+libp11.h:39:5: note: previous declaration of ‘ERR_load_CKR_strings’ was here
+ int ERR_load_CKR_strings(void);
+     ^~~~~~~~~~~~~~~~~~~~
+In file included from p11_misc.c:20:0:
+libp11-int.h:160:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ extern unsigned int get_forkid();
+ ^~~~~~
+  CC       libp11_la-p11_rsa.lo
+In file included from libp11-int.h:27:0,
+                 from p11_rsa.c:25:
+libp11.h:63:12: warning: padding struct to align ‘evp_key’ [-Wpadded]
+  EVP_PKEY *evp_key;  /**< initially NULL, need to call PKCS11_load_key */
+            ^~~~~~~
+libp11.h:96:8: warning: padding struct to align ‘_private’ [-Wpadded]
+  void *_private;
+        ^~~~~~~~
+libp11.h:104:16: warning: padding struct to align ‘token’ [-Wpadded]
+  PKCS11_TOKEN *token; /**< NULL if no token present */
+                ^~~~~
+In file included from libp11-int.h:30:0,
+                 from p11_rsa.c:25:
+pkcs11.h:199:14: warning: padding struct to align ‘flags’ [-Wpadded]
+   ck_flags_t flags;
+              ^~~~~
+pkcs11.h:202:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:220:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:249:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:1083:19: warning: padding struct to align ‘C_Initialize’ [-Wpadded]
+   CK_C_Initialize C_Initialize;
+                   ^~~~~~~~~~~~
+In file included from p11_rsa.c:25:0:
+libp11-int.h:50:16: warning: padding struct to align ‘rwlock’ [-Wpadded]
+  PKCS11_RWLOCK rwlock;
+                ^~~~~~
+libp11-int.h:59:13: warning: padding struct to align ‘id’ [-Wpadded]
+  CK_SLOT_ID id;
+             ^~
+libp11-int.h:67:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_SLOT_private;
+ ^
+libp11-int.h:73:14: warning: padding struct to align ‘keys’ [-Wpadded]
+  PKCS11_KEY *keys;
+              ^~~~
+libp11-int.h:80:15: warning: padding struct to align ‘certs’ [-Wpadded]
+  PKCS11_CERT *certs;
+               ^~~~~
+libp11-int.h:88:14: warning: padding struct to align ‘get_evp_key’ [-Wpadded]
+  EVP_PKEY *(*get_evp_key) (PKCS11_KEY *);
+              ^~~~~~~~~~~
+libp11-int.h:100:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_KEY_private;
+ ^
+libp11-int.h:110:9: warning: padding struct to align ‘id_len’ [-Wpadded]
+  size_t id_len;
+         ^~~~~~
+libp11-int.h:133:12: warning: redundant redeclaration of ‘ERR_load_CKR_strings’ [-Wredundant-decls]
+ extern int ERR_load_CKR_strings(void);
+            ^~~~~~~~~~~~~~~~~~~~
+In file included from libp11-int.h:27:0,
+                 from p11_rsa.c:25:
+libp11.h:39:5: note: previous declaration of ‘ERR_load_CKR_strings’ was here
+ int ERR_load_CKR_strings(void);
+     ^~~~~~~~~~~~~~~~~~~~
+In file included from p11_rsa.c:25:0:
+libp11-int.h:160:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ extern unsigned int get_forkid();
+ ^~~~~~
+p11_rsa.c: In function ‘pkcs11_private_encrypt’:
+p11_rsa.c:89:9: warning: conversion to ‘CK_ULONG {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+  size = pkcs11_get_key_size(key);
+         ^~~~~~~~~~~~~~~~~~~
+In file included from p11_rsa.c:25:0:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_rsa.c:96:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx,
+       ^~~~~~~~~~~~~
+p11_rsa.c:102:27: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+    C_Sign(spriv->session, (CK_BYTE *)from, flen, to, &size));
+                           ^
+libp11-int.h:132:24: note: in definition of macro ‘CRYPTOKI_call’
+  PRIVCTX(ctx)->method->func_and_args
+                        ^~~~~~~~~~~~~
+p11_rsa.c:102:44: warning: conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+    C_Sign(spriv->session, (CK_BYTE *)from, flen, to, &size));
+                                            ^
+libp11-int.h:132:24: note: in definition of macro ‘CRYPTOKI_call’
+  PRIVCTX(ctx)->method->func_and_args
+                        ^~~~~~~~~~~~~
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_rsa.c:101:8: note: in expansion of macro ‘CRYPTOKI_call’
+   rv = CRYPTOKI_call(ctx,
+        ^~~~~~~~~~~~~
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_rsa.c:105:8: note: in expansion of macro ‘CRYPTOKI_call’
+   rv = CRYPTOKI_call(ctx,
+        ^~~~~~~~~~~~~
+p11_rsa.c:111:31: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+     C_Encrypt(spriv->session, (CK_BYTE *)from, flen, to, &size));
+                               ^
+libp11-int.h:132:24: note: in definition of macro ‘CRYPTOKI_call’
+  PRIVCTX(ctx)->method->func_and_args
+                        ^~~~~~~~~~~~~
+p11_rsa.c:111:48: warning: conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+     C_Encrypt(spriv->session, (CK_BYTE *)from, flen, to, &size));
+                                                ^
+libp11-int.h:132:24: note: in definition of macro ‘CRYPTOKI_call’
+  PRIVCTX(ctx)->method->func_and_args
+                        ^~~~~~~~~~~~~
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_rsa.c:110:9: note: in expansion of macro ‘CRYPTOKI_call’
+    rv = CRYPTOKI_call(ctx,
+         ^~~~~~~~~~~~~
+p11_rsa.c:120:9: warning: conversion to ‘int’ from ‘CK_ULONG {aka long unsigned int}’ may alter its value [-Wconversion]
+  return size;
+         ^~~~
+p11_rsa.c: In function ‘pkcs11_private_decrypt’:
+p11_rsa.c:132:18: warning: conversion to ‘CK_ULONG {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+  CK_ULONG size = flen;
+                  ^~~~
+p11_rsa.c:142:8: warning: conversion to ‘CK_RV {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+   rv = pkcs11_authenticate(key);
+        ^~~~~~~~~~~~~~~~~~~
+In file included from p11_rsa.c:25:0:
+p11_rsa.c:145:30: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+    C_Decrypt(spriv->session, (CK_BYTE *)from, size,
+                              ^
+libp11-int.h:132:24: note: in definition of macro ‘CRYPTOKI_call’
+  PRIVCTX(ctx)->method->func_and_args
+                        ^~~~~~~~~~~~~
+In file included from libp11-int.h:27:0,
+                 from p11_rsa.c:25:
+libp11.h:42:40: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ # define CKRerr(f,r) ERR_CKR_error((f),(r),__FILE__,__LINE__)
+                                        ^
+p11_rsa.c:150:3: note: in expansion of macro ‘CKRerr’
+   CKRerr(CKR_F_PKCS11_PRIVATE_DECRYPT, rv);
+   ^~~~~~
+p11_rsa.c:154:9: warning: conversion to ‘int’ from ‘CK_ULONG {aka long unsigned int}’ may alter its value [-Wconversion]
+  return size;
+         ^~~~
+p11_rsa.c: At top level:
+p11_rsa.c:383:13: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ static void alloc_rsa_ex_index()
+             ^~~~~~~~~~~~~~~~~~
+p11_rsa.c:394:13: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ static void free_rsa_ex_index()
+             ^~~~~~~~~~~~~~~~~
+p11_rsa.c:483:6: warning: no previous prototype for ‘PKCS11_rsa_method_free’ [-Wmissing-prototypes]
+ void PKCS11_rsa_method_free(void)
+      ^~~~~~~~~~~~~~~~~~~~~~
+  CC       libp11_la-p11_ec.lo
+In file included from libp11-int.h:27:0,
+                 from p11_ec.c:27:
+libp11.h:63:12: warning: padding struct to align ‘evp_key’ [-Wpadded]
+  EVP_PKEY *evp_key;  /**< initially NULL, need to call PKCS11_load_key */
+            ^~~~~~~
+libp11.h:96:8: warning: padding struct to align ‘_private’ [-Wpadded]
+  void *_private;
+        ^~~~~~~~
+libp11.h:104:16: warning: padding struct to align ‘token’ [-Wpadded]
+  PKCS11_TOKEN *token; /**< NULL if no token present */
+                ^~~~~
+In file included from libp11-int.h:30:0,
+                 from p11_ec.c:27:
+pkcs11.h:199:14: warning: padding struct to align ‘flags’ [-Wpadded]
+   ck_flags_t flags;
+              ^~~~~
+pkcs11.h:202:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:220:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:249:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:1083:19: warning: padding struct to align ‘C_Initialize’ [-Wpadded]
+   CK_C_Initialize C_Initialize;
+                   ^~~~~~~~~~~~
+In file included from p11_ec.c:27:0:
+libp11-int.h:50:16: warning: padding struct to align ‘rwlock’ [-Wpadded]
+  PKCS11_RWLOCK rwlock;
+                ^~~~~~
+libp11-int.h:59:13: warning: padding struct to align ‘id’ [-Wpadded]
+  CK_SLOT_ID id;
+             ^~
+libp11-int.h:67:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_SLOT_private;
+ ^
+libp11-int.h:73:14: warning: padding struct to align ‘keys’ [-Wpadded]
+  PKCS11_KEY *keys;
+              ^~~~
+libp11-int.h:80:15: warning: padding struct to align ‘certs’ [-Wpadded]
+  PKCS11_CERT *certs;
+               ^~~~~
+libp11-int.h:88:14: warning: padding struct to align ‘get_evp_key’ [-Wpadded]
+  EVP_PKEY *(*get_evp_key) (PKCS11_KEY *);
+              ^~~~~~~~~~~
+libp11-int.h:100:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_KEY_private;
+ ^
+libp11-int.h:110:9: warning: padding struct to align ‘id_len’ [-Wpadded]
+  size_t id_len;
+         ^~~~~~
+libp11-int.h:133:12: warning: redundant redeclaration of ‘ERR_load_CKR_strings’ [-Wredundant-decls]
+ extern int ERR_load_CKR_strings(void);
+            ^~~~~~~~~~~~~~~~~~~~
+In file included from libp11-int.h:27:0,
+                 from p11_ec.c:27:
+libp11.h:39:5: note: previous declaration of ‘ERR_load_CKR_strings’ was here
+ int ERR_load_CKR_strings(void);
+     ^~~~~~~~~~~~~~~~~~~~
+In file included from p11_ec.c:27:0:
+libp11-int.h:160:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ extern unsigned int get_forkid();
+ ^~~~~~
+p11_ec.c:155:13: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ static void alloc_ec_ex_index()
+             ^~~~~~~~~~~~~~~~~
+In file included from p11_ec.c:27:0:
+p11_ec.c: In function ‘pkcs11_ecdsa_sign’:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_ec.c:356:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx,
+       ^~~~~~~~~~~~~
+p11_ec.c:362:27: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+    C_Sign(spriv->session, (CK_BYTE *)msg, msg_len, sigret, &ck_sigsize));
+                           ^
+libp11-int.h:132:24: note: in definition of macro ‘CRYPTOKI_call’
+  PRIVCTX(ctx)->method->func_and_args
+                        ^~~~~~~~~~~~~
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_ec.c:361:8: note: in expansion of macro ‘CRYPTOKI_call’
+   rv = CRYPTOKI_call(ctx,
+        ^~~~~~~~~~~~~
+p11_ec.c:369:12: warning: conversion to ‘unsigned int’ from ‘CK_ULONG {aka long unsigned int}’ may alter its value [-Wconversion]
+  *siglen = ck_sigsize;
+            ^~~~~~~~~~
+p11_ec.c:371:9: warning: conversion to ‘int’ from ‘CK_ULONG {aka long unsigned int}’ may alter its value [-Wconversion]
+  return ck_sigsize;
+         ^~~~~~~~~~
+p11_ec.c: In function ‘pkcs11_ecdsa_sign_sig’:
+p11_ec.c:401:26: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+   EC_KEY_METHOD_get_sign((EC_KEY_METHOD *)meth,
+                          ^
+p11_ec.c:423:30: warning: conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+  if (pkcs11_ecdsa_sign(dgst, dlen, sigret, &siglen, key) <= 0)
+                              ^~~~
+p11_ec.c:426:24: warning: conversion to ‘int’ from ‘unsigned int’ may change the sign of the result [-Wsign-conversion]
+  r = BN_bin2bn(sigret, siglen/2, NULL);
+                        ^~~~~~
+p11_ec.c:427:35: warning: conversion to ‘int’ from ‘unsigned int’ may change the sign of the result [-Wsign-conversion]
+  s = BN_bin2bn(sigret + siglen/2, siglen/2, NULL);
+                                   ^~~~~~
+p11_ec.c: In function ‘pkcs11_ecdh_derive’:
+p11_ec.c:524:26: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+  mechanism.pParameter =  (void*)ec_params;
+                          ^
+In file included from p11_ec.c:27:0:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_ec.c:541:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx, C_DeriveKey(spriv->session, &mechanism, kpriv->object, newkey_template, 5, &newkey));
+       ^~~~~~~~~~~~~
+p11_ec.c: In function ‘PKCS11_get_ec_key_method’:
+p11_ec.c:672:27: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+   ops = EC_KEY_METHOD_new((EC_KEY_METHOD *)EC_KEY_OpenSSL());
+                           ^
+p11_ec.c: At top level:
+p11_ec.c:751:6: warning: no previous prototype for ‘PKCS11_ecdsa_method_free’ [-Wmissing-prototypes]
+ void PKCS11_ecdsa_method_free(void)
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+p11_ec.c: In function ‘PKCS11_get_ecdsa_method’:
+p11_ec.c:682:7: warning: function might be candidate for attribute ‘const’ [-Wsuggest-attribute=const]
+ void *PKCS11_get_ecdsa_method(void)
+       ^~~~~~~~~~~~~~~~~~~~~~~
+p11_ec.c: In function ‘PKCS11_get_ecdh_method’:
+p11_ec.c:687:7: warning: function might be candidate for attribute ‘const’ [-Wsuggest-attribute=const]
+ void *PKCS11_get_ecdh_method(void)
+       ^~~~~~~~~~~~~~~~~~~~~~
+p11_ec.c: In function ‘PKCS11_ecdsa_method_free’:
+p11_ec.c:751:6: warning: function might be candidate for attribute ‘const’ [-Wsuggest-attribute=const]
+ void PKCS11_ecdsa_method_free(void)
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+  CC       libp11_la-p11_pkey.lo
+In file included from libp11-int.h:27:0,
+                 from p11_pkey.c:20:
+libp11.h:63:12: warning: padding struct to align ‘evp_key’ [-Wpadded]
+  EVP_PKEY *evp_key;  /**< initially NULL, need to call PKCS11_load_key */
+            ^~~~~~~
+libp11.h:96:8: warning: padding struct to align ‘_private’ [-Wpadded]
+  void *_private;
+        ^~~~~~~~
+libp11.h:104:16: warning: padding struct to align ‘token’ [-Wpadded]
+  PKCS11_TOKEN *token; /**< NULL if no token present */
+                ^~~~~
+In file included from libp11-int.h:30:0,
+                 from p11_pkey.c:20:
+pkcs11.h:199:14: warning: padding struct to align ‘flags’ [-Wpadded]
+   ck_flags_t flags;
+              ^~~~~
+pkcs11.h:202:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:220:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:249:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:1083:19: warning: padding struct to align ‘C_Initialize’ [-Wpadded]
+   CK_C_Initialize C_Initialize;
+                   ^~~~~~~~~~~~
+In file included from p11_pkey.c:20:0:
+libp11-int.h:50:16: warning: padding struct to align ‘rwlock’ [-Wpadded]
+  PKCS11_RWLOCK rwlock;
+                ^~~~~~
+libp11-int.h:59:13: warning: padding struct to align ‘id’ [-Wpadded]
+  CK_SLOT_ID id;
+             ^~
+libp11-int.h:67:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_SLOT_private;
+ ^
+libp11-int.h:73:14: warning: padding struct to align ‘keys’ [-Wpadded]
+  PKCS11_KEY *keys;
+              ^~~~
+libp11-int.h:80:15: warning: padding struct to align ‘certs’ [-Wpadded]
+  PKCS11_CERT *certs;
+               ^~~~~
+libp11-int.h:88:14: warning: padding struct to align ‘get_evp_key’ [-Wpadded]
+  EVP_PKEY *(*get_evp_key) (PKCS11_KEY *);
+              ^~~~~~~~~~~
+libp11-int.h:100:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_KEY_private;
+ ^
+libp11-int.h:110:9: warning: padding struct to align ‘id_len’ [-Wpadded]
+  size_t id_len;
+         ^~~~~~
+libp11-int.h:133:12: warning: redundant redeclaration of ‘ERR_load_CKR_strings’ [-Wredundant-decls]
+ extern int ERR_load_CKR_strings(void);
+            ^~~~~~~~~~~~~~~~~~~~
+In file included from libp11-int.h:27:0,
+                 from p11_pkey.c:20:
+libp11.h:39:5: note: previous declaration of ‘ERR_load_CKR_strings’ was here
+ int ERR_load_CKR_strings(void);
+     ^~~~~~~~~~~~~~~~~~~~
+In file included from p11_pkey.c:20:0:
+libp11-int.h:160:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ extern unsigned int get_forkid();
+ ^~~~~~
+p11_pkey.c: In function ‘pkcs11_params_pss’:
+p11_pkey.c:227:2: warning: switch missing default case [-Wswitch-default]
+  switch (salt_len) {
+  ^~~~~~
+p11_pkey.c:252:14: warning: conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+  pss->sLen = salt_len;
+              ^~~~~~~~
+In file included from p11_pkey.c:20:0:
+p11_pkey.c: In function ‘pkcs11_try_pkey_rsa_sign’:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_pkey.c:355:8: note: in expansion of macro ‘CRYPTOKI_call’
+   rv = CRYPTOKI_call(ctx,
+        ^~~~~~~~~~~~~
+p11_pkey.c:362:27: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+    C_Sign(spriv->session, (CK_BYTE_PTR)tbs, tbslen, sig, &size));
+                           ^
+libp11-int.h:132:24: note: in definition of macro ‘CRYPTOKI_call’
+  PRIVCTX(ctx)->method->func_and_args
+                        ^~~~~~~~~~~~~
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_pkey.c:361:8: note: in expansion of macro ‘CRYPTOKI_call’
+   rv = CRYPTOKI_call(ctx,
+        ^~~~~~~~~~~~~
+p11_pkey.c: In function ‘pkcs11_try_pkey_rsa_decrypt’:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_pkey.c:463:8: note: in expansion of macro ‘CRYPTOKI_call’
+   rv = CRYPTOKI_call(ctx,
+        ^~~~~~~~~~~~~
+p11_pkey.c:470:30: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+    C_Decrypt(spriv->session, (CK_BYTE_PTR)in, inlen, out, &size));
+                              ^
+libp11-int.h:132:24: note: in definition of macro ‘CRYPTOKI_call’
+  PRIVCTX(ctx)->method->func_and_args
+                        ^~~~~~~~~~~~~
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_pkey.c:469:8: note: in expansion of macro ‘CRYPTOKI_call’
+   rv = CRYPTOKI_call(ctx,
+        ^~~~~~~~~~~~~
+p11_pkey.c: At top level:
+p11_pkey.c:497:25: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ static EVP_PKEY_METHOD *pkcs11_pkey_method_rsa()
+                         ^~~~~~~~~~~~~~~~~~~~~~
+p11_pkey.c: In function ‘pkcs11_pkey_method_rsa’:
+p11_pkey.c:501:14: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+  orig_meth = (EVP_PKEY_METHOD *)EVP_PKEY_meth_find(EVP_PKEY_RSA);
+              ^
+p11_pkey.c: In function ‘pkcs11_try_pkey_ec_sign’:
+p11_pkey.c:523:50: warning: unused parameter ‘evp_pkey_ctx’ [-Wunused-parameter]
+ static int pkcs11_try_pkey_ec_sign(EVP_PKEY_CTX *evp_pkey_ctx,
+                                                  ^~~~~~~~~~~~
+p11_pkey.c:524:18: warning: unused parameter ‘sig’ [-Wunused-parameter]
+   unsigned char *sig, size_t *siglen,
+                  ^~~
+p11_pkey.c:524:31: warning: unused parameter ‘siglen’ [-Wunused-parameter]
+   unsigned char *sig, size_t *siglen,
+                               ^~~~~~
+p11_pkey.c:525:24: warning: unused parameter ‘tbs’ [-Wunused-parameter]
+   const unsigned char *tbs, size_t tbslen)
+                        ^~~
+p11_pkey.c:525:36: warning: unused parameter ‘tbslen’ [-Wunused-parameter]
+   const unsigned char *tbs, size_t tbslen)
+                                    ^~~~~~
+p11_pkey.c: At top level:
+p11_pkey.c:546:25: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ static EVP_PKEY_METHOD *pkcs11_pkey_method_ec()
+                         ^~~~~~~~~~~~~~~~~~~~~
+p11_pkey.c: In function ‘pkcs11_pkey_method_ec’:
+p11_pkey.c:550:14: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+  orig_meth = (EVP_PKEY_METHOD *)EVP_PKEY_meth_find(EVP_PKEY_EC);
+              ^
+p11_pkey.c: In function ‘PKCS11_pkey_meths’:
+p11_pkey.c:587:2: warning: switch missing default case [-Wswitch-default]
+  switch (nid) {
+  ^~~~~~
+  CC       libp11_la-p11_slot.lo
+In file included from libp11-int.h:27:0,
+                 from p11_slot.c:20:
+libp11.h:63:12: warning: padding struct to align ‘evp_key’ [-Wpadded]
+  EVP_PKEY *evp_key;  /**< initially NULL, need to call PKCS11_load_key */
+            ^~~~~~~
+libp11.h:96:8: warning: padding struct to align ‘_private’ [-Wpadded]
+  void *_private;
+        ^~~~~~~~
+libp11.h:104:16: warning: padding struct to align ‘token’ [-Wpadded]
+  PKCS11_TOKEN *token; /**< NULL if no token present */
+                ^~~~~
+In file included from libp11-int.h:30:0,
+                 from p11_slot.c:20:
+pkcs11.h:199:14: warning: padding struct to align ‘flags’ [-Wpadded]
+   ck_flags_t flags;
+              ^~~~~
+pkcs11.h:202:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:220:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:249:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:1083:19: warning: padding struct to align ‘C_Initialize’ [-Wpadded]
+   CK_C_Initialize C_Initialize;
+                   ^~~~~~~~~~~~
+In file included from p11_slot.c:20:0:
+libp11-int.h:50:16: warning: padding struct to align ‘rwlock’ [-Wpadded]
+  PKCS11_RWLOCK rwlock;
+                ^~~~~~
+libp11-int.h:59:13: warning: padding struct to align ‘id’ [-Wpadded]
+  CK_SLOT_ID id;
+             ^~
+libp11-int.h:67:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_SLOT_private;
+ ^
+libp11-int.h:73:14: warning: padding struct to align ‘keys’ [-Wpadded]
+  PKCS11_KEY *keys;
+              ^~~~
+libp11-int.h:80:15: warning: padding struct to align ‘certs’ [-Wpadded]
+  PKCS11_CERT *certs;
+               ^~~~~
+libp11-int.h:88:14: warning: padding struct to align ‘get_evp_key’ [-Wpadded]
+  EVP_PKEY *(*get_evp_key) (PKCS11_KEY *);
+              ^~~~~~~~~~~
+libp11-int.h:100:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_KEY_private;
+ ^
+libp11-int.h:110:9: warning: padding struct to align ‘id_len’ [-Wpadded]
+  size_t id_len;
+         ^~~~~~
+libp11-int.h:133:12: warning: redundant redeclaration of ‘ERR_load_CKR_strings’ [-Wredundant-decls]
+ extern int ERR_load_CKR_strings(void);
+            ^~~~~~~~~~~~~~~~~~~~
+In file included from libp11-int.h:27:0,
+                 from p11_slot.c:20:
+libp11.h:39:5: note: previous declaration of ‘ERR_load_CKR_strings’ was here
+ int ERR_load_CKR_strings(void);
+     ^~~~~~~~~~~~~~~~~~~~
+In file included from p11_slot.c:20:0:
+libp11-int.h:160:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ extern unsigned int get_forkid();
+ ^~~~~~
+p11_slot.c: In function ‘pkcs11_enumerate_slots’:
+p11_slot.c:52:7: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+  rv = cpriv->method->C_GetSlotList(FALSE, NULL_PTR, &nslots);
+       ^~~~~
+p11_slot.c:62:7: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+  rv = cpriv->method->C_GetSlotList(FALSE, slotid, &nslots);
+       ^~~~~
+p11_slot.c:87:13: warning: conversion to ‘unsigned int’ from ‘CK_ULONG {aka long unsigned int}’ may alter its value [-Wconversion]
+   *countp = nslots;
+             ^~~~~~
+p11_slot.c: In function ‘pkcs11_find_next_token’:
+p11_slot.c:132:12: warning: conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+   offset = current + 1 - slots;
+            ^~~~~~~
+p11_slot.c:139:55: warning: conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+  return pkcs11_find_token(ctx, slots + offset, nslots - offset);
+                                                       ^
+In file included from p11_slot.c:20:0:
+p11_slot.c: In function ‘pkcs11_open_session’:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_slot.c:157:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx,
+       ^~~~~~~~~~~~~
+p11_slot.c: In function ‘pkcs11_reopen_session’:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_slot.c:174:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx,
+       ^~~~~~~~~~~~~
+p11_slot.c: In function ‘pkcs11_is_logged_in’:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_slot.c:205:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx, C_GetSessionInfo(spriv->session, &session_info));
+       ^~~~~~~~~~~~~
+p11_slot.c: In function ‘pkcs11_login’:
+p11_slot.c:238:4: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+    (CK_UTF8CHAR *) pin, pin ? (unsigned long) strlen(pin) : 0));
+    ^
+libp11-int.h:132:24: note: in definition of macro ‘CRYPTOKI_call’
+  PRIVCTX(ctx)->method->func_and_args
+                        ^~~~~~~~~~~~~
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_slot.c:236:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx,
+       ^~~~~~~~~~~~~
+p11_slot.c: In function ‘pkcs11_logout’:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_slot.c:285:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx, C_Logout(spriv->session));
+       ^~~~~~~~~~~~~
+p11_slot.c: In function ‘pkcs11_init_token’:
+p11_slot.c:305:4: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+    (CK_UTF8CHAR *) pin, (unsigned long) strlen(pin),
+    ^
+libp11-int.h:132:24: note: in definition of macro ‘CRYPTOKI_call’
+  PRIVCTX(ctx)->method->func_and_args
+                        ^~~~~~~~~~~~~
+p11_slot.c:306:4: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+    (CK_UTF8CHAR *) label));
+    ^
+libp11-int.h:132:24: note: in definition of macro ‘CRYPTOKI_call’
+  PRIVCTX(ctx)->method->func_and_args
+                        ^~~~~~~~~~~~~
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_slot.c:303:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx,
+       ^~~~~~~~~~~~~
+p11_slot.c: In function ‘pkcs11_init_pin’:
+p11_slot.c:338:52: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+  rv = CRYPTOKI_call(ctx, C_InitPIN(spriv->session, (CK_UTF8CHAR *) pin, len));
+                                                    ^
+libp11-int.h:132:24: note: in definition of macro ‘CRYPTOKI_call’
+  PRIVCTX(ctx)->method->func_and_args
+                        ^~~~~~~~~~~~~
+p11_slot.c:338:73: warning: conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+  rv = CRYPTOKI_call(ctx, C_InitPIN(spriv->session, (CK_UTF8CHAR *) pin, len));
+                                                                         ^
+libp11-int.h:132:24: note: in definition of macro ‘CRYPTOKI_call’
+  PRIVCTX(ctx)->method->func_and_args
+                        ^~~~~~~~~~~~~
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_slot.c:338:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx, C_InitPIN(spriv->session, (CK_UTF8CHAR *) pin, len));
+       ^~~~~~~~~~~~~
+p11_slot.c: In function ‘pkcs11_change_pin’:
+p11_slot.c:362:28: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+   C_SetPIN(spriv->session, (CK_UTF8CHAR *) old_pin, old_len,
+                            ^
+libp11-int.h:132:24: note: in definition of macro ‘CRYPTOKI_call’
+  PRIVCTX(ctx)->method->func_and_args
+                        ^~~~~~~~~~~~~
+p11_slot.c:363:4: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+    (CK_UTF8CHAR *) new_pin, new_len));
+    ^
+libp11-int.h:132:24: note: in definition of macro ‘CRYPTOKI_call’
+  PRIVCTX(ctx)->method->func_and_args
+                        ^~~~~~~~~~~~~
+p11_slot.c:362:53: warning: conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+   C_SetPIN(spriv->session, (CK_UTF8CHAR *) old_pin, old_len,
+                                                     ^
+libp11-int.h:132:24: note: in definition of macro ‘CRYPTOKI_call’
+  PRIVCTX(ctx)->method->func_and_args
+                        ^~~~~~~~~~~~~
+p11_slot.c:363:29: warning: conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+    (CK_UTF8CHAR *) new_pin, new_len));
+                             ^
+libp11-int.h:132:24: note: in definition of macro ‘CRYPTOKI_call’
+  PRIVCTX(ctx)->method->func_and_args
+                        ^~~~~~~~~~~~~
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_slot.c:361:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx,
+       ^~~~~~~~~~~~~
+p11_slot.c: In function ‘pkcs11_seed_random’:
+p11_slot.c:385:32: warning: cast discards ‘const’ qualifier from pointer target type [-Wcast-qual]
+   C_SeedRandom(spriv->session, (CK_BYTE_PTR) s, s_len));
+                                ^
+libp11-int.h:132:24: note: in definition of macro ‘CRYPTOKI_call’
+  PRIVCTX(ctx)->method->func_and_args
+                        ^~~~~~~~~~~~~
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_slot.c:384:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx,
+       ^~~~~~~~~~~~~
+p11_slot.c: In function ‘pkcs11_generate_random’:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_slot.c:406:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx,
+       ^~~~~~~~~~~~~
+p11_slot.c: In function ‘pkcs11_init_slot’:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_slot.c:422:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx, C_GetSlotInfo(id, &info));
+       ^~~~~~~~~~~~~
+p11_slot.c: In function ‘pkcs11_check_token’:
+libp11-int.h:54:23: warning: conversion to ‘int’ from ‘CK_RV {aka long unsigned int}’ may alter its value [-Wconversion]
+ #define PRIVCTX(ctx)  ((PKCS11_CTX_private *) ((ctx)->_private))
+                       ^
+libp11-int.h:132:2: note: in expansion of macro ‘PRIVCTX’
+  PRIVCTX(ctx)->method->func_and_args
+  ^~~~~~~
+p11_slot.c:496:7: note: in expansion of macro ‘CRYPTOKI_call’
+  rv = CRYPTOKI_call(ctx, C_GetTokenInfo(spriv->id, &info));
+       ^~~~~~~~~~~~~
+p11_slot.c: In function ‘pkcs11_get_slotid_from_slot’:
+p11_slot.c:32:15: warning: function might be candidate for attribute ‘pure’ [-Wsuggest-attribute=pure]
+ unsigned long pkcs11_get_slotid_from_slot(PKCS11_SLOT *slot)
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+p11_slot.c: In function ‘pkcs11_find_token’:
+p11_slot.c:95:14: warning: function might be candidate for attribute ‘pure’ [-Wsuggest-attribute=pure]
+ PKCS11_SLOT *pkcs11_find_token(PKCS11_CTX *ctx, PKCS11_SLOT *slots,
+              ^~~~~~~~~~~~~~~~~
+  CC       libp11_la-p11_front.lo
+In file included from libp11-int.h:27:0,
+                 from p11_front.c:19:
+libp11.h:63:12: warning: padding struct to align ‘evp_key’ [-Wpadded]
+  EVP_PKEY *evp_key;  /**< initially NULL, need to call PKCS11_load_key */
+            ^~~~~~~
+libp11.h:96:8: warning: padding struct to align ‘_private’ [-Wpadded]
+  void *_private;
+        ^~~~~~~~
+libp11.h:104:16: warning: padding struct to align ‘token’ [-Wpadded]
+  PKCS11_TOKEN *token; /**< NULL if no token present */
+                ^~~~~
+In file included from libp11-int.h:30:0,
+                 from p11_front.c:19:
+pkcs11.h:199:14: warning: padding struct to align ‘flags’ [-Wpadded]
+   ck_flags_t flags;
+              ^~~~~
+pkcs11.h:202:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:220:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:249:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:1083:19: warning: padding struct to align ‘C_Initialize’ [-Wpadded]
+   CK_C_Initialize C_Initialize;
+                   ^~~~~~~~~~~~
+In file included from p11_front.c:19:0:
+libp11-int.h:50:16: warning: padding struct to align ‘rwlock’ [-Wpadded]
+  PKCS11_RWLOCK rwlock;
+                ^~~~~~
+libp11-int.h:59:13: warning: padding struct to align ‘id’ [-Wpadded]
+  CK_SLOT_ID id;
+             ^~
+libp11-int.h:67:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_SLOT_private;
+ ^
+libp11-int.h:73:14: warning: padding struct to align ‘keys’ [-Wpadded]
+  PKCS11_KEY *keys;
+              ^~~~
+libp11-int.h:80:15: warning: padding struct to align ‘certs’ [-Wpadded]
+  PKCS11_CERT *certs;
+               ^~~~~
+libp11-int.h:88:14: warning: padding struct to align ‘get_evp_key’ [-Wpadded]
+  EVP_PKEY *(*get_evp_key) (PKCS11_KEY *);
+              ^~~~~~~~~~~
+libp11-int.h:100:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_KEY_private;
+ ^
+libp11-int.h:110:9: warning: padding struct to align ‘id_len’ [-Wpadded]
+  size_t id_len;
+         ^~~~~~
+libp11-int.h:133:12: warning: redundant redeclaration of ‘ERR_load_CKR_strings’ [-Wredundant-decls]
+ extern int ERR_load_CKR_strings(void);
+            ^~~~~~~~~~~~~~~~~~~~
+In file included from libp11-int.h:27:0,
+                 from p11_front.c:19:
+libp11.h:39:5: note: previous declaration of ‘ERR_load_CKR_strings’ was here
+ int ERR_load_CKR_strings(void);
+     ^~~~~~~~~~~~~~~~~~~~
+In file included from p11_front.c:19:0:
+libp11-int.h:160:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ extern unsigned int get_forkid();
+ ^~~~~~
+  CC       libp11_la-p11_atfork.lo
+In file included from libp11-int.h:27:0,
+                 from p11_atfork.c:23:
+libp11.h:63:12: warning: padding struct to align ‘evp_key’ [-Wpadded]
+  EVP_PKEY *evp_key;  /**< initially NULL, need to call PKCS11_load_key */
+            ^~~~~~~
+libp11.h:96:8: warning: padding struct to align ‘_private’ [-Wpadded]
+  void *_private;
+        ^~~~~~~~
+libp11.h:104:16: warning: padding struct to align ‘token’ [-Wpadded]
+  PKCS11_TOKEN *token; /**< NULL if no token present */
+                ^~~~~
+In file included from libp11-int.h:30:0,
+                 from p11_atfork.c:23:
+pkcs11.h:199:14: warning: padding struct to align ‘flags’ [-Wpadded]
+   ck_flags_t flags;
+              ^~~~~
+pkcs11.h:202:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:220:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:249:1: warning: padding struct size to alignment boundary [-Wpadded]
+ };
+ ^
+pkcs11.h:1083:19: warning: padding struct to align ‘C_Initialize’ [-Wpadded]
+   CK_C_Initialize C_Initialize;
+                   ^~~~~~~~~~~~
+In file included from p11_atfork.c:23:0:
+libp11-int.h:50:16: warning: padding struct to align ‘rwlock’ [-Wpadded]
+  PKCS11_RWLOCK rwlock;
+                ^~~~~~
+libp11-int.h:59:13: warning: padding struct to align ‘id’ [-Wpadded]
+  CK_SLOT_ID id;
+             ^~
+libp11-int.h:67:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_SLOT_private;
+ ^
+libp11-int.h:73:14: warning: padding struct to align ‘keys’ [-Wpadded]
+  PKCS11_KEY *keys;
+              ^~~~
+libp11-int.h:80:15: warning: padding struct to align ‘certs’ [-Wpadded]
+  PKCS11_CERT *certs;
+               ^~~~~
+libp11-int.h:88:14: warning: padding struct to align ‘get_evp_key’ [-Wpadded]
+  EVP_PKEY *(*get_evp_key) (PKCS11_KEY *);
+              ^~~~~~~~~~~
+libp11-int.h:100:1: warning: padding struct size to alignment boundary [-Wpadded]
+ } PKCS11_KEY_private;
+ ^
+libp11-int.h:110:9: warning: padding struct to align ‘id_len’ [-Wpadded]
+  size_t id_len;
+         ^~~~~~
+libp11-int.h:133:12: warning: redundant redeclaration of ‘ERR_load_CKR_strings’ [-Wredundant-decls]
+ extern int ERR_load_CKR_strings(void);
+            ^~~~~~~~~~~~~~~~~~~~
+In file included from libp11-int.h:27:0,
+                 from p11_atfork.c:23:
+libp11.h:39:5: note: previous declaration of ‘ERR_load_CKR_strings’ was here
+ int ERR_load_CKR_strings(void);
+     ^~~~~~~~~~~~~~~~~~~~
+In file included from p11_atfork.c:23:0:
+libp11-int.h:160:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ extern unsigned int get_forkid();
+ ^~~~~~
+p11_atfork.c:67:5: warning: no previous prototype for ‘_P11_register_fork_handler’ [-Wmissing-prototypes]
+ int _P11_register_fork_handler(void)
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+p11_atfork.c:97:14: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ unsigned int get_forkid()
+              ^~~~~~~~~~
+p11_atfork.c: In function ‘check_slot_fork_int’:
+p11_atfork.c:138:25: warning: conversion to ‘unsigned char’ from ‘int’ may alter its value [-Wconversion]
+    spriv->haveSession = saved;
+                         ^~~~~
+p11_atfork.c: In function ‘get_forkid’:
+p11_atfork.c:97:14: warning: function might be candidate for attribute ‘pure’ [-Wsuggest-attribute=pure]
+ unsigned int get_forkid()
+              ^~~~~~~~~~
+p11_atfork.c: At top level:
+p11_atfork.c:41:0: warning: macro "_DESTRUCTOR" is not used [-Wunused-macros]
+ #define _DESTRUCTOR __attribute__((destructor))
+ 
+  CCLD     pkcs11.la
+  CCLD     libp11.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+cd .. && /bin/bash ./config.status src/libp11.pc
+config.status: creating src/libp11.pc
+make[2]: Opouští se adresář „/home/pavel/Dokumenty/MUNI/3. semestr (podzim 2018)/PA193/libp11/src“
+make[1]: Opouští se adresář „/home/pavel/Dokumenty/MUNI/3. semestr (podzim 2018)/PA193/libp11/src“
+Making all in doc
+make[1]: Vstupuje se do adresáře „/home/pavel/Dokumenty/MUNI/3. semestr (podzim 2018)/PA193/libp11/doc“
+make[1]: Pro „all“ nebude nic uděláno.
+make[1]: Opouští se adresář „/home/pavel/Dokumenty/MUNI/3. semestr (podzim 2018)/PA193/libp11/doc“
+Making all in examples
+make[1]: Vstupuje se do adresáře „/home/pavel/Dokumenty/MUNI/3. semestr (podzim 2018)/PA193/libp11/examples“
+  CC       auth.o
+auth.c: In function ‘main’:
+auth.c:200:2: warning: ‘PKCS11_sign’ is deprecated: This function will be removed in libp11 0.5.0 [-Wdeprecated-declarations]
+  rc = PKCS11_sign(NID_sha1, random, RANDOM_SIZE,
+  ^~
+In file included from auth.c:19:0:
+../src/libp11.h:470:32: note: declared here
+ P11_DEPRECATED_FUNC extern int PKCS11_sign(int type,
+                                ^~~~~~~~~~~
+  CCLD     auth
+  CC       decrypt.o
+decrypt.c: In function ‘main’:
+decrypt.c:211:2: warning: ‘PKCS11_private_decrypt’ is deprecated: This function will be removed in libp11 0.5.0 [-Wdeprecated-declarations]
+  rc = PKCS11_private_decrypt(len, encrypted,
+  ^~
+In file included from decrypt.c:19:0:
+../src/libp11.h:494:32: note: declared here
+ P11_DEPRECATED_FUNC extern int PKCS11_private_decrypt(
+                                ^~~~~~~~~~~~~~~~~~~~~~
